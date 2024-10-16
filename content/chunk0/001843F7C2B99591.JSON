@@ -1,0 +1,30 @@
+{
+    "Data": {
+        "Objectives": [],
+        "Bricks": [],
+        "VR": [],
+        "GameChangers": [],
+        "RecommendedLoadout": [],
+        "RandomBricks": {
+            "TimeOfDay": [
+                "assembly:/_pro/scenes/missions/thefacility/override_yacht.brick"
+            ]
+        }
+    },
+    "Metadata": {
+        "Id": "b573932d-7a34-44f1-bcf4-ea8f79f75710",
+        "IsPublished": true,
+        "CreationTimestamp": "2015-07-02T15:18:30.1639035+02:00",
+        "CreatorUserId": "7545ee96-063a-49b6-a1d9-9fc2656e565a",
+        "Title": "UI_CONTRACT_POLARBEAR_MODULE_002_B_TITLE",
+        "Description": "UI_CONTRACT_POLARBEAR_MODULE_002_B_DESC",
+        "TileImage": "images/contracts/polarbear/module_002_b/tile.jpg",
+        "CodeName_Hint": "Polarbear Module 002_B",
+        "ScenePath": "assembly:/_pro/scenes/missions/sheep/scene_hex.entity",
+        "Location": "LOCATION_ICA_FACILITY_SHIP",
+        "LastUpdate": "2015-03-11T13:50:08.347Z",
+        "Type": "evergreen",
+        "Release": "1.0.x"
+    },
+    "UserData": {}
+}

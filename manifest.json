@@ -1,0 +1,18 @@
+{
+	"version": "0.5.0",
+	"id": "KevinRudd.FreelancerPrologue",
+	"name": "Freelancer Prologue",
+	"contentFolders": ["content"],
+	"description": "Adds Freeform Training and Final Test to Freelancer",
+	"authors": ["Kevin Rudd"],
+	"dependencies": [],
+	"options": [],
+	"requirements": [],
+	"packagedefinition": [{
+		"type": "entity",
+		"partition": "sheep",
+		"path": "[assembly:/_pro/scenes/missions/sheep/scene_hex.entity].entitytemplate"
+	}],
+    "loadBefore": [],
+	"frameworkVersion": "2.2.0"
+}
