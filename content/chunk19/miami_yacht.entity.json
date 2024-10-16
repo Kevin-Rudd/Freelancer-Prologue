@@ -76,6 +76,10 @@
 			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht.brick].pc_entitytype"
 		},
 		{
+			"ref": "b93ef137cb80d5cb",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/dressing_module_002.brick].pc_entitytype"
+		},
+		{
 			"ref": "a7758991044ebd59",
 			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/tod_sunset.brick].pc_entitytype"
 		}

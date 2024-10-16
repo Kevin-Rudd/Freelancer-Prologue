@@ -1,10 +1,10 @@
 {
 	"version": "0.5.0",
 	"id": "KevinRudd.FreelancerPrologue",
-	"name": "Freelancer Prologue",
+	"name": "Freelancer Prologue/Miami Yacht",
 	"contentFolders": ["content"],
 	"description": "Adds Freeform Training and Final Test to Freelancer",
-	"authors": ["Kevin Rudd"],
+	"authors": ["Kevin Rudd", "Kercyx"],
 	"dependencies": [],
 	"options": [],
 	"requirements": [],
