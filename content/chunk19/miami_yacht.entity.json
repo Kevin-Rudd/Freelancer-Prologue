@@ -1,0 +1,86 @@
+{
+	"tempHash": "00478B0F7CB8ED34",
+	"tbluHash": "0001D41404E4EF1B",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "Scene",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+		}
+	},
+	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "fffffffffffffffe",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+				},
+				{
+					"ref": "fffffffffffffffe",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0, "z": 180 },
+						"position": {
+							"x": -278.00912,
+							"y": -104.011604,
+							"z": -0.38924766
+						},
+						"scale": { "x": 1, "y": 1, "z": 1 }
+					}
+				}
+			}
+		}
+	],
+	"overrideDeletes": [
+		{
+			"ref": "c4bc48eaa4c8eb02",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+		},
+		{
+			"ref": "f9babdbbcbf5ebdf",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+		},
+		{
+			"ref": "e92112ab6913ad29",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+		},
+		{
+			"ref": "11d14ac0c23859f0",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+		},
+		{
+			"ref": "cbff49df3d83eeb5",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+		},
+		{
+			"ref": "3b855acbea8b3c1b",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+		},
+		{
+			"ref": "e32690c704e02edc",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht.brick].pc_entitytype"
+		},
+		{
+			"ref": "b82e518329a29bb4",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht.brick].pc_entitytype"
+		}
+	],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [
+		"[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+	],
+	"subType": "brick",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}
