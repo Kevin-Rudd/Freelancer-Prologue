@@ -12,6 +12,23 @@
 	},
 	"propertyOverrides": [
 		{
+            "entities": [
+                {
+                    "ref": "1b8d8baeeb9c26f2",
+                    "externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht.brick].pc_entitytype"
+                }
+            ],
+            "properties": {
+                "m_ResourceID": {
+                    "type": "ZRuntimeResourceID",
+                    "value": {
+                        "resource": "00FC9759172F6DC3",
+                        "flag": "5F"
+                    }
+                }
+            }
+        },
+		{
 			"entities": [
 				{
 					"ref": "fffffffffffffffe",
