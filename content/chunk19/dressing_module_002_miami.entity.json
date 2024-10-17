@@ -1092,71 +1092,6 @@
 				"OnValue": { "Composition_Volume": ["f43863d65339d64c"] }
 			}
 		},
-		"26ed3a0d58a62ab9": {
-			"parent": "7808fae7d198efcf",
-			"name": "Light_Spot_BG_01",
-			"factory": "[modules:/zlightentity.class].pc_entitytype",
-			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": -179.75934407102855,
-							"y": 58.95666206992939,
-							"z": 135.9517335630919
-						},
-						"position": {
-							"x": -13.851519584655762,
-							"y": -17.025070190429688,
-							"z": -53.394039154052734
-						}
-					}
-				},
-				"m_fDiffusePower": { "type": "float32", "value": 50.0 },
-				"m_eLightType": {
-					"type": "ILightEntity.ELightType",
-					"value": "LT_SQUARESPOT"
-				},
-				"m_vBoxSize": {
-					"type": "SVector3",
-					"value": {
-						"x": 59.86000061035156,
-						"y": 92.4800033569336,
-						"z": 10.0
-					}
-				},
-				"m_vFarAttenuation": {
-					"type": "SVector2",
-					"value": { "x": 25.623899459838867, "y": 60.0 }
-				},
-				"m_diffuseColor": {
-					"type": "SColorRGB",
-					"value": "#7da5ab"
-				},
-				"m_vAngularAttenuation": {
-					"type": "SVector2",
-					"value": {
-						"x": 0.10373900085687636,
-						"y": 0.6802020072937012
-					}
-				},
-				"m_fAspectXByY": { "type": "float32", "value": 10.0 },
-				"m_bCastShadows": { "type": "bool", "value": false },
-				"m_bEnableLightFade": { "type": "bool", "value": true },
-				"m_fLightFadeDistance": {
-					"type": "float32",
-					"value": 75.0
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": {
-						"ref": "cafe4794e94ebade",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
-					}
-				}
-			}
-		},
 		"4c4a645cc871c577": {
 			"parent": "6fb03f3b4d9b795d",
 			"name": "GeomBox 2",
@@ -2448,32 +2383,6 @@
 				}
 			},
 			"subsets": { "AudioVolumetricGeom": ["fffffffffffffffe"] }
-		},
-		"914f04ccac454225": {
-			"parent": "7808fae7d198efcf",
-			"name": "Scaffold_Metal_A_00",
-			"factory": "[assembly:/_pro/environment/geometry/props/industrial/scaffold_metal_a.wl2?/scaffold_metal_a_00.prim].pc_entitytype",
-			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": {
-							"x": 13.463109970092772,
-							"y": -49.91019058227539,
-							"z": -54.11035919189453
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": {
-						"ref": "cafe4794e94ebade",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
-					}
-				}
-			}
 		},
 		"556066a4144d315a": {
 			"parent": "751bd56835e4ce2e",
@@ -4011,86 +3920,6 @@
 			},
 			"subsets": { "AudioVolumetricGeom": ["fffffffffffffffe"] }
 		},
-		"74b9518e4cb9d867": {
-			"parent": "7808fae7d198efcf",
-			"name": "Light_Spot_Fake_Sun_01",
-			"factory": "[modules:/zlightentity.class].pc_entitytype",
-			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": -1.1176431301460787,
-							"y": 76.91167678779779,
-							"z": -161.963343099736
-						},
-						"position": {
-							"x": 41.497188568115234,
-							"y": -37.60886001586914,
-							"z": -32.17422103881836
-						}
-					}
-				},
-				"m_fDiffusePower": { "type": "float32", "value": 30.0 },
-				"m_eLightType": {
-					"type": "ILightEntity.ELightType",
-					"value": "LT_SQUARESPOT"
-				},
-				"m_vBoxSize": {
-					"type": "SVector3",
-					"value": {
-						"x": 59.86000061035156,
-						"y": 92.4800033569336,
-						"z": 10.0
-					}
-				},
-				"m_vFarAttenuation": {
-					"type": "SVector2",
-					"value": {
-						"x": 67.5156021118164,
-						"y": 82.78289794921875
-					}
-				},
-				"m_diffuseColor": {
-					"type": "SColorRGB",
-					"value": "#ff4000"
-				},
-				"m_vAngularAttenuation": {
-					"type": "SVector2",
-					"value": {
-						"x": 0.08226519823074341,
-						"y": 0.20258300006389615
-					}
-				},
-				"m_fAspectXByY": { "type": "float32", "value": 2.0 },
-				"m_bCastShadows": { "type": "bool", "value": true },
-				"m_vNearAttenuation": {
-					"type": "SVector2",
-					"value": {
-						"x": 34.41109848022461,
-						"y": 34.42110061645508
-					}
-				},
-				"m_bVisible": { "type": "bool", "value": true },
-				"m_eRoomLightFlow": {
-					"type": "ILightEntity.ERoomLightFlow",
-					"value": "LOCAL"
-				},
-				"m_bHighShadowPriority": { "type": "bool", "value": true },
-				"m_bHQDynamicShadowMap": {
-					"type": "bool",
-					"value": false
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": {
-						"ref": "cafe4794e94ebade",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
-					}
-				}
-			}
-		},
 		"01c6efbb18bf5537": {
 			"parent": "d102c92add088397",
 			"name": "ASGTS_Ship_F1_5",
@@ -4675,48 +4504,6 @@
 				"Out": {
 					"MUSIC_THREAT_STOP_GetKeyword": ["50be89e94657fba6"],
 					"Abort": ["7642ab09bcf59af9"]
-				}
-			}
-		},
-		"8728bfb390961e56": {
-			"parent": "7808fae7d198efcf",
-			"name": "Lamp_FakeSun_A_00",
-			"factory": "[assembly:/_pro/environment/templates/props/lamps/facility_indoor_a.template?/lamp_fakesun_a_00.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/facility_indoor_a.template?/lamp_fakesun_a_00.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 44.99963535953799,
-							"y": -0.002692903845055914,
-							"z": 175.00159268781778
-						},
-						"position": {
-							"x": 11.708930015563965,
-							"y": -49.035179138183594,
-							"z": -38.81412887573242
-						}
-					}
-				},
-				"ConstantVector1D_07_Value": {
-					"type": "float32",
-					"value": 40000.0
-				},
-				"ConstantColorRGB_01_Value": {
-					"type": "SColorRGB",
-					"value": "#ff7645"
-				},
-				"m_bVisibleInBoxReflection": {
-					"type": "bool",
-					"value": true
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": {
-						"ref": "cafe4794e94ebade",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
-					}
 				}
 			}
 		},
@@ -7004,74 +6791,6 @@
 				}
 			}
 		},
-		"138fa2147033cfa1": {
-			"parent": "7808fae7d198efcf",
-			"name": "Light_Spot_BG_02",
-			"factory": "[modules:/zlightentity.class].pc_entitytype",
-			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 178.72778207075058,
-							"y": 64.66414799597723,
-							"z": 83.34451093463633
-						},
-						"position": {
-							"x": -39.640159606933594,
-							"y": -5.615668773651123,
-							"z": -51.917110443115234
-						}
-					}
-				},
-				"m_fDiffusePower": {
-					"type": "float32",
-					"value": 50.83000183105469
-				},
-				"m_eLightType": {
-					"type": "ILightEntity.ELightType",
-					"value": "LT_SQUARESPOT"
-				},
-				"m_vBoxSize": {
-					"type": "SVector3",
-					"value": {
-						"x": 59.86000061035156,
-						"y": 92.4800033569336,
-						"z": 10.0
-					}
-				},
-				"m_vFarAttenuation": {
-					"type": "SVector2",
-					"value": { "x": 22.99530029296875, "y": 50.0 }
-				},
-				"m_diffuseColor": {
-					"type": "SColorRGB",
-					"value": "#688ca1"
-				},
-				"m_vAngularAttenuation": {
-					"type": "SVector2",
-					"value": {
-						"x": 0.10373900085687636,
-						"y": 1.1280399560928345
-					}
-				},
-				"m_fAspectXByY": { "type": "float32", "value": 2.0 },
-				"m_bCastShadows": { "type": "bool", "value": false },
-				"m_bEnableLightFade": { "type": "bool", "value": true },
-				"m_fLightFadeDistance": {
-					"type": "float32",
-					"value": 75.0
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": {
-						"ref": "cafe4794e94ebade",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
-					}
-				}
-			}
-		},
 		"d0db52ab10c1d8ab": {
 			"parent": "ce66be40812061cd",
 			"name": "SoundOcclusionGroup",
@@ -7327,60 +7046,6 @@
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe",
 					"postInit": true
-				}
-			}
-		},
-		"45a77cb592ce562b": {
-			"parent": "7808fae7d198efcf",
-			"name": "Light",
-			"factory": "[modules:/zlightentity.class].pc_entitytype",
-			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 17.474104807246643,
-							"y": 9.999872827989106,
-							"z": 0.004188932772895707
-						},
-						"position": {
-							"x": -61.649810791015625,
-							"y": -75.07598114013672,
-							"z": -46.29806900024414
-						}
-					}
-				},
-				"m_diffuseColor": {
-					"type": "SColorRGB",
-					"value": "#ffebd4"
-				},
-				"m_fDiffusePower": { "type": "float32", "value": 30.0 },
-				"m_vAngularAttenuation": {
-					"type": "SVector2",
-					"value": {
-						"x": 0.03999999910593033,
-						"y": 0.6107540130615234
-					}
-				},
-				"m_bVisible": { "type": "bool", "value": true },
-				"m_fWrappedDiffuse": {
-					"type": "float32",
-					"value": 0.20000000298023224
-				},
-				"m_vFarAttenuation": {
-					"type": "SVector2",
-					"value": {
-						"x": 5.010000228881836,
-						"y": 10.550000190734863
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": {
-						"ref": "cafe4794e94ebade",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
-					}
 				}
 			}
 		},
@@ -9396,84 +9061,6 @@
 				}
 			}
 		},
-		"14ba68917884ce0c": {
-			"parent": "7808fae7d198efcf",
-			"name": "Light_Spot_Fake_Sun_00",
-			"factory": "[modules:/zlightentity.class].pc_entitytype",
-			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": -103.00540557134453,
-							"y": 88.22071105700661,
-							"z": -84.57182492013277
-						},
-						"position": {
-							"x": 35.654319763183594,
-							"y": -48.4457893371582,
-							"z": -40.454471588134766
-						}
-					}
-				},
-				"m_fDiffusePower": { "type": "float32", "value": 30.0 },
-				"m_eLightType": {
-					"type": "ILightEntity.ELightType",
-					"value": "LT_SQUARESPOT"
-				},
-				"m_vBoxSize": {
-					"type": "SVector3",
-					"value": {
-						"x": 59.86000061035156,
-						"y": 92.4800033569336,
-						"z": 10.0
-					}
-				},
-				"m_vFarAttenuation": {
-					"type": "SVector2",
-					"value": {
-						"x": 88.00559997558594,
-						"y": 119.13899993896484
-					}
-				},
-				"m_diffuseColor": {
-					"type": "SColorRGB",
-					"value": "#ff4000"
-				},
-				"m_vAngularAttenuation": {
-					"type": "SVector2",
-					"value": {
-						"x": 0.08226519823074341,
-						"y": 0.2554450035095215
-					}
-				},
-				"m_fAspectXByY": { "type": "float32", "value": 2.0 },
-				"m_bCastShadows": { "type": "bool", "value": true },
-				"m_vNearAttenuation": {
-					"type": "SVector2",
-					"value": {
-						"x": 34.41109848022461,
-						"y": 34.42110061645508
-					}
-				},
-				"m_bVisible": { "type": "bool", "value": true },
-				"m_eRoomLightFlow": {
-					"type": "ILightEntity.ERoomLightFlow",
-					"value": "LOCAL"
-				},
-				"m_bHighShadowPriority": { "type": "bool", "value": true },
-				"m_bHQDynamicShadowMap": { "type": "bool", "value": true },
-				"m_bHQStaticShadowMap": { "type": "bool", "value": false },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": {
-						"ref": "cafe4794e94ebade",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
-					}
-				}
-			}
-		},
 		"423e56e34d782bed": {
 			"parent": "b93ef137cb80d5cb",
 			"name": "ValueBool_Basic_AllowStinger",
@@ -11162,32 +10749,6 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "d58bae77ef99be6e"
-				}
-			}
-		},
-		"10b24fea57a707c7": {
-			"parent": "7808fae7d198efcf",
-			"name": "Scaffold_Metal_A_01",
-			"factory": "[assembly:/_pro/environment/geometry/props/industrial/scaffold_metal_a.wl2?/scaffold_metal_a_00.prim].pc_entitytype",
-			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": {
-							"x": 13.463109970092772,
-							"y": -49.91019058227539,
-							"z": -43.19797897338867
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": {
-						"ref": "cafe4794e94ebade",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
-					}
 				}
 			}
 		},
@@ -15192,71 +14753,6 @@
 				}
 			}
 		},
-		"ec633c4d1483d1fa": {
-			"parent": "7808fae7d198efcf",
-			"name": "Light_Spot_BG_04",
-			"factory": "[modules:/zlightentity.class].pc_entitytype",
-			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 178.18684924075674,
-							"y": 58.10186980495324,
-							"z": -97.13306705392542
-						},
-						"position": {
-							"x": -14.028889656066896,
-							"y": -69.11058044433594,
-							"z": -53.394039154052734
-						}
-					}
-				},
-				"m_fDiffusePower": { "type": "float32", "value": 50.0 },
-				"m_eLightType": {
-					"type": "ILightEntity.ELightType",
-					"value": "LT_SQUARESPOT"
-				},
-				"m_vBoxSize": {
-					"type": "SVector3",
-					"value": {
-						"x": 59.86000061035156,
-						"y": 92.4800033569336,
-						"z": 10.0
-					}
-				},
-				"m_vFarAttenuation": {
-					"type": "SVector2",
-					"value": { "x": 16.93720054626465, "y": 50.0 }
-				},
-				"m_diffuseColor": {
-					"type": "SColorRGB",
-					"value": "#d98b48"
-				},
-				"m_vAngularAttenuation": {
-					"type": "SVector2",
-					"value": {
-						"x": 0.10373900085687636,
-						"y": 0.9001070261001587
-					}
-				},
-				"m_fAspectXByY": { "type": "float32", "value": 2.0 },
-				"m_bCastShadows": { "type": "bool", "value": false },
-				"m_bEnableLightFade": { "type": "bool", "value": true },
-				"m_fLightFadeDistance": {
-					"type": "float32",
-					"value": 75.0
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": {
-						"ref": "cafe4794e94ebade",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
-					}
-				}
-			}
-		},
 		"d4d2f9a8ab4443c7": {
 			"parent": "7d78ece8483ea66c",
 			"name": "ASGTS_Outside_11",
@@ -15534,11 +15030,7 @@
 			},
 			"events": {
 				"On": {
-					"SetVisible": [
-						"0ae95cd538c4da16",
-						"45a77cb592ce562b",
-						"75c1cd61b7b37434"
-					]
+					"SetVisible": ["0ae95cd538c4da16", "75c1cd61b7b37434"]
 				}
 			},
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
@@ -16879,71 +16371,6 @@
 					"value": {
 						"resource": "[assembly:/sound/wwise/exportedwwisedata/soundbanks/levelspecific/polarbear.wwisesoundbank].pc_wwisebank",
 						"flag": "5F"
-					}
-				}
-			}
-		},
-		"ff4088f02a65ccdc": {
-			"parent": "7808fae7d198efcf",
-			"name": "Light_Spot_BG_00",
-			"factory": "[modules:/zlightentity.class].pc_entitytype",
-			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 175.88110512884504,
-							"y": 57.73357657664978,
-							"z": -173.86921551948953
-						},
-						"position": {
-							"x": -13.225099563598633,
-							"y": -51.230220794677734,
-							"z": -53.394039154052734
-						}
-					}
-				},
-				"m_fDiffusePower": { "type": "float32", "value": 50.0 },
-				"m_eLightType": {
-					"type": "ILightEntity.ELightType",
-					"value": "LT_SQUARESPOT"
-				},
-				"m_vBoxSize": {
-					"type": "SVector3",
-					"value": {
-						"x": 59.86000061035156,
-						"y": 92.4800033569336,
-						"z": 10.0
-					}
-				},
-				"m_vFarAttenuation": {
-					"type": "SVector2",
-					"value": { "x": 32.835201263427734, "y": 60.0 }
-				},
-				"m_diffuseColor": {
-					"type": "SColorRGB",
-					"value": "#ff802b"
-				},
-				"m_vAngularAttenuation": {
-					"type": "SVector2",
-					"value": {
-						"x": 0.10373900085687636,
-						"y": 0.8501070141792297
-					}
-				},
-				"m_fAspectXByY": { "type": "float32", "value": 10.0 },
-				"m_bCastShadows": { "type": "bool", "value": false },
-				"m_bEnableLightFade": { "type": "bool", "value": true },
-				"m_fLightFadeDistance": {
-					"type": "float32",
-					"value": 75.0
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": {
-						"ref": "cafe4794e94ebade",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
