@@ -12,22 +12,22 @@
 	},
 	"propertyOverrides": [
 		{
-            "entities": [
-                {
-                    "ref": "1b8d8baeeb9c26f2",
-                    "externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht.brick].pc_entitytype"
-                }
-            ],
-            "properties": {
-                "m_ResourceID": {
-                    "type": "ZRuntimeResourceID",
-                    "value": {
-                        "resource": "00FC9759172F6DC3",
-                        "flag": "5F"
-                    }
-                }
-            }
-        },
+			"entities": [
+				{
+					"ref": "1b8d8baeeb9c26f2",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00FC9759172F6DC3",
+						"flag": "5F"
+					}
+				}
+			}
+		},
 		{
 			"entities": [
 				{
@@ -36,11 +36,11 @@
 				},
 				{
 					"ref": "fffffffffffffffe",
-					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht.brick].pc_entitytype"
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 				},
 				{
 					"ref": "fffffffffffffffe",
-					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/dressing_module_002.brick].pc_entitytype"
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/dressing_module_002_miami.brick].pc_entitytype"
 				}
 			],
 			"properties": {
@@ -86,28 +86,23 @@
 		},
 		{
 			"ref": "e32690c704e02edc",
-			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht.brick].pc_entitytype"
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 		},
 		{
 			"ref": "b82e518329a29bb4",
-			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht.brick].pc_entitytype"
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 		},
 		{
 			"ref": "b93ef137cb80d5cb",
-			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/dressing_module_002.brick].pc_entitytype"
-		},
-		{
-			"ref": "a7758991044ebd59",
-			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/tod_sunset.brick].pc_entitytype"
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/dressing_module_002_miami.brick].pc_entitytype"
 		}
 	],
 	"pinConnectionOverrides": [],
 	"pinConnectionOverrideDeletes": [],
 	"externalScenes": [
-		"[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype",
-		"[assembly:/_pro/scenes/missions/thefacility/dressing_module_002.brick].pc_entitytype",
-		"[assembly:/_pro/scenes/missions/thefacility/tod_sunset.brick].pc_entitytype"
+		"[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/thefacility/dressing_module_002_miami.brick].pc_entitytype"
 	],
 	"subType": "brick",
 	"quickEntityVersion": 3.1,
