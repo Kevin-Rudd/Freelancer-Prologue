@@ -37,8 +37,8 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": 89.7700474055314
 						},
 						"position": {
@@ -64,7 +64,9 @@
 				"Activatable_NormalGameplay, IEntity": [
 					"fffffffffffffffe"
 				],
-				"AudioEmitters": ["fffffffffffffffe"]
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
 			}
 		},
 		"cafe91d882212eeb": {
@@ -96,8 +98,8 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -90.279604528889
 						},
 						"position": {
@@ -119,7 +121,9 @@
 				"Activatable_NormalGameplay, IEntity": [
 					"fffffffffffffffe"
 				],
-				"AudioEmitters": ["fffffffffffffffe"]
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
 			}
 		},
 		"cafe6093be6776cd": {
@@ -132,8 +136,8 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -90.279604528889
 						},
 						"position": {
@@ -161,10 +165,18 @@
 				},
 				"DisableColiWith": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": []
+					"value": [
+
+					]
 				},
-				"m_bEnabled": { "type": "bool", "value": true },
-				"m_bIncludeInBaseMap": { "type": "bool", "value": false },
+				"m_bEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bIncludeInBaseMap": {
+					"type": "bool",
+					"value": false
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
@@ -177,7 +189,9 @@
 				"Activatable_NormalGameplay, IEntity": [
 					"fffffffffffffffe"
 				],
-				"AudioEmitters": ["fffffffffffffffe"]
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
 			}
 		},
 		"cafeaf12591a31ad": {
@@ -190,13 +204,13 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": 89.35593378601693
 						},
 						"position": {
-							"x": 4.13677978515625,
-							"y": 124.2588882446289,
+							"x": 4.3997802734375,
+							"y": 156.21969604492188,
 							"z": -4.127004146575928
 						}
 					}
@@ -217,7 +231,9 @@
 				"Activatable_NormalGameplay, IEntity": [
 					"fffffffffffffffe"
 				],
-				"AudioEmitters": ["fffffffffffffffe"]
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
 			}
 		},
 		"cafec8b87dc48af7": {
@@ -230,8 +246,8 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -62.89154935848565
 						},
 						"position": {
@@ -247,7 +263,9 @@
 				},
 				"m_EntityListB": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [],
+					"value": [
+
+					],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -259,14 +277,24 @@
 				}
 			},
 			"events": {
-				"DoorOpen": { "SetTrue": [] },
-				"DoorClosed": { "SetFalse": [] }
+				"DoorOpen": {
+					"SetTrue": [
+
+					]
+				},
+				"DoorClosed": {
+					"SetFalse": [
+
+					]
+				}
 			},
 			"subsets": {
 				"Activatable_NormalGameplay, IEntity": [
 					"fffffffffffffffe"
 				],
-				"AudioEmitters": ["fffffffffffffffe"]
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
 			}
 		},
 		"cafe3e9dec0b3aeb": {
@@ -279,14 +307,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -89.6121925652539
 						},
 						"position": {
-							"x": 4.01898193359375,
-							"y": 128.20822143554688,
-							"z": -4.1270036697387695
+							"x": 4.5262451171875,
+							"y": 152.28701782226562,
+							"z": -4.125062465667725
 						}
 					}
 				},
@@ -302,7 +330,9 @@
 				"Activatable_NormalGameplay, IEntity": [
 					"fffffffffffffffe"
 				],
-				"AudioEmitters": ["fffffffffffffffe"]
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
 			}
 		},
 		"cafe0a9754a64b12": {
@@ -315,8 +345,8 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
+							"x": 0,
+							"y": 0,
 							"z": -90.36723445191708
 						},
 						"position": {
@@ -331,10 +361,14 @@
 					"value": {
 						"rotation": {
 							"x": 68.00000702211831,
-							"y": 0.0,
+							"y": 0,
 							"z": -16.000004267496415
 						},
-						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
 					}
 				},
 				"VehiclePaintDiffuse": {
@@ -353,7 +387,304 @@
 				"Activatable_NormalGameplay, IEntity": [
 					"fffffffffffffffe"
 				],
-				"AudioEmitters": ["fffffffffffffffe"]
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feedbfa637104376": {
+			"parent": "cafec7d45221afa7",
+			"name": "terrain_parking_a",
+			"factory": "005D484A45718E52",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 18.891300201416016,
+							"y": 131.59500122070313,
+							"z": -4.127007007598877
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6480b140d0cb4728",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+					},
+					"postInit": true
+				}
+			}
+		},
+		"feeded6b5d5f6401": {
+			"parent": "feedbfa637104376",
+			"name": "StaticDecalController_Seaside_Wall_Part1_Far",
+			"factory": "[modules:/zstaticdecalcontrollerentity.class].pc_entitytype",
+			"blueprint": "[modules:/zstaticdecalcontrollerentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -0.2204899936914444,
+							"y": 135.9971923828125,
+							"z": -3.851562023162842
+						}
+					}
+				},
+				"m_Targets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feedbfa637104376"
+					]
+				},
+				"m_fDecalFadeDistance": {
+					"type": "float32",
+					"value": 148
+				},
+				"m_pDecalMesh": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "007CEC643F1656A3",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6480b140d0cb4728",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+					},
+					"postInit": true
+				}
+			}
+		},
+		"feed91c1ea8ae61e": {
+			"parent": "feedbfa637104376",
+			"name": "StaticDecalController_Bayside_Parking_Lot_01_Far",
+			"factory": "[modules:/zstaticdecalcontrollerentity.class].pc_entitytype",
+			"blueprint": "[modules:/zstaticdecalcontrollerentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -151.6927947998047,
+							"y": 180.60879516601563,
+							"z": 21.665739059448242
+						}
+					}
+				},
+				"m_Targets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feedbfa637104376"
+					]
+				},
+				"m_fDecalFadeDistance": {
+					"type": "float32",
+					"value": 100
+				},
+				"m_pDecalMesh": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "007E0D2D177C816C",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "ec89966092ef10b8",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"feed32e1b384bf72": {
+			"parent": "cafec7d45221afa7",
+			"name": "Seagull_Security_Building_A",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_security_building_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_security_building_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 1.58349609375,
+							"y": 121.44884490966797,
+							"z": -4.123900890350342
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6480b140d0cb4728",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+					},
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed7e1287a2056f": {
+			"parent": "cafec7d45221afa7",
+			"name": "Seagull_Security_Building_A_01",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_security_building_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_security_building_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 1.653045654296875,
+							"y": 141.36346435546875,
+							"z": -4.123775959014893
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6480b140d0cb4728",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+					},
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed5f8a353256da": {
+			"parent": "cafec7d45221afa7",
+			"name": "Carpark_Boom_A",
+			"factory": "[assembly:/_pro/environment/templates/props/industrial/carpark_boom.template?/carpark_boom_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/industrial/carpark_boom.template?/carpark_boom_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 0.8799896240234375,
+							"y": 135.3582763671875,
+							"z": -3.592672348022461
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6480b140d0cb4728",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+					},
+					"postInit": true
+				}
+			}
+		},
+		"feedae93a6be17d4": {
+			"parent": "cafec7d45221afa7",
+			"name": "Setpiece_SC_Trap_Carpark_Boom_01",
+			"factory": "[assembly:/_pro/design/setpieces/unique/setpiece_sniperchallenge_unique.template?/setpiece_sc_trap_carpark_boom.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/unique/setpiece_sniperchallenge_unique.template?/setpiece_sc_trap_carpark_boom.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": 0.1007537841796875,
+							"y": 123.91887664794922,
+							"z": -4.123743534088135
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6480b140d0cb4728",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+					},
+					"postInit": true
+				}
+			}
+		},
+		"feedaaf46a124a56": {
+			"parent": "cafec7d45221afa7",
+			"name": "seagull_security_building_canopy_a",
+			"factory": "001B6FD468264CEB",
+			"blueprint": "0060468B97BCAE81",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": -2.3805694580078125,
+							"y": 138.11651611328125,
+							"z": -4.123839855194092
+						}
+					}
+				},
+				"ConstantColorRGB_04_Value": {
+					"type": "SColorRGB",
+					"value": "#ff9c5e"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6480b140d0cb4728",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+					},
+					"postInit": true
+				}
 			}
 		}
 	},
@@ -430,7 +761,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0, "z": 180 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 180
+						},
 						"position": {
 							"x": -219.71712,
 							"y": 164.257396,
@@ -451,7 +786,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0, "z": 95.79351 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 95.79351
+						},
 						"position": {
 							"x": -30.621254,
 							"y": 68.23455,
@@ -477,13 +816,21 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0, "z": 93.0788 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 93.0788
+						},
 						"position": {
 							"x": -24.76342,
 							"y": 68.23455,
 							"z": 0.100037
 						},
-						"scale": { "x": 1, "y": 1, "z": 1 }
+						"scale": {
+							"x": 1,
+							"y": 1,
+							"z": 1
+						}
 					}
 				}
 			}
@@ -539,19 +886,78 @@
 		{
 			"ref": "b2dcd01dcfb7c191",
 			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "9f6388511098f86b",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "a02ab21690f12e4b",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "d2c8c1c672bc1dcb",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "4bce8332656b0afa",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "292baf48647d1d73",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "cb9ecea2bda3dc47",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
+		},
+		{
+			"ref": "3c7365b74e406107",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
+		},
+		{
+			"ref": "02205c7a9f84abff",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
+		},
+		{
+			"ref": "f6a58e3972a75171",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
+		},
+		{
+			"ref": "0ee306cb6f047ad9",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
+		},
+		{
+			"ref": "8e03a77eab32bb95",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
+		},
+		{
+			"ref": "0a16f956120443f3",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 		}
 	],
-	"pinConnectionOverrides": [],
-	"pinConnectionOverrideDeletes": [],
+	"pinConnectionOverrides": [
+
+	],
+	"pinConnectionOverrideDeletes": [
+
+	],
 	"externalScenes": [
 		"[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/thefacility/dressing_module_002_miami.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype",
-		"[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+		"[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype",
+		"[assembly:/_pro/environment/templates/levels/the_facility/facility_yacht.template?/module_yacht_a.entitytemplate].pc_entitytype"
 	],
 	"subType": "brick",
 	"quickEntityVersion": 3.1,
-	"extraFactoryDependencies": [],
-	"extraBlueprintDependencies": [],
-	"comments": []
+	"extraFactoryDependencies": [
+
+	],
+	"extraBlueprintDependencies": [
+
+	],
+	"comments": [
+
+	]
 }

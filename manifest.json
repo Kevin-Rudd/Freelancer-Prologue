@@ -5,7 +5,34 @@
 	"contentFolders": ["content"],
 	"description": "Adds Freeform Training and Final Test to Freelancer",
 	"authors": ["Kevin Rudd", "Kercyx"],
-	"dependencies": [],
+	"dependencies": [
+		
+		{
+			"runtimeID": "00995FB1B7EDBC21",
+			"toChunk": 9,
+			"comment": "Hantu car park boom"
+		},
+		{
+			"runtimeID": "004DA0BCD65E10E7",
+			"toChunk": 9,
+			"comment": "Hantu car park boom"
+		},
+		{
+			"runtimeID": "000C9D9A423576B6",
+			"toChunk": 9,
+			"comment": "Hantu security building entrance a"
+		},
+		{
+			"runtimeID": "005C82832EE4DBDE",
+			"toChunk": 9,
+			"comment": "Hantu security building entrance b"
+		},
+		{
+			"runtimeID": "005336FF7ECBADE6",
+			"toChunk": 9,
+			"comment": "Hantu entrance canopi"
+		}
+	],
 	"options": [],
 	"requirements": [],
 	"packagedefinition": [{
