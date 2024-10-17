@@ -1,0 +1,738 @@
+{
+	"tempHash": "004D210898543F6B",
+	"tbluHash": "003135194929F256",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"3b98fd686f33955e": {
+			"parent": "fffffffffffffffe",
+			"name": "Exit_Evergreen_PushButton Boat",
+			"factory": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/exit_evergreen_pushbutton.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/exit_evergreen_pushbutton.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 68.73402391139577
+						},
+						"position": {
+							"x": -1.1450029611587524,
+							"y": -8.23504638671875,
+							"z": 10.30072021484375
+						}
+					}
+				},
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "da42316c-62e2-487b-a362-eb0d3d0f50d0"
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"Manual_Exit_Trigger_Needed": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"events": { "Exit": { "SetTrue": [], "Start": [] } }
+		},
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "Scene",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+		},
+		"feed60e549dea0e2": {
+			"parent": "fffffffffffffffe",
+			"name": "Trigger stuff upon game start",
+			"factory": "[modules:/zgameeventlistenerentity.class].pc_entitytype",
+			"blueprint": "[modules:/zgameeventlistenerentity.class].pc_entityblueprint",
+			"properties": {
+				"m_eEvent": {
+					"type": "EGameEventType",
+					"value": "GET_GameplayStart"
+				}
+			}
+		},
+		"cafefff4c4ae392e": {
+			"parent": "fffffffffffffffe",
+			"name": "Exit_Evergreen_PushButton Helicopter",
+			"factory": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/exit_evergreen_pushbutton.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/exit_evergreen_pushbutton.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 68.73402391139577
+						},
+						"position": {
+							"x": -1.1450029611587524,
+							"y": -8.23504638671875,
+							"z": 10.30072021484375
+						}
+					}
+				},
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "da42316c-62e2-487b-a362-eb0d3d0f50d0"
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"Manual_Exit_Trigger_Needed": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"events": { "Exit": { "SetTrue": [], "Start": [] } }
+		},
+		"cafeaa718d86ab32": {
+			"parent": "fffffffffffffffe",
+			"name": "Suppliers",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafeecda06ea7418": {
+			"parent": "fffffffffffffffe",
+			"name": "Couriers",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe258a5eb9334d": {
+			"parent": "cafeecda06ea7418",
+			"name": "Setpiece_Evergreen_MoneyMuleSetup_Unique_07",
+			"factory": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/setpiece_evergreen_moneymulesetup_unique.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/setpiece_evergreen_moneymulesetup_unique.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_sActorName": {
+					"type": "ZString",
+					"value": "Jaii Mule"
+				},
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "a166a37e-a3f8-42d2-99d6-e0dd2cf5c090"
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 170.07215122419254
+						},
+						"position": {
+							"x": -148.73460388183594,
+							"y": 137.8397979736328,
+							"z": -1.7173588275909424e-6
+						}
+					}
+				},
+				"m_nOutfitVariation": { "type": "int32", "value": 15 },
+				"seed": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "b73d9349324f8074",
+						"externalScene": "[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype"
+					}
+				},
+				"m_nOutfitCharset": { "type": "int32", "value": 0 },
+				"m_bStartEnabled": { "type": "bool", "value": false },
+				"muleTalking": { "type": "bool", "value": true },
+				"forcedVoiceVar": { "type": "int32", "value": 1 },
+				"acts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"cafe982524462f74",
+						"cafe85a7675b53dd",
+						"cafe0d94552d1d0b"
+					],
+					"postInit": true
+				}
+			},
+			"events": {
+				"startAct1": { "startAct1": ["cafef15419f328ec"] },
+				"startAct2": { "startAct2": ["cafef15419f328ec"] },
+				"startAct3": { "startAct3": ["cafef15419f328ec"] }
+			},
+			"subsets": {
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
+			}
+		},
+		"cafe85a7675b53dd": {
+			"parent": "cafef15419f328ec",
+			"name": "Act_MR_Stand_Scout",
+			"factory": "006F2E5FDAE6D885",
+			"blueprint": "00952204D53E6B8F",
+			"properties": {
+				"m_fActTimeout": { "type": "float32", "value": 10.0 },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 89.77931946321866
+						},
+						"position": {
+							"x": -198.1043701171875,
+							"y": 168.3893585205078,
+							"z": 0.1012069135904312
+						}
+					}
+				},
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "cafe258a5eb9334d",
+						"externalScene": null,
+						"exposedEntity": "Role"
+					},
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"outputCopying": {
+				"OnActTimeout": { "OnActTimeout": ["cafef15419f328ec"] }
+			}
+		},
+		"cafe0d94552d1d0b": {
+			"parent": "cafef15419f328ec",
+			"name": "Act_MR_Stand_Lean_Back_ArmsCrossed_Wall",
+			"factory": "00DE664ADB15337A",
+			"blueprint": "0025E847ED1782DD",
+			"properties": {
+				"m_fActTimeout": { "type": "float32", "value": 20.0 },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": 90 },
+						"position": {
+							"x": -182.76065063476565,
+							"y": 187.0568084716797,
+							"z": 0.10120667517185213
+						}
+					}
+				},
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "cafe258a5eb9334d",
+						"externalScene": null,
+						"exposedEntity": "Role"
+					},
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"outputCopying": {
+				"OnActTimeout": { "OnActTimeout": ["cafef15419f328ec"] }
+			}
+		},
+		"cafe982524462f74": {
+			"parent": "cafef15419f328ec",
+			"name": "Act_MR_Stand_Smoke",
+			"factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_smoke.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_smoke.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_fActTimeout": { "type": "float32", "value": 10.0 },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 102.36415177845632
+						},
+						"position": {
+							"x": -171.91603088378906,
+							"y": 168.30419921875,
+							"z": 2.812594175338745e-6
+						}
+					}
+				},
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "cafe258a5eb9334d",
+						"externalScene": null,
+						"exposedEntity": "Role"
+					},
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"outputCopying": {
+				"OnActTimeout": { "OnActTimeout": ["cafef15419f328ec"] }
+			},
+			"subsets": { "Replicable": ["fffffffffffffffe"] }
+		},
+		"cafef15419f328ec": {
+			"parent": "cafe258a5eb9334d",
+			"name": "Acts 7",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "cafe258a5eb9334d",
+						"externalScene": null,
+						"exposedEntity": "Role"
+					},
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnActTimeout": { "nextAct": ["cafe258a5eb9334d"] }
+			},
+			"inputCopying": {
+				"startAct1": { "Start": ["cafe982524462f74"] },
+				"startAct2": { "Start": ["cafe85a7675b53dd"] },
+				"startAct3": { "Start": ["cafe0d94552d1d0b"] }
+			},
+			"propertyAliases": {
+				"m_pActor": [
+					{
+						"originalProperty": "m_pActor",
+						"originalEntity": "cafe982524462f74"
+					},
+					{
+						"originalProperty": "m_pActor",
+						"originalEntity": "cafe85a7675b53dd"
+					},
+					{
+						"originalProperty": "m_pActor",
+						"originalEntity": "cafe0d94552d1d0b"
+					}
+				]
+			}
+		},
+		"cafe41f449244c90": {
+			"parent": "cafeecda06ea7418",
+			"name": "Setpiece_Evergreen_MoneyMuleSetup_Unique_06",
+			"factory": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/setpiece_evergreen_moneymulesetup_unique.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/setpiece_evergreen_moneymulesetup_unique.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "f97447b3-502c-416e-ad36-0a8ea085ada2"
+				},
+				"m_sActorName": {
+					"type": "ZString",
+					"value": "Jaii Mule"
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -46.90772324102717
+						},
+						"position": {
+							"x": -228.2897796630859,
+							"y": 140.87379455566406,
+							"z": 2.750966787338257
+						}
+					}
+				},
+				"m_nOutfitVariation": { "type": "int32", "value": 0 },
+				"seed": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "b73d9349324f8074",
+						"externalScene": "[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype"
+					}
+				},
+				"m_bStartEnabled": { "type": "bool", "value": false },
+				"muleTalking": { "type": "bool", "value": true },
+				"forcedVoiceVar": { "type": "int32", "value": 2 },
+				"acts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"cafe30bc4237eaca",
+						"cafe21ed17504e27",
+						"cafe5221382c6b7a"
+					],
+					"postInit": true
+				}
+			},
+			"events": {
+				"startAct1": { "startAct1": ["cafea4e52dedcf96"] },
+				"startAct2": { "startAct2": ["cafea4e52dedcf96"] },
+				"startAct3": { "startAct3": ["cafea4e52dedcf96"] }
+			},
+			"subsets": {
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
+			}
+		},
+		"cafe5221382c6b7a": {
+			"parent": "cafea4e52dedcf96",
+			"name": "Act_MR_Stand_Look_Binoculars",
+			"factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_look_binoculars.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_look_binoculars.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_fActTimeout": { "type": "float32", "value": 20.0 },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -0.7190050839624862
+						},
+						"position": {
+							"x": -226.36502075195312,
+							"y": 126.75851440429688,
+							"z": 2.7509655952453613
+						}
+					}
+				},
+				"m_aApproachPath": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [],
+					"postInit": true
+				},
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "cafe41f449244c90",
+						"externalScene": null,
+						"exposedEntity": "Role"
+					},
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"outputCopying": {
+				"OnActTimeout": { "OnActTimeout": ["cafea4e52dedcf96"] }
+			},
+			"subsets": {
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
+			}
+		},
+		"cafe30bc4237eaca": {
+			"parent": "cafea4e52dedcf96",
+			"name": "Act_MR_Sit_Relaxed",
+			"factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_sit_relaxed.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_sit_relaxed.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_fActTimeout": { "type": "float32", "value": 10.0 },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": 90 },
+						"position": {
+							"x": -222.1399688720703,
+							"y": 196.99649047851565,
+							"z": 2.750966787338257
+						}
+					}
+				},
+				"m_aApproachPath": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "cafe41f449244c90",
+						"externalScene": null,
+						"exposedEntity": "Role"
+					},
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"outputCopying": {
+				"OnActTimeout": { "OnActTimeout": ["cafea4e52dedcf96"] }
+			}
+		},
+		"cafe21ed17504e27": {
+			"parent": "cafea4e52dedcf96",
+			"name": "Act_MR_Stand_Inspect_100cm",
+			"factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_inspect_100cm.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_inspect_100cm.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_fActTimeout": { "type": "float32", "value": 10.0 },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -41.31373543892668
+						},
+						"position": {
+							"x": -223.57041931152344,
+							"y": 184.0910186767578,
+							"z": 2.7527871131896973
+						}
+					}
+				},
+				"m_aApproachPath": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [],
+					"postInit": true
+				},
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "cafe41f449244c90",
+						"externalScene": null,
+						"exposedEntity": "Role"
+					},
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"outputCopying": {
+				"OnActTimeout": { "OnActTimeout": ["cafea4e52dedcf96"] }
+			}
+		},
+		"cafea4e52dedcf96": {
+			"parent": "cafe41f449244c90",
+			"name": "Acts 8",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "cafe41f449244c90",
+						"externalScene": null,
+						"exposedEntity": "Role"
+					},
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnActTimeout": { "nextAct": ["cafe41f449244c90"] }
+			},
+			"inputCopying": {
+				"startAct1": { "Start": ["cafe30bc4237eaca"] },
+				"startAct3": { "Start": ["cafe5221382c6b7a"] },
+				"startAct2": { "Start": ["cafe21ed17504e27"] }
+			},
+			"propertyAliases": {
+				"m_pActor": [
+					{
+						"originalProperty": "m_pActor",
+						"originalEntity": "cafe30bc4237eaca"
+					},
+					{
+						"originalProperty": "m_pActor",
+						"originalEntity": "cafe5221382c6b7a"
+					},
+					{
+						"originalProperty": "m_pActor",
+						"originalEntity": "cafe21ed17504e27"
+					}
+				]
+			}
+		}
+	},
+	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "9fe99e1ae87ee68a",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/override_pinochle.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": -217.538330078125,
+							"y": 156.5310821533203,
+							"z": 2.810007095336914
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "4d2f5a28faa5ec6d",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/override_pinochle.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
+						"position": {
+							"x": -220.32305908203125,
+							"y": 163.53280639648438,
+							"z": 9.93362522125244
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "ca39787e296f1991",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/override_pinochle.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
+						"position": {
+							"x": -225.6312255859375,
+							"y": 193.5317840576172,
+							"z": -0.8148775100708008
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "febfd4ecd1d67bcb",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/override_pinochle.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0, "z": 159.69632 },
+						"position": {
+							"x": -142.1978,
+							"y": 197.63751,
+							"z": 0
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "3f8584a2e3e6198f",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/override_pinochle.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0, "z": 28.466003 },
+						"position": {
+							"x": -141.43224,
+							"y": 197.01962,
+							"z": 0
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "35c1568e3dee5e69",
+					"externalScene": "[assembly:/_pro/scenes/bricks/outfits_evergreen.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_rDefaultVoiceVariations": {
+					"type": "TArray<EActorVoiceVariation>",
+					"value": [
+						"eAVV_CIVMALE01",
+						"eAVV_CIVMALE02",
+						"eAVV_CIVMALE03",
+						"eAVV_CIVMALE04",
+						"eAVV_CIVMALE11",
+						"eAVV_CIVMALE05",
+						"eAVV_CIVMALE06",
+						"eAVV_CIVMALE07",
+						"eAVV_CIVMALE08",
+						"eAVV_CIVMALE09",
+						"eAVV_CIVMALE10",
+						"eAVV_CIVMALEES03",
+						"eAVV_CIVMALEES02",
+						"eAVV_CIVMALEES01",
+						"eAVV_CIVMALECH02",
+						"eAVV_CIVMALECH01",
+						"eAVV_INGRAM",
+						"eAVV_STUYVESANT"
+					]
+				}
+			}
+		}
+	],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [
+		"[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/bricks/outfits_evergreen.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/miami/override_pinochle.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/miami/miami_yacht.brick].pc_entitytype"
+	],
+	"subType": "brick",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}
