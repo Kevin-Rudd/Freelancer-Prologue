@@ -361,6 +361,24 @@
 		{
 			"entities": [
 				{
+					"ref": "e9c5477a2d098cde",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 324.9119873046875,
+						"y": 386.0549926757813,
+						"z": 46.592098236083984
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
 					"ref": "4ea4e17feaf887be",
 					"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
 				}
