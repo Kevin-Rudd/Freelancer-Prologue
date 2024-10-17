@@ -32,10 +32,6 @@
 			"entities": [
 				{
 					"ref": "fffffffffffffffe",
-					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
-				},
-				{
-					"ref": "fffffffffffffffe",
 					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 				},
 				{
@@ -52,38 +48,13 @@
 							"x": -278.00912,
 							"y": -104.011604,
 							"z": -0.38924766
-						},
-						"scale": { "x": 1, "y": 1, "z": 1 }
+						}
 					}
 				}
 			}
 		}
 	],
 	"overrideDeletes": [
-		{
-			"ref": "c4bc48eaa4c8eb02",
-			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
-		},
-		{
-			"ref": "f9babdbbcbf5ebdf",
-			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
-		},
-		{
-			"ref": "e92112ab6913ad29",
-			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
-		},
-		{
-			"ref": "11d14ac0c23859f0",
-			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
-		},
-		{
-			"ref": "cbff49df3d83eeb5",
-			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
-		},
-		{
-			"ref": "3b855acbea8b3c1b",
-			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
-		},
 		{
 			"ref": "e32690c704e02edc",
 			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
@@ -100,7 +71,6 @@
 	"pinConnectionOverrides": [],
 	"pinConnectionOverrideDeletes": [],
 	"externalScenes": [
-		"[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/thefacility/dressing_module_002_miami.brick].pc_entitytype"
 	],

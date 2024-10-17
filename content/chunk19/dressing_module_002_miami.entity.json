@@ -198,8 +198,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
@@ -836,8 +836,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
@@ -900,8 +900,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			},
@@ -927,8 +927,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
@@ -1151,8 +1151,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
@@ -1256,8 +1256,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
@@ -1314,8 +1314,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
@@ -1363,8 +1363,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
@@ -1500,8 +1500,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
@@ -1664,8 +1664,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
@@ -1734,8 +1734,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
@@ -1857,8 +1857,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
@@ -1873,10 +1873,7 @@
 			}
 		},
 		"2749187580469dfd": {
-			"parent": {
-				"ref": "c4bc48eaa4c8eb02",
-				"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
-			},
+			"parent": "fffffffffffffffe",
 			"name": "MB_BoxReflections",
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
@@ -1951,8 +1948,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
@@ -2010,8 +2007,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			},
@@ -2119,8 +2116,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
@@ -2391,8 +2388,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
@@ -2472,8 +2469,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
@@ -2621,8 +2618,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
@@ -2946,8 +2943,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			},
@@ -3161,8 +3158,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
@@ -3200,8 +3197,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			},
@@ -3556,8 +3553,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
@@ -3633,8 +3630,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			},
@@ -3835,8 +3832,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
@@ -4088,8 +4085,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
@@ -4187,8 +4184,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
@@ -4245,8 +4242,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
@@ -4315,8 +4312,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			},
@@ -4717,8 +4714,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
@@ -5011,8 +5008,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
@@ -5069,8 +5066,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
@@ -5613,8 +5610,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
@@ -6011,8 +6008,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
@@ -6150,11 +6147,7 @@
 						"822f173d52dfd9b6",
 						"2d53c45d971fc4c3",
 						"8f661015e38d6809",
-						"ff8495a30baabbb4",
-						{
-							"ref": "a3453330117c77f6",
-							"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
-						}
+						"ff8495a30baabbb4"
 					],
 					"postInit": true
 				}
@@ -6268,10 +6261,7 @@
 			}
 		},
 		"38967705bfba861f": {
-			"parent": {
-				"ref": "a3453330117c77f6",
-				"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
-			},
+			"parent": "fffffffffffffffe",
 			"name": "_Context",
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
@@ -6400,8 +6390,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
@@ -6535,10 +6525,7 @@
 			"subsets": { "AudioVolumetricGeom": ["fffffffffffffffe"] }
 		},
 		"8f661015e38d6809": {
-			"parent": {
-				"ref": "a3453330117c77f6",
-				"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
-			},
+			"parent": "fffffffffffffffe",
 			"name": "Building_GuardHouse",
 			"factory": "[modules:/zaiareaentity.class].pc_entitytype",
 			"blueprint": "[modules:/zaiareaentity.class].pc_entityblueprint",
@@ -6550,8 +6537,8 @@
 				"m_rParentArea": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "a3453330117c77f6",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "46f9801722065c44",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
 					}
 				}
 			}
@@ -6979,8 +6966,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
@@ -7079,8 +7066,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
@@ -7391,8 +7378,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
@@ -7867,8 +7854,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
@@ -8071,8 +8058,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
@@ -8479,8 +8466,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
@@ -8648,8 +8635,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
@@ -8826,8 +8813,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
@@ -8877,10 +8864,7 @@
 			}
 		},
 		"2d53c45d971fc4c3": {
-			"parent": {
-				"ref": "a3453330117c77f6",
-				"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
-			},
+			"parent": "fffffffffffffffe",
 			"name": "Building_Dock_Hut_Interior",
 			"factory": "[modules:/zaiareaentity.class].pc_entitytype",
 			"blueprint": "[modules:/zaiareaentity.class].pc_entityblueprint",
@@ -8888,8 +8872,8 @@
 				"m_rParentArea": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "a3453330117c77f6",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "46f9801722065c44",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
 					}
 				},
 				"m_aAreaVolumes": {
@@ -9484,8 +9468,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
@@ -9640,10 +9624,7 @@
 			}
 		},
 		"ff8495a30baabbb4": {
-			"parent": {
-				"ref": "a3453330117c77f6",
-				"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
-			},
+			"parent": "fffffffffffffffe",
 			"name": "Building_Storage",
 			"factory": "[modules:/zaiareaentity.class].pc_entitytype",
 			"blueprint": "[modules:/zaiareaentity.class].pc_entityblueprint",
@@ -9651,8 +9632,8 @@
 				"m_rParentArea": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "a3453330117c77f6",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "46f9801722065c44",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
 					}
 				},
 				"m_aAreaVolumes": {
@@ -9839,8 +9820,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
@@ -9913,10 +9894,7 @@
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"19ceae9934072d86": {
-			"parent": {
-				"ref": "a9dcd80259a72644",
-				"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
-			},
+			"parent": "fffffffffffffffe",
 			"name": "Dressing_Module_002",
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
@@ -10142,8 +10120,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
@@ -10740,8 +10718,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
@@ -10874,8 +10852,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			},
@@ -10942,10 +10920,7 @@
 			}
 		},
 		"0cc77ba91bcbb4b0": {
-			"parent": {
-				"ref": "e92112ab6913ad29",
-				"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
-			},
+			"parent": "fffffffffffffffe",
 			"name": "MB_Lights",
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
@@ -11083,8 +11058,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
@@ -11210,8 +11185,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
@@ -11255,8 +11230,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
@@ -11390,8 +11365,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
@@ -11452,8 +11427,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			},
@@ -11543,8 +11518,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
@@ -11694,8 +11669,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			},
@@ -11779,8 +11754,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
@@ -11882,8 +11857,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			},
@@ -11974,8 +11949,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
@@ -12120,8 +12095,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
@@ -12812,8 +12787,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
@@ -13186,8 +13161,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
@@ -13313,10 +13288,7 @@
 			"subsets": { "AudioVolumetricGeom": ["fffffffffffffffe"] }
 		},
 		"801b7cd06b3fc9cf": {
-			"parent": {
-				"ref": "6d9d9e17816e9628",
-				"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
-			},
+			"parent": "fffffffffffffffe",
 			"name": "SetPiece_StashPoint_Crate01",
 			"factory": "[assembly:/_pro/design/setpieces/setpieces_stashpoints.template?/setpiece_stashpoint_crate.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_stashpoints.template?/setpiece_stashpoint_crate.entitytemplate].pc_entityblueprint",
@@ -13486,8 +13458,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			},
@@ -13534,8 +13506,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
@@ -14288,8 +14260,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			},
@@ -14337,8 +14309,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
@@ -14925,8 +14897,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			},
@@ -15121,10 +15093,7 @@
 			}
 		},
 		"682b0c35f7e2e99f": {
-			"parent": {
-				"ref": "859079c392af9844",
-				"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
-			},
+			"parent": "fffffffffffffffe",
 			"name": "SetPiece_Container_Body_Closet_Locker_A",
 			"factory": "[assembly:/_pro/design/setpieces/setpieces_containers.template?/setpiece_container_body_closet_locker_a.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_containers.template?/setpiece_container_body_closet_locker_a.entitytemplate].pc_entityblueprint",
@@ -15282,8 +15251,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
@@ -15436,8 +15405,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
@@ -15495,8 +15464,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			},
@@ -15558,8 +15527,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			},
@@ -15745,8 +15714,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
@@ -15865,8 +15834,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
@@ -16000,8 +15969,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			},
@@ -16081,8 +16050,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			},
@@ -16239,8 +16208,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
@@ -16406,8 +16375,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
@@ -16615,8 +16584,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
@@ -16973,8 +16942,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
@@ -17272,8 +17241,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
@@ -17394,10 +17363,7 @@
 			}
 		},
 		"c065669b0b388028": {
-			"parent": {
-				"ref": "a3453330117c77f6",
-				"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
-			},
+			"parent": "fffffffffffffffe",
 			"name": "Area_Ship",
 			"factory": "[modules:/zaiareaentity.class].pc_entitytype",
 			"blueprint": "[modules:/zaiareaentity.class].pc_entityblueprint",
@@ -17417,8 +17383,8 @@
 				"m_rParentArea": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "a3453330117c77f6",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "46f9801722065c44",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
 					}
 				}
 			}
@@ -17502,8 +17468,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
@@ -17581,8 +17547,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
 			}
@@ -17837,7 +17803,7 @@
 	"pinConnectionOverrides": [],
 	"pinConnectionOverrideDeletes": [],
 	"externalScenes": [
-		"[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 	],
 	"subType": "brick",
