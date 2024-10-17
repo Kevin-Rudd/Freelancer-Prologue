@@ -8,6 +8,353 @@
 			"name": "Scene",
 			"factory": "[modules:/zspatialentity.class].pc_entitytype",
 			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+		},
+		"cafe6357c8fcf44a": {
+			"parent": "fffffffffffffffe",
+			"name": "Props",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafec7d45221afa7": {
+			"parent": "cafe6357c8fcf44a",
+			"name": "Car Park",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafec396d31a0216": {
+			"parent": "cafec7d45221afa7",
+			"name": "Vehicles",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe8f7dd76044f8": {
+			"parent": "cafec396d31a0216",
+			"name": "american_van_d",
+			"factory": "[assembly:/_pro/vehicles/templates/vehicles_miami_a.template?/american_van_d.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/vehicles/templates/vehicles_miami_a.template?/american_van_d.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 89.7700474055314
+						},
+						"position": {
+							"x": 4.5737152099609375,
+							"y": 112.54976654052734,
+							"z": -4.127004146575928
+						}
+					}
+				},
+				"ConstantColorRGB_01_Value": {
+					"type": "SColorRGB",
+					"value": "#1e283b"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6480b140d0cb4728",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+					}
+				}
+			},
+			"subsets": {
+				"Activatable_NormalGameplay, IEntity": [
+					"fffffffffffffffe"
+				],
+				"AudioEmitters": ["fffffffffffffffe"]
+			}
+		},
+		"cafe91d882212eeb": {
+			"parent": "cafea96b21d74f43",
+			"name": "PhysicsCollision",
+			"factory": "[modules:/zphysicscollisionentity.class].pc_entitytype",
+			"blueprint": "[modules:/zphysicscollisionentity.class].pc_entityblueprint",
+			"properties": {
+				"m_EntityListA": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "cafea96b21d74f43",
+							"externalScene": null,
+							"exposedEntity": "Truck_Tigre_HX200_A_00"
+						}
+					],
+					"postInit": true
+				}
+			}
+		},
+		"cafea96b21d74f43": {
+			"parent": "cafec396d31a0216",
+			"name": "Truck_Tigre_HX200_A_00_04",
+			"factory": "[assembly:/_pro/vehicles/templates/vehicles_france_a.template?/truck_tigre_hx200_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/vehicles/templates/vehicles_france_a.template?/truck_tigre_hx200_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -90.279604528889
+						},
+						"position": {
+							"x": 6.422484874725342,
+							"y": 104.48789978027344,
+							"z": -4.127004146575928
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6480b140d0cb4728",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+					}
+				}
+			},
+			"subsets": {
+				"Activatable_NormalGameplay, IEntity": [
+					"fffffffffffffffe"
+				],
+				"AudioEmitters": ["fffffffffffffffe"]
+			}
+		},
+		"cafe6093be6776cd": {
+			"parent": "cafec396d31a0216",
+			"name": "Avance_Goliath_Semi_Truck_Cabin_A_00",
+			"factory": "[assembly:/_pro/vehicles/templates/vehicles_france_a.template?/avance_goliath_semi_truck_cabin_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/vehicles/templates/vehicles_france_a.template?/avance_goliath_semi_truck_cabin_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -90.279604528889
+						},
+						"position": {
+							"x": 6.4022369384765625,
+							"y": 148.21099853515625,
+							"z": -4.127004146575928
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_STATIC"
+				},
+				"PaintDiffuse": {
+					"type": "SColorRGB",
+					"value": "#1f1f1f"
+				},
+				"PaintSecondarySpecularColor": {
+					"type": "SColorRGB",
+					"value": "#333333"
+				},
+				"PaintSpecklesColor": {
+					"type": "SColorRGB",
+					"value": "#1a1a1a"
+				},
+				"DisableColiWith": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"m_bEnabled": { "type": "bool", "value": true },
+				"m_bIncludeInBaseMap": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6480b140d0cb4728",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+					}
+				}
+			},
+			"subsets": {
+				"Activatable_NormalGameplay, IEntity": [
+					"fffffffffffffffe"
+				],
+				"AudioEmitters": ["fffffffffffffffe"]
+			}
+		},
+		"cafeaf12591a31ad": {
+			"parent": "cafec396d31a0216",
+			"name": "american_cabriolet_convertible_a",
+			"factory": "[assembly:/_pro/vehicles/templates/vehicles_miami_a.template?/american_cabriolet_convertible_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/vehicles/templates/vehicles_miami_a.template?/american_cabriolet_convertible_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 89.35593378601693
+						},
+						"position": {
+							"x": 4.13677978515625,
+							"y": 124.2588882446289,
+							"z": -4.127004146575928
+						}
+					}
+				},
+				"PaintDiffuse": {
+					"type": "SColorRGB",
+					"value": "#a14d23"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6480b140d0cb4728",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+					}
+				}
+			},
+			"subsets": {
+				"Activatable_NormalGameplay, IEntity": [
+					"fffffffffffffffe"
+				],
+				"AudioEmitters": ["fffffffffffffffe"]
+			}
+		},
+		"cafec8b87dc48af7": {
+			"parent": "cafec396d31a0216",
+			"name": "SetPiece_Miami_Unique_OpenableVan",
+			"factory": "[assembly:/_pro/design/setpieces/unique/setpiece_miami_unique.template?/setpiece_miami_unique_openablevan.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/unique/setpiece_miami_unique.template?/setpiece_miami_unique_openablevan.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -92.84258606541422
+						},
+						"position": {
+							"x": 32.27447509765625,
+							"y": 151.89181518554688,
+							"z": -4.1270060539245605
+						}
+					}
+				},
+				"VehiclePaintDiffuse": {
+					"type": "SColorRGB",
+					"value": "#9e3434"
+				},
+				"m_EntityListB": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [],
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6480b140d0cb4728",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+					}
+				}
+			},
+			"events": {
+				"DoorOpen": { "SetTrue": [] },
+				"DoorClosed": { "SetFalse": [] }
+			},
+			"subsets": {
+				"Activatable_NormalGameplay, IEntity": [
+					"fffffffffffffffe"
+				],
+				"AudioEmitters": ["fffffffffffffffe"]
+			}
+		},
+		"cafe3e9dec0b3aeb": {
+			"parent": "cafec396d31a0216",
+			"name": "Vogel_Adler_500lx_A_00_01",
+			"factory": "[assembly:/_pro/vehicles/templates/vehicles_france_a.template?/vogel_adler_500lx_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/vehicles/templates/vehicles_france_a.template?/vogel_adler_500lx_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -89.6121925652539
+						},
+						"position": {
+							"x": 4.01898193359375,
+							"y": 128.20822143554688,
+							"z": -4.1270036697387695
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6480b140d0cb4728",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+					}
+				}
+			},
+			"subsets": {
+				"Activatable_NormalGameplay, IEntity": [
+					"fffffffffffffffe"
+				],
+				"AudioEmitters": ["fffffffffffffffe"]
+			}
+		},
+		"cafe0a9754a64b12": {
+			"parent": "cafec396d31a0216",
+			"name": "Vogel_Konig_500_A_00_01",
+			"factory": "[assembly:/_pro/vehicles/templates/vehicles_marrakech_a.template?/vogel_konig_500_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/vehicles/templates/vehicles_marrakech_a.template?/vogel_konig_500_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -90.36723445191708
+						},
+						"position": {
+							"x": 31.89146423339844,
+							"y": 124.1985092163086,
+							"z": -4.19255256652832
+						}
+					}
+				},
+				"WheelTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 68.00000702211831,
+							"y": 0.0,
+							"z": -16.000004267496415
+						},
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"VehiclePaintDiffuse": {
+					"type": "SColorRGB",
+					"value": "#ffd900"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6480b140d0cb4728",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+					}
+				}
+			},
+			"subsets": {
+				"Activatable_NormalGameplay, IEntity": [
+					"fffffffffffffffe"
+				],
+				"AudioEmitters": ["fffffffffffffffe"]
+			}
 		}
 	},
 	"propertyOverrides": [
@@ -70,6 +417,54 @@
 					}
 				}
 			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "11d8132eeffb09a4",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0, "z": 95.79351 },
+						"position": {
+							"x": -30.621254,
+							"y": 68.23455,
+							"z": 0.100037
+						},
+						"scale": {
+							"x": 0.99999994,
+							"y": 0.99999994,
+							"z": 1
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "be0229304731aaf7",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0, "z": 93.0788 },
+						"position": {
+							"x": -24.76342,
+							"y": 68.23455,
+							"z": 0.100037
+						},
+						"scale": { "x": 1, "y": 1, "z": 1 }
+					}
+				}
+			}
 		}
 	],
 	"overrideDeletes": [
@@ -84,6 +479,10 @@
 		{
 			"ref": "b93ef137cb80d5cb",
 			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/dressing_module_002_miami.brick].pc_entitytype"
+		},
+		{
+			"ref": "b2dcd01dcfb7c191",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
 		}
 	],
 	"pinConnectionOverrides": [],
