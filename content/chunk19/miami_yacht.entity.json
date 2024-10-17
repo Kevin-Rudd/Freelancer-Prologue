@@ -487,6 +487,40 @@
 					}
 				}
 			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "caf6f137a7211812",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_NavpowerResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/scenes/missions/miami/scene_miami_yacht.navp].pc_navp",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "df5789199552d86d",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_pGrid": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/scenes/missions/miami/scene_miami_yacht.airg].pc_airg",
+						"flag": "5F"
+					}
+				}
+			}
 		}
 	],
 	"overrideDeletes": [
