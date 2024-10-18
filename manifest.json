@@ -18,19 +18,34 @@
 			"comment": "Hantu car park boom"
 		},
 		{
-			"runtimeID": "000C9D9A423576B6",
-			"toChunk": 9,
-			"comment": "Hantu security building entrance a"
+			"runtimeID": "00C0A4B77E103881",
+			"toChunk": 8,
+			"comment": "Marrakesh Security Hut"
 		},
 		{
-			"runtimeID": "005C82832EE4DBDE",
-			"toChunk": 9,
-			"comment": "Hantu security building entrance b"
+			"runtimeID": "009A796EAA4E0505",
+			"toChunk": 8,
+			"comment": "Marrakesh Security Hut"
 		},
 		{
-			"runtimeID": "005336FF7ECBADE6",
-			"toChunk": 9,
-			"comment": "Hantu entrance canopi"
+			"runtimeID": "00BE8CA1B743C8BD",
+			"toChunk": 8,
+			"comment": "Marrakesh Security Hut"
+		},
+		{
+			"runtimeID": "00F630EB7A2172F9",
+			"toChunk": 8,
+			"comment": "Marrakesh Security Door"
+		},
+		{
+			"runtimeID": "005EBB3070863681",
+			"toChunk": 8,
+			"comment": "Marrakesh Security Window"
+		},
+		{
+			"runtimeID": "00E461BC6BF94251",
+			"toChunk": 8,
+			"comment": "Marrakesh Security Window"
 		}
 	],
 	"options": [],

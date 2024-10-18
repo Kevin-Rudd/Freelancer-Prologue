@@ -64,9 +64,7 @@
 				"Activatable_NormalGameplay, IEntity": [
 					"fffffffffffffffe"
 				],
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"cafe91d882212eeb": {
@@ -121,9 +119,7 @@
 				"Activatable_NormalGameplay, IEntity": [
 					"fffffffffffffffe"
 				],
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"cafe6093be6776cd": {
@@ -165,18 +161,10 @@
 				},
 				"DisableColiWith": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					]
+					"value": []
 				},
-				"m_bEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bIncludeInBaseMap": {
-					"type": "bool",
-					"value": false
-				},
+				"m_bEnabled": { "type": "bool", "value": true },
+				"m_bIncludeInBaseMap": { "type": "bool", "value": false },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
@@ -189,9 +177,7 @@
 				"Activatable_NormalGameplay, IEntity": [
 					"fffffffffffffffe"
 				],
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"cafeaf12591a31ad": {
@@ -231,9 +217,7 @@
 				"Activatable_NormalGameplay, IEntity": [
 					"fffffffffffffffe"
 				],
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"cafec8b87dc48af7": {
@@ -263,9 +247,7 @@
 				},
 				"m_EntityListB": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					],
+					"value": [],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -277,24 +259,14 @@
 				}
 			},
 			"events": {
-				"DoorOpen": {
-					"SetTrue": [
-
-					]
-				},
-				"DoorClosed": {
-					"SetFalse": [
-
-					]
-				}
+				"DoorOpen": { "SetTrue": [] },
+				"DoorClosed": { "SetFalse": [] }
 			},
 			"subsets": {
 				"Activatable_NormalGameplay, IEntity": [
 					"fffffffffffffffe"
 				],
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"cafe3e9dec0b3aeb": {
@@ -330,9 +302,7 @@
 				"Activatable_NormalGameplay, IEntity": [
 					"fffffffffffffffe"
 				],
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"cafe0a9754a64b12": {
@@ -364,11 +334,7 @@
 							"y": 0,
 							"z": -16.000004267496415
 						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
 				"VehiclePaintDiffuse": {
@@ -387,9 +353,7 @@
 				"Activatable_NormalGameplay, IEntity": [
 					"fffffffffffffffe"
 				],
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"feedbfa637104376": {
@@ -401,14 +365,10 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": 18.891300201416016,
-							"y": 131.59500122070313,
+							"y": 131.59500122070312,
 							"z": -4.127007007598877
 						}
 					}
@@ -432,11 +392,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": -0.2204899936914444,
 							"y": 135.9971923828125,
@@ -446,9 +402,7 @@
 				},
 				"m_Targets": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feedbfa637104376"
-					]
+					"value": ["feedbfa637104376"]
 				},
 				"m_fDecalFadeDistance": {
 					"type": "float32",
@@ -480,23 +434,17 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": -151.6927947998047,
-							"y": 180.60879516601563,
-							"z": 21.665739059448242
+							"y": 180.60879516601565,
+							"z": 21.66573905944824
 						}
 					}
 				},
 				"m_Targets": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feedbfa637104376"
-					]
+					"value": ["feedbfa637104376"]
 				},
 				"m_fDecalFadeDistance": {
 					"type": "float32",
@@ -518,78 +466,6 @@
 				}
 			}
 		},
-		"feed32e1b384bf72": {
-			"parent": "cafec7d45221afa7",
-			"name": "Seagull_Security_Building_A",
-			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_security_building_a.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_security_building_a.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 89.9999965849052
-						},
-						"position": {
-							"x": 1.58349609375,
-							"y": 121.44884490966797,
-							"z": -4.123900890350342
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": {
-						"ref": "6480b140d0cb4728",
-						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
-					},
-					"postInit": true
-				}
-			},
-			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
-			}
-		},
-		"feed7e1287a2056f": {
-			"parent": "cafec7d45221afa7",
-			"name": "Seagull_Security_Building_A_01",
-			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_security_building_b.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_security_building_b.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 89.9999965849052
-						},
-						"position": {
-							"x": 1.653045654296875,
-							"y": 141.36346435546875,
-							"z": -4.123775959014893
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": {
-						"ref": "6480b140d0cb4728",
-						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
-					},
-					"postInit": true
-				}
-			},
-			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
-			}
-		},
 		"feed5f8a353256da": {
 			"parent": "cafec7d45221afa7",
 			"name": "Carpark_Boom_A",
@@ -600,13 +476,13 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0,
-							"y": 0,
+							"x": -0.0,
+							"y": 0.0,
 							"z": 89.9999965849052
 						},
 						"position": {
 							"x": 0.8799896240234375,
-							"y": 135.3582763671875,
+							"y": 135.7593994140625,
 							"z": -3.592672348022461
 						}
 					}
@@ -631,13 +507,13 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0,
-							"y": 0,
+							"x": -0.0,
+							"y": 0.0,
 							"z": -89.9999965849052
 						},
 						"position": {
 							"x": 0.1007537841796875,
-							"y": 123.91887664794922,
+							"y": 126.31147003173828,
 							"z": -4.123743534088135
 						}
 					}
@@ -652,32 +528,3978 @@
 				}
 			}
 		},
-		"feedaaf46a124a56": {
-			"parent": "cafec7d45221afa7",
-			"name": "seagull_security_building_canopy_a",
-			"factory": "001B6FD468264CEB",
-			"blueprint": "0060468B97BCAE81",
+		"cafe8b6f004eeb22": {
+			"parent": "fffffffffffffffe",
+			"name": "Buildings and Rooms",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe9bd938be822f": {
+			"parent": "cafe24fb652fab54",
+			"name": "Window_Frame_Security_Hut_CompA06",
+			"factory": "[assembly:/_pro/environment/templates/architecture/windows/windows_office_consulate.template?/window_frame_security_hut_compa.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/architecture/windows/windows_office_consulate.template?/window_frame_security_hut_compa.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
+						"position": {
+							"x": -9.495523452758787,
+							"y": -3.4080889225006104,
+							"z": 1.001202940940857
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_STATIC_OUTSIDE_CLIENT"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe24fb652fab54",
+					"postInit": true
+				}
+			}
+		},
+		"cafe1ad548db01ba": {
+			"parent": "cafe24fb652fab54",
+			"name": "Window_Frame_Security_Hut_CompA04",
+			"factory": "[assembly:/_pro/environment/templates/architecture/windows/windows_office_consulate.template?/window_frame_security_hut_compa.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/architecture/windows/windows_office_consulate.template?/window_frame_security_hut_compa.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -89.9999965849052
+							"x": -0.0,
+							"y": 0.0,
+							"z": 90.00005714598858
 						},
 						"position": {
-							"x": -2.3805694580078125,
-							"y": 138.11651611328125,
-							"z": -4.123839855194092
+							"x": -0.14820300042629242,
+							"y": -1.002087950706482,
+							"z": 1.001202940940857
 						}
 					}
 				},
-				"ConstantColorRGB_04_Value": {
-					"type": "SColorRGB",
-					"value": "#ff9c5e"
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_STATIC_OUTSIDE_CLIENT"
 				},
 				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe24fb652fab54",
+					"postInit": true
+				}
+			}
+		},
+		"cafe24fb652fab54": {
+			"parent": "cafe8b6f004eeb22",
+			"name": "Consulate_GuardHouse_A",
+			"factory": "[assembly:/_pro/environment/templates/levels/marrakesh/consulate_securitybuildings_a.template?/consulate_guardhouse_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/marrakesh/consulate_securitybuildings_a.template?/consulate_guardhouse_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": -181.5108184814453,
+							"y": 178.36502075195312,
+							"z": 0.001897856593132019
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "ec89966092ef10b8",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+					},
+					"postInit": true
+				}
+			}
+		},
+		"cafe5d4d483f3bb5": {
+			"parent": "cafe24fb652fab54",
+			"name": "Window_Frame_Security_Hut_CompA05",
+			"factory": "[assembly:/_pro/environment/templates/architecture/windows/windows_office_consulate.template?/window_frame_security_hut_compa.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/architecture/windows/windows_office_consulate.template?/window_frame_security_hut_compa.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 90.00005729577937
+						},
+						"position": {
+							"x": -0.15140199661254883,
+							"y": -2.20294189453125,
+							"z": 1.001202940940857
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_STATIC_OUTSIDE_CLIENT"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe24fb652fab54"
+				}
+			}
+		},
+		"cafe23bfb47ac432": {
+			"parent": "cafe24fb652fab54",
+			"name": "Window_Frame_Security_Hut_CompA03",
+			"factory": "[assembly:/_pro/environment/templates/architecture/windows/windows_office_consulate.template?/window_frame_security_hut_compa.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/architecture/windows/windows_office_consulate.template?/window_frame_security_hut_compa.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
+						"position": {
+							"x": -1.0004620552062988,
+							"y": -6.2566680908203125,
+							"z": 0.9992340207099916
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_STATIC_OUTSIDE_CLIENT"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe24fb652fab54"
+				}
+			}
+		},
+		"cafe36da164841cc": {
+			"parent": "cafe24fb652fab54",
+			"name": "Window_Frame_Security_Hut_Comp_B",
+			"factory": "[assembly:/_pro/environment/templates/architecture/windows/windows_office_consulate.template?/window_frame_security_hut_comp_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/architecture/windows/windows_office_consulate.template?/window_frame_security_hut_comp_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
+						"position": {
+							"x": -9.495523452758787,
+							"y": -5.4002909660339355,
+							"z": 1.001202940940857
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_STATIC_OUTSIDE_CLIENT"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe24fb652fab54"
+				}
+			}
+		},
+		"cafed78e1291b4f7": {
+			"parent": "cafe428a1332899b",
+			"name": "DarkLight04",
+			"factory": "[modules:/zdarklightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zdarklightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -89.99994270422063
+						},
+						"position": {
+							"x": 0.6428319811820984,
+							"y": 0.5925449728965759,
+							"z": 2.3785619735717773
+						}
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_ENVIRONMENT"
+				},
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 6.937510013580322,
+						"y": 1.3528200387954712,
+						"z": 1.4740899801254272
+					}
+				},
+				"m_vBoxFadePos": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.2507860064506531,
+						"y": 0.7107080221176147,
+						"z": 0.019999999552965164
+					}
+				},
+				"m_vBoxFadeNeg": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.3002780079841614,
+						"y": 0.0,
+						"z": 1.0
+					}
+				},
+				"m_fDiffusePower": {
+					"type": "float32",
+					"value": 0.6000000238418579
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeba819bd2eb04",
+					"postInit": true
+				}
+			}
+		},
+		"cafe6f453b768bd8": {
+			"parent": "cafeba819bd2eb04",
+			"name": "BoxReflections",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe095d7a87ef3b": {
+			"parent": "cafe833cb43d56e5",
+			"name": "Paper_Box_A_00_01",
+			"factory": "[assembly:/_pro/environment/templates/props/office_props/office_props_a.template?/paper_box_c_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/office_props/office_props_a.template?/paper_box_c_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.00022137221100257013,
+							"y": -74.99994502607598,
+							"z": -0.00016407633428403538
+						},
+						"position": {
+							"x": 0.2502056062221527,
+							"y": -0.021510440856218335,
+							"z": 0.19062499701976776
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe833cb43d56e5",
+					"postInit": true
+				}
+			}
+		},
+		"cafe288da10f9b4a": {
+			"parent": "cafe428a1332899b",
+			"name": "DarkLight05",
+			"factory": "[modules:/zdarklightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zdarklightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
+						"position": {
+							"x": -3.600166082382202,
+							"y": 3.3306429386138916,
+							"z": 2.41965389251709
+						}
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_ENVIRONMENT"
+				},
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 10.953700065612791,
+						"y": 2.0347800254821777,
+						"z": 1.229769945144653
+					}
+				},
+				"m_vBoxFadePos": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.2507860064506531,
+						"y": 1.3830599784851074,
+						"z": 0.019999999552965164
+					}
+				},
+				"m_vBoxFadeNeg": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.3002780079841614,
+						"y": 0.0,
+						"z": 1.0
+					}
+				},
+				"m_fDiffusePower": {
+					"type": "float32",
+					"value": 0.6000000238418579
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeba819bd2eb04",
+					"postInit": true
+				}
+			}
+		},
+		"cafeef50e729ab0f": {
+			"parent": "cafeeb246cfd3a72",
+			"name": "documents_h04",
+			"factory": "[assembly:/_pro/environment/geometry/props/office_props/office_documents.wl2?/documents_c.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -84.99946826695562
+						},
+						"position": {
+							"x": 1.9974290132522583,
+							"y": -0.2209849953651428,
+							"z": 1.0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeeb246cfd3a72",
+					"postInit": true
+				}
+			}
+		},
+		"cafea63c093f8457": {
+			"parent": "cafefe26f9c7a802",
+			"name": "Bottle_Water_C_00_01",
+			"factory": "[assembly:/_pro/environment/templates/props/food/food_props_b.template?/bottle_water_c_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/food/food_props_b.template?/bottle_water_c_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 45.00004105223744
+						},
+						"position": {
+							"x": -0.046813998371362686,
+							"y": -0.14559200406074524,
+							"z": 0.8536970019340515
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafefe26f9c7a802",
+					"postInit": true
+				}
+			}
+		},
+		"cafe4201a61d9e50": {
+			"parent": "cafeeb246cfd3a72",
+			"name": "Extension_Cord_A_00_03",
+			"factory": "[assembly:/_pro/environment/templates/props/electronics/electronics_sound_a.template?/extension_cord_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/electronics/electronics_sound_a.template?/extension_cord_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -88.0004296375865
+						},
+						"position": {
+							"x": 4.173931121826172,
+							"y": -0.5621489882469177,
+							"z": 0.007375000044703484
+						}
+					}
+				},
+				"Color": { "type": "SColorRGB", "value": "#403937" },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeeb246cfd3a72",
+					"postInit": true
+				}
+			}
+		},
+		"cafe4320c2f9db56": {
+			"parent": "cafe3a84c2ce718a",
+			"name": "Cardboard_Box_A_01_01",
+			"factory": "[assembly:/_pro/environment/templates/props/office_props/office_props_a.template?/cardboard_box_a_01.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/office_props/office_props_a.template?/cardboard_box_a_01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -80.00007083992017
+						},
+						"position": {
+							"x": 0.01005329005420208,
+							"y": -0.33266058564186096,
+							"z": 0.4223729968070984
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe3a84c2ce718a",
+					"postInit": true
+				}
+			}
+		},
+		"cafe4316d5866200": {
+			"parent": "cafe1f5ac9673d63",
+			"name": "Documents_D06",
+			"factory": "[assembly:/_pro/environment/geometry/props/office_props/office_documents.wl2?/documents_d.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.0,
+							"y": -89.99991896792989,
+							"z": 0.0
+						},
+						"position": {
+							"x": -0.49058398604393005,
+							"y": -0.12230700254440308,
+							"z": 0.1789190024137497
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe1f5ac9673d63",
+					"postInit": true
+				}
+			}
+		},
+		"cafe3a84c2ce718a": {
+			"parent": "cafe594e86dd1027",
+			"name": "Cardboard_Box_B_02",
+			"factory": "[assembly:/_pro/environment/templates/props/office_props/office_props_a.template?/cardboard_box_b_02.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/office_props/office_props_a.template?/cardboard_box_b_02.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -84.99998704383201
+						},
+						"position": {
+							"x": -6.6016011238098145,
+							"y": -1.4099810123443604,
+							"z": 0.006471000146120787
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeba819bd2eb04",
+					"postInit": true
+				}
+			}
+		},
+		"cafef3f3eba6c85c": {
+			"parent": "cafe1f5ac9673d63",
+			"name": "Documents_D",
+			"factory": "[assembly:/_pro/environment/geometry/props/office_props/office_documents.wl2?/documents_d.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.0,
+							"y": -89.99991896792989,
+							"z": 0.0
+						},
+						"position": {
+							"x": 0.018005000427365303,
+							"y": 0.16391800343990326,
+							"z": 0.1789190024137497
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe1f5ac9673d63",
+					"postInit": true
+				}
+			}
+		},
+		"cafe4752034f5cf6": {
+			"parent": "cafefdef92a3ca03",
+			"name": "SetPiece_Activator_CardReader_Panel_A_Mid",
+			"factory": "[assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_cardreader_panel_a_mid.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_cardreader_panel_a_mid.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -2.706463098526001,
+							"y": 3.728080987930298,
+							"z": 0.019999999552965164
+						}
+					}
+				},
+				"m_bTargetLocked": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "cafe416a1c5feb34",
+						"externalScene": null,
+						"exposedEntity": "IsDoorLocked"
+					},
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeba819bd2eb04",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnInteractionAnimEvent_A": {
+					"UnlockDoor": ["cafe416a1c5feb34"]
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafe00cb9c89d171": {
+			"parent": "cafe594e86dd1027",
+			"name": "Office_Trashbin_Paper_A_00_02",
+			"factory": "[assembly:/_pro/environment/templates/props/office_props/office_props_a.template?/office_trashbin_paper_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/office_props/office_props_a.template?/office_trashbin_paper_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -69.99994273233119
+						},
+						"position": {
+							"x": -3.876091957092285,
+							"y": -1.297698974609375,
+							"z": 0.019999999552965164
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeba819bd2eb04",
+					"postInit": true
+				}
+			}
+		},
+		"cafe0c159f0b4a1d": {
+			"parent": "cafefe26f9c7a802",
+			"name": "Documents_D",
+			"factory": "[assembly:/_pro/environment/geometry/props/office_props/office_documents.wl2?/documents_d.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.0,
+							"y": -89.99991896792989,
+							"z": 0.0
+						},
+						"position": {
+							"x": 0.018005000427365303,
+							"y": 0.16391800343990326,
+							"z": 0.1789190024137497
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafefe26f9c7a802",
+					"postInit": true
+				}
+			}
+		},
+		"cafe8021c8e06c7f": {
+			"parent": "cafe4fa0892eb99c",
+			"name": "TV_Security_Screen_A_00_01",
+			"factory": "[assembly:/_pro/environment/templates/props/electronics/tv_screens_a.template?/tv_security_screen_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/electronics/tv_screens_a.template?/tv_security_screen_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 1.1986680030822754,
+							"y": 0.10145600140094756,
+							"z": 2.0576529502868652
+						}
+					}
+				},
+				"Screen_Rotation": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -6.000002062908942,
+							"y": 0.0,
+							"z": -4.999999204141952
+						},
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"ScreenImageA": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "000F0BA32ED5EC1A",
+						"flag": "5F"
+					}
+				},
+				"PowerCondition": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [],
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe4fa0892eb99c",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafe118b81b25c16": {
+			"parent": "cafe0dd0c9c2c724",
+			"name": "Consulate_GuardHouse_A_Interior",
+			"factory": "[assembly:/_pro/environment/templates/levels/marrakesh/consulate_securitybuildings_a.template?/consulate_guardhouse_a_interior.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/marrakesh/consulate_securitybuildings_a.template?/consulate_guardhouse_a_interior.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 1.033413052558899,
+							"y": 3.926513910293579,
+							"z": 0.009999999776482582
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeba819bd2eb04",
+					"postInit": true
+				}
+			}
+		},
+		"cafed1b46df6bf4a": {
+			"parent": "cafe594e86dd1027",
+			"name": "Office_Trashbin_Paper_A_00_01",
+			"factory": "[assembly:/_pro/environment/templates/props/office_props/office_props_a.template?/office_trashbin_paper_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/office_props/office_props_a.template?/office_trashbin_paper_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 9.999874560743072
+						},
+						"position": {
+							"x": -3.53593111038208,
+							"y": -1.113579034805298,
+							"z": 0.019999999552965164
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeba819bd2eb04",
+					"postInit": true
+				}
+			}
+		},
+		"cafec294e7fcfd82": {
+			"parent": "cafefe26f9c7a802",
+			"name": "Documents_D01",
+			"factory": "[assembly:/_pro/environment/geometry/props/office_props/office_documents.wl2?/documents_d.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.0,
+							"y": -89.99991896792989,
+							"z": 0.0
+						},
+						"position": {
+							"x": 0.2549999952316284,
+							"y": 0.16391800343990326,
+							"z": 0.21787700057029724
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafefe26f9c7a802",
+					"postInit": true
+				}
+			}
+		},
+		"cafe89f0755e452c": {
+			"parent": "cafefdef92a3ca03",
+			"name": "Keyword_KEYCARD_MARAKESH_EMBASSY_MASTER",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordkeys.template?/keyword_keycard_marakesh_embassy_master.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordkeys.template?/keyword_keycard_marakesh_embassy_master.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe4752034f5cf6"]
+				}
+			}
+		},
+		"cafe1545d4ab2305": {
+			"parent": "cafe4fa0892eb99c",
+			"name": "Painting_Pencil_A_00_03",
+			"factory": "[assembly:/_pro/environment/templates/props/accessories/painting_accessories.template?/painting_pencil_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/accessories/painting_accessories.template?/painting_pencil_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -135.6234457646641
+						},
+						"position": {
+							"x": 2.524617910385132,
+							"y": -0.5155940055847168,
+							"z": 1.0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe4fa0892eb99c",
+					"postInit": true
+				}
+			}
+		},
+		"cafe3cea62d00722": {
+			"parent": "cafefe26f9c7a802",
+			"name": "Glass_Water_A_00",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/glass_water_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/glass_water_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 165.00000418098213
+						},
+						"position": {
+							"x": 0.1633870005607605,
+							"y": -0.17902399599552157,
+							"z": 0.8536970019340515
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafefe26f9c7a802",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafe4c3945606add": {
+			"parent": "cafe11ece8b7249c",
+			"name": "Lamp_Desk_A_04",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_desk_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_desk_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 63.179738423399264
+						},
+						"position": {
+							"x": 0.5621489882469177,
+							"y": 3.320343017578125,
+							"z": 1.0099999904632568
+						}
+					}
+				},
+				"LightOn": { "type": "bool", "value": true },
+				"DiffusePower": { "type": "float32", "value": 42.0 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeba819bd2eb04",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafec94f23764482": {
+			"parent": "cafeeb246cfd3a72",
+			"name": "Office_PostIt_T_00_57",
+			"factory": "[assembly:/_pro/environment/templates/props/office_props/office_props_a.template?/office_paper_b_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/office_props/office_props_a.template?/office_paper_b_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 144.99861991101753
+						},
+						"position": {
+							"x": 1.8095380067825315,
+							"y": -0.31480398774147034,
+							"z": 1.0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeeb246cfd3a72",
+					"postInit": true
+				}
+			}
+		},
+		"cafea06c9edf5c9d": {
+			"parent": "cafe0dd0c9c2c724",
+			"name": "Consulate_GuardHouse_Roof_A",
+			"factory": "[assembly:/_pro/environment/templates/levels/marrakesh/consulate_securitybuildings_a.template?/consulate_guardhouse_roof_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/marrakesh/consulate_securitybuildings_a.template?/consulate_guardhouse_roof_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
+						"position": {
+							"x": -8.566736221313477,
+							"y": -2.4850690364837646,
+							"z": -0.0010610000463202596
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_STATIC_OUTSIDE_CLIENT"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeba819bd2eb04",
+					"postInit": true
+				}
+			}
+		},
+		"cafe11ece8b7249c": {
+			"parent": "cafeba819bd2eb04",
+			"name": "Lights",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafeec773134a145": {
+			"parent": "cafeeb246cfd3a72",
+			"name": "Computer_Case_A_00",
+			"factory": "[assembly:/_pro/environment/templates/props/electronics/computers_a.template?/computer_case_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/electronics/computers_a.template?/computer_case_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 89.99994270422063
+						},
+						"position": {
+							"x": 0.18188999593257904,
+							"y": -0.5948870182037354,
+							"z": 0.003169999923557043
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeeb246cfd3a72",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafea1d1d907514b": {
+			"parent": "cafefe26f9c7a802",
+			"name": "Glass_Water_A_00_01",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/glass_water_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/glass_water_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 130.00003238106447
+						},
+						"position": {
+							"x": 0.3582409918308258,
+							"y": -0.2087779939174652,
+							"z": 0.8536970019340515
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafefe26f9c7a802",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafeddd1e193fd4d": {
+			"parent": "cafe1f5ac9673d63",
+			"name": "Documents_D07",
+			"factory": "[assembly:/_pro/environment/geometry/props/office_props/office_documents.wl2?/documents_d.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 89.99988540844126,
+							"y": -0.00011459155873600844,
+							"z": 89.99994270422063
+						},
+						"position": {
+							"x": -0.15994299948215485,
+							"y": -0.11144299805164336,
+							"z": 0.1214269995689392
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe1f5ac9673d63",
+					"postInit": true
+				}
+			}
+		},
+		"cafe47b44f78fa2b": {
+			"parent": "cafe4fa0892eb99c",
+			"name": "documents_h05",
+			"factory": "[assembly:/_pro/environment/geometry/props/office_props/office_documents.wl2?/documents_d.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 99.999987228349
+						},
+						"position": {
+							"x": 0.4991370141506195,
+							"y": -0.20085099339485168,
+							"z": 1.0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe4fa0892eb99c",
+					"postInit": true
+				}
+			}
+		},
+		"cafe33b58be13bfd": {
+			"parent": "cafe11ece8b7249c",
+			"name": "Lamp_Ceiling_Laboratory_B_02",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_spot_light_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_spot_light_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+						"position": {
+							"x": -3.976552963256836,
+							"y": -0.09959399700164796,
+							"z": 3.0546939373016357
+						}
+					}
+				},
+				"Flickering": { "type": "bool", "value": false },
+				"On": { "type": "bool", "value": true },
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#fff5d6"
+				},
+				"DiffusePower": { "type": "float32", "value": 70.0 },
+				"GlowPower": { "type": "float32", "value": 50.0 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeba819bd2eb04",
+					"postInit": true
+				},
+				"SpotCastShadows": { "type": "bool", "value": true }
+			}
+		},
+		"cafe665d281c445d": {
+			"parent": "cafe11ece8b7249c",
+			"name": "Lamp_Ceiling_Laboratory_B_00",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_spot_light_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_spot_light_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+						"position": {
+							"x": -1.413756012916565,
+							"y": 2.103645086288452,
+							"z": 3.0546939373016357
+						}
+					}
+				},
+				"Flickering": { "type": "bool", "value": false },
+				"On": { "type": "bool", "value": true },
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#fff5d6"
+				},
+				"DiffusePower": { "type": "float32", "value": 70.0 },
+				"GlowPower": { "type": "float32", "value": 50.0 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeba819bd2eb04",
+					"postInit": true
+				},
+				"SpotCastShadows": { "type": "bool", "value": true }
+			}
+		},
+		"cafe6884c9f0daed": {
+			"parent": "cafed34c2232332a",
+			"name": "Paper_Box_A_00",
+			"factory": "[assembly:/_pro/environment/templates/props/office_props/office_props_a.template?/paper_box_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/office_props/office_props_a.template?/paper_box_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -9.999990193470156
+						},
+						"position": {
+							"x": -0.019345909357070923,
+							"y": -0.3346247971057892,
+							"z": -1.0132789611816406e-6
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafed34c2232332a",
+					"postInit": true
+				}
+			}
+		},
+		"cafefe80770853f1": {
+			"parent": "cafefe26f9c7a802",
+			"name": "Bottle_Water_C_00",
+			"factory": "[assembly:/_pro/environment/templates/props/food/food_props_b.template?/bottle_water_c_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/food/food_props_b.template?/bottle_water_c_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
+						"position": {
+							"x": -0.1925400048494339,
+							"y": -0.1954569965600967,
+							"z": 0.8536970019340515
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafefe26f9c7a802",
+					"postInit": true
+				}
+			}
+		},
+		"cafed34c2232332a": {
+			"parent": "cafe1f5ac9673d63",
+			"name": "Paper_Box_C_00",
+			"factory": "[assembly:/_pro/environment/templates/props/office_props/office_props_a.template?/paper_box_c_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/office_props/office_props_a.template?/paper_box_c_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 99.9992908122496
+						},
+						"position": {
+							"x": 0.06825637817382812,
+							"y": -0.03420257940888405,
+							"z": 0.8614659905433655
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe1f5ac9673d63",
+					"postInit": true
+				}
+			}
+		},
+		"cafe416a1c5feb34": {
+			"parent": "cafefdef92a3ca03",
+			"name": "Door_Single_Security_Consulate_A",
+			"factory": "00F630EB7A2172F9",
+			"blueprint": "00E426FA40B02175",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
+						"position": {
+							"x": -3.9477689266204834,
+							"y": 3.912384033203125,
+							"z": -0.0002450128085911274
+						}
+					}
+				},
+				"m_bIsLocked": { "type": "bool", "value": true },
+				"Reinforced": { "type": "bool", "value": true },
+				"m_bPathfindingObstacleEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"RequireActivation": { "type": "bool", "value": true },
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_STATIC_OUTSIDE_CLIENT"
+				},
+				"m_rGateEntity": {
+					"type": "SEntityTemplateReference",
+					"value": null
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeba819bd2eb04",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafe7498ac464dce": {
+			"parent": "cafefe26f9c7a802",
+			"name": "Documents_D06",
+			"factory": "[assembly:/_pro/environment/geometry/props/office_props/office_documents.wl2?/documents_d.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.0,
+							"y": -89.99991896792989,
+							"z": 0.0
+						},
+						"position": {
+							"x": -0.49058398604393005,
+							"y": -0.12230700254440308,
+							"z": 0.1789190024137497
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafefe26f9c7a802",
+					"postInit": true
+				}
+			}
+		},
+		"cafe4bc94297da02": {
+			"parent": "cafe428a1332899b",
+			"name": "DarkLight09",
+			"factory": "[modules:/zdarklightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zdarklightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
+						"position": {
+							"x": -4.135825157165527,
+							"y": 3.3624188899993896,
+							"z": 0.3113040030002594
+						}
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_ENVIRONMENT"
+				},
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 11.553000450134276,
+						"y": 2.2211499214172363,
+						"z": 1.229769945144653
+					}
+				},
+				"m_vBoxFadePos": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.2507860064506531,
+						"y": 1.4533499479293823,
+						"z": 1.0
+					}
+				},
+				"m_vBoxFadeNeg": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.3002780079841614,
+						"y": 0.0,
+						"z": 0.019999999552965164
+					}
+				},
+				"m_fDiffusePower": {
+					"type": "float32",
+					"value": 0.6000000238418579
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeba819bd2eb04",
+					"postInit": true
+				}
+			}
+		},
+		"cafe9abfd31edb3f": {
+			"parent": "cafe428a1332899b",
+			"name": "DarkLight10",
+			"factory": "[modules:/zdarklightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zdarklightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -3.510488986968994,
+							"y": -1.9806979894638064,
+							"z": 0.23140999674797055
+						}
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_ENVIRONMENT"
+				},
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 10.664400100708008,
+						"y": 2.0100998878479004,
+						"z": 0.8993989825248718
+					}
+				},
+				"m_vBoxFadePos": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.5381820201873779,
+						"y": 1.020709991455078,
+						"z": 1.0
+					}
+				},
+				"m_vBoxFadeNeg": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.39596301317214966,
+						"y": 0.14242100715637207,
+						"z": 0.019999999552965164
+					}
+				},
+				"m_fDiffusePower": {
+					"type": "float32",
+					"value": 0.6000000238418579
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeba819bd2eb04",
+					"postInit": true
+				}
+			}
+		},
+		"cafebc3542bf1435": {
+			"parent": "cafeeb246cfd3a72",
+			"name": "Picture_Mansion_F_SizeB_00",
+			"factory": "[assembly:/_pro/environment/templates/props/paintings/pictures_italy_a.template?/picture_mansion_f_sizeb_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/paintings/pictures_italy_a.template?/picture_mansion_f_sizeb_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.0003350424757557973,
+							"y": -69.99998603880752,
+							"z": 25.000349532238644
+						},
+						"position": {
+							"x": 0.9593870043754578,
+							"y": -0.2487870007753372,
+							"z": 1.0888739824295044
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeeb246cfd3a72",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafe0dd0c9c2c724": {
+			"parent": "cafeba819bd2eb04",
+			"name": "Geometry",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafef973f3e66cfb": {
+			"parent": "cafe1f5ac9673d63",
+			"name": "Documents_D05",
+			"factory": "[assembly:/_pro/environment/geometry/props/office_props/office_documents.wl2?/documents_d.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 89.99988540844126,
+							"y": -0.00011459155873600844,
+							"z": 89.99994270422063
+						},
+						"position": {
+							"x": 0.3486480116844177,
+							"y": -0.1210630014538765,
+							"z": 0.1214269995689392
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe1f5ac9673d63",
+					"postInit": true
+				}
+			}
+		},
+		"cafe1240c733f089": {
+			"parent": "cafe4fa0892eb99c",
+			"name": "documents_h03",
+			"factory": "[assembly:/_pro/environment/geometry/props/office_props/office_documents.wl2?/documents_b.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 94.99989898586882
+						},
+						"position": {
+							"x": 0.21707899868488312,
+							"y": -0.23976899683475497,
+							"z": 1.100139021873474
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe4fa0892eb99c",
+					"postInit": true
+				}
+			}
+		},
+		"cafef5d540a8c03a": {
+			"parent": "cafe6f453b768bd8",
+			"name": "BoxReflection",
+			"factory": "[modules:/zboxreflectionentity.class].pc_entitytype",
+			"blueprint": "[modules:/zboxreflectionentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -3.899894952774048,
+							"y": 0.9406279921531676,
+							"z": 1.5775959491729736
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 13.390199661254885,
+						"y": 10.99590015411377,
+						"z": 3.158250093460083
+					}
+				},
+				"m_eBoundsType": {
+					"type": "ZBoxReflectionEntity.EBoundsType",
+					"value": "eRoom"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeba819bd2eb04",
+					"postInit": true
+				}
+			}
+		},
+		"cafe764f40092f79": {
+			"parent": "cafe4fa0892eb99c",
+			"name": "Glass_Water_A_00_01",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/glass_water_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/glass_water_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -49.999967618935536
+						},
+						"position": {
+							"x": 2.525512933731079,
+							"y": -0.6814420223236084,
+							"z": 1.0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe4fa0892eb99c",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafe069b0eefde94": {
+			"parent": "cafe428a1332899b",
+			"name": "DarkLight06",
+			"factory": "[modules:/zdarklightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zdarklightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -3.436491012573242,
+							"y": -1.9806979894638064,
+							"z": 2.4329071044921875
+						}
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_ENVIRONMENT"
+				},
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 11.272600173950195,
+						"y": 2.0100998878479004,
+						"z": 1.3331400156021118
+					}
+				},
+				"m_vBoxFadePos": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.5381820201873779,
+						"y": 1.020709991455078,
+						"z": 0.019999999552965164
+					}
+				},
+				"m_vBoxFadeNeg": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.39596301317214966,
+						"y": 0.14242100715637207,
+						"z": 1.09853994846344
+					}
+				},
+				"m_fDiffusePower": {
+					"type": "float32",
+					"value": 0.6000000238418579
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeba819bd2eb04",
+					"postInit": true
+				}
+			}
+		},
+		"cafe428a1332899b": {
+			"parent": "cafe11ece8b7249c",
+			"name": "Darklight",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe119fdbe795f6": {
+			"parent": "cafe4fa0892eb99c",
+			"name": "documents_h02",
+			"factory": "[assembly:/_pro/environment/geometry/props/office_props/office_documents.wl2?/documents_a.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 94.99989898586882
+						},
+						"position": {
+							"x": 0.1878650039434433,
+							"y": -0.2174219936132431,
+							"z": 1.0003859996795654
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe4fa0892eb99c",
+					"postInit": true
+				}
+			}
+		},
+		"cafece752141dae5": {
+			"parent": "cafe3a84c2ce718a",
+			"name": "Cardboard_Box_B_02_01",
+			"factory": "[assembly:/_pro/environment/templates/props/office_props/office_props_a.template?/cardboard_box_b_01.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/office_props/office_props_a.template?/cardboard_box_b_01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -5.000012530527582
+						},
+						"position": {
+							"x": -0.04617986083030701,
+							"y": -0.5674751996994019,
+							"z": 0.013528999872505665
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe3a84c2ce718a"
+				}
+			}
+		},
+		"cafe013d8d3ff150": {
+			"parent": "cafeeb246cfd3a72",
+			"name": "computer_old_keyboard_b",
+			"factory": "[assembly:/_pro/environment/templates/props/electronics/computers_a.template?/computer_old_keyboard_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/electronics/computers_a.template?/computer_old_keyboard_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 173.0008854001528
+						},
+						"position": {
+							"x": 1.5782779455184937,
+							"y": -0.6781619787216187,
+							"z": 1.0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeeb246cfd3a72",
+					"postInit": true
+				}
+			}
+		},
+		"cafeeb598879bd50": {
+			"parent": "cafe833cb43d56e5",
+			"name": "Office_Trashbin_Paper_A_00_01",
+			"factory": "[assembly:/_pro/environment/templates/props/office_props/office_props_a.template?/office_trashbin_paper_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/office_props/office_props_a.template?/office_trashbin_paper_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -80.00001277165101
+						},
+						"position": {
+							"x": -0.18497499823570251,
+							"y": 0.20727699995040896,
+							"z": 0.0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe833cb43d56e5",
+					"postInit": true
+				}
+			}
+		},
+		"cafe6265bc3a7152": {
+			"parent": "cafe428a1332899b",
+			"name": "DarkLight11",
+			"factory": "[modules:/zdarklightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zdarklightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+						"position": {
+							"x": -8.216838836669922,
+							"y": 0.6100620031356812,
+							"z": 0.2449070066213608
+						}
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_ENVIRONMENT"
+				},
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 7.049349784851074,
+						"y": 2.0312600135803223,
+						"z": 1.6864700317382812
+					}
+				},
+				"m_vBoxFadePos": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.3138209879398346,
+						"y": 1.0098600387573242,
+						"z": 1.0
+					}
+				},
+				"m_vBoxFadeNeg": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.28384798765182495,
+						"y": 0.0,
+						"z": 0.019999999552965164
+					}
+				},
+				"m_fDiffusePower": {
+					"type": "float32",
+					"value": 0.6000000238418579
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeba819bd2eb04",
+					"postInit": true
+				}
+			}
+		},
+		"cafe55ec4560c8f4": {
+			"parent": "cafefe26f9c7a802",
+			"name": "Bottle_Water_C_00_02",
+			"factory": "[assembly:/_pro/environment/templates/props/food/food_props_b.template?/bottle_water_c_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/food/food_props_b.template?/bottle_water_c_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 4.999784590267437,
+							"y": -89.99988540334746,
+							"z": 0.0
+						},
+						"position": {
+							"x": -0.21956700086593628,
+							"y": -0.03893300145864487,
+							"z": 0.8959299921989441
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafefe26f9c7a802",
+					"postInit": true
+				}
+			}
+		},
+		"cafe1f5ac9673d63": {
+			"parent": "cafe594e86dd1027",
+			"name": "Bookshelf_Wooden_Modern_Trolly01",
+			"factory": "[assembly:/_pro/environment/templates/props/consulate_props/consulate_props_a.template?/bookshelf_wooden_modern_trolly.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/consulate_props/consulate_props_a.template?/bookshelf_wooden_modern_trolly.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -2.543994903564453,
+							"y": 1.0239030122756958,
+							"z": 0.14180000126361847
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeba819bd2eb04",
+					"postInit": true
+				}
+			}
+		},
+		"cafe78855e9a924b": {
+			"parent": "cafe594e86dd1027",
+			"name": "Office_BulletinBoard_Laboratory_E_00",
+			"factory": "[assembly:/_pro/environment/templates/props/office_props/office_props_a.template?/office_bulletinboard_laboratory_e_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/office_props/office_props_a.template?/office_bulletinboard_laboratory_e_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 4.999784590267437
+						},
+						"position": {
+							"x": -6.952250957489014,
+							"y": -1.887748956680298,
+							"z": 0.019999999552965164
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeba819bd2eb04",
+					"postInit": true
+				}
+			}
+		},
+		"cafe65bd40e9d1af": {
+			"parent": "cafe594e86dd1027",
+			"name": "documents_g02",
+			"factory": "[assembly:/_pro/environment/geometry/props/office_props/office_documents.wl2?/documents_g.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 160.00006892701202
+						},
+						"position": {
+							"x": -2.374361038208008,
+							"y": 0.8583983778953552,
+							"z": 0.9954969882965088
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeba819bd2eb04",
+					"postInit": true
+				}
+			}
+		},
+		"cafefe26f9c7a802": {
+			"parent": "cafe594e86dd1027",
+			"name": "Bookshelf_Wooden_Modern_Trolly",
+			"factory": "[assembly:/_pro/environment/templates/props/consulate_props/consulate_props_a.template?/bookshelf_wooden_modern_trolly.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/consulate_props/consulate_props_a.template?/bookshelf_wooden_modern_trolly.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
+						"position": {
+							"x": -2.6022820472717285,
+							"y": 0.40729519724845886,
+							"z": 0.14180000126361847
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeba819bd2eb04",
+					"postInit": true
+				}
+			}
+		},
+		"cafe1aa5fb6f9de5": {
+			"parent": "cafe1f5ac9673d63",
+			"name": "Documents_D02",
+			"factory": "[assembly:/_pro/environment/geometry/props/office_props/office_documents.wl2?/documents_d.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 89.99994270422063,
+							"y": -0.0001145915587363522,
+							"z": 90.0
+						},
+						"position": {
+							"x": 0.3486480116844177,
+							"y": 0.12743400037288666,
+							"z": 0.1214269995689392
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe1f5ac9673d63"
+				}
+			}
+		},
+		"cafee8d49652bfc7": {
+			"parent": "cafe4fa0892eb99c",
+			"name": "Office_PostIt_T_00_56",
+			"factory": "[assembly:/_pro/environment/templates/props/office_props/office_props_a.template?/office_paper_f_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/office_props/office_props_a.template?/office_paper_f_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
+						"position": {
+							"x": 0.9985520243644714,
+							"y": -0.6758580207824707,
+							"z": 1.0035669803619385
+						}
+					}
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/geometry/props/office_props/office_papers_a.wl2?/office_paper_h_00.prim].pc_prim",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe4fa0892eb99c",
+					"postInit": true
+				}
+			}
+		},
+		"cafeb45e88df1cf2": {
+			"parent": "cafefe26f9c7a802",
+			"name": "Glass_Water_A_00_02",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/glass_water_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/glass_water_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 95.000012956168
+						},
+						"position": {
+							"x": 0.2875039875507355,
+							"y": -0.16776299476623535,
+							"z": 0.8536970019340515
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafefe26f9c7a802",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafe1659a005f3ab": {
+			"parent": "cafefe26f9c7a802",
+			"name": "Documents_D03",
+			"factory": "[assembly:/_pro/environment/geometry/props/office_props/office_documents.wl2?/documents_d.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 89.99988540844126,
+							"y": -0.00011459155873600844,
+							"z": 89.99994270422063
+						},
+						"position": {
+							"x": -0.0922740027308464,
+							"y": 0.12743400037288666,
+							"z": 0.1214269995689392
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafefe26f9c7a802"
+				}
+			}
+		},
+		"cafeeb9ec8f9b446": {
+			"parent": "cafe4fa0892eb99c",
+			"name": "Painting_Pencil_A_00_04",
+			"factory": "[assembly:/_pro/environment/templates/props/accessories/painting_accessories.template?/painting_pencil_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/accessories/painting_accessories.template?/painting_pencil_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -125.62347874985576
+						},
+						"position": {
+							"x": 2.5079190731048584,
+							"y": -0.4986500144004822,
+							"z": 1.0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe4fa0892eb99c",
+					"postInit": true
+				}
+			}
+		},
+		"cafe16bef05d6bbe": {
+			"parent": "cafe4fa0892eb99c",
+			"name": "computer_old_keyboard_b",
+			"factory": "[assembly:/_pro/environment/templates/props/electronics/computers_a.template?/computer_old_keyboard_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/electronics/computers_a.template?/computer_old_keyboard_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 172.9999615475957
+						},
+						"position": {
+							"x": 1.562324047088623,
+							"y": -0.7600100040435791,
+							"z": 1.0177990198135376
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe4fa0892eb99c",
+					"postInit": true
+				}
+			}
+		},
+		"cafe0688947f7d5c": {
+			"parent": "cafeeb246cfd3a72",
+			"name": "Office_PostIt_T_00_56",
+			"factory": "[assembly:/_pro/environment/templates/props/office_props/office_props_a.template?/office_paper_f_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/office_props/office_props_a.template?/office_paper_f_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -170.00006910544425
+						},
+						"position": {
+							"x": 1.0475959777832031,
+							"y": -0.7620620131492615,
+							"z": 1.0035669803619385
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeeb246cfd3a72",
+					"postInit": true
+				}
+			}
+		},
+		"cafe2f56336e1d7e": {
+			"parent": "cafeeb246cfd3a72",
+			"name": "TV_Security_Screen_A_00_02",
+			"factory": "[assembly:/_pro/environment/templates/props/electronics/tv_screens_a.template?/tv_security_screen_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/electronics/tv_screens_a.template?/tv_security_screen_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 1.6210269927978516,
+							"y": 0.09728199988603592,
+							"z": 1.8363929986953735
+						}
+					}
+				},
+				"Screen_Rotation": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -12.000000215117035,
+							"y": 0.0,
+							"z": 4.000000077322466
+						},
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"ScreenImageA": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00E3EB9060677E20",
+						"flag": "5F"
+					}
+				},
+				"PowerCondition": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [],
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeeb246cfd3a72",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafeea6c2703df03": {
+			"parent": "cafe428a1332899b",
+			"name": "DarkLight08",
+			"factory": "[modules:/zdarklightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zdarklightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -89.99994270422063
+						},
+						"position": {
+							"x": 0.6428319811820984,
+							"y": 0.5925449728965759,
+							"z": 0.21351200342178345
+						}
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_ENVIRONMENT"
+				},
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 6.937510013580322,
+						"y": 1.3528200387954712,
+						"z": 1.4740899801254272
+					}
+				},
+				"m_vBoxFadePos": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.2507860064506531,
+						"y": 0.7107080221176147,
+						"z": 1.0
+					}
+				},
+				"m_vBoxFadeNeg": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.3002780079841614,
+						"y": 0.0,
+						"z": 0.019999999552965164
+					}
+				},
+				"m_fDiffusePower": {
+					"type": "float32",
+					"value": 0.6000000238418579
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeba819bd2eb04",
+					"postInit": true
+				}
+			}
+		},
+		"cafe6264464004a6": {
+			"parent": "cafeeb246cfd3a72",
+			"name": "Cabel_Bundle_B_00_02",
+			"factory": "[assembly:/_pro/environment/templates/props/electronics/electronics_sound_a.template?/cabel_bundle_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/electronics/electronics_sound_a.template?/cabel_bundle_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 89.99994270422063,
+							"y": 0.0001718873446175881,
+							"z": 20.00029374119916
+						},
+						"position": {
+							"x": 6.851107120513916,
+							"y": -0.11652400344610214,
+							"z": 1.018990993499756
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeeb246cfd3a72",
+					"postInit": true
+				}
+			}
+		},
+		"cafec0f1865eaa20": {
+			"parent": "cafed34c2232332a",
+			"name": "documents_h02",
+			"factory": "[assembly:/_pro/environment/geometry/props/office_props/office_documents.wl2?/documents_a.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -4.9993909253291795
+						},
+						"position": {
+							"x": -0.02950268052518368,
+							"y": -0.04611922055482864,
+							"z": 0.06268501281738281
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafed34c2232332a"
+				}
+			}
+		},
+		"cafe2519c1f0c8bc": {
+			"parent": "cafe4fa0892eb99c",
+			"name": "paris_magazine_a14",
+			"factory": "[assembly:/_pro/environment/geometry/props/street_props/paris_magazine_a.wl2?/paris_magazine_c.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 9.999930894555796
+						},
+						"position": {
+							"x": 2.453890085220337,
+							"y": -0.2695080041885376,
+							"z": 1.037981033325195
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe4fa0892eb99c",
+					"postInit": true
+				}
+			}
+		},
+		"cafec4c5972af1d4": {
+			"parent": "cafe4fa0892eb99c",
+			"name": "Office_PostIt_T_00_58",
+			"factory": "[assembly:/_pro/environment/templates/props/office_props/office_props_a.template?/office_paper_b_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/office_props/office_props_a.template?/office_paper_b_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -175.0009618298432
+						},
+						"position": {
+							"x": 0.941547989845276,
+							"y": -0.7075269818305969,
+							"z": 1.0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe4fa0892eb99c",
+					"postInit": true
+				}
+			}
+		},
+		"cafed0a31440b719": {
+			"parent": "cafeeb246cfd3a72",
+			"name": "Cabel_Bundle_B_00_01",
+			"factory": "[assembly:/_pro/environment/templates/props/electronics/electronics_sound_a.template?/cabel_bundle_b_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/electronics/electronics_sound_a.template?/cabel_bundle_b_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 89.99994270422063,
+							"y": 0.0001718873446175881,
+							"z": 20.00029374119916
+						},
+						"position": {
+							"x": 2.7862579822540283,
+							"y": -0.29182401299476624,
+							"z": 1.0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeeb246cfd3a72",
+					"postInit": true
+				}
+			}
+		},
+		"cafe1c9a91ee88e0": {
+			"parent": "cafe594e86dd1027",
+			"name": "documents_g03",
+			"factory": "[assembly:/_pro/environment/geometry/props/office_props/office_documents.wl2?/documents_g.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -35.000027369729665
+						},
+						"position": {
+							"x": -3.932959079742432,
+							"y": -1.4420169591903689,
+							"z": 0.019999999552965164
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeba819bd2eb04",
+					"postInit": true
+				}
+			}
+		},
+		"cafe474b3c28c426": {
+			"parent": "cafe4fa0892eb99c",
+			"name": "paris_magazine_a12",
+			"factory": "[assembly:/_pro/environment/geometry/props/street_props/paris_magazine_a.wl2?/paris_magazine_a.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -19.999931072988005
+						},
+						"position": {
+							"x": 2.4725990295410156,
+							"y": -0.31488001346588135,
+							"z": 1.012415051460266
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe4fa0892eb99c",
+					"postInit": true
+				}
+			}
+		},
+		"cafe6a89230292eb": {
+			"parent": "cafe594e86dd1027",
+			"name": "documents_g04",
+			"factory": "[assembly:/_pro/environment/geometry/props/office_props/office_documents.wl2?/documents_g.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 175.00032938011122
+						},
+						"position": {
+							"x": -7.6693830490112305,
+							"y": -1.509392023086548,
+							"z": 0.019999999552965164
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeba819bd2eb04",
+					"postInit": true
+				}
+			}
+		},
+		"cafec9e6aa43c383": {
+			"parent": "cafefe26f9c7a802",
+			"name": "Documents_D07",
+			"factory": "[assembly:/_pro/environment/geometry/props/office_props/office_documents.wl2?/documents_d.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 89.99988540844126,
+							"y": -0.00011459155873600844,
+							"z": 89.99994270422063
+						},
+						"position": {
+							"x": -0.15994299948215485,
+							"y": -0.11144299805164336,
+							"z": 0.1214269995689392
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafefe26f9c7a802"
+				}
+			}
+		},
+		"cafe5bbcfc7737a0": {
+			"parent": "cafe4fa0892eb99c",
+			"name": "Computer_Mouse_A_00",
+			"factory": "[assembly:/_pro/environment/templates/props/electronics/computers_a.template?/computer_mouse_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/electronics/computers_a.template?/computer_mouse_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 17.28572275623119
+						},
+						"position": {
+							"x": 2.0084290504455566,
+							"y": -0.7203519940376282,
+							"z": 1.0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe4fa0892eb99c",
+					"postInit": true
+				}
+			}
+		},
+		"cafe833cb43d56e5": {
+			"parent": "cafe4fa0892eb99c",
+			"name": "Paper_Box_A_00",
+			"factory": "[assembly:/_pro/environment/templates/props/office_props/office_props_a.template?/paper_box_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/office_props/office_props_a.template?/paper_box_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 89.99994270422063
+						},
+						"position": {
+							"x": 0.458296000957489,
+							"y": -0.265067994594574,
+							"z": 0.009999999776482582
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe4fa0892eb99c",
+					"postInit": true
+				}
+			}
+		},
+		"cafefdef92a3ca03": {
+			"parent": "cafe0dd0c9c2c724",
+			"name": "Doors",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafed74610da3f03": {
+			"parent": "cafeeb246cfd3a72",
+			"name": "Computer_Mouse_A_00",
+			"factory": "[assembly:/_pro/environment/templates/props/electronics/computers_a.template?/computer_mouse_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/electronics/computers_a.template?/computer_mouse_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 157.28633707030704
+						},
+						"position": {
+							"x": 2.0354459285736084,
+							"y": -0.5820620059967041,
+							"z": 0.9999930262565612
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeeb246cfd3a72",
+					"postInit": true
+				}
+			}
+		},
+		"cafe9579000c2767": {
+			"parent": "cafe4fa0892eb99c",
+			"name": "Computer_Case_A_00",
+			"factory": "[assembly:/_pro/environment/templates/props/electronics/computers_a.template?/computer_case_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/electronics/computers_a.template?/computer_case_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 89.99994270422063
+						},
+						"position": {
+							"x": 0.17339099943637848,
+							"y": -0.528922975063324,
+							"z": 0.003169999923557043
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe4fa0892eb99c",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafecd2ad64369e9": {
+			"parent": "cafefe26f9c7a802",
+			"name": "Documents_D02",
+			"factory": "[assembly:/_pro/environment/geometry/props/office_props/office_documents.wl2?/documents_d.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 89.99994270422063,
+							"y": -0.0001145915587363522,
+							"z": 90.0
+						},
+						"position": {
+							"x": 0.3486480116844177,
+							"y": 0.12743400037288666,
+							"z": 0.1214269995689392
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafefe26f9c7a802"
+				}
+			}
+		},
+		"cafebc2072b6cee3": {
+			"parent": "cafe1f5ac9673d63",
+			"name": "Documents_D01",
+			"factory": "[assembly:/_pro/environment/geometry/props/office_props/office_documents.wl2?/documents_d.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.0,
+							"y": -89.99991896792989,
+							"z": 0.0
+						},
+						"position": {
+							"x": 0.2549999952316284,
+							"y": 0.16391800343990326,
+							"z": 0.21787700057029724
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe1f5ac9673d63"
+				}
+			}
+		},
+		"cafe4fa0892eb99c": {
+			"parent": "cafe594e86dd1027",
+			"name": "Desk_Modern_1m01",
+			"factory": "[assembly:/_pro/environment/templates/props/consulate_props/consulate_props_a.template?/desk_modern_3m.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/consulate_props/consulate_props_a.template?/desk_modern_3m.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -2.2262070178985596,
+							"y": 3.6204450130462646,
+							"z": 0.009999999776482582
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeba819bd2eb04",
+					"postInit": true
+				}
+			}
+		},
+		"cafe28e50e56401e": {
+			"parent": "cafeeb246cfd3a72",
+			"name": "Glass_Water_A_00_01",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/glass_water_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/glass_water_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -49.99931355461192
+						},
+						"position": {
+							"x": 1.311445951461792,
+							"y": -0.3055799901485443,
+							"z": 1.0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeeb246cfd3a72",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafe594e86dd1027": {
+			"parent": "cafe0dd0c9c2c724",
+			"name": "Props",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafec1f70f1ade01": {
+			"parent": "cafeeb246cfd3a72",
+			"name": "Office_Scrapbook_Container_A_00_04",
+			"factory": "[assembly:/_pro/environment/templates/props/office_props/office_props_a.template?/office_scrapbook_container_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/office_props/office_props_a.template?/office_scrapbook_container_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 0.529865026473999,
+							"y": -0.3529129922389984,
+							"z": 0.9999849796295166
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeeb246cfd3a72",
+					"postInit": true
+				}
+			}
+		},
+		"cafeeb246cfd3a72": {
+			"parent": "cafe594e86dd1027",
+			"name": "Desk_Modern_1m",
+			"factory": "[assembly:/_pro/environment/templates/props/consulate_props/consulate_props_a.template?/desk_modern_3m.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/consulate_props/consulate_props_a.template?/desk_modern_3m.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -0.0006406905767496274
+						},
+						"position": {
+							"x": -7.002293109893799,
+							"y": 3.6204450130462646,
+							"z": 0.009999999776482582
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeba819bd2eb04",
+					"postInit": true
+				}
+			}
+		},
+		"cafeba819bd2eb04": {
+			"parent": "cafe24fb652fab54",
+			"name": "133_SecurityOffice_Entrance",
+			"factory": "[modules:/zroomentity.class].pc_entitytype",
+			"blueprint": "[modules:/zroomentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": -177.59251403808594,
+							"y": 177.33131408691406,
+							"z": -0.013557851314544678
+						}
+					}
+				},
+				"m_vRoomMax": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.9147300124168396,
+						"y": 3.8493199348449703,
+						"z": 3.211740016937256
+					}
+				},
+				"m_vRoomMin": {
+					"type": "SVector3",
+					"value": {
+						"x": -8.473859786987305,
+						"y": -2.3686699867248535,
+						"z": -0.0560758002102375
+					}
+				},
+				"m_bCSMRoom": { "type": "bool", "value": true },
+				"m_PostfilterParametersID": {
+					"type": "int32",
+					"value": 0
+				},
+				"m_Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe60e153a4ca92", "cafe8f49827a557c"]
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			},
+			"subsets": { "Rooms": ["fffffffffffffffe"] }
+		},
+		"cafea41b4441a1c3": {
+			"parent": "cafeeb246cfd3a72",
+			"name": "Computer_Monitor_A06",
+			"factory": "[assembly:/_pro/environment/templates/props/electronics/computers_a.template?/computer_monitor_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/electronics/computers_a.template?/computer_monitor_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 41.99988708231298
+						},
+						"position": {
+							"x": 2.3150320053100586,
+							"y": -0.451431006193161,
+							"z": 1.0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeeb246cfd3a72"
+				},
+				"PowerCondition": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [],
+					"postInit": true
+				},
+				"GlowPower": { "type": "float32", "value": 95.0 },
+				"DiffusePower": { "type": "float32", "value": 292.0 }
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafef1a017395035": {
+			"parent": "cafefe26f9c7a802",
+			"name": "Documents_D05",
+			"factory": "[assembly:/_pro/environment/geometry/props/office_props/office_documents.wl2?/documents_d.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 89.99988540844126,
+							"y": -0.00011459155873600844,
+							"z": 89.99994270422063
+						},
+						"position": {
+							"x": 0.3486480116844177,
+							"y": -0.1210630014538765,
+							"z": 0.1214269995689392
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafefe26f9c7a802"
+				}
+			}
+		},
+		"cafeb20aa3bc5c41": {
+			"parent": "cafe4fa0892eb99c",
+			"name": "Computer_Monitor_A06",
+			"factory": "[assembly:/_pro/environment/templates/props/electronics/computers_a.template?/computer_monitor_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/electronics/computers_a.template?/computer_monitor_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -12.999997711104117
+						},
+						"position": {
+							"x": 1.627848982810974,
+							"y": -0.48062101006507874,
+							"z": 0.997165024280548
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe4fa0892eb99c"
+				},
+				"PowerCondition": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [],
+					"postInit": true
+				},
+				"GlowPower": { "type": "float32", "value": 104.0 }
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafe75ea4aa52c6e": {
+			"parent": "cafe594e86dd1027",
+			"name": "Coffee_Table_Modern_A01",
+			"factory": "[assembly:/_pro/environment/templates/props/furniture/modern_furniture_a.template?/chair_modern_b_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/furniture/modern_furniture_a.template?/chair_modern_b_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -86.47213285165537
+						},
+						"position": {
+							"x": -7.412615776062012,
+							"y": -1.504699945449829,
+							"z": 0.019999999552965164
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeba819bd2eb04"
+				}
+			}
+		},
+		"cafe1799e41bd405": {
+			"parent": "cafe594e86dd1027",
+			"name": "Garbage_Bin_Modern_B_00_09",
+			"factory": "[assembly:/_pro/environment/templates/props/trash/garbage_bins_a.template?/garbage_bin_modern_b_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/trash/garbage_bins_a.template?/garbage_bin_modern_b_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+						"position": {
+							"x": 0.6349925994873047,
+							"y": 0.6728745102882385,
+							"z": 0.019999999552965164
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeba819bd2eb04"
+				}
+			}
+		},
+		"cafeef1f475ae716": {
+			"parent": "cafeeb246cfd3a72",
+			"name": "Chair_Office_Modern_Leather_A_00_18",
+			"factory": "[assembly:/_pro/environment/templates/props/furniture/chair_office_modern_leather_a.template?/chair_office_modern_leather_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/furniture/chair_office_modern_leather_a.template?/chair_office_modern_leather_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 176.99196448314115
+						},
+						"position": {
+							"x": 1.7273499965667725,
+							"y": -0.7289350032806396,
+							"z": 0.009999999776482582
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeeb246cfd3a72"
+				}
+			}
+		},
+		"cafe58ae8e073e62": {
+			"parent": "cafefdef92a3ca03",
+			"name": "VBB_CardReaderOutside",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+			"events": { "OnTrue": { "UnlockDoor": ["cafe416a1c5feb34"] } }
+		},
+		"cafed451ad97d73b": {
+			"parent": "cafe4fa0892eb99c",
+			"name": "documents_h04",
+			"factory": "[assembly:/_pro/environment/geometry/props/office_props/office_documents.wl2?/documents_c.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 44.999876843287666
+						},
+						"position": {
+							"x": 0.3725759983062744,
+							"y": -0.6982730031013489,
+							"z": 1.0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe4fa0892eb99c"
+				}
+			}
+		},
+		"cafe4069e3a3aacc": {
+			"parent": "cafe1f5ac9673d63",
+			"name": "Documents_D03",
+			"factory": "[assembly:/_pro/environment/geometry/props/office_props/office_documents.wl2?/documents_d.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 89.99988540844126,
+							"y": -0.00011459155873600844,
+							"z": 89.99994270422063
+						},
+						"position": {
+							"x": -0.0922740027308464,
+							"y": 0.12743400037288666,
+							"z": 0.1214269995689392
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe1f5ac9673d63"
+				}
+			}
+		},
+		"cafec21a41b5df42": {
+			"parent": "cafeeb246cfd3a72",
+			"name": "Office_PostIt_T_00_58",
+			"factory": "[assembly:/_pro/environment/templates/props/office_props/office_props_a.template?/office_paper_b_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/office_props/office_props_a.template?/office_paper_b_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -165.00006025936642
+						},
+						"position": {
+							"x": 0.985980987548828,
+							"y": -0.7832260131835938,
+							"z": 1.0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeeb246cfd3a72"
+				}
+			}
+		},
+		"cafe0d573788942b": {
+			"parent": "cafe75ea4aa52c6e",
+			"name": "Coffee_Table_Modern_A02",
+			"factory": "[assembly:/_pro/environment/templates/props/furniture/modern_furniture_a.template?/chair_modern_b_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/furniture/modern_furniture_a.template?/chair_modern_b_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -180.0,
+							"y": 0.0,
+							"z": 94.879246011422
+						},
+						"position": {
+							"x": 0.0028230000752955675,
+							"y": -0.005080999806523323,
+							"z": 0.9294040203094482
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe75ea4aa52c6e"
+				}
+			}
+		},
+		"cafe8d5946b6c1a3": {
+			"parent": "cafe4fa0892eb99c",
+			"name": "paris_magazine_a13",
+			"factory": "[assembly:/_pro/environment/geometry/props/street_props/paris_magazine_a.wl2?/paris_magazine_b.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 4.999784590267437
+						},
+						"position": {
+							"x": 2.379204034805298,
+							"y": -0.31227099895477295,
+							"z": 1.0229419469833374
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe4fa0892eb99c"
+				}
+			}
+		},
+		"cafee6a8abf43eb5": {
+			"parent": "cafe4fa0892eb99c",
+			"name": "TV_Security_Screen_A_00_05",
+			"factory": "[assembly:/_pro/environment/templates/props/electronics/tv_screens_a.template?/tv_security_screen_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/electronics/tv_screens_a.template?/tv_security_screen_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 0.24877099692821503,
+							"y": 0.09425400197505952,
+							"z": 2.06673002243042
+						}
+					}
+				},
+				"Screen_Rotation": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -9.000001596541376,
+							"y": 0.0,
+							"z": 1.99999985515487
+						},
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"ScreenImageA": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "002F83A38DED7D44",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe4fa0892eb99c"
+				},
+				"PowerCondition": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [],
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafe05239eff589f": {
+			"parent": "cafe594e86dd1027",
+			"name": "Coffee_Table_Modern_A02",
+			"factory": "[assembly:/_pro/environment/templates/props/furniture/modern_furniture_a.template?/chair_modern_b_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/furniture/modern_furniture_a.template?/chair_modern_b_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -105.00005024800984
+						},
+						"position": {
+							"x": -3.4407811164855957,
+							"y": 0.5868073105812073,
+							"z": 0.019999999552965164
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeba819bd2eb04"
+				}
+			}
+		},
+		"cafe46ca17d317ca": {
+			"parent": "cafe4fa0892eb99c",
+			"name": "Chair_Office_Modern_Leather_A_00_18",
+			"factory": "[assembly:/_pro/environment/templates/props/furniture/chair_office_modern_leather_a.template?/chair_office_modern_leather_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/furniture/chair_office_modern_leather_a.template?/chair_office_modern_leather_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 176.9919073591142
+						},
+						"position": {
+							"x": 1.435657024383545,
+							"y": -0.9656069874763488,
+							"z": -0.00017699999443721026
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe4fa0892eb99c"
+				}
+			}
+		},
+		"cafe2cc5099c0efa": {
+			"parent": "cafed34c2232332a",
+			"name": "Paper_Box_B_00",
+			"factory": "[assembly:/_pro/environment/templates/props/office_props/office_props_a.template?/paper_box_b_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/office_props/office_props_a.template?/paper_box_b_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -4.999784590267437,
+							"y": 0.0,
+							"z": -9.999990970393984
+						},
+						"position": {
+							"x": -0.051754988729953766,
+							"y": -0.08402320742607117,
+							"z": 0.1491779983043671
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafed34c2232332a"
+				}
+			}
+		},
+		"cafec0181905bf60": {
+			"parent": "cafefe26f9c7a802",
+			"name": "Documents_D04",
+			"factory": "[assembly:/_pro/environment/geometry/props/office_props/office_documents.wl2?/documents_d.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.0,
+							"y": -89.99991896792989,
+							"z": 0.0
+						},
+						"position": {
+							"x": 0.018005000427365303,
+							"y": -0.12230700254440308,
+							"z": 0.1789190024137497
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafefe26f9c7a802"
+				}
+			}
+		},
+		"cafe8d1331b6a5da": {
+			"parent": "cafe4fa0892eb99c",
+			"name": "Glass_Water_A_00_02",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/glass_water_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/glass_water_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -99.999987228349
+						},
+						"position": {
+							"x": 2.6162030696868896,
+							"y": -0.8256909847259521,
+							"z": 1.0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe4fa0892eb99c",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafe50355e09c636": {
+			"parent": "cafe833cb43d56e5",
+			"name": "Office_Trashbin_Paper_A_00_06",
+			"factory": "[assembly:/_pro/environment/templates/props/office_props/office_props_a.template?/office_trashbin_paper_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/office_props/office_props_a.template?/office_trashbin_paper_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -0.0006406905767496274
+						},
+						"position": {
+							"x": -0.032013069838285446,
+							"y": 0.2601346969604492,
+							"z": 0.0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe833cb43d56e5"
+				}
+			}
+		},
+		"cafeae5398c8ae33": {
+			"parent": "cafe11ece8b7249c",
+			"name": "Lamp_Ceiling_Laboratory_B_01",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_spot_light_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_spot_light_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+						"position": {
+							"x": -6.75315523147583,
+							"y": 2.103637933731079,
+							"z": 3.0546939373016357
+						}
+					}
+				},
+				"Flickering": { "type": "bool", "value": false },
+				"On": { "type": "bool", "value": true },
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#fff5d6"
+				},
+				"DiffusePower": { "type": "float32", "value": 70.0 },
+				"GlowPower": { "type": "float32", "value": 50.0 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeba819bd2eb04"
+				},
+				"SpotCastShadows": { "type": "bool", "value": true }
+			}
+		},
+		"cafe8be18a463bb6": {
+			"parent": "cafe428a1332899b",
+			"name": "DarkLight07",
+			"factory": "[modules:/zdarklightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zdarklightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+						"position": {
+							"x": -8.150957107543945,
+							"y": 0.6100620031356812,
+							"z": 2.552881956100464
+						}
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_ENVIRONMENT"
+				},
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 7.049349784851074,
+						"y": 1.933150053024292,
+						"z": 1.4897600412368774
+					}
+				},
+				"m_vBoxFadePos": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.3138209879398346,
+						"y": 0.8785640001296997,
+						"z": 0.019999999552965164
+					}
+				},
+				"m_vBoxFadeNeg": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.28384798765182495,
+						"y": 0.0,
+						"z": 1.0822299718856812
+					}
+				},
+				"m_fDiffusePower": {
+					"type": "float32",
+					"value": 0.6000000238418579
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeba819bd2eb04"
+				}
+			}
+		},
+		"cafeb54bf8d584f1": {
+			"parent": "cafeeb246cfd3a72",
+			"name": "Office_PostIt_T_00_55",
+			"factory": "[assembly:/_pro/environment/templates/props/office_props/office_props_a.template?/office_paper_f_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/office_props/office_props_a.template?/office_paper_f_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -170.00006910544425
+						},
+						"position": {
+							"x": 1.9099270105361936,
+							"y": -0.2659910023212433,
+							"z": 1.0035669803619385
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeeb246cfd3a72"
+				}
+			}
+		},
+		"cafe627a693c41b1": {
+			"parent": "cafe594e86dd1027",
+			"name": "Plant_Bush_Dense_Potted_Round_Cheramic_A_V1_00",
+			"factory": "[assembly:/_pro/environment/templates/props/plants/plants_potplants_b.template?/plant_bush_dense_potted_round_cheramic_a_v2_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/plants/plants_potplants_b.template?/plant_bush_dense_potted_round_cheramic_a_v2_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -94.99995597102335
+						},
+						"position": {
+							"x": -7.955572128295898,
+							"y": -1.3600770235061646,
+							"z": 0.5344070196151733
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeba819bd2eb04"
+				}
+			}
+		},
+		"cafea13780935c34": {
+			"parent": "cafe594e86dd1027",
+			"name": "CollisionBox",
+			"factory": "[assembly:/templates/physics/collisionvolumes.template?/collisionbox.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/physics/collisionvolumes.template?/collisionbox.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 6.371631145477295,
+							"y": -122.07949829101564,
+							"z": 1.5366829633712769
+						}
+					}
+				},
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.278249979019165,
+						"y": 0.8496130108833313,
+						"z": 3.027519941329956
+					}
+				},
+				"m_bCollideHitman": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": null
+				}
+			}
+		},
+		"cafe9f2b6102a475": {
+			"parent": "cafe594e86dd1027",
+			"name": "Cardboard_Box_A_01_02",
+			"factory": "[assembly:/_pro/environment/templates/props/office_props/office_props_a.template?/cardboard_box_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/office_props/office_props_a.template?/cardboard_box_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 80.00006910544421
+						},
+						"position": {
+							"x": -7.961088180541992,
+							"y": -1.3805619478225708,
+							"z": 0.019999999552965164
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeba819bd2eb04"
+				}
+			}
+		},
+		"cafe09708b73be91": {
+			"parent": "cafeeb246cfd3a72",
+			"name": "TV_Security_Screen_A_00_06",
+			"factory": "[assembly:/_pro/environment/templates/props/electronics/tv_screens_a.template?/tv_security_screen_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/electronics/tv_screens_a.template?/tv_security_screen_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 0.3858509957790375,
+							"y": 0.09731300175189972,
+							"z": 1.812466025352478
+						}
+					}
+				},
+				"Screen_Rotation": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -9.000001596541376,
+							"y": 0.0,
+							"z": -6.999996860100868
+						},
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"ScreenImageA": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "006DD9266327EF23",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeeb246cfd3a72"
+				},
+				"PowerCondition": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [],
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafef73917c846ed": {
+			"parent": "cafe1f5ac9673d63",
+			"name": "Documents_D04",
+			"factory": "[assembly:/_pro/environment/geometry/props/office_props/office_documents.wl2?/documents_d.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.0,
+							"y": -89.99991896792989,
+							"z": 0.0
+						},
+						"position": {
+							"x": 0.018005000427365303,
+							"y": -0.12230700254440308,
+							"z": 0.1789190024137497
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe1f5ac9673d63"
+				}
+			}
+		},
+		"cafe15e31c7fa40c": {
+			"parent": "cafe8f49827a557c",
+			"name": "Gate_013_133_08",
+			"factory": "[modules:/zgateentity.class].pc_entitytype",
+			"blueprint": "[modules:/zgateentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -180.037353515625,
+							"y": 168.760986328125,
+							"z": 1.169438123703003
+						}
+					}
+				},
+				"m_vPortalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.0204099416732788,
+						"y": 0.0,
+						"z": 2.421370029449463
+					}
+				},
+				"m_bFlipLeftNormal": { "type": "bool", "value": true },
+				"m_RoomLeft": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6480b140d0cb4728",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+					},
+					"postInit": true
+				},
+				"m_RoomRight": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeba819bd2eb04",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"subsets": { "Gates": ["fffffffffffffffe"] }
+		},
+		"cafe60e153a4ca92": {
+			"parent": "cafe24fb652fab54",
+			"name": "Door_Single_Security_Consulate_A03",
+			"factory": "00F630EB7A2172F9",
+			"blueprint": "00E426FA40B02175",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
+						"position": {
+							"x": -177.12071228027344,
+							"y": 178.35086059570312,
+							"z": 0.0034195110201835632
+						}
+					}
+				},
+				"m_rGateEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe6f4db63d3e14"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "ec89966092ef10b8",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+					},
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafe8f49827a557c": {
+			"parent": "cafe24fb652fab54",
+			"name": "Door_Single_Security_Consulate_A02",
+			"factory": "00F630EB7A2172F9",
+			"blueprint": "00E426FA40B02175",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -179.55174255371094,
+							"y": 168.760986328125,
+							"z": 0.008161015808582306
+						}
+					}
+				},
+				"m_rGateEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe15e31c7fa40c"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "ec89966092ef10b8",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+					},
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafe6f4db63d3e14": {
+			"parent": "cafe60e153a4ca92",
+			"name": "Gate_013_133_06",
+			"factory": "[modules:/zgateentity.class].pc_entitytype",
+			"blueprint": "[modules:/zgateentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -176.62506103515625,
+							"y": 178.27508544921875,
+							"z": 1.214563250541687
+						}
+					}
+				},
+				"m_vPortalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.0312000513076782,
+						"y": 0.0,
+						"z": 2.4115700721740723
+					}
+				},
+				"m_RoomLeft": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6480b140d0cb4728",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+					},
+					"postInit": true
+				},
+				"m_RoomRight": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeba819bd2eb04",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"subsets": { "Gates": ["fffffffffffffffe"] }
+		},
+		"cafe0dcecfd5cd50": {
+			"parent": "cafeba819bd2eb04",
+			"name": "Gates",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe01f79a633ec2": {
+			"parent": "cafe0dcecfd5cd50",
+			"name": "Gate_013_133_07",
+			"factory": "[modules:/zgateentity.class].pc_entitytype",
+			"blueprint": "[modules:/zgateentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 0.9270402318546218
+						},
+						"position": {
+							"x": -178.6256866455078,
+							"y": 168.85435485839844,
+							"z": 1.658057451248169
+						}
+					}
+				},
+				"m_vPortalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.996638000011444,
+						"y": 0.0,
+						"z": 1.4396899938583374
+					}
+				},
+				"m_bFlipLeftNormal": { "type": "bool", "value": true },
+				"m_RoomLeft": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6480b140d0cb4728",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+					},
+					"postInit": true
+				},
+				"m_RoomRight": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeba819bd2eb04",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"subsets": { "Gates": ["fffffffffffffffe"] }
+		},
+		"cafe274963b8f5c1": {
+			"parent": "cafe0dcecfd5cd50",
+			"name": "Gate_013_133_10",
+			"factory": "[modules:/zgateentity.class].pc_entitytype",
+			"blueprint": "[modules:/zgateentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": -181.52239990234375,
+							"y": 173.8640594482422,
+							"z": 1.236086368560791
+						}
+					}
+				},
+				"m_vPortalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.1687699556350708,
+						"y": 0.0,
+						"z": 2.496040105819702
+					}
+				},
+				"m_bFlipLeftNormal": { "type": "bool", "value": true },
+				"m_RoomLeft": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6480b140d0cb4728",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+					},
+					"postInit": true
+				},
+				"m_RoomRight": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeba819bd2eb04",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"subsets": { "Gates": ["fffffffffffffffe"] }
+		},
+		"cafe7b11e93e4552": {
+			"parent": "cafe0dcecfd5cd50",
+			"name": "Gate_013_133_05",
+			"factory": "[modules:/zgateentity.class].pc_entitytype",
+			"blueprint": "[modules:/zgateentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 1.5610993689700503
+						},
+						"position": {
+							"x": -179.45822143554688,
+							"y": 178.28797912597656,
+							"z": 1.6741284132003784
+						}
+					}
+				},
+				"m_vPortalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 2.166949987411499,
+						"y": 0.0,
+						"z": 1.3985899686813354
+					}
+				},
+				"m_RoomLeft": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6480b140d0cb4728",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+					},
+					"postInit": true
+				},
+				"m_RoomRight": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeba819bd2eb04",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"subsets": { "Gates": ["fffffffffffffffe"] }
+		},
+		"cafe47909227d736": {
+			"parent": "cafe0dcecfd5cd50",
+			"name": "Gate_013_133_12",
+			"factory": "[modules:/zgateentity.class].pc_entitytype",
+			"blueprint": "[modules:/zgateentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": -175.2780303955078,
+							"y": 176.8691864013672,
+							"z": 1.7345348596572876
+						}
+					}
+				},
+				"m_vPortalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.0735900402069092,
+						"y": 0.0,
+						"z": 1.4396899938583374
+					}
+				},
+				"m_bFlipLeftNormal": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				},
+				"m_RoomLeft": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6480b140d0cb4728",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+					},
+					"postInit": true
+				},
+				"m_RoomRight": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeba819bd2eb04",
+					"postInit": true
+				}
+			},
+			"subsets": { "Gates": ["fffffffffffffffe"] }
+		},
+		"cafee7624e7ccdf3": {
+			"parent": "cafe0dcecfd5cd50",
+			"name": "Gate_013_133_11",
+			"factory": "[modules:/zgateentity.class].pc_entitytype",
+			"blueprint": "[modules:/zgateentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
+						"position": {
+							"x": -176.57376098632812,
+							"y": 168.82212829589844,
+							"z": 1.702207088470459
+						}
+					}
+				},
+				"m_vPortalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.1452900171279907,
+						"y": 0.0,
+						"z": 1.3691500425338743
+					}
+				},
+				"m_RoomRight": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeba819bd2eb04"
+				},
+				"m_bFlipLeftNormal": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				},
+				"m_RoomLeft": {
 					"type": "SEntityTemplateReference",
 					"value": {
 						"ref": "6480b140d0cb4728",
@@ -685,7 +4507,8 @@
 					},
 					"postInit": true
 				}
-			}
+			},
+			"subsets": { "Gates": ["fffffffffffffffe"] }
 		}
 	},
 	"propertyOverrides": [
@@ -761,15 +4584,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 180
-						},
+						"rotation": { "x": 0, "y": 0, "z": 180 },
 						"position": {
-							"x": -219.71712,
+							"x": -218.93112,
 							"y": 164.257396,
-							"z": -0.38924766
+							"z": -0.47924766
 						}
 					}
 				}
@@ -786,11 +4605,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 95.79351
-						},
+						"rotation": { "x": 0, "y": 0, "z": 95.79351 },
 						"position": {
 							"x": -30.621254,
 							"y": 68.23455,
@@ -816,21 +4631,13 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 93.0788
-						},
+						"rotation": { "x": 0, "y": 0, "z": 93.0788 },
 						"position": {
 							"x": -24.76342,
 							"y": 68.23455,
 							"z": 0.100037
 						},
-						"scale": {
-							"x": 1,
-							"y": 1,
-							"z": 1
-						}
+						"scale": { "x": 1, "y": 1, "z": 1 }
 					}
 				}
 			}
@@ -871,14 +4678,6 @@
 		}
 	],
 	"overrideDeletes": [
-		{
-			"ref": "e32690c704e02edc",
-			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
-		},
-		{
-			"ref": "b82e518329a29bb4",
-			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
-		},
 		{
 			"ref": "b93ef137cb80d5cb",
 			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/dressing_module_002_miami.brick].pc_entitytype"
@@ -936,12 +4735,8 @@
 			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 		}
 	],
-	"pinConnectionOverrides": [
-
-	],
-	"pinConnectionOverrideDeletes": [
-
-	],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
 	"externalScenes": [
 		"[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/thefacility/dressing_module_002_miami.brick].pc_entitytype",
@@ -951,13 +4746,7 @@
 	],
 	"subType": "brick",
 	"quickEntityVersion": 3.1,
-	"extraFactoryDependencies": [
-
-	],
-	"extraBlueprintDependencies": [
-
-	],
-	"comments": [
-
-	]
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
 }

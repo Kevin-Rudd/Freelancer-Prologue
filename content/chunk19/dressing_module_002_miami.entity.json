@@ -2001,62 +2001,6 @@
 			},
 			"subsets": { "AudioVolumetricGeom": ["fffffffffffffffe"] }
 		},
-		"063616daae7c9132": {
-			"parent": "55a95929f07ca90a",
-			"name": "DarkLight14",
-			"factory": "[modules:/zdarklightentity.class].pc_entitytype",
-			"blueprint": "[modules:/zdarklightentity.class].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
-						"position": {
-							"x": -68.09519958496094,
-							"y": -47.33039093017578,
-							"z": -50.47468185424805
-						}
-					}
-				},
-				"m_eLightType": {
-					"type": "ILightEntity.ELightType",
-					"value": "LT_ENVIRONMENT"
-				},
-				"m_vBoxSize": {
-					"type": "SVector3",
-					"value": {
-						"x": 6.264939785003662,
-						"y": 4.513070106506348,
-						"z": 3.6598598957061768
-					}
-				},
-				"m_vBoxFadeNeg": {
-					"type": "SVector3",
-					"value": {
-						"x": 0.10071399807929993,
-						"y": 0.15223799645900726,
-						"z": 0.0
-					}
-				},
-				"m_vBoxFadePos": {
-					"type": "SVector3",
-					"value": {
-						"x": 0.11597999930381776,
-						"y": 0.1371069997549057,
-						"z": 0.0
-					}
-				},
-				"m_fDiffusePower": { "type": "float32", "value": 0.75 },
-				"m_bVisible": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": {
-						"ref": "cafe4794e94ebade",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
-					}
-				}
-			}
-		},
 		"42cf323e4adfc411": {
 			"parent": "cd3d8af4f5be434f",
 			"name": "VolumeBox_AIArea_01",
@@ -11198,45 +11142,6 @@
 				}
 			}
 		},
-		"dc773489f043cbb4": {
-			"parent": "7808fae7d198efcf",
-			"name": "Lamp_Strip_Light_C_SizeB_00_02",
-			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_strip_light_c_sizeb_00.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_strip_light_c_sizeb_00.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
-						"position": {
-							"x": -63.192649841308594,
-							"y": -47.21384048461914,
-							"z": -48.943260192871094
-						}
-					}
-				},
-				"DiffuseColor": {
-					"type": "SColorRGB",
-					"value": "#facf89"
-				},
-				"m_vFarAttenuation": {
-					"type": "SVector2",
-					"value": {
-						"x": 0.23900100588798523,
-						"y": 6.369999885559082
-					}
-				},
-				"Flickering": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": {
-						"ref": "cafe4794e94ebade",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
-					}
-				}
-			},
-			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
-		},
 		"0d590fd01876495e": {
 			"parent": "33918bfd6f0826f4",
 			"name": "AG_Ship_F0_Storage",
@@ -14846,64 +14751,6 @@
 				"m_rParentArea": {
 					"type": "SEntityTemplateReference",
 					"value": "92782e1559484833"
-				}
-			}
-		},
-		"98e3004092b696e2": {
-			"parent": "55a95929f07ca90a",
-			"name": "DarkLight12",
-			"factory": "[modules:/zdarklightentity.class].pc_entitytype",
-			"blueprint": "[modules:/zdarklightentity.class].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
-						"position": {
-							"x": -66.03591918945312,
-							"y": -47.33039093017578,
-							"z": -47.23345947265625
-						}
-					}
-				},
-				"m_eLightType": {
-					"type": "ILightEntity.ELightType",
-					"value": "LT_ENVIRONMENT"
-				},
-				"m_vBoxSize": {
-					"type": "SVector3",
-					"value": {
-						"x": 6.264939785003662,
-						"y": 8.777569770812988,
-						"z": 3.2813799381256104
-					}
-				},
-				"m_vBoxFadeNeg": {
-					"type": "SVector3",
-					"value": {
-						"x": 0.10071399807929993,
-						"y": 0.15223799645900726,
-						"z": 0.0
-					}
-				},
-				"m_vBoxFadePos": {
-					"type": "SVector3",
-					"value": {
-						"x": 0.11597999930381776,
-						"y": 0.1371069997549057,
-						"z": 0.0
-					}
-				},
-				"m_fDiffusePower": {
-					"type": "float32",
-					"value": 0.699999988079071
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": {
-						"ref": "cafe4794e94ebade",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
-					}
 				}
 			}
 		},
