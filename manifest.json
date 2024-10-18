@@ -46,6 +46,21 @@
 			"runtimeID": "00E461BC6BF94251",
 			"toChunk": 8,
 			"comment": "Marrakesh Security Window"
+		},
+		{
+			"runtimeID": "000BECE1AF7121AA",
+			"toChunk": 19,
+			"comment": "wooden plank mati"
+		},
+		{
+			"runtimeID": "00197D3FF3856194",
+			"toChunk": 19,
+			"comment": "pool wall"
+		},
+		{
+			"runtimeID": "001FB4CBE8E811B6",
+			"toChunk": 19,
+			"comment": "pool lights sound"
 		}
 	],
 	"options": [],
