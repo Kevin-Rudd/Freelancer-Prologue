@@ -1,1 +1,6 @@
+005D484A45718E52.TEMP,[assembly:/_pro/environment/geometry/levels/miami/terrain_parking_a.wl2?/terrain_parking_a_yacht.prim].pc_entitytype
+006D14CC91B46AD4.TBLU,[assembly:/_pro/environment/geometry/levels/miami/terrain_parking_a.wl2?/terrain_parking_a_yacht.prim].pc_entityblueprint
+00B41E6FDE729980.PRIM,[assembly:/_pro/environment/geometry/levels/miami/terrain_parking_a.wl2?/terrain_parking_a_yacht.prim].pc_prim
+00A62B50665AE215.ALOC,[assembly:/_pro/environment/geometry/levels/miami/terrain_parking_a.wl2?/terrain_parking_a_yacht.prim].pc_coll
 001B6FD468264CEB.TEMP,[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_security_building_canopy_a_modded.entitytemplate].pc_entitytype
+0065279D9E345442.PRIM,[assembly:/_pro/environment/geometry/levels/the facility/module_yacht_a.wl2?/yacht_side_deck_port_a_modded.prim].pc_prim
