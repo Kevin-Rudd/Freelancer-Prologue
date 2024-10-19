@@ -78,6 +78,11 @@
 			"comment": "Colorado Garage Setpieces"
 		},
 		{
+			"runtimeID": "007C34ECCD87B5D4",
+			"toChunk": 8,
+			"comment": "window_tractor_storage_vent_a"
+		},
+		{
 			"runtimeID": "000BECE1AF7121AA",
 			"toChunk": 19,
 			"comment": "wooden plank mati"

@@ -15345,15 +15345,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
-							"z": 89.9999965849052
-						},
+						"rotation": { "x": -0.0, "y": 0, "z": 90 },
 						"position": {
-							"x": -180.7746429443359,
-							"y": 149.866,
-							"z": 0.001897856593132019
+							"x": -180.73552,
+							"y": 149.83119,
+							"z": 0.0018978566
 						}
 					}
 				},
@@ -15378,7 +15374,7 @@
 				"m_bVisible": { "type": "bool", "value": true },
 				"m_Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": []
+					"value": ["cafe2d4472c3d3bb"]
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -15562,6 +15558,33 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "cafe3d0bad4c46aa"
+				}
+			}
+		},
+		"cafe2d4472c3d3bb": {
+			"parent": "cafe7e4a0cfc3504",
+			"name": "window_tractor_storage_vent_a",
+			"factory": "007C34ECCD87B5D4",
+			"blueprint": "000FC4D17607A73E",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -176.6522216796875,
+							"y": 142.79183959960938,
+							"z": 2.22130823135376
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "ec89966092ef10b8",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+					},
+					"postInit": true
 				}
 			}
 		}
