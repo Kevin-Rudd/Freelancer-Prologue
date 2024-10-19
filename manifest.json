@@ -8,16 +8,10 @@
 	"dependencies": [
 		
 		{
-			"runtimeID": "00995FB1B7EDBC21",
-			"toChunk": 9,
-			"comment": "Hantu car park boom"
-		},
-		{
 			"runtimeID": "004DA0BCD65E10E7",
 			"toChunk": 9,
 			"comment": "Hantu car park boom"
-		},
-		{
+		},{
 			"runtimeID": "00C0A4B77E103881",
 			"toChunk": 8,
 			"comment": "Marrakesh Security Hut"

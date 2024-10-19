@@ -387,37 +387,6 @@
 				}
 			}
 		},
-		"feedae93a6be17d4": {
-			"parent": "cafec7d45221afa7",
-			"name": "Setpiece_SC_Trap_Carpark_Boom_01",
-			"factory": "[assembly:/_pro/design/setpieces/unique/setpiece_sniperchallenge_unique.template?/setpiece_sc_trap_carpark_boom.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/setpieces/unique/setpiece_sniperchallenge_unique.template?/setpiece_sc_trap_carpark_boom.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
-							"z": -89.9999965849052
-						},
-						"position": {
-							"x": 0.1007537841796875,
-							"y": 126.31147003173828,
-							"z": -4.123743534088135
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": {
-						"ref": "6480b140d0cb4728",
-						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
-					},
-					"postInit": true
-				}
-			}
-		},
 		"cafe8b6f004eeb22": {
 			"parent": "fffffffffffffffe",
 			"name": "Buildings and Rooms",
@@ -15472,6 +15441,73 @@
 					"type": "SEntityTemplateReference",
 					"value": {
 						"ref": "ec89966092ef10b8",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+					},
+					"postInit": true
+				}
+			}
+		},
+		"cafe461c7fce1468": {
+			"parent": "cafec7d45221afa7",
+			"name": "carpark_boom_e_01",
+			"factory": "004F4EAF057A235E",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 0.7566375732421875,
+							"y": 126.31147003173828,
+							"z": -3.66059684753418
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6480b140d0cb4728",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+					},
+					"postInit": true
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_bVisible": { "type": "bool", "value": true }
+			}
+		},
+		"cafe3271ca6defe7": {
+			"parent": "cafe461c7fce1468",
+			"name": "carpark_boom_beam_a",
+			"factory": "00B77BCD3BCC07A6",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.00015370994233584697,
+							"y": 72.545993954482,
+							"z": -89.99996584223501
+						},
+						"position": {
+							"x": 0.1007537841796875,
+							"y": 126.12902069091795,
+							"z": -3.314380645751953
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6480b140d0cb4728",
 						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
 					},
 					"postInit": true
