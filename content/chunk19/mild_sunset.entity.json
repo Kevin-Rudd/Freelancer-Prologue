@@ -14,8 +14,8 @@
 		{
 			"entities": [
 				{
-					"ref": "caf6f137a7211812",
-					"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+					"ref": "0891d66ab88f85d2",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/mission_sambuca.brick].pc_entitytype"
 				}
 			],
 			"properties": {
@@ -31,8 +31,8 @@
 		{
 			"entities": [
 				{
-					"ref": "df5789199552d86d",
-					"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+					"ref": "c3d4a28b34210779",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/mission_sambuca.brick].pc_entitytype"
 				}
 			],
 			"properties": {
