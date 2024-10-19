@@ -2270,7 +2270,8 @@
 						"ref": "cafe4794e94ebade",
 						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
-				}
+				},
+				"m_bVisible": { "type": "bool", "value": false }
 			}
 		},
 		"c9e73d87dd7e8e42": {
@@ -15056,7 +15057,8 @@
 						"ref": "cafe4794e94ebade",
 						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
-				}
+				},
+				"m_bVisible": { "type": "bool", "value": false }
 			}
 		},
 		"3ce2618fae2fd8ca": {

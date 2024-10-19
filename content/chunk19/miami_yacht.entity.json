@@ -1182,13 +1182,6 @@
 						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
 					}
 				},
-				"ScreenImageA": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "000F0BA32ED5EC1A",
-						"flag": "5F"
-					}
-				},
 				"PowerCondition": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [],
@@ -1198,7 +1191,20 @@
 					"type": "SEntityTemplateReference",
 					"value": "cafe4fa0892eb99c",
 					"postInit": true
-				}
+				},
+				"ScreenImageA": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "002B140D979855F5",
+						"flag": "5F"
+					}
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 218.8999938964844
+				},
+				"GlowPower": { "type": "float32", "value": 26.0 },
+				"LightCastShadows": { "type": "bool", "value": true }
 			},
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		},
@@ -2631,13 +2637,6 @@
 						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
 					}
 				},
-				"ScreenImageA": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "00E3EB9060677E20",
-						"flag": "5F"
-					}
-				},
 				"PowerCondition": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [],
@@ -2647,7 +2646,16 @@
 					"type": "SEntityTemplateReference",
 					"value": "cafeeb246cfd3a72",
 					"postInit": true
-				}
+				},
+				"ScreenImageA": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "004B8E9AB2474936",
+						"flag": "5F"
+					}
+				},
+				"GlowPower": { "type": "float32", "value": 64.0 },
+				"LightCastShadows": { "type": "bool", "value": true }
 			},
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		},
@@ -3642,13 +3650,6 @@
 						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
 					}
 				},
-				"ScreenImageA": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "002F83A38DED7D44",
-						"flag": "5F"
-					}
-				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "cafe4fa0892eb99c"
@@ -3657,7 +3658,15 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [],
 					"postInit": true
-				}
+				},
+				"ScreenImageA": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00E74AE14CF97B2C",
+						"flag": "5F"
+					}
+				},
+				"DiffusePower": { "type": "float32", "value": 25.0 }
 			},
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		},
@@ -4057,7 +4066,7 @@
 				"ScreenImageA": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "006DD9266327EF23",
+						"resource": "0050664E32C50F44",
 						"flag": "5F"
 					}
 				},
@@ -4069,7 +4078,8 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [],
 					"postInit": true
-				}
+				},
+				"GlowPower": { "type": "float32", "value": 36.0 }
 			},
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		},
@@ -4544,23 +4554,6 @@
 						"x": 358.0480041503906,
 						"y": 358.2239990234375,
 						"z": 149.91600036621094
-					}
-				}
-			}
-		},
-		{
-			"entities": [
-				{
-					"ref": "1b8d8baeeb9c26f2",
-					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
-				}
-			],
-			"properties": {
-				"m_ResourceID": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "00FC9759172F6DC3",
-						"flag": "5F"
 					}
 				}
 			}
