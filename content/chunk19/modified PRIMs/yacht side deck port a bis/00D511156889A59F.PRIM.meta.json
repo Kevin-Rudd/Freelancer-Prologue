@@ -10,7 +10,7 @@
     "hash_size_in_video_memory": 4294967295,
     "hash_reference_data": [
         {
-            "hash": "[assembly:/_pro/environment/materials/generic/wall/plywood_white_paint_3mat_blend.mi].pc_mi",
+            "hash": "[assembly:/_pro/environment/materials/generic/plastic/resin_white_a.mi].pc_mi",
             "flag": "5F"
         },
         {
@@ -34,7 +34,7 @@
             "flag": "5F"
         },
         {
-            "hash": "[assembly:/_pro/environment/materials/architecture/stairs/stairs_facility_a.mi].pc_mi",
+            "hash": "[assembly:/_pro/environment/materials/generic/plastic/resin_white_a.mi].pc_mi",
             "flag": "5F"
         },
         {
