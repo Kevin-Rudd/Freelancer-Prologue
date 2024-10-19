@@ -6,7 +6,7 @@
 	"description": "Adds Freeform Training and Final Test to Freelancer",
 	"authors": ["Kevin Rudd", "Kercyx"],
 	"dependencies": [
-		
+		"005415E5BE265EFD",{"runtimeID":"003D96EAECB00C82","comment":"adonis_sky","toChunk":1},
 		{
 			"runtimeID": "004DA0BCD65E10E7",
 			"toChunk": 9,
