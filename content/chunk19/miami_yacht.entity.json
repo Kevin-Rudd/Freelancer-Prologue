@@ -11,13 +11,13 @@
 		},
 		"cafe6357c8fcf44a": {
 			"parent": "fffffffffffffffe",
-			"name": "Props",
+			"name": "Car Park",
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"cafec7d45221afa7": {
 			"parent": "cafe6357c8fcf44a",
-			"name": "Car Park",
+			"name": "Props",
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
@@ -354,116 +354,6 @@
 					"fffffffffffffffe"
 				],
 				"AudioEmitters": ["fffffffffffffffe"]
-			}
-		},
-		"feedbfa637104376": {
-			"parent": "cafec7d45221afa7",
-			"name": "terrain_parking_a",
-			"factory": "005D484A45718E52",
-			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": 18.891300201416016,
-							"y": 131.59500122070312,
-							"z": -4.127007007598877
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": {
-						"ref": "6480b140d0cb4728",
-						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
-					},
-					"postInit": true
-				}
-			}
-		},
-		"feeded6b5d5f6401": {
-			"parent": "feedbfa637104376",
-			"name": "StaticDecalController_Seaside_Wall_Part1_Far",
-			"factory": "[modules:/zstaticdecalcontrollerentity.class].pc_entitytype",
-			"blueprint": "[modules:/zstaticdecalcontrollerentity.class].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": -0.2204899936914444,
-							"y": 135.9971923828125,
-							"z": -3.851562023162842
-						}
-					}
-				},
-				"m_Targets": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feedbfa637104376"]
-				},
-				"m_fDecalFadeDistance": {
-					"type": "float32",
-					"value": 148
-				},
-				"m_pDecalMesh": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "007CEC643F1656A3",
-						"flag": "5F"
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": {
-						"ref": "6480b140d0cb4728",
-						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
-					},
-					"postInit": true
-				}
-			}
-		},
-		"feed91c1ea8ae61e": {
-			"parent": "feedbfa637104376",
-			"name": "StaticDecalController_Bayside_Parking_Lot_01_Far",
-			"factory": "[modules:/zstaticdecalcontrollerentity.class].pc_entitytype",
-			"blueprint": "[modules:/zstaticdecalcontrollerentity.class].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": -151.6927947998047,
-							"y": 180.60879516601565,
-							"z": 21.66573905944824
-						}
-					}
-				},
-				"m_Targets": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feedbfa637104376"]
-				},
-				"m_fDecalFadeDistance": {
-					"type": "float32",
-					"value": 100
-				},
-				"m_pDecalMesh": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "007E0D2D177C816C",
-						"flag": "5F"
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": {
-						"ref": "ec89966092ef10b8",
-						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
-					}
-				}
 			}
 		},
 		"feed5f8a353256da": {
@@ -15593,6 +15483,30 @@
 		{
 			"entities": [
 				{
+					"ref": "9f6388511098f86b",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00B41E6FDE729980",
+						"flag": "5F"
+					}
+				},
+				"m_CollisionResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00A62B50665AE215",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
 					"ref": "e9c5477a2d098cde",
 					"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
 				}
@@ -15748,7 +15662,7 @@
 			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
 		},
 		{
-			"ref": "9f6388511098f86b",
+			"ref": "47ecf6b4e9533607",
 			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
 		},
 		{
