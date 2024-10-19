@@ -48,6 +48,36 @@
 			"comment": "Marrakesh Security Window"
 		},
 		{
+			"runtimeID": "000D8D650E4A3EA7",
+			"toChunk": 8,
+			"comment": "Colorado Garage"
+		},
+		{
+			"runtimeID": "000A16A2852C87F8",
+			"toChunk": 8,
+			"comment": "Colorado Garage Interior"
+		},
+		{
+			"runtimeID": "00FDB14B98C446E0",
+			"toChunk": 8,
+			"comment": "Colorado Garage Side Room Interior"
+		},
+		{
+			"runtimeID": "00CD2A7E2F524136",
+			"toChunk": 8,
+			"comment": "Colorado Garage Door"
+		},
+		{
+			"runtimeID": "00E495B00562187A",
+			"toChunk": 8,
+			"comment": "Colorado Garage Setpieces"
+		},
+		{
+			"runtimeID": "00BE40A890B142A5",
+			"toChunk": 8,
+			"comment": "Colorado Garage Setpieces"
+		},
+		{
 			"runtimeID": "000BECE1AF7121AA",
 			"toChunk": 19,
 			"comment": "wooden plank mati"
