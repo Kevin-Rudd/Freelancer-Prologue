@@ -14616,44 +14616,6 @@
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
-		"cafea2a5f8c05b03": {
-			"parent": "cafec47d45a5b3f1",
-			"name": "CollisionBox",
-			"factory": "[assembly:/templates/physics/collisionvolumes.template?/collisionbox.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/templates/physics/collisionvolumes.template?/collisionbox.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
-							"z": 93.17701740698128
-						},
-						"position": {
-							"x": 8.458255767822266,
-							"y": 0.6797869801521301,
-							"z": 0.49921199679374695
-						}
-					}
-				},
-				"m_vBoxSize": {
-					"type": "SVector3",
-					"value": {
-						"x": 1.1900099515914917,
-						"y": 0.7930459976196289,
-						"z": 1.061310052871704
-					}
-				},
-				"m_bCollideCamera": { "type": "bool", "value": true },
-				"m_bCollideHitman": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "cafecdb5da4b35c1",
-					"postInit": true
-				}
-			}
-		},
 		"cafeb13a7c92cb4f": {
 			"parent": "cafeac7d204e7c69",
 			"name": "BoxReflection",
@@ -14683,44 +14645,6 @@
 						"z": 3.30856990814209
 					}
 				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "cafecdb5da4b35c1",
-					"postInit": true
-				}
-			}
-		},
-		"cafe1bd9c7b8c559": {
-			"parent": "cafec47d45a5b3f1",
-			"name": "CollisionBox02",
-			"factory": "[assembly:/templates/physics/collisionvolumes.template?/collisionbox.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/templates/physics/collisionvolumes.template?/collisionbox.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
-							"z": 43.90503653521951
-						},
-						"position": {
-							"x": 6.371417999267578,
-							"y": 0.3182139992713928,
-							"z": 0.499210000038147
-						}
-					}
-				},
-				"m_vBoxSize": {
-					"type": "SVector3",
-					"value": {
-						"x": 1.479320049285889,
-						"y": 1.1334999799728394,
-						"z": 1.061310052871704
-					}
-				},
-				"m_bCollideCamera": { "type": "bool", "value": true },
-				"m_bCollideHitman": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "cafecdb5da4b35c1",
@@ -15233,7 +15157,7 @@
 				"m_bVisible": { "type": "bool", "value": true },
 				"m_Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafe2d4472c3d3bb"]
+					"value": ["cafe2d4472c3d3bb", "cafe94cdffa63e7e"]
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -15321,43 +15245,6 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "cafe3d0bad4c46aa"
-				}
-			}
-		},
-		"cafe41d18ce683f6": {
-			"parent": "cafec47d45a5b3f1",
-			"name": "CollisionBox01",
-			"factory": "[assembly:/templates/physics/collisionvolumes.template?/collisionbox.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/templates/physics/collisionvolumes.template?/collisionbox.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
-							"z": 93.17701740698128
-						},
-						"position": {
-							"x": 5.616619110107422,
-							"y": 0.759880006313324,
-							"z": 0.499210000038147
-						}
-					}
-				},
-				"m_vBoxSize": {
-					"type": "SVector3",
-					"value": {
-						"x": 1.0349500179290771,
-						"y": 1.1974400281906128,
-						"z": 1.061310052871704
-					}
-				},
-				"m_bCollideCamera": { "type": "bool", "value": true },
-				"m_bCollideHitman": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "cafecdb5da4b35c1"
 				}
 			}
 		},
@@ -15511,6 +15398,41 @@
 						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
 					},
 					"postInit": true
+				}
+			}
+		},
+		"cafe94cdffa63e7e": {
+			"parent": "cafe7e4a0cfc3504",
+			"name": "Plywood_Board_A01",
+			"factory": "[assembly:/_pro/environment/templates/props/decorative/plywood_decoration_a.template?/plywood_board_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/decorative/plywood_decoration_a.template?/plywood_board_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 90.0, "y": 0.0, "z": -90.0 },
+						"position": {
+							"x": -178.27255249023438,
+							"y": 140.96412658691406,
+							"z": 1.039057374000549
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "ec89966092ef10b8",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+					},
+					"postInit": true
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.0,
+						"y": 1.2999999523162842,
+						"z": 1.0
+					}
 				}
 			}
 		}
