@@ -2764,12 +2764,12 @@
 					"type": "SVector2",
 					"value": {
 						"x": 1.955610990524292,
-						"y": 11.078370094299316
+						"y": 27.57799911499023
 					}
 				},
 				"DiffuseColor": {
 					"type": "SColorRGB",
-					"value": "#ffa552"
+					"value": "#b3e2ec"
 				},
 				"m_vAngularAttenuation": {
 					"type": "SVector2",
@@ -2800,7 +2800,8 @@
 						"ref": "cafe4794e94ebade",
 						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
-				}
+				},
+				"On": { "type": "bool", "value": true }
 			},
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		},
@@ -10317,16 +10318,17 @@
 						"y": 12.9399995803833
 					}
 				},
-				"DiffusePower": { "type": "float32", "value": 50.0 },
+				"DiffusePower": { "type": "float32", "value": 66.0 },
 				"GlowPower": { "type": "float32", "value": 500.0 },
-				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_bCastShadows": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
 						"ref": "cafe4794e94ebade",
 						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
-				}
+				},
+				"IgnoreTimeOfDay": { "type": "bool", "value": true }
 			},
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		},
@@ -14798,13 +14800,16 @@
 						}
 					}
 				},
-				"DiffusePower": { "type": "float32", "value": 200.0 },
+				"DiffusePower": {
+					"type": "float32",
+					"value": 200.1999969482422
+				},
 				"m_vFarAttenuation": {
 					"type": "SVector2",
-					"value": { "x": 1.0, "y": 2.0 }
+					"value": { "x": 1.0, "y": 15.510000228881836 }
 				},
 				"GlowPower": { "type": "float32", "value": 2000.0 },
-				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_bCastShadows": { "type": "bool", "value": true },
 				"LightColor": { "type": "SColorRGB", "value": "#ffa56e" },
 				"On": { "type": "bool", "value": true },
 				"m_eidParent": {
@@ -14813,6 +14818,11 @@
 						"ref": "cafe4794e94ebade",
 						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
+				},
+				"IgnoreTimeOfDay": { "type": "bool", "value": true },
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 55.0
 				}
 			},
 			"events": {
@@ -15282,14 +15292,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -6.999998207948879,
-							"y": 0.0,
-							"z": 14.00000038238112
+							"x": -44.90000398604538,
+							"y": 0.0013788443533384665,
+							"z": 27.000249714249403
 						},
 						"position": {
 							"x": 0.0,
-							"y": 0.0,
-							"z": 0.4176720082759857
+							"y": 8.737548341741785e-6,
+							"z": 0.4176754951477051
 						}
 					}
 				},
@@ -15297,7 +15307,7 @@
 					"type": "SVector2",
 					"value": {
 						"x": 1.105610966682434,
-						"y": 8.199999809265137
+						"y": 32.900001525878906
 					}
 				},
 				"DiffuseColor": {
@@ -15333,7 +15343,8 @@
 						"ref": "cafe4794e94ebade",
 						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
-				}
+				},
+				"IgnoreTimeOfDay": { "type": "bool", "value": true }
 			},
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		},
