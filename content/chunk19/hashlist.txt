@@ -9,6 +9,7 @@
 0052352546EF41AF.PRIM,[assembly:/_pro/environment/geometry/levels/the facility/module_yacht_a.wl2?/bar_modded.prim].pc_prim
 0052352546EF41AF.TEMP,[assembly:/_pro/environment/geometry/levels/the facility/module_yacht_a.wl2?/bar_modded.prim].pc_entitytype
 00E3C7429644A557.ASET,[assembly:/_pro/environment/geometry/levels/the facility/module_yacht_a.wl2?/bar_aset_modded.prim].pc_entitytype
+00520B04AA27F365.ALOC,[assembly:/_pro/environment/geometry/levels/the facility/module_yacht_a.wl2?/bar_aset_modded.prim].pc_coll
 001EC1885E9D84E6.TEMP,[assembly:/_pro/environment/geometry/wall_part].pc_entitytype
 00AB1E2E339A12AF.PRIM,[assembly:/_pro/environment/geometry/wall_part].pc_prim
 00F0F9942BE0BB3F.PRIM,[assembly:/_pro/environment/geometry/levels/the facility/module_yacht_a.wl2?/kitchen_modded.prim].pc_prim
