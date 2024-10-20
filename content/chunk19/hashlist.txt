@@ -1,20 +1,21 @@
-005D484A45718E52.TEMP,[assembly:/_pro/environment/geometry/levels/miami/terrain_parking_a.wl2?/terrain_parking_a_yacht.prim].pc_entitytype
-006D14CC91B46AD4.TBLU,[assembly:/_pro/environment/geometry/levels/miami/terrain_parking_a.wl2?/terrain_parking_a_yacht.prim].pc_entityblueprint
+00AA30D8A8047CC3.PRIM,[assembly:/_pro/environment/templates/levels/the_facility/facility_yacht.template?/module_yacht_miami.entitytemplate].pc_prim
+002839BCA01CE78A.ALOC,[assembly:/_pro/environment/templates/levels/the_facility/facility_yacht.template?/module_yacht_miami.entitytemplate].pc_coll
 00B41E6FDE729980.PRIM,[assembly:/_pro/environment/geometry/levels/miami/terrain_parking_a.wl2?/terrain_parking_a_yacht.prim].pc_prim
 00A62B50665AE215.ALOC,[assembly:/_pro/environment/geometry/levels/miami/terrain_parking_a.wl2?/terrain_parking_a_yacht.prim].pc_coll
 001B6FD468264CEB.TEMP,[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_security_building_canopy_a_modded.entitytemplate].pc_entitytype
 0065279D9E345442.PRIM,[assembly:/_pro/environment/geometry/levels/the facility/module_yacht_a.wl2?/yacht_side_deck_port_a_modded.prim].pc_prim
+007043DF0A07504C.ALOC,[assembly:/_pro/environment/geometry/levels/the facility/module_yacht_a.wl2?/yacht_side_deck_port_a_modded.prim].pc_coll
 00D511156889A59F.PRIM,[assembly:/_pro/environment/geometry/levels/the facility/module_yacht_a.wl2?/yacht_side_deck_port_a_bis_modded.prim].pc_prim
+009D5A378708778C.ALOC,[assembly:/_pro/environment/geometry/levels/the facility/module_yacht_a.wl2?/yacht_side_deck_port_a_bis_modded.prim].pc_coll
 00A39EE91EA1ED6B.PRIM,[assembly:/_pro/environment/geometry/levels/the facility/module_yacht_a.wl2?/module_lounge_modded.prim].pc_prim
+00CC6714F2E825C3.ALOC,[assembly:/_pro/environment/geometry/levels/the facility/module_yacht_a.wl2?/module_lounge_modded.prim].pc_coll
 0052352546EF41AF.PRIM,[assembly:/_pro/environment/geometry/levels/the facility/module_yacht_a.wl2?/bar_modded.prim].pc_prim
-0052352546EF41AF.TEMP,[assembly:/_pro/environment/geometry/levels/the facility/module_yacht_a.wl2?/bar_modded.prim].pc_entitytype
+00A9A233F6FF78BE.TEMP,[assembly:/_pro/environment/geometry/levels/the facility/module_yacht_a.wl2?/bar_modded.prim].pc_entitytype
 00E3C7429644A557.ASET,[assembly:/_pro/environment/geometry/levels/the facility/module_yacht_a.wl2?/bar_aset_modded.prim].pc_entitytype
 00520B04AA27F365.ALOC,[assembly:/_pro/environment/geometry/levels/the facility/module_yacht_a.wl2?/bar_aset_modded.prim].pc_coll
 001EC1885E9D84E6.TEMP,[assembly:/_pro/environment/geometry/wall_part].pc_entitytype
 00AB1E2E339A12AF.PRIM,[assembly:/_pro/environment/geometry/wall_part].pc_prim
 00F0F9942BE0BB3F.PRIM,[assembly:/_pro/environment/geometry/levels/the facility/module_yacht_a.wl2?/kitchen_modded.prim].pc_prim
 0039CD8613096662.ALOC,[assembly:/_pro/environment/geometry/levels/the facility/module_yacht_a.wl2?/kitchen_modded.prim].pc_coll
-000AF246EDE1D473.PRIM,[assembly:/_pro/environment/geometry/levels/the facility/module_yacht_a.wl2?/toilet_women_modded.prim].pc_prim
-00483B44FD80CD6E.ALOC,[assembly:/_pro/environment/geometry/levels/the facility/module_yacht_a.wl2?/toilet_women_modded.prim].pc_coll
 0035244BAC83ED32.PRIM,[assembly:/_pro/environment/geometry/levels/the facility/module_yacht_a.wl2?/toilet_men_modded.prim].pc_prim
 0067E43C5BD8B45D.ALOC,[assembly:/_pro/environment/geometry/levels/the facility/module_yacht_a.wl2?/toilet_men_modded.prim].pc_coll
