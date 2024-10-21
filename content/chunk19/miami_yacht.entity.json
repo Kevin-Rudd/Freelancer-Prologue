@@ -15435,6 +15435,42 @@
 					}
 				}
 			}
+		},
+		"cafefd40d61200e6": {
+			"parent": "fffffffffffffffe",
+			"name": "Gameplay",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafeb71737b58fc4": {
+			"parent": "cafefd40d61200e6",
+			"name": "PathfinderConfiguration",
+			"factory": "[modules:/zpathfinderconfiguration.class].pc_entitytype",
+			"blueprint": "[modules:/zpathfinderconfiguration.class].pc_entityblueprint",
+			"properties": {
+				"m_NavpowerResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/scenes/missions/miami/scene_miami_yacht.navp].pc_navp",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"cafe5a719b59cbb9": {
+			"parent": "cafefd40d61200e6",
+			"name": "ReasoningGridConfig",
+			"factory": "[modules:/zreasoninggridconfigentity.class].pc_entitytype",
+			"blueprint": "[modules:/zreasoninggridconfigentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pGrid": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/scenes/missions/miami/scene_miami_yacht.airg].pc_airg",
+						"flag": "5F"
+					}
+				}
+			}
 		}
 	},
 	"propertyOverrides": [
@@ -15574,43 +15610,17 @@
 					}
 				}
 			}
-		},
-		{
-			"entities": [
-				{
-					"ref": "caf6f137a7211812",
-					"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
-				}
-			],
-			"properties": {
-				"m_NavpowerResourceID": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/_pro/scenes/missions/miami/scene_miami_yacht.navp].pc_navp",
-						"flag": "5F"
-					}
-				}
-			}
-		},
-		{
-			"entities": [
-				{
-					"ref": "df5789199552d86d",
-					"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
-				}
-			],
-			"properties": {
-				"m_pGrid": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/_pro/scenes/missions/miami/scene_miami_yacht.airg].pc_airg",
-						"flag": "5F"
-					}
-				}
-			}
 		}
 	],
 	"overrideDeletes": [
+		{
+			"ref": "df5789199552d86d",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "caf6f137a7211812",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
 		{
 			"ref": "b93ef137cb80d5cb",
 			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/dressing_module_002_miami.brick].pc_entitytype"
