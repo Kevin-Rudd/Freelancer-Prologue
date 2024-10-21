@@ -1138,9 +1138,9 @@
 							"z": 122.50379341231034
 						},
 						"position": {
-							"x": -211.13720703125,
-							"y": 172.47352600097656,
-							"z": -0.18448100984096527
+							"x": -212.02883911132812,
+							"y": 171.59548950195312,
+							"z": -0.44331613183021545
 						}
 					}
 				},
@@ -1600,6 +1600,21 @@
 		{
 			"entities": [
 				{
+					"ref": "7bd796e785377929",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/override_pinochle.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "f97447b3-502c-416e-ad36-0a8ea085ada2"
+				},
+				"m_nOutfitVariation": { "type": "int32", "value": 4 }
+			}
+		},
+		{
+			"entities": [
+				{
 					"ref": "0683ef9b9679942b",
 					"externalScene": "[assembly:/_pro/scenes/missions/miami/override_pinochle.brick].pc_entitytype"
 				}
@@ -1717,7 +1732,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0, "z": 159.69632 },
+						"rotation": { "x": -0.0, "y": 0, "z": -12.45549 },
 						"position": {
 							"x": -142.1978,
 							"y": 197.63751,
