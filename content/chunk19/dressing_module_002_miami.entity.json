@@ -174,7 +174,7 @@
 						}
 					}
 				},
-				"On": { "type": "bool", "value": false },
+				"On": { "type": "bool", "value": true },
 				"m_vAngularAttenuation": {
 					"type": "SVector2",
 					"value": {
@@ -182,7 +182,7 @@
 						"y": 1.1699999570846558
 					}
 				},
-				"DiffusePower": { "type": "float32", "value": 20.0 },
+				"DiffusePower": { "type": "float32", "value": 40.0 },
 				"m_fLightFadeDistance": {
 					"type": "float32",
 					"value": 100.0
@@ -201,7 +201,8 @@
 						"ref": "cafe4794e94ebade",
 						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
-				}
+				},
+				"SpotCastShadows": { "type": "bool", "value": true }
 			}
 		},
 		"b65fe36d3cbec399": {
@@ -1419,7 +1420,7 @@
 						"y": 1.1699999570846558
 					}
 				},
-				"DiffusePower": { "type": "float32", "value": 20.0 },
+				"DiffusePower": { "type": "float32", "value": 40.0 },
 				"m_fLightFadeDistance": {
 					"type": "float32",
 					"value": 100.0
@@ -1776,7 +1777,7 @@
 						"y": 1.1699999570846558
 					}
 				},
-				"DiffusePower": { "type": "float32", "value": 20.0 },
+				"DiffusePower": { "type": "float32", "value": 40.0 },
 				"m_fLightFadeDistance": {
 					"type": "float32",
 					"value": 100.0
@@ -3671,7 +3672,7 @@
 						"y": 1.1699999570846558
 					}
 				},
-				"DiffusePower": { "type": "float32", "value": 20.0 },
+				"DiffusePower": { "type": "float32", "value": 40.0 },
 				"m_fLightFadeDistance": {
 					"type": "float32",
 					"value": 100.0
@@ -4725,7 +4726,7 @@
 						"y": 1.1699999570846558
 					}
 				},
-				"DiffusePower": { "type": "float32", "value": 20.0 },
+				"DiffusePower": { "type": "float32", "value": 40.0 },
 				"m_fLightFadeDistance": {
 					"type": "float32",
 					"value": 100.0
@@ -5716,12 +5717,12 @@
 						}
 					}
 				},
-				"On": { "type": "bool", "value": false },
+				"On": { "type": "bool", "value": true },
 				"DiffuseColor": {
 					"type": "SColorRGB",
 					"value": "#ccfff9"
 				},
-				"DiffusePower": { "type": "float32", "value": 20.0 },
+				"DiffusePower": { "type": "float32", "value": 40.0 },
 				"m_vAngularAttenuation": {
 					"type": "SVector2",
 					"value": {
@@ -5744,7 +5745,8 @@
 						"ref": "cafe4794e94ebade",
 						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
-				}
+				},
+				"SpotCastShadows": { "type": "bool", "value": true }
 			}
 		},
 		"ae6c6969f90f21ab": {
@@ -6622,7 +6624,7 @@
 						"y": 1.1699999570846558
 					}
 				},
-				"DiffusePower": { "type": "float32", "value": 20.0 },
+				"DiffusePower": { "type": "float32", "value": 40.0 },
 				"m_fLightFadeDistance": {
 					"type": "float32",
 					"value": 100.0
@@ -7384,7 +7386,7 @@
 					"type": "SColorRGB",
 					"value": "#ccfff9"
 				},
-				"DiffusePower": { "type": "float32", "value": 20.0 },
+				"DiffusePower": { "type": "float32", "value": 40.0 },
 				"m_vAngularAttenuation": {
 					"type": "SVector2",
 					"value": {
@@ -8000,7 +8002,7 @@
 						"y": 1.1699999570846558
 					}
 				},
-				"DiffusePower": { "type": "float32", "value": 20.0 },
+				"DiffusePower": { "type": "float32", "value": 40.0 },
 				"m_fLightFadeDistance": {
 					"type": "float32",
 					"value": 100.0
@@ -9568,7 +9570,7 @@
 						}
 					}
 				},
-				"On": { "type": "bool", "value": false },
+				"On": { "type": "bool", "value": true },
 				"m_vAngularAttenuation": {
 					"type": "SVector2",
 					"value": {
@@ -9576,7 +9578,7 @@
 						"y": 1.1699999570846558
 					}
 				},
-				"DiffusePower": { "type": "float32", "value": 20.0 },
+				"DiffusePower": { "type": "float32", "value": 40.0 },
 				"m_fLightFadeDistance": {
 					"type": "float32",
 					"value": 100.0
@@ -9595,7 +9597,8 @@
 						"ref": "cafe4794e94ebade",
 						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
-				}
+				},
+				"SpotCastShadows": { "type": "bool", "value": true }
 			}
 		},
 		"54c972e61186b6fa": {
@@ -10165,12 +10168,12 @@
 						}
 					}
 				},
-				"On": { "type": "bool", "value": false },
+				"On": { "type": "bool", "value": true },
 				"DiffuseColor": {
 					"type": "SColorRGB",
 					"value": "#ccfff9"
 				},
-				"DiffusePower": { "type": "float32", "value": 20.0 },
+				"DiffusePower": { "type": "float32", "value": 40.0 },
 				"m_vAngularAttenuation": {
 					"type": "SVector2",
 					"value": {
@@ -10186,14 +10189,19 @@
 					"type": "SVector2",
 					"value": { "x": 2.0, "y": 4.0 }
 				},
-				"GlowPower": { "type": "float32", "value": 500.0 },
+				"GlowPower": {
+					"type": "float32",
+					"value": 202.8999938964844
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
 						"ref": "cafe4794e94ebade",
 						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
-				}
+				},
+				"IgnoreTimeOfDay": { "type": "bool", "value": true },
+				"SpotCastShadows": { "type": "bool", "value": true }
 			}
 		},
 		"2eff1b7a318d4c10": {
@@ -10796,7 +10804,7 @@
 						"y": 1.1699999570846558
 					}
 				},
-				"DiffusePower": { "type": "float32", "value": 20.0 },
+				"DiffusePower": { "type": "float32", "value": 40.0 },
 				"m_fLightFadeDistance": {
 					"type": "float32",
 					"value": 100.0
@@ -11137,12 +11145,12 @@
 						}
 					}
 				},
-				"On": { "type": "bool", "value": false },
+				"On": { "type": "bool", "value": true },
 				"DiffuseColor": {
 					"type": "SColorRGB",
 					"value": "#ccfff9"
 				},
-				"DiffusePower": { "type": "float32", "value": 20.0 },
+				"DiffusePower": { "type": "float32", "value": 40.0 },
 				"m_vAngularAttenuation": {
 					"type": "SVector2",
 					"value": {
@@ -11165,7 +11173,8 @@
 						"ref": "cafe4794e94ebade",
 						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
-				}
+				},
+				"SpotCastShadows": { "type": "bool", "value": true }
 			}
 		},
 		"9b687086a53529d3": {
@@ -12170,12 +12179,12 @@
 						}
 					}
 				},
-				"On": { "type": "bool", "value": false },
+				"On": { "type": "bool", "value": true },
 				"DiffuseColor": {
 					"type": "SColorRGB",
 					"value": "#ccfff9"
 				},
-				"DiffusePower": { "type": "float32", "value": 20.0 },
+				"DiffusePower": { "type": "float32", "value": 40.0 },
 				"m_vAngularAttenuation": {
 					"type": "SVector2",
 					"value": {
@@ -12198,7 +12207,8 @@
 						"ref": "cafe4794e94ebade",
 						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
-				}
+				},
+				"SpotCastShadows": { "type": "bool", "value": true }
 			}
 		},
 		"1a452872a5a22003": {
@@ -12890,7 +12900,7 @@
 						}
 					}
 				},
-				"On": { "type": "bool", "value": false },
+				"On": { "type": "bool", "value": true },
 				"m_vAngularAttenuation": {
 					"type": "SVector2",
 					"value": {
@@ -12898,7 +12908,7 @@
 						"y": 1.1699999570846558
 					}
 				},
-				"DiffusePower": { "type": "float32", "value": 20.0 },
+				"DiffusePower": { "type": "float32", "value": 40.0 },
 				"m_fLightFadeDistance": {
 					"type": "float32",
 					"value": 100.0
@@ -12917,7 +12927,8 @@
 						"ref": "cafe4794e94ebade",
 						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
-				}
+				},
+				"SpotCastShadows": { "type": "bool", "value": true }
 			}
 		},
 		"be386224b1880842": {
@@ -13697,7 +13708,7 @@
 					"type": "SColorRGB",
 					"value": "#ccfff9"
 				},
-				"DiffusePower": { "type": "float32", "value": 20.0 },
+				"DiffusePower": { "type": "float32", "value": 40.0 },
 				"m_vAngularAttenuation": {
 					"type": "SVector2",
 					"value": {
@@ -13720,7 +13731,8 @@
 						"ref": "cafe4794e94ebade",
 						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
-				}
+				},
+				"SpotCastShadows": { "type": "bool", "value": true }
 			}
 		},
 		"f6247b5e133dfbe1": {
@@ -16757,7 +16769,7 @@
 						"y": 1.1699999570846558
 					}
 				},
-				"DiffusePower": { "type": "float32", "value": 20.0 },
+				"DiffusePower": { "type": "float32", "value": 40.0 },
 				"m_fLightFadeDistance": {
 					"type": "float32",
 					"value": 100.0
