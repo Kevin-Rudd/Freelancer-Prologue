@@ -840,7 +840,8 @@
 						"ref": "cafe4794e94ebade",
 						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
-				}
+				},
+				"m_bVisible": { "type": "bool", "value": false }
 			}
 		},
 		"66c7f9fd1e61a9b9": {
@@ -3412,7 +3413,8 @@
 						"ref": "cafe4794e94ebade",
 						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
-				}
+				},
+				"m_bVisible": { "type": "bool", "value": false }
 			}
 		},
 		"3c0c5a63c176e287": {
@@ -10542,7 +10544,8 @@
 						"ref": "cafe4794e94ebade",
 						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
-				}
+				},
+				"m_bVisible": { "type": "bool", "value": true }
 			}
 		},
 		"9daab87d52715c1f": {
@@ -16709,7 +16712,8 @@
 						"ref": "cafe4794e94ebade",
 						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
-				}
+				},
+				"m_bVisible": { "type": "bool", "value": false }
 			}
 		},
 		"675ff911f523be9d": {

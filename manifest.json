@@ -1,5 +1,5 @@
 {
-	"version": "0.5.0",
+	"version": "0.6.0",
 	"id": "KevinRudd.FreelancerPrologue",
 	"name": "Freelancer Prologue/Miami Yacht",
 	"contentFolders": ["content"],
@@ -8,6 +8,10 @@
 	"dependencies": [
 		"005415E5BE265EFD",{"runtimeID":"003D96EAECB00C82","comment":"adonis_sky","toChunk":1},
 		{
+			"runtimeID": "00A4A5DCDA87B315",
+			"toChunk": 9,
+			"comment": "Hantu DryDock Wall"
+		},{
 			"runtimeID": "004DA0BCD65E10E7",
 			"toChunk": 9,
 			"comment": "Hantu car park boom"
@@ -77,9 +81,9 @@
 			"comment": "window_tractor_storage_vent_a"
 		},
 		{
-			"runtimeID": "00B266E1ABA67ECF",
+			"runtimeID": "009C39B3346B3B49",
 			"toChunk": 9,
-			"comment": "[assembly:/_pro/environment/materials/generic/concrete/asphalt_ground_panels_a.mi].pc_mi"
+			"comment": "seagull_terrain_asphalt_panels_zmapped_a"
 		},
 		{
 			"runtimeID": "000BECE1AF7121AA",
