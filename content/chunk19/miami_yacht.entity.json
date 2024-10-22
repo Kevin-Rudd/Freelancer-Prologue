@@ -15477,6 +15477,181 @@
 		{
 			"entities": [
 				{
+					"ref": "0d90d4ab8dec3ccf",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 114.9194790480423
+						},
+						"position": {
+							"x": -79.82008361816406,
+							"y": 72.76406860351562,
+							"z": 0.47926297783851624
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "469ab3ac4a093d7c",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 98.5524195802062
+						},
+						"position": {
+							"x": -47.7542724609375,
+							"y": -41.853118896484375,
+							"z": 0.4792537391185761
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "d4d2759c00e20166",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -25.6757479003825
+						},
+						"position": {
+							"x": -132.34622192382812,
+							"y": 286.24530029296875,
+							"z": 0.47941431403160095
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "9e2f78b5e6e19c5b",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -20.44244293688222
+						},
+						"position": {
+							"x": -129.47982788085938,
+							"y": 285.63824462890625,
+							"z": 0.4794143736362457
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "e1e368424b6b87ed",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -109.20492823092486
+						},
+						"position": {
+							"x": -77.054931640625,
+							"y": -13.590469360351564,
+							"z": 0.4792501032352447
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "095901b663d62a3b",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -11.00227796230195
+						},
+						"position": {
+							"x": 13.292449951171877,
+							"y": 273.97723388671875,
+							"z": 0.47925522923469543
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "fe3704785e6865a2",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 89.20323959174573
+						},
+						"position": {
+							"x": 10.53076171875,
+							"y": 274.51104736328125,
+							"z": 0.4792539179325104
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
 					"ref": "9f6388511098f86b",
 					"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
 				}
