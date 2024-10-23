@@ -15142,7 +15142,8 @@
 						"ref": "cafe4794e94ebade",
 						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
-				}
+				},
+				"m_bVisible": { "type": "bool", "value": false }
 			}
 		},
 		"00dcbb70963a97ee": {

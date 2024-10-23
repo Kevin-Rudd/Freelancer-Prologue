@@ -13511,7 +13511,10 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "cafe57579a7d95fb"
-				}
+				},
+				"m_bIsLocked": { "type": "bool", "value": true },
+				"m_bAutoClose": { "type": "bool", "value": true },
+				"m_bValueOpenFromInside": { "type": "bool", "value": true }
 			},
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		},
@@ -18894,7 +18897,70 @@
 				"m_PrimitiveScale": {
 					"type": "SVector3",
 					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+				},
+				"Visible_Titan_Logo": { "type": "bool", "value": false },
+				"Visible_Sirius_Logo": { "type": "bool", "value": true }
+			}
+		},
+		"cafe7fa66395db38": {
+			"parent": "cafecdb5da4b35c1",
+			"name": "Toilet_Old_A_00",
+			"factory": "[assembly:/_pro/environment/templates/props/furniture/antique_furniture_b.template?/toilet_old_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/furniture/antique_furniture_b.template?/toilet_old_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": 5.5592041015625,
+							"y": 0.9990472793579102,
+							"z": 0.06412696838378906
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafecdb5da4b35c1",
+					"postInit": true
 				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafec0ee6d0e1e0a": {
+			"parent": "cafecdb5da4b35c1",
+			"name": "Sink_Metal_Basement_A",
+			"factory": "[assembly:/_pro/environment/templates/props/electronics/basement_electronics_a.template?/sink_metal_basement_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/electronics/basement_electronics_a.template?/sink_metal_basement_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -179.94404708809589
+						},
+						"position": {
+							"x": 7.5592041015625,
+							"y": 0.2953881323337555,
+							"z": 0.011382713913917542
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafecdb5da4b35c1",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		}
 	},
