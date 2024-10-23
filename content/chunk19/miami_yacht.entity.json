@@ -18962,6 +18962,462 @@
 				"AudioEmitters": ["fffffffffffffffe"],
 				"Replicable": ["fffffffffffffffe"]
 			}
+		},
+		"cafef45f2d9fafdb": {
+			"parent": "cafefd40d61200e6",
+			"name": "NPC",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafed1b7fa64d8e6": {
+			"parent": "cafef45f2d9fafdb",
+			"name": "Pool",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe6a4a230c1a94": {
+			"parent": "cafef45f2d9fafdb",
+			"name": "Indoor lounge room",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe14d8acbf6ab4": {
+			"parent": "cafe8e0025014b2b",
+			"name": "Yacht",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafec42333b195c0": {
+			"parent": "cafe14d8acbf6ab4",
+			"name": "Props",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe2ca4445d353b": {
+			"parent": "cafec42333b195c0",
+			"name": "Table_Sofa_Modern_Glass",
+			"factory": "[assembly:/_pro/environment/templates/props/consulate_props/consulate_props_a.template?/table_sofa_modern_glass.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/consulate_props/consulate_props_a.template?/table_sofa_modern_glass.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 82.64218579152231
+						},
+						"position": {
+							"x": -224.237060546875,
+							"y": 149.69534301757812,
+							"z": 6.242834568023682
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"cafecbe49bac83a0": {
+			"parent": "cafe2ca4445d353b",
+			"name": "Food_Appetizer_B_00_01",
+			"factory": "[assembly:/_pro/environment/templates/props/food/food_props_b.template?/food_appetizer_b_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/food/food_props_b.template?/food_appetizer_b_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 1.7846509422440475
+						},
+						"position": {
+							"x": 0.0010450000409036877,
+							"y": 0.6873900294303894,
+							"z": 0.6299999952316284
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe2ca4445d353b"
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafe263d030e7f2f": {
+			"parent": "cafe2ca4445d353b",
+			"name": "Food_Appetizer_E_00",
+			"factory": "[assembly:/_pro/environment/templates/props/food/food_props_b.template?/food_appetizer_e_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/food/food_props_b.template?/food_appetizer_e_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 1.7840782311949277
+						},
+						"position": {
+							"x": 0.011285779997706412,
+							"y": 0.15384860336780548,
+							"z": 0.630000114440918
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe2ca4445d353b"
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafe351a6c087196": {
+			"parent": "cafe2ca4445d353b",
+			"name": "Glass_Water_B_00_20",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/glass_water_b_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/glass_water_b_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
+						"position": {
+							"x": 0.04318619146943092,
+							"y": -0.2267265021800995,
+							"z": 0.630000114440918
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe2ca4445d353b",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafed1bf03efff1e": {
+			"parent": "cafe2ca4445d353b",
+			"name": "Glass_Water_B_00_22",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/glass_water_b_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/glass_water_b_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
+						"position": {
+							"x": 0.377346009016037,
+							"y": -0.15403179824352264,
+							"z": 0.630000114440918
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe2ca4445d353b",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafe883ed902579b": {
+			"parent": "cafe2ca4445d353b",
+			"name": "Food_Appetizer_C_00_01",
+			"factory": "[assembly:/_pro/environment/templates/props/food/food_props_b.template?/food_appetizer_c_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/food/food_props_b.template?/food_appetizer_c_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 1.7840782311949277
+						},
+						"position": {
+							"x": -0.0536041297018528,
+							"y": -0.556642472743988,
+							"z": 0.630000114440918
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe2ca4445d353b"
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafedf5d9f111c06": {
+			"parent": "cafed1b7fa64d8e6",
+			"name": "CHAR_Guest_Pool_Male_03",
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 110.32066
+						},
+						"position": {
+							"x": -212.63885,
+							"y": 131.99567,
+							"z": 2.6534822
+						}
+					}
+				},
+				"RepositoryId": {
+					"type": "ZGuid",
+					"value": "e4d51194-618a-4836-a73b-de54481eae8c"
+				},
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "27db954e-7179-4313-8224-63b4a372421c"
+				},
+				"m_sActorName": {
+					"type": "ZString",
+					"value": "Shawn Deboer"
+				},
+				"m_nOutfitVariation": { "type": "int32", "value": 2 },
+				"m_eRequiredVoiceVariation": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_CIVMALE04"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				},
+				"m_InventoryItemKeys": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				}
+			},
+			"subsets": {
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
+			}
+		},
+		"cafe2fd5a723cffe": {
+			"parent": "cafed1b7fa64d8e6",
+			"name": "CHAR_Guest_Male_SmokePool",
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 66.735695
+						},
+						"position": {
+							"x": -227.7922,
+							"y": 133.13026,
+							"z": 2.6535428
+						}
+					}
+				},
+				"RepositoryId": {
+					"type": "ZGuid",
+					"value": "89e0510c-5015-46db-af52-8e6a5cf569b4"
+				},
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "a38770df-a955-4548-a00d-8cf22800d698"
+				},
+				"m_sActorName": {
+					"type": "ZString",
+					"value": "Stanley Stafford"
+				},
+				"m_nOutfitVariation": { "type": "int32", "value": 4 },
+				"m_nOutfitCharset": { "type": "int32", "value": 2 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				},
+				"m_InventoryItemKeys": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				}
+			},
+			"subsets": {
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
+			}
+		},
+		"cafe4c7aac1cb060": {
+			"parent": "cafedf5d9f111c06",
+			"name": "DramaSituation",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aRoles": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafec6cf1480e2ce"]
+				}
+			}
+		},
+		"cafec6cf1480e2ce": {
+			"parent": "cafe4c7aac1cb060",
+			"name": "InviteInit",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rActorProvider": {
+					"type": "SEntityTemplateReference",
+					"value": "cafedf5d9f111c06",
+					"postInit": true
+				}
+			}
+		},
+		"cafe66aa36c671ee": {
+			"parent": "cafe4c7aac1cb060",
+			"name": "DramaSituationProxy",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rOriginalDrama": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe4c7aac1cb060"
+				}
+			},
+			"events": { "OnStart": { "Start": ["cafe8e02355f36dc"] } }
+		},
+		"cafe7c5dfe24dacb": {
+			"parent": "cafe4c7aac1cb060",
+			"name": "ValueBool",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entityblueprint",
+			"properties": { "m_bValue": { "type": "bool", "value": true } }
+		},
+		"cafe8e02355f36dc": {
+			"parent": "cafe4c7aac1cb060",
+			"name": "Act_MR_Stand_Lean_Back_Phone_Wall",
+			"factory": "00A8D17DDB71C567",
+			"blueprint": "002CC6EB63A8EC32",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 110.32066
+						},
+						"position": {
+							"x": -212.63885,
+							"y": 131.99567,
+							"z": 2.6534822
+						}
+					}
+				},
+				"m_fActTimeout": { "type": "float32", "value": -1 },
+				"m_ePerceptionSensitivity": {
+					"type": "EActorPerceptionSensitivity",
+					"value": "APS_AMBIENT_PREOCCUPIED"
+				},
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "cafec6cf1480e2ce",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"subsets": { "Replicable": ["fffffffffffffffe"] }
+		},
+		"cafee16c857592f3": {
+			"parent": "cafe2fd5a723cffe",
+			"name": "DramaSituation",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aRoles": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafef7e06acb5a48"]
+				}
+			}
+		},
+		"cafef7e06acb5a48": {
+			"parent": "cafee16c857592f3",
+			"name": "GuestSmokePool",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rActorProvider": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe2fd5a723cffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafe79668e9f3f70": {
+			"parent": "cafee16c857592f3",
+			"name": "DramaSituationProxy",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rOriginalDrama": {
+					"type": "SEntityTemplateReference",
+					"value": "cafee16c857592f3"
+				}
+			},
+			"events": { "OnStart": { "Start": ["cafe94b222983658"] } }
+		},
+		"cafe94b222983658": {
+			"parent": "cafee16c857592f3",
+			"name": "Act_MR_Stand_Smoke_Cigar",
+			"factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_smoke_cigar.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_smoke_cigar.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 66.735695
+						},
+						"position": {
+							"x": -227.7922,
+							"y": 133.13026,
+							"z": 2.6535428
+						}
+					}
+				},
+				"m_fActTimeout": { "type": "float32", "value": -1 },
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "cafef7e06acb5a48",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"subsets": { "Replicable": ["fffffffffffffffe"] }
 		}
 	},
 	"propertyOverrides": [
