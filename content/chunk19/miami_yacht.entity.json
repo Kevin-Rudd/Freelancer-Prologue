@@ -18752,6 +18752,150 @@
 					"postInit": true
 				}
 			}
+		},
+		"cafeb1f01f3baef8": {
+			"parent": "cafed2a8d33453f5",
+			"name": "Props",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe2eebced48b27": {
+			"parent": "cafedcf7ce8e229c",
+			"name": "Production Room Volume 1",
+			"factory": "[modules:/zboxvolumeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zboxvolumeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 179.94404708809589
+						},
+						"position": {
+							"x": -190.0724334716797,
+							"y": 193.40432739257812,
+							"z": -0.0029931552708148956
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 30.222999572753903,
+						"y": 38.66299819946289,
+						"z": 12.72439956665039
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafedcf7ce8e229c": {
+			"parent": "cafeb1f01f3baef8",
+			"name": "SetPiece_Trap_ForkLift_01",
+			"factory": "[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_forklift.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_forklift.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 70.268627488951
+						},
+						"position": {
+							"x": -180.37576293945312,
+							"y": 198.1247100830078,
+							"z": -0.0029931552708148956
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_Boxes": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe2eebced48b27"],
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafe9137782410a5": {
+			"parent": "cafeb1f01f3baef8",
+			"name": "Shipping_Container_Short_Closed_Grey_A_54",
+			"factory": "[assembly:/_pro/environment/templates/props/containers/shipping_container_a.template?/shipping_container_short_closed_grey_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/containers/shipping_container_a.template?/shipping_container_short_closed_grey_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -1.33795166015625,
+							"y": 139.10092163085938,
+							"z": -4.130000114440918
+						}
+					}
+				},
+				"Visible_Sirius_Logo": { "type": "bool", "value": false },
+				"Vidible_Rapid_Logo": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6480b140d0cb4728",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+					},
+					"postInit": true
+				}
+			}
+		},
+		"cafe010811d1eb21": {
+			"parent": "cafeb1f01f3baef8",
+			"name": "Shipping_Container_Short_Closed_Blue_A",
+			"factory": "[assembly:/_pro/environment/templates/props/containers/shipping_container_a.template?/shipping_container_short_closed_blue_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/containers/shipping_container_a.template?/shipping_container_short_closed_blue_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": -13.822128295898438,
+							"y": 141.79971313476565,
+							"z": -4.130000114440918
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6480b140d0cb4728",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+					},
+					"postInit": true
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+				}
+			}
 		}
 	},
 	"propertyOverrides": [
