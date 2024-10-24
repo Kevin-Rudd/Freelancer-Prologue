@@ -17048,9 +17048,13 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90 },
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 89.9999965849052
+						},
 						"position": {
-							"x": -185.96954345703125,
+							"x": -186.32272338867188,
 							"y": 145.26995849609375,
 							"z": -0.0029931552708148956
 						}
@@ -18964,7 +18968,7 @@
 			}
 		},
 		"cafef45f2d9fafdb": {
-			"parent": "cafefd40d61200e6",
+			"parent": "cafe14d8acbf6ab4",
 			"name": "NPC",
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
@@ -19447,14 +19451,14 @@
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
-					"value": "a38770df-a955-4548-a00d-8cf22800d698"
+					"value": "cfc20192-0c87-4490-936f-7ae7ef038c55"
 				},
 				"m_sActorName": {
 					"type": "ZString",
 					"value": "Stanley Stafford"
 				},
-				"m_nOutfitVariation": { "type": "int32", "value": 4 },
-				"m_nOutfitCharset": { "type": "int32", "value": 8 },
+				"m_nOutfitVariation": { "type": "int32", "value": 0 },
+				"m_nOutfitCharset": { "type": "int32", "value": 0 },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe",
@@ -20043,7 +20047,8 @@
 		"[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/thefacility/dressing_module_002_miami.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype",
-		"[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+		"[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/golden/mission_gecko/outfits_gecko.brick].pc_entitytype"
 	],
 	"subType": "brick",
 	"quickEntityVersion": 3.1,
