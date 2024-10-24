@@ -19285,6 +19285,9 @@
 					"postInit": true
 				}
 			},
+			"events": {
+				"OnActTimeout": { "Start": ["cafeaec105f57d80"] }
+			},
 			"subsets": { "Replicable": ["fffffffffffffffe"] }
 		},
 		"cafe98c746310df5": {
@@ -19792,11 +19795,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": -96.21327 },
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -96.21327168938528
+						},
 						"position": {
-							"x": -212.50111,
-							"y": 186.6677,
-							"z": 6.2348137
+							"x": -212.50111389160156,
+							"y": 186.66769409179688,
+							"z": 6.165645122528076
 						}
 					}
 				},
