@@ -99,7 +99,28 @@
 			"runtimeID": "001FB4CBE8E811B6",
 			"toChunk": 19,
 			"comment": "pool lights sound"
+		},
+		{
+			"runtimeID": "00FB64C2FE7BAB66",
+			"toChunk": 19,
+			"comment": "Sgail Bar"
+		},
+		{
+			"runtimeID": "00053CC7257FECEF",
+			"toChunk": 19,
+			"comment": "Sgail Bar Blueprint"
+		},
+		{
+			"runtimeID": "00BBA6C6AFB823C0",
+			"toChunk": 19,
+			"comment": "Resin Bar"
+		},
+		{
+			"runtimeID": "006637A440D0C0EE",
+			"toChunk": 19,
+			"comment": "Resin Bar Blueprint"
 		}
+
 	],
 	"options": [],
 	"requirements": [],
