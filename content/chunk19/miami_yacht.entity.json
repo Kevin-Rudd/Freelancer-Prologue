@@ -19659,9 +19659,57 @@
 				"OnActTimeout": { "Start": ["cafe221d5db8d84b"] }
 			},
 			"subsets": { "Replicable": ["fffffffffffffffe"] }
+		},
+		"cafebce525e21b7e": {
+			"parent": "cafeb1f01f3baef8",
+			"name": "street_busstop_bench_a_10",
+			"factory": "[assembly:/_pro/environment/templates/props/street_props/street_props_miami_a.template?/street_busstop_bench_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/street_props_miami_a.template?/street_busstop_bench_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": 0 },
+						"position": {
+							"x": -17.723785400390625,
+							"y": 158.18536376953125,
+							"z": -4.116218090057373
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6480b140d0cb4728",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+					},
+					"postInit": true
+				}
+			}
 		}
 	},
 	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "d4d2c4ed4544b4a5",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
+						"position": {
+							"x": -192.8267364501953,
+							"y": 210.1096954345703,
+							"z": 0.010788798332214355
+						}
+					}
+				}
+			}
+		},
 		{
 			"entities": [
 				{
