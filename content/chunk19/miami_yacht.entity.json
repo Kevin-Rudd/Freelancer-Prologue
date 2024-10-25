@@ -19798,12 +19798,12 @@
 						"rotation": {
 							"x": -0.0,
 							"y": 0.0,
-							"z": -96.21327168938528
+							"z": -89.26062861678842
 						},
 						"position": {
-							"x": -212.50111389160156,
-							"y": 186.66769409179688,
-							"z": 6.165645122528076
+							"x": -212.37985229492188,
+							"y": 186.67088317871097,
+							"z": 6.234813690185547
 						}
 					}
 				},
@@ -19825,40 +19825,6 @@
 				}
 			},
 			"events": { "OnActTimeout": { "Start": ["cafe196dc458d292"] } }
-		},
-		"cafefe28d9badbef": {
-			"parent": "cafeaec105f57d80",
-			"name": "ItemSpawner",
-			"factory": "[modules:/zitemspawner.class].pc_entitytype",
-			"blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
-			"properties": {
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_STATIC"
-				},
-				"m_ePhysicsMode": {
-					"type": "ZItemSpawner.EPhysicsMode",
-					"value": "EPM_KINEMATIC"
-				},
-				"m_bUsePlacementAttach": {
-					"type": "bool",
-					"value": false
-				},
-				"m_rMainItemKey": {
-					"type": "SEntityTemplateReference",
-					"value": "cafeeae1824a4835",
-					"postInit": true
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": {
-						"ref": "cafeeae1824a4835",
-						"externalScene": null,
-						"exposedEntity": "Spatial_MatePosition"
-					},
-					"postInit": true
-				}
-			}
 		},
 		"cafe590d394778dc": {
 			"parent": "cafee16c857592f3",
