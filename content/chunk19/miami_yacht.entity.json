@@ -1160,7 +1160,8 @@
 						"cafed03d02b15e66",
 						"cafede55491b0621",
 						"cafe021b06ec67b3",
-						"cafec2314ce575b7"
+						"cafec2314ce575b7",
+						"cafe4e6d3b3df570"
 					]
 				}
 			}
@@ -19939,6 +19940,129 @@
 		}
 	},
 	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "2c001dc3a43c23d3",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_CurveX": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[
+								0.0, -194.5, 0.0, 0.0, 0.0, 0.0,
+								-0.30000001192092896, -194.5
+							],
+							[
+								1.0, -194.40028, 0.0, 0.0, 0.0, 0.0, 0.0,
+								-194.40028
+							]
+						]
+					}
+				},
+				"m_CurveY": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[
+								0.0, 207.8, 0.0, 0.0, 0.0, 0.0,
+								-0.699999988079071, 207.8
+							],
+							[
+								1.0, 207.79964, 0.0, 0.0, 0.0, 0.0, 0.0,
+								207.79964
+							]
+						]
+					}
+				},
+				"m_CurveZ": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[0.0, 1.13, 0.0, 0.0, 0.0, 0.0, 0.0, 1.13],
+							[
+								1.0, 1.1200417, 0.0, 0.0, 0.0, 0.0, 0.0,
+								1.1200417
+							]
+						]
+					}
+				},
+				"m_CurveRotZ": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[
+								0.0, 41.3, 0.0, 0.0, 0.0, 0.0,
+								0.10391998291015624, 41.3
+							],
+							[1.0, 41.3, 0.0, 0.0, 0.0, 0.0, 0.0, 41.3]
+						]
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "7d0c46de8560ea82",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "02a1f03bac4d3d06",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_CurveX": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[
+								0.0, -158.2, 0.0, 0.0, 0.0, 0.0,
+								-0.30000001192092896, -158.2
+							],
+							[1.0, -158.5, 0.0, 0.0, 0.0, 0.0, 0.0, -158.5]
+						]
+					}
+				},
+				"m_CurveY": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[
+								0.0, 193.1, 0.0, 0.0, 0.0, 0.0,
+								-0.699999988079071, 193.1
+							],
+							[1.0, 192.4, 0.0, 0.0, 0.0, 0.0, 0.0, 192.4]
+						]
+					}
+				},
+				"m_CurveZ": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[0.0, 9.6, 0.0, 0.0, 0.0, 0.0, 0.0, 9.6],
+							[1.0, 9.6, 0.0, 0.0, 0.0, 0.0, 0.0, 9.6]
+						]
+					}
+				},
+				"m_CurveRotZ": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[
+								0.0, -92.9, 0.0, 0.0, 0.0, 0.0,
+								0.10391998291015624, -92.9
+							],
+							[1.0, -92.9, 0.0, 0.0, 0.0, 0.0, 0.0, -92.9]
+						]
+					}
+				}
+			}
+		},
 		{
 			"entities": [
 				{
