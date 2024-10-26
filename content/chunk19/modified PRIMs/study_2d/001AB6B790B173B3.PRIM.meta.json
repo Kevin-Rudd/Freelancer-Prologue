@@ -48,6 +48,10 @@
         {
             "hash": "[assembly:/_pro/environment/materials/generic/wall/concrete_bare_a.mi].pc_mi",
             "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/architecture/floors/floor_mobile_home_a.mi].pc_mi",
+            "flag": "5F"
         }
     ]
 }
