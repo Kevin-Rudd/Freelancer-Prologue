@@ -15779,14 +15779,14 @@
 						"position": {
 							"x": -27.61907958984375,
 							"y": 159.55142211914065,
-							"z": -4.11621618270874
+							"z": -4.130000114440918
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
 					"value": {
-						"x": 1.4229999780654907,
+						"x": 1.4220000505447388,
 						"y": 1.0,
 						"z": 0.620855987071991
 					}
@@ -15810,18 +15810,18 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
 						"position": {
-							"x": -39.79817962646485,
-							"y": 18.82736015319824,
-							"z": -16.998830795288086
+							"x": -29.938064575195312,
+							"y": 90.7864761352539,
+							"z": -4.126836776733398
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
 					"value": {
-						"x": 0.5226510167121887,
+						"x": 0.6200000047683716,
 						"y": 1.0,
 						"z": 0.620855987071991
 					}
@@ -19937,6 +19937,76 @@
 				}
 			},
 			"events": { "OnActTimeout": { "Start": ["cafe94b222983658"] } }
+		},
+		"cafe0b0f63b3277f": {
+			"parent": "cafecd7e4fb3f3fa",
+			"name": "club_building_kit_innercolumn_a_40",
+			"factory": "[assembly:/_pro/environment/templates/levels/fox/club_building_fox_a.template?/club_building_kit_innercolumn_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/fox/club_building_fox_a.template?/club_building_kit_innercolumn_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
+						"position": {
+							"x": -29.271469116210938,
+							"y": 89.01702117919922,
+							"z": -12.74669075012207
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.550000011920929,
+						"y": 1.0,
+						"z": 0.7297980189323425
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6480b140d0cb4728",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+					},
+					"postInit": true
+				}
+			}
+		},
+		"cafe10a48fe7aacc": {
+			"parent": "cafecd7e4fb3f3fa",
+			"name": "club_building_kit_innercolumn_a_39",
+			"factory": "[assembly:/_pro/environment/templates/levels/fox/club_building_fox_a.template?/club_building_kit_innercolumn_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/fox/club_building_fox_a.template?/club_building_kit_innercolumn_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
+						"position": {
+							"x": -29.292327880859375,
+							"y": 158.97085571289065,
+							"z": -12.742864608764648
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.550000011920929,
+						"y": 1.0,
+						"z": 0.7297980189323425
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6480b140d0cb4728",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+					},
+					"postInit": true
+				}
+			}
 		}
 	},
 	"propertyOverrides": [
