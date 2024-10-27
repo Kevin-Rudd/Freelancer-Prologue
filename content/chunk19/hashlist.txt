@@ -27,3 +27,5 @@
 001F7EE8B61EFE92.PRIM,[assembly:/_pro/environment/geometry/levels/the facility/module_bathroom_2d_modded.prim].pc_prim
 001AB6B790B173B3.PRIM,[assembly:/_pro/environment/geometry/levels/the facility/module_study_2d_modded.prim].pc_prim
 00AE63F3A48E82A2.PRIM,[assembly:/_pro/environment/geometry/levels/the facility/carpet_lounge_modded.prim].pc_prim
+00F4A8211D091620.PRIM,[assembly:/_pro/environment/geometry/levels/the facility/yacht_bedr_2d_modded.prim].pc_prim
+00C74EA744BC589C.PRIM,[assembly:/_pro/environment/geometry/levels/the facility/yacht_lounge_2d_modded.prim].pc_prim
