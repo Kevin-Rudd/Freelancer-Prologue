@@ -8,10 +8,6 @@
 	"dependencies": [
 		"005415E5BE265EFD",{"runtimeID":"003D96EAECB00C82","comment":"adonis_sky","toChunk":1},
 		{
-			"runtimeID": "006BA22F0A7615BD",
-			"toChunk": 9,
-			"comment": "NY Destructible Glass"
-		},{
 			"runtimeID": "00A4A5DCDA87B315",
 			"toChunk": 9,
 			"comment": "Hantu DryDock Wall"
