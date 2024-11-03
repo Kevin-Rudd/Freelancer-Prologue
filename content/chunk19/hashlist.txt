@@ -34,4 +34,4 @@
 0002707AC7671259.PRIM,[assembly:/_pro/environment/geometry/levels/the facility/module_yacht_enginer_0d_modded.prim].pc_prim
 0069D06F61AB7E2D.PRIM,[assembly:/_pro/environment/geometry/levels/the facility/module_car_deck_modded.prim].pc_prim
 006AA7E8C99D9D9A.PRIM,[assembly:/_pro/environment/geometry/levels/the facility/module_yacht_breakoutr_0d_modded.prim].pc_prim
-006EB895B57588A2.PRIM,[assembly:/_pro/environment/geometry/levels/the facility/module_cabinb_0d_modded.prim].pc_prim
+00EBDED4758A037C.PRIM,[assembly:/_pro/environment/geometry/levels/the facility/module_yacht_cabin_a_modded.prim].pc_prim
