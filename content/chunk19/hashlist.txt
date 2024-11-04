@@ -36,3 +36,4 @@
 006AA7E8C99D9D9A.PRIM,[assembly:/_pro/environment/geometry/levels/the facility/module_yacht_breakoutr_0d_modded.prim].pc_prim
 00EBDED4758A037C.PRIM,[assembly:/_pro/environment/geometry/levels/the facility/module_yacht_cabin_a_modded.prim].pc_prim
 00BB470AE452C4D9.PRIM,[assembly:/_pro/environment/geometry/levels/the facility/module_yacht_dressing_modded.prim].pc_prim
+001AB4DA488E7BA6.PRIM,[assembly:/_pro/environment/geometry/levels/the facility/module_sundeck_modded.prim].pc_prim
