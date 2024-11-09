@@ -38,3 +38,6 @@
 00BB470AE452C4D9.PRIM,[assembly:/_pro/environment/geometry/levels/the facility/module_yacht_dressing_modded.prim].pc_prim
 001AB4DA488E7BA6.PRIM,[assembly:/_pro/environment/geometry/levels/the facility/module_sundeck_modded.prim].pc_prim
 0032BEB8A97684A9.PRIM,[assembly:/_pro/environment/geometry/levels/metal_floor_modded.prim].pc_prim
+005E3F62525E8E30.PRIM,[assembly:/_pro/environment/geometry/levels/command_room_modded.prim].pc_prim
+009486E659A51786.TEMP,[assembly:/_pro/environment/geometry/helipad_modded].pc_entitytype
+00B360B2C17B1A3E.TBLU,[assembly:/_pro/environment/geometry/helipad_modded].pc_entityblueprint

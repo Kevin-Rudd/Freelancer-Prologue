@@ -127,7 +127,18 @@
 			"runtimeID": "006637A440D0C0EE",
 			"toChunk": 19,
 			"comment": "Resin Bar Blueprint"
+		},
+		{
+			"runtimeID": "008A353B9903C975",
+			"toChunk": 19,
+			"comment": "Hantu helipad"
+		},
+		{
+			"runtimeID": "007DFE9269EB5C3D",
+			"toChunk": 19,
+			"comment": "Hantu helipad"
 		}
+	
 
 	],
 	"options": [],
