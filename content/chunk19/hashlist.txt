@@ -46,3 +46,4 @@
 001615C7D3FFC12C.TEMP,[assembly:/_pro/environment/templates/architecture/walls/plywood_walls_a.template?/plywood_support_innerwall_b_mmodded_metal_bis.entitytemplate].pc_entitytype
 0002FA62F754F0C5.PRIM,[assembly:/_pro/environment/templates/architecture/walls/plywood_walls_a.template?/plywood_support_innerwall_b_mmodded_metal.entitytemplate].pc_prim
 00586850269D5C12.PRIM,[assembly:/_pro/environment/geometry/levels/carpet_modded.prim].pc_prim
+00463253DABBC802.PRIM,[assembly:/_pro/environment/geometry/levels/the facility/module_corridor_2d_floor_modded.prim].pc_prim
