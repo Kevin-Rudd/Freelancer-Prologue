@@ -20162,6 +20162,27 @@
 		{
 			"entities": [
 				{
+					"ref": "3cdf7254839e7821",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -176.9521026611328,
+							"y": 51.39377975463867,
+							"z": -1.509
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
 					"ref": "2c001dc3a43c23d3",
 					"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
 				}
