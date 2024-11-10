@@ -41,3 +41,8 @@
 005E3F62525E8E30.PRIM,[assembly:/_pro/environment/geometry/levels/command_room_modded.prim].pc_prim
 009486E659A51786.TEMP,[assembly:/_pro/environment/geometry/helipad_modded].pc_entitytype
 00B360B2C17B1A3E.TBLU,[assembly:/_pro/environment/geometry/helipad_modded].pc_entityblueprint
+00701F065C23425D.TEMP,[assembly:/_pro/environment/templates/architecture/walls/plywood_walls_a.template?/plywood_support_innerwall_b_mmodded_metal.entitytemplate].pc_entitytype
+00285EEE67005EF1.TBLU,[assembly:/_pro/environment/templates/architecture/walls/plywood_walls_a.template?/plywood_support_innerwall_b_mmodded_metal.entitytemplate].pc_entityblueprint
+001615C7D3FFC12C.TEMP,[assembly:/_pro/environment/templates/architecture/walls/plywood_walls_a.template?/plywood_support_innerwall_b_mmodded_metal_bis.entitytemplate].pc_entitytype
+0002FA62F754F0C5.PRIM,[assembly:/_pro/environment/templates/architecture/walls/plywood_walls_a.template?/plywood_support_innerwall_b_mmodded_metal.entitytemplate].pc_prim
+00586850269D5C12.PRIM,[assembly:/_pro/environment/geometry/levels/carpet_modded.prim].pc_prim
