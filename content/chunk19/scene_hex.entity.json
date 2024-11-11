@@ -5,35 +5,21 @@
 	"entities": {
 		"fffffffffffffffe": {
 			"parent": null,
-			"name": "Scene",
+			"name": "Scene_hex",
 			"factory": "[modules:/zspatialentity.class].pc_entitytype",
 			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
 		}
 	},
-	"propertyOverrides": [
-
-	],
-	"overrideDeletes": [
-
-	],
-	"pinConnectionOverrides": [
-
-	],
-	"pinConnectionOverrideDeletes": [
-
-	],
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
 	"externalScenes": [
 		"[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype"
 	],
 	"subType": "scene",
 	"quickEntityVersion": 3.1,
-	"extraFactoryDependencies": [
-
-	],
-	"extraBlueprintDependencies": [
-
-	],
-	"comments": [
-
-	]
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
 }

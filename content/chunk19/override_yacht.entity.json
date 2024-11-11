@@ -46,7 +46,7 @@
 		},
 		"fffffffffffffffe": {
 			"parent": null,
-			"name": "Scene",
+			"name": "override_yacht",
 			"factory": "[modules:/zspatialentity.class].pc_entitytype",
 			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
 		},
