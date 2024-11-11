@@ -20156,9 +20156,63 @@
 					}
 				}
 			}
+		},
+		"cafe51dd42dfb4b3": {
+			"parent": "cafecd7e4fb3f3fa",
+			"name": "club_building_kit_innercolumn_a_38",
+			"factory": "[assembly:/_pro/environment/templates/levels/fox/club_building_fox_a.template?/club_building_kit_innercolumn_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/fox/club_building_fox_a.template?/club_building_kit_innercolumn_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": 0.4925079345703125,
+							"y": 121.91715240478516,
+							"z": -8.071090698242188
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.550000011920929,
+						"y": 1.0,
+						"z": 0.7297980189323425
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6480b140d0cb4728",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+					},
+					"postInit": true
+				}
+			}
 		}
 	},
 	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "25ff4e68c1ba1241",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_bHeroPushNPCOverRail": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bHeroCanDumpBody": { "type": "bool", "value": false }
+			}
+		},
 		{
 			"entities": [
 				{
