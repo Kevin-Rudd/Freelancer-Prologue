@@ -19,6 +19,8 @@
 009079587A800BA0.TEMP,[assembly:/_pro/environment/geometry/wall_part_with_deco].pc_entitytype
 007077447FAABE86.TBLU,[assembly:/_pro/environment/geometry/wall_part_with_deco].pc_entityblueprint
 00378D54DE9FF762.PRIM,[assembly:/_pro/environment/geometry/wall_part_with_deco].pc_prim
+00CC29E40B55CA7F.PRIM,[assembly:/_pro/environment/geometry/wall_deco_only_up].pc_prim
+002D95DD7DBCAC4A.ALOC,[assembly:/_pro/environment/geometry/wall_deco_only_up].pc_coll
 00F0F9942BE0BB3F.PRIM,[assembly:/_pro/environment/geometry/levels/the facility/module_yacht_a.wl2?/kitchen_modded.prim].pc_prim
 0039CD8613096662.ALOC,[assembly:/_pro/environment/geometry/levels/the facility/module_yacht_a.wl2?/kitchen_modded.prim].pc_coll
 0035244BAC83ED32.PRIM,[assembly:/_pro/environment/geometry/levels/the facility/module_yacht_a.wl2?/toilet_men_modded.prim].pc_prim
@@ -47,3 +49,7 @@
 0002FA62F754F0C5.PRIM,[assembly:/_pro/environment/templates/architecture/walls/plywood_walls_a.template?/plywood_support_innerwall_b_mmodded_metal.entitytemplate].pc_prim
 00586850269D5C12.PRIM,[assembly:/_pro/environment/geometry/levels/carpet_modded.prim].pc_prim
 00463253DABBC802.PRIM,[assembly:/_pro/environment/geometry/levels/the facility/module_corridor_2d_floor_modded.prim].pc_prim
+009C6E856F7AF4EE.TEMP,[assembly:/_pro/environment/templates/architecture/walls/plywood_walls_a.template?/plywood_support_outerwall_b_00_modded.entitytemplate].pc_entitytype
+00B5DB4888B194DE.TBLU,[assembly:/_pro/environment/templates/architecture/walls/plywood_walls_a.template?/plywood_support_outerwall_b_00_modded.entitytemplate].pc_entityblueprint
+0098124B3060620A.TEMP,[assembly:/_pro/environment/templates/architecture/walls/plywood_walls_a.template?/plywood_support_outerwall_b_00_modded_bis.entitytemplate].pc_entitytype
+00620E27B3DD0169.TEMP,[assembly:/_pro/environment/templates/architecture/walls/plywood_walls_a.template?/plywood_support_outerwall_b_00_modded_bis.entitytemplate].pc_prim
