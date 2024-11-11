@@ -20201,6 +20201,17 @@
 		{
 			"entities": [
 				{
+					"ref": "f6896679d667f356",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_nMaxMirrors": { "type": "uint32", "value": 3 }
+			}
+		},
+		{
+			"entities": [
+				{
 					"ref": "25ff4e68c1ba1241",
 					"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
 				}
