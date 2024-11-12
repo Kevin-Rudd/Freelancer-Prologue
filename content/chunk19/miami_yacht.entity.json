@@ -20195,6 +20195,105 @@
 					"postInit": true
 				}
 			}
+		},
+		"cafef7a5eb37c04c": {
+			"parent": "cafefd40d61200e6",
+			"name": "Disguises",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe68ba8388a6f5": {
+			"parent": "cafef7a5eb37c04c",
+			"name": "Professions",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe09b17bc37d09": {
+			"parent": "cafe68ba8388a6f5",
+			"name": "Prof_Greenland_GenericSecurity",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_greenland_genericsecurity.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_greenland_genericsecurity.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "cafe021b06ec67b3",
+							"externalScene": null,
+							"exposedEntity": "LegalProfession"
+						},
+						{
+							"ref": "cafed03d02b15e66",
+							"externalScene": null,
+							"exposedEntity": "LegalProfession"
+						},
+						{
+							"ref": "cafec2314ce575b7",
+							"externalScene": null,
+							"exposedEntity": "LegalProfession"
+						},
+						{
+							"ref": "cafede55491b0621",
+							"externalScene": null,
+							"exposedEntity": "LegalProfession"
+						},
+						{
+							"ref": "cafe4e6d3b3df570",
+							"externalScene": null,
+							"exposedEntity": "LegalProfession"
+						},
+						{
+							"ref": "cafe4752034f5cf6",
+							"externalScene": null,
+							"exposedEntity": "LegalProfession"
+						}
+					],
+					"postInit": true
+				}
+			}
+		},
+		"cafea5b4b4a4e0ae": {
+			"parent": "cafe68ba8388a6f5",
+			"name": "Prof_Miami_Guard_EventSecurity",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_miami_guard_eventsecurity.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_miami_guard_eventsecurity.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "cafe021b06ec67b3",
+							"externalScene": null,
+							"exposedEntity": "LegalProfession"
+						},
+						{
+							"ref": "cafed03d02b15e66",
+							"externalScene": null,
+							"exposedEntity": "LegalProfession"
+						},
+						{
+							"ref": "cafec2314ce575b7",
+							"externalScene": null,
+							"exposedEntity": "LegalProfession"
+						},
+						{
+							"ref": "cafede55491b0621",
+							"externalScene": null,
+							"exposedEntity": "LegalProfession"
+						},
+						{
+							"ref": "cafe4e6d3b3df570",
+							"externalScene": null,
+							"exposedEntity": "LegalProfession"
+						},
+						{
+							"ref": "cafe4752034f5cf6",
+							"externalScene": null,
+							"exposedEntity": "LegalProfession"
+						}
+					]
+				}
+			}
 		}
 	},
 	"propertyOverrides": [
