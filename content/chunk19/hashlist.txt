@@ -21,6 +21,12 @@
 00378D54DE9FF762.PRIM,[assembly:/_pro/environment/geometry/wall_part_with_deco].pc_prim
 00CC29E40B55CA7F.PRIM,[assembly:/_pro/environment/geometry/wall_deco_only_up].pc_prim
 002D95DD7DBCAC4A.ALOC,[assembly:/_pro/environment/geometry/wall_deco_only_up].pc_coll
+0050D560A6EFD1B5.PRIM,[assembly:/_pro/environment/geometry/wall_part_with_window].pc_prim
+00184DFC50B02BC6.ALOC,[assembly:/_pro/environment/geometry/wall_part_with_window].pc_coll
+00A97FA83E507ADD.PRIM,[assembly:/_pro/environment/geometry/window].pc_prim
+0001A0131B71582D.ALOC,[assembly:/_pro/environment/geometry/window].pc_coll
+004D6C682045B461.TEMP,[assembly:/_pro/environment/geometry/window].pc_entitytype
+00250AEBE86FF76B.TBLU,[assembly:/_pro/environment/geometry/window].pc_entityblueprint
 00F0F9942BE0BB3F.PRIM,[assembly:/_pro/environment/geometry/levels/the facility/module_yacht_a.wl2?/kitchen_modded.prim].pc_prim
 0039CD8613096662.ALOC,[assembly:/_pro/environment/geometry/levels/the facility/module_yacht_a.wl2?/kitchen_modded.prim].pc_coll
 0035244BAC83ED32.PRIM,[assembly:/_pro/environment/geometry/levels/the facility/module_yacht_a.wl2?/toilet_men_modded.prim].pc_prim
