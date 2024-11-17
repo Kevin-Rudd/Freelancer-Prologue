@@ -2321,7 +2321,7 @@
 				"m_pMainEvent": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "00B09B8F3B771B21",
+						"resource": "00A1A4C10C603151",
 						"flag": "5F"
 					}
 				},
@@ -2921,7 +2921,7 @@
 				"m_pMainEvent": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "00B09B8F3B771B21",
+						"resource": "00A1A4C10C603151",
 						"flag": "5F"
 					}
 				},
@@ -5851,10 +5851,14 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -89.9999965849052
+						},
 						"position": {
-							"x": -6.367792129516602,
-							"y": 10.502779960632324,
+							"x": -6.3677978515625,
+							"y": 6.4767608642578125,
 							"z": 8.46876335144043
 						}
 					}
@@ -5866,20 +5870,18 @@
 				"m_fThicknessSource": { "type": "float32", "value": 2.0 },
 				"m_vLocalSize": {
 					"type": "SVector2",
-					"value": {
-						"x": 9.783209800720217,
-						"y": 1.5857599973678589
-					}
+					"value": { "x": 1.0, "y": 1.0 }
 				},
 				"m_fOcclusionMaxDistance": {
 					"type": "float32",
-					"value": 50.0
+					"value": 20.0
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe",
 					"postInit": true
-				}
+				},
+				"SoundGateEnabled": { "type": "bool", "value": true }
 			}
 		},
 		"1b25170e5f8b19bc": {
@@ -7034,7 +7036,8 @@
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe",
 					"postInit": true
-				}
+				},
+				"SoundGateEnabled": { "type": "bool", "value": false }
 			}
 		},
 		"36a0fb5115afb414": {
@@ -16615,7 +16618,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe"
-				}
+				},
+				"SoundGateEnabled": { "type": "bool", "value": false }
 			}
 		},
 		"c065669b0b388028": {
