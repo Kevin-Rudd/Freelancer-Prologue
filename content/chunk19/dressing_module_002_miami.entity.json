@@ -972,7 +972,8 @@
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe",
 					"postInit": true
-				}
+				},
+				"SoundGateEnabled": { "type": "bool", "value": false }
 			}
 		},
 		"fe95f18d1f38225a": {
@@ -2181,7 +2182,8 @@
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe",
 					"postInit": true
-				}
+				},
+				"SoundGateEnabled": { "type": "bool", "value": false }
 			}
 		},
 		"1565318cfb6ab4be": {
@@ -7904,7 +7906,8 @@
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe",
 					"postInit": true
-				}
+				},
+				"SoundGateEnabled": { "type": "bool", "value": false }
 			}
 		},
 		"b42ba70fdb1d87f2": {
@@ -10032,7 +10035,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe"
-				}
+				},
+				"SoundGateEnabled": { "type": "bool", "value": false }
 			}
 		},
 		"056d97eb632273b4": {
@@ -10784,7 +10788,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe"
-				}
+				},
+				"SoundGateEnabled": { "type": "bool", "value": false }
 			}
 		},
 		"9fcc86eaa814bbd0": {
@@ -11229,7 +11234,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe"
-				}
+				},
+				"SoundGateEnabled": { "type": "bool", "value": false }
 			}
 		},
 		"9256fad4994ba87e": {
@@ -16014,7 +16020,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe"
-				}
+				},
+				"SoundGateEnabled": { "type": "bool", "value": false }
 			}
 		},
 		"6c92c145bc256132": {
