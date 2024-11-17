@@ -443,8 +443,8 @@
 					"value": {
 						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
 						"position": {
-							"x": -41.45148086547851,
-							"y": -26.29194068908691,
+							"x": -42.24263000488281,
+							"y": -4.5953216552734375,
 							"z": 1.5486429929733276
 						}
 					}
@@ -456,10 +456,7 @@
 				"m_fThicknessSource": { "type": "float32", "value": 2.0 },
 				"m_vLocalSize": {
 					"type": "SVector2",
-					"value": {
-						"x": 2.289489984512329,
-						"y": 2.4747700691223145
-					}
+					"value": { "x": 1.0, "y": 1.0 }
 				},
 				"m_fOcclusionMaxDistance": {
 					"type": "float32",
@@ -909,32 +906,6 @@
 			},
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		},
-		"fa573e38b87d56d0": {
-			"parent": "7808fae7d198efcf",
-			"name": "Composite",
-			"factory": "[modules:/zcompositeentity.class].pc_entitytype",
-			"blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": {
-							"x": -62.27738952636719,
-							"y": -75.29765319824219,
-							"z": -52.153770446777344
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": {
-						"ref": "cafe4794e94ebade",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
-					}
-				}
-			}
-		},
 		"e6790a0bd552306e": {
 			"parent": "df165283afee05fc",
 			"name": "ASGTS 3",
@@ -992,50 +963,6 @@
 				"m_fTransitionTime": { "type": "float32", "value": 1.0 }
 			},
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
-		},
-		"d9eac392866997c4": {
-			"parent": "7d78ece8483ea66c",
-			"name": "ASGTS_Outside_05",
-			"factory": "[assembly:/templates/sound/customsoundtemplates.template?/ambience_sound_gate_transition_static.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/templates/sound/customsoundtemplates.template?/ambience_sound_gate_transition_static.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
-						"position": {
-							"x": -38.426509857177734,
-							"y": -0.4896189868450165,
-							"z": 1.8020199537277224
-						}
-					}
-				},
-				"m_fThicknessDestination": {
-					"type": "float32",
-					"value": 2.0
-				},
-				"m_fThicknessSource": { "type": "float32", "value": 2.0 },
-				"m_vLocalSize": {
-					"type": "SVector2",
-					"value": {
-						"x": 3.965749979019165,
-						"y": 4.39438009262085
-					}
-				},
-				"m_fOcclusionMaxDistance": {
-					"type": "float32",
-					"value": 50.0
-				},
-				"m_fOcclusionFactorOpen": {
-					"type": "float32",
-					"value": 0.30000001192092896
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
-			}
 		},
 		"46e51512c58cecba": {
 			"parent": "c065669b0b388028",
@@ -1249,55 +1176,6 @@
 					"type": "float32",
 					"value": 0.699999988079071
 				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": {
-						"ref": "cafe4794e94ebade",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
-					}
-				}
-			}
-		},
-		"a927262f812a8693": {
-			"parent": "7808fae7d198efcf",
-			"name": "BoxReflection_Ground_01",
-			"factory": "[modules:/zboxreflectionentity.class].pc_entitytype",
-			"blueprint": "[modules:/zboxreflectionentity.class].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
-							"z": -14.99993974063359
-						},
-						"position": {
-							"x": -60.5617790222168,
-							"y": -74.50567626953125,
-							"z": -51.16175079345703
-						}
-					}
-				},
-				"m_eBoundsType": {
-					"type": "ZBoxReflectionEntity.EBoundsType",
-					"value": "eBox"
-				},
-				"m_vGlobalSize": {
-					"type": "SVector3",
-					"value": {
-						"x": 7.970310211181641,
-						"y": 4.758659839630127,
-						"z": 2.724370002746582
-					}
-				},
-				"m_fWeight": { "type": "float32", "value": 1.0 },
-				"m_eType": {
-					"type": "ZBoxReflectionEntity.EType",
-					"value": "eLocal"
-				},
-				"m_bVisible": { "type": "bool", "value": true },
-				"m_bHighPriority": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
@@ -1675,7 +1553,8 @@
 						"ref": "cafe4794e94ebade",
 						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
-				}
+				},
+				"m_bVisible": { "type": "bool", "value": true }
 			}
 		},
 		"c20d701a21208be3": {
@@ -2651,18 +2530,18 @@
 					"value": {
 						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
 						"position": {
-							"x": 13.724329948425291,
+							"x": 13.724334716796877,
 							"y": 174.1811981201172,
-							"z": -46.42058181762695
+							"z": -115.531494140625
 						}
 					}
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
 					"value": {
-						"x": 219.94900512695312,
-						"y": 224.58900451660156,
-						"z": 200.6649932861328
+						"x": 194.94900512695312,
+						"y": 110.58899688720705,
+						"z": 76.66500091552734
 					}
 				},
 				"m_eidParent": {
@@ -2969,57 +2848,6 @@
 					"type": "SEntityTemplateReference",
 					"value": "1010632820028771",
 					"postInit": true
-				}
-			}
-		},
-		"0ae95cd538c4da16": {
-			"parent": "7808fae7d198efcf",
-			"name": "Light01",
-			"factory": "[modules:/zlightentity.class].pc_entitytype",
-			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": -117.23911178456125,
-							"y": 8.243251375899789,
-							"z": -29.149463988093377
-						},
-						"position": {
-							"x": -59.06983947753906,
-							"y": -76.14466857910156,
-							"z": -51.41437149047851
-						}
-					}
-				},
-				"m_diffuseColor": {
-					"type": "SColorRGB",
-					"value": "#f54838"
-				},
-				"m_fDiffusePower": { "type": "float32", "value": 10.0 },
-				"m_vAngularAttenuation": {
-					"type": "SVector2",
-					"value": {
-						"x": 0.2682960033416748,
-						"y": 0.8614429831504822
-					}
-				},
-				"m_bCastShadows": { "type": "bool", "value": false },
-				"m_vFarAttenuation": {
-					"type": "SVector2",
-					"value": {
-						"x": 1.8098000288009644,
-						"y": 4.897550106048584
-					}
-				},
-				"m_bVisible": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": {
-						"ref": "cafe4794e94ebade",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
-					}
 				}
 			}
 		},
@@ -3571,7 +3399,7 @@
 		},
 		"4b06f783aeb86e79": {
 			"parent": "2a82ee7940dca902",
-			"name": "AG_Outside_SecludedArea",
+			"name": "AG_Outside_Garage",
 			"factory": "[assembly:/templates/sound/customsoundtemplates.template?/soundparentambiencegroup.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/templates/sound/customsoundtemplates.template?/soundparentambiencegroup.entitytemplate].pc_entityblueprint",
 			"properties": {
@@ -3606,50 +3434,6 @@
 				}
 			},
 			"subsets": { "AudioVolumetricGeom": ["fffffffffffffffe"] }
-		},
-		"a58a17a1c0da3770": {
-			"parent": "7d78ece8483ea66c",
-			"name": "ASGTS_Outside_10",
-			"factory": "[assembly:/templates/sound/customsoundtemplates.template?/ambience_sound_gate_transition_static.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/templates/sound/customsoundtemplates.template?/ambience_sound_gate_transition_static.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -90.0, "y": 0.0, "z": -0.0 },
-						"position": {
-							"x": -37.7109489440918,
-							"y": 9.820658683776855,
-							"z": 3.76010799407959
-						}
-					}
-				},
-				"m_fThicknessDestination": {
-					"type": "float32",
-					"value": 2.0
-				},
-				"m_fThicknessSource": { "type": "float32", "value": 2.0 },
-				"m_vLocalSize": {
-					"type": "SVector2",
-					"value": {
-						"x": 12.482600212097168,
-						"y": 16.42639923095703
-					}
-				},
-				"m_fOcclusionMaxDistance": {
-					"type": "float32",
-					"value": 50.0
-				},
-				"m_fOcclusionFactorOpen": {
-					"type": "float32",
-					"value": 0.30000001192092896
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
-			}
 		},
 		"3691e4c94c5cc3da": {
 			"parent": "7808fae7d198efcf",
@@ -3835,7 +3619,7 @@
 		},
 		"d535e704cf739f89": {
 			"parent": "2a82ee7940dca902",
-			"name": "AG_Outside_Ammo_Room",
+			"name": "AG_SecurityHut",
 			"factory": "[assembly:/templates/sound/customsoundtemplates.template?/soundparentambiencegroup.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/templates/sound/customsoundtemplates.template?/soundparentambiencegroup.entitytemplate].pc_entityblueprint",
 			"properties": {
@@ -3854,7 +3638,7 @@
 				"m_pMainEvent": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "00AF6BBBB0FBC178",
+						"resource": "00A1A4C10C603151",
 						"flag": "5F"
 					}
 				},
@@ -4239,109 +4023,6 @@
 				}
 			}
 		},
-		"d58bae77ef99be6e": {
-			"parent": "11727bb0eeeaacff",
-			"name": "SoundOcclusionGroup",
-			"factory": "[assembly:/templates/sound/customsoundtemplates.template?/soundocclusiongroup.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/templates/sound/customsoundtemplates.template?/soundocclusiongroup.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": {
-							"x": 9.159893035888672,
-							"y": -149.45230102539065,
-							"z": 106.81759643554688
-						}
-					}
-				},
-				"m_iRoomOcclusionPriority": {
-					"type": "int32",
-					"value": 1
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "11727bb0eeeaacff",
-					"postInit": true
-				}
-			}
-		},
-		"c648a77b6a0971b3": {
-			"parent": "7d78ece8483ea66c",
-			"name": "ASGTS_Outside_04",
-			"factory": "[assembly:/templates/sound/customsoundtemplates.template?/ambience_sound_gate_transition_static.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/templates/sound/customsoundtemplates.template?/ambience_sound_gate_transition_static.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": {
-							"x": -41.39862823486328,
-							"y": -2.486438035964966,
-							"z": 1.8020199537277224
-						}
-					}
-				},
-				"m_fThicknessDestination": {
-					"type": "float32",
-					"value": 2.0
-				},
-				"m_fThicknessSource": { "type": "float32", "value": 2.0 },
-				"m_vLocalSize": {
-					"type": "SVector2",
-					"value": {
-						"x": 6.263810157775879,
-						"y": 4.39438009262085
-					}
-				},
-				"m_fOcclusionMaxDistance": {
-					"type": "float32",
-					"value": 50.0
-				},
-				"m_fOcclusionFactorOpen": {
-					"type": "float32",
-					"value": 0.30000001192092896
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
-			}
-		},
-		"b1bac46ca9913f4d": {
-			"parent": "d58bae77ef99be6e",
-			"name": "SoundOcclusionShape 3",
-			"factory": "[assembly:/templates/sound/customsoundtemplates.template?/soundocclusionshape.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/templates/sound/customsoundtemplates.template?/soundocclusionshape.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": {
-							"x": -25.08871078491211,
-							"y": 184.0594940185547,
-							"z": -112.92040252685548
-						}
-					}
-				},
-				"m_vGlobalSize": {
-					"type": "SVector3",
-					"value": {
-						"x": 12.48069953918457,
-						"y": 23.145599365234375,
-						"z": 10.03439998626709
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "d58bae77ef99be6e"
-				}
-			}
-		},
 		"00b327ff49d4c457": {
 			"parent": "d102c92add088397",
 			"name": "ASGTS_Ship_F1_14",
@@ -4572,8 +4253,7 @@
 					"value": [
 						"d535e704cf739f89",
 						"4b06f783aeb86e79",
-						"42ef79a95e010146",
-						"11727bb0eeeaacff"
+						"42ef79a95e010146"
 					],
 					"postInit": true
 				}
@@ -5239,9 +4919,9 @@
 					"value": {
 						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
 						"position": {
-							"x": -27.284099578857425,
-							"y": 146.97889709472656,
-							"z": -120.57990264892578
+							"x": -27.284103393554688,
+							"y": 161.84767150878906,
+							"z": -120.67058563232422
 						}
 					}
 				},
@@ -5249,8 +4929,8 @@
 					"type": "SVector3",
 					"value": {
 						"x": 6.131149768829346,
-						"y": 4.317729949951172,
-						"z": 3.61368989944458
+						"y": 9.41800022125244,
+						"z": 3.313999891281128
 					}
 				},
 				"m_eidParent": {
@@ -5633,13 +5313,13 @@
 				"m_pMainEvent": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "001872B3F2EAC07B",
+						"resource": "00844DFDC715E2CA",
 						"flag": "5F"
 					}
 				},
 				"m_sAuxBusName": {
 					"type": "ZString",
-					"value": "FX_ConvReverb_Urban_CityRooftop_Large"
+					"value": "FX_ConvReverb_Urban_CityStreet_Large"
 				},
 				"m_bEnableTravelDistance": {
 					"type": "bool",
@@ -5649,15 +5329,12 @@
 					"type": "bool",
 					"value": false
 				},
-				"m_sAuxBus02Name": {
-					"type": "ZString",
-					"value": "Marrakesh_FX_AmbienceReverb_Ext_Rooftop_Delay"
-				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe",
 					"postInit": true
-				}
+				},
+				"AmbBio_PublicZone": { "type": "bool", "value": true }
 			},
 			"subsets": { "AudioVolumetricGeom": ["fffffffffffffffe"] }
 		},
@@ -6239,18 +5916,18 @@
 					"value": {
 						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
 						"position": {
-							"x": -24.421039581298828,
+							"x": -24.772735595703125,
 							"y": 182.11810302734375,
-							"z": -120.78389739990234
+							"z": -120.58399963378906
 						}
 					}
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
 					"value": {
-						"x": 12.36989974975586,
-						"y": 19.0664005279541,
-						"z": 3.801980018615722
+						"x": 10.470000267028809,
+						"y": 16.965999603271484,
+						"z": 5.9019999504089355
 					}
 				},
 				"m_eidParent": {
@@ -6530,50 +6207,6 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "42ef79a95e010146",
-					"postInit": true
-				}
-			}
-		},
-		"993a502f591afb1c": {
-			"parent": "7d78ece8483ea66c",
-			"name": "ASGTS_Outside_09",
-			"factory": "[assembly:/templates/sound/customsoundtemplates.template?/ambience_sound_gate_transition_static.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/templates/sound/customsoundtemplates.template?/ambience_sound_gate_transition_static.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
-						"position": {
-							"x": -31.480499267578125,
-							"y": 11.881529808044434,
-							"z": 6.001009941101074
-						}
-					}
-				},
-				"m_fThicknessDestination": {
-					"type": "float32",
-					"value": 2.0
-				},
-				"m_fThicknessSource": { "type": "float32", "value": 2.0 },
-				"m_vLocalSize": {
-					"type": "SVector2",
-					"value": {
-						"x": 4.9489898681640625,
-						"y": 3.5531599521636963
-					}
-				},
-				"m_fOcclusionMaxDistance": {
-					"type": "float32",
-					"value": 50.0
-				},
-				"m_fOcclusionFactorOpen": {
-					"type": "float32",
-					"value": 0.5
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
 					"postInit": true
 				}
 			}
@@ -8428,26 +8061,6 @@
 				}
 			}
 		},
-		"2d53c45d971fc4c3": {
-			"parent": "fffffffffffffffe",
-			"name": "Building_Dock_Hut_Interior",
-			"factory": "[modules:/zaiareaentity.class].pc_entitytype",
-			"blueprint": "[modules:/zaiareaentity.class].pc_entityblueprint",
-			"properties": {
-				"m_rParentArea": {
-					"type": "SEntityTemplateReference",
-					"value": {
-						"ref": "46f9801722065c44",
-						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
-					}
-				},
-				"m_aAreaVolumes": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["db162e3d06750873"],
-					"postInit": true
-				}
-			}
-		},
 		"d5b8fb45bc7d96a1": {
 			"parent": "4db285e3bb3a6e8c",
 			"name": "VolumeBox_AIArea",
@@ -9112,7 +8725,7 @@
 		},
 		"ff8495a30baabbb4": {
 			"parent": "fffffffffffffffe",
-			"name": "Building_Storage",
+			"name": "Building_Garage",
 			"factory": "[modules:/zaiareaentity.class].pc_entitytype",
 			"blueprint": "[modules:/zaiareaentity.class].pc_entityblueprint",
 			"properties": {
@@ -9175,50 +8788,6 @@
 				"m_aAreaVolumes": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": ["bd06c900ebbb319c", "eb111d97ac081c6e"],
-					"postInit": true
-				}
-			}
-		},
-		"b0a37ef3f1d38f67": {
-			"parent": "7d78ece8483ea66c",
-			"name": "ASGTS_Outside_02",
-			"factory": "[assembly:/templates/sound/customsoundtemplates.template?/ambience_sound_gate_transition_static.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/templates/sound/customsoundtemplates.template?/ambience_sound_gate_transition_static.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": {
-							"x": -39.433448791503906,
-							"y": -21.95924949645996,
-							"z": 2.294313907623291
-						}
-					}
-				},
-				"m_fThicknessDestination": {
-					"type": "float32",
-					"value": 2.0
-				},
-				"m_fThicknessSource": { "type": "float32", "value": 2.0 },
-				"m_vLocalSize": {
-					"type": "SVector2",
-					"value": {
-						"x": 1.0745099782943726,
-						"y": 1.4996299743652344
-					}
-				},
-				"m_fOcclusionMaxDistance": {
-					"type": "float32",
-					"value": 50.0
-				},
-				"m_fOcclusionFactorOpen": {
-					"type": "float32",
-					"value": 0.5
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
 					"postInit": true
 				}
 			}
@@ -9377,12 +8946,6 @@
 		"b872c666e54ea3a7": {
 			"parent": "fffffffffffffffe",
 			"name": "Sound_Dressing_Module_002_Rework",
-			"factory": "[modules:/zentity.class].pc_entitytype",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
-		},
-		"19ceae9934072d86": {
-			"parent": "fffffffffffffffe",
-			"name": "Dressing_Module_002",
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
@@ -9826,49 +9389,6 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "ce6ad51675f54417"
-				}
-			}
-		},
-		"d0594a2f2ec5e712": {
-			"parent": "7d78ece8483ea66c",
-			"name": "ASGTS_Outside_08",
-			"factory": "[assembly:/templates/sound/customsoundtemplates.template?/ambience_sound_gate_transition_static.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/templates/sound/customsoundtemplates.template?/ambience_sound_gate_transition_static.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": {
-							"x": -40.6864013671875,
-							"y": 17.618019104003906,
-							"z": 3.341497898101806
-						}
-					}
-				},
-				"m_fThicknessDestination": {
-					"type": "float32",
-					"value": 2.0
-				},
-				"m_fThicknessSource": { "type": "float32", "value": 2.0 },
-				"m_vLocalSize": {
-					"type": "SVector2",
-					"value": {
-						"x": 4.811260223388672,
-						"y": 1.4996299743652344
-					}
-				},
-				"m_fOcclusionMaxDistance": {
-					"type": "float32",
-					"value": 50.0
-				},
-				"m_fOcclusionFactorOpen": {
-					"type": "float32",
-					"value": 0.5
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe"
 				}
 			}
 		},
@@ -10627,37 +10147,6 @@
 					"type": "SEntityTemplateReference",
 					"value": "c065669b0b388028",
 					"postInit": true
-				}
-			}
-		},
-		"479f680967e819fc": {
-			"parent": "d58bae77ef99be6e",
-			"name": "SoundOcclusionShape 2",
-			"factory": "[assembly:/templates/sound/customsoundtemplates.template?/soundocclusionshape.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/templates/sound/customsoundtemplates.template?/soundocclusionshape.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": {
-							"x": -36.775089263916016,
-							"y": 201.47390747070312,
-							"z": -120.08899688720705
-						}
-					}
-				},
-				"m_vGlobalSize": {
-					"type": "SVector3",
-					"value": {
-						"x": 14.409099578857422,
-						"y": 13.719599723815918,
-						"z": 9.674059867858888
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "d58bae77ef99be6e"
 				}
 			}
 		},
@@ -11467,74 +10956,6 @@
 				}
 			}
 		},
-		"a0d010bae8558214": {
-			"parent": "7808fae7d198efcf",
-			"name": "Light_Spot_BG_03",
-			"factory": "[modules:/zlightentity.class].pc_entitytype",
-			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": -170.96283470129595,
-							"y": 41.38277160229099,
-							"z": 74.85746887438091
-						},
-						"position": {
-							"x": -10.952750205993652,
-							"y": -1.739959955215454,
-							"z": -53.77323913574219
-						}
-					}
-				},
-				"m_fDiffusePower": { "type": "float32", "value": 50.0 },
-				"m_eLightType": {
-					"type": "ILightEntity.ELightType",
-					"value": "LT_SQUARESPOT"
-				},
-				"m_vBoxSize": {
-					"type": "SVector3",
-					"value": {
-						"x": 59.86000061035156,
-						"y": 92.4800033569336,
-						"z": 10.0
-					}
-				},
-				"m_vFarAttenuation": {
-					"type": "SVector2",
-					"value": {
-						"x": 20.574199676513672,
-						"y": 51.84960174560547
-					}
-				},
-				"m_diffuseColor": {
-					"type": "SColorRGB",
-					"value": "#5d8fa3"
-				},
-				"m_vAngularAttenuation": {
-					"type": "SVector2",
-					"value": {
-						"x": 0.10373900085687636,
-						"y": 0.5180400013923645
-					}
-				},
-				"m_fAspectXByY": { "type": "float32", "value": 2.0 },
-				"m_bCastShadows": { "type": "bool", "value": false },
-				"m_bEnableLightFade": { "type": "bool", "value": true },
-				"m_fLightFadeDistance": {
-					"type": "float32",
-					"value": 75.0
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": {
-						"ref": "cafe4794e94ebade",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
-					}
-				}
-			}
-		},
 		"4ee6bd7cf6dc179e": {
 			"parent": "46e51512c58cecba",
 			"name": "206_Room_Indoor_Side_Deck_Port",
@@ -11746,8 +11167,8 @@
 					"value": {
 						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
 						"position": {
-							"x": -27.61968994140625,
-							"y": 191.6654052734375,
+							"x": -27.11390686035156,
+							"y": 192.422607421875,
 							"z": -120.78389739990234
 						}
 					}
@@ -11756,7 +11177,7 @@
 					"type": "SVector3",
 					"value": {
 						"x": 3.8465499877929688,
-						"y": 5.92848014831543,
+						"y": 4.328000068664551,
 						"z": 3.801980018615722
 					}
 				},
@@ -11773,37 +11194,6 @@
 			"blueprint": "[modules:/zhm5trespasssoundcontroller.class].pc_entityblueprint",
 			"events": {
 				"Trespassing": { "SetValue": ["aca82a6c2eb10948"] }
-			}
-		},
-		"db162e3d06750873": {
-			"parent": "2d53c45d971fc4c3",
-			"name": "VolumeBox_AIArea",
-			"factory": "[modules:/zboxvolumeentity.class].pc_entitytype",
-			"blueprint": "[modules:/zboxvolumeentity.class].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": {
-							"x": -40.601558685302734,
-							"y": -24.16206932067871,
-							"z": 2.2486391067504883
-						}
-					}
-				},
-				"m_vGlobalSize": {
-					"type": "SVector3",
-					"value": {
-						"x": 6.31289005279541,
-						"y": 4.271170139312744,
-						"z": 3.757469892501831
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe"
-				}
 			}
 		},
 		"605f51e72a8f1e2b": {
@@ -11842,37 +11232,6 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe"
-				}
-			}
-		},
-		"e972dec0e7370ca8": {
-			"parent": "4372386beacd11a7",
-			"name": "SoundOcclusionShape 2",
-			"factory": "[assembly:/templates/sound/customsoundtemplates.template?/soundocclusionshape.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/templates/sound/customsoundtemplates.template?/soundocclusionshape.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": {
-							"x": -27.857460021972656,
-							"y": 170.5509033203125,
-							"z": -120.78389739990234
-						}
-					}
-				},
-				"m_vGlobalSize": {
-					"type": "SVector3",
-					"value": {
-						"x": 5.958620071411133,
-						"y": 4.208320140838623,
-						"z": 3.801980018615722
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "4372386beacd11a7"
 				}
 			}
 		},
@@ -12467,45 +11826,6 @@
 						"y": 16.496999740600586,
 						"z": 4.76800012588501
 					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe"
-				}
-			}
-		},
-		"f902c02455dc205b": {
-			"parent": "7d78ece8483ea66c",
-			"name": "ASGTS_Outside_03",
-			"factory": "[assembly:/templates/sound/customsoundtemplates.template?/ambience_sound_gate_transition_static.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/templates/sound/customsoundtemplates.template?/ambience_sound_gate_transition_static.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": {
-							"x": -34.21669006347656,
-							"y": 1.3869199752807615,
-							"z": 2.5288050174713135
-						}
-					}
-				},
-				"m_fThicknessDestination": {
-					"type": "float32",
-					"value": 2.0
-				},
-				"m_fThicknessSource": { "type": "float32", "value": 2.0 },
-				"m_vLocalSize": {
-					"type": "SVector2",
-					"value": {
-						"x": 3.301680088043213,
-						"y": 2.322849988937378
-					}
-				},
-				"m_fOcclusionMaxDistance": {
-					"type": "float32",
-					"value": 50.0
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -13113,10 +12433,14 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -89.9999965849052
+						},
 						"position": {
-							"x": -31.480499267578125,
-							"y": 15.471139907836914,
+							"x": -33.407928466796875,
+							"y": 11.1260986328125,
 							"z": 1.7349189519882202
 						}
 					}
@@ -13129,7 +12453,7 @@
 				"m_vLocalSize": {
 					"type": "SVector2",
 					"value": {
-						"x": 2.2171900272369385,
+						"x": 5.017000198364258,
 						"y": 2.5402400493621826
 					}
 				},
@@ -13929,51 +13253,6 @@
 				}
 			}
 		},
-		"11727bb0eeeaacff": {
-			"parent": "2a82ee7940dca902",
-			"name": "AG_Outside_Fence",
-			"factory": "[assembly:/templates/sound/customsoundtemplates.template?/soundparentambiencegroup.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/templates/sound/customsoundtemplates.template?/soundparentambiencegroup.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": {
-							"x": -22.459209442138672,
-							"y": -21.67662048339844,
-							"z": 15.995169639587402
-						}
-					}
-				},
-				"m_bIsInside": { "type": "bool", "value": false },
-				"m_pMainEvent": {
-					"type": "ZRuntimeResourceID",
-					"value": null
-				},
-				"m_sAuxBusName": {
-					"type": "ZString",
-					"value": "FX_ConvReverb_Urban_CityRooftop_Large"
-				},
-				"m_bEnableTravelDistance": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bEnablePositionProjection": {
-					"type": "bool",
-					"value": false
-				},
-				"m_sAuxBus02Name": {
-					"type": "ZString",
-					"value": "Marrakesh_FX_AmbienceReverb_Ext_Rooftop_Delay"
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe"
-				}
-			},
-			"subsets": { "AudioVolumetricGeom": ["fffffffffffffffe"] }
-		},
 		"18d7c3beb6f9a942": {
 			"parent": "b872c666e54ea3a7",
 			"name": "gameplay_missionspecific_mix",
@@ -14629,49 +13908,6 @@
 				}
 			}
 		},
-		"d4d2f9a8ab4443c7": {
-			"parent": "7d78ece8483ea66c",
-			"name": "ASGTS_Outside_11",
-			"factory": "[assembly:/templates/sound/customsoundtemplates.template?/ambience_sound_gate_transition_static.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/templates/sound/customsoundtemplates.template?/ambience_sound_gate_transition_static.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -90.0, "y": 0.0, "z": -0.0 },
-						"position": {
-							"x": -40.77262878417969,
-							"y": 20.636550903320312,
-							"z": 3.7631618976593018
-						}
-					}
-				},
-				"m_fThicknessDestination": {
-					"type": "float32",
-					"value": 2.0
-				},
-				"m_fThicknessSource": { "type": "float32", "value": 2.0 },
-				"m_vLocalSize": {
-					"type": "SVector2",
-					"value": {
-						"x": 4.155210018157959,
-						"y": 5.736370086669922
-					}
-				},
-				"m_fOcclusionMaxDistance": {
-					"type": "float32",
-					"value": 50.0
-				},
-				"m_fOcclusionFactorOpen": {
-					"type": "float32",
-					"value": 0.30000001192092896
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe"
-				}
-			}
-		},
 		"671065caee70e7e7": {
 			"parent": "c065669b0b388028",
 			"name": "VolumeBox_AIArea_04",
@@ -14852,11 +14088,6 @@
 				"m_fShadowFadeDistance": {
 					"type": "float32",
 					"value": 55.0
-				}
-			},
-			"events": {
-				"On": {
-					"SetVisible": ["0ae95cd538c4da16", "75c1cd61b7b37434"]
 				}
 			},
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
@@ -15378,37 +14609,6 @@
 			},
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		},
-		"0eb2e1322a304830": {
-			"parent": "d58bae77ef99be6e",
-			"name": "SoundOcclusionShape",
-			"factory": "[assembly:/templates/sound/customsoundtemplates.template?/soundocclusionshape.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/templates/sound/customsoundtemplates.template?/soundocclusionshape.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": {
-							"x": -37.73931884765625,
-							"y": 161.91940307617188,
-							"z": -120.08899688720705
-						}
-					}
-				},
-				"m_vGlobalSize": {
-					"type": "SVector3",
-					"value": {
-						"x": 12.48069953918457,
-						"y": 65.56449890136719,
-						"z": 9.674059867858888
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "d58bae77ef99be6e"
-				}
-			}
-		},
 		"86391fd114fbcec3": {
 			"parent": "610ddc1f08ca9296",
 			"name": "GeomBox 3",
@@ -15913,80 +15113,6 @@
 				"m_bVisible": { "type": "bool", "value": false }
 			}
 		},
-		"d43544e407df32a9": {
-			"parent": "19ceae9934072d86",
-			"name": "EF_Module_002",
-			"factory": "[modules:/zeditorfocusentity.class].pc_entitytype",
-			"blueprint": "[modules:/zeditorfocusentity.class].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": {
-							"x": -49.29151153564453,
-							"y": -5.52558708190918,
-							"z": -10.645959854125977
-						}
-					}
-				},
-				"m_vGlobalSize": {
-					"type": "SVector3",
-					"value": {
-						"x": 26.0802001953125,
-						"y": 43.247501373291016,
-						"z": 7.874690055847168
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe"
-				}
-			}
-		},
-		"1c042fcbe909fe26": {
-			"parent": "7d78ece8483ea66c",
-			"name": "ASGTS_Outside_01",
-			"factory": "[assembly:/templates/sound/customsoundtemplates.template?/ambience_sound_gate_transition_static.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/templates/sound/customsoundtemplates.template?/ambience_sound_gate_transition_static.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": {
-							"x": -41.7205696105957,
-							"y": -21.95924949645996,
-							"z": 2.294313907623291
-						}
-					}
-				},
-				"m_fThicknessDestination": {
-					"type": "float32",
-					"value": 2.0
-				},
-				"m_fThicknessSource": { "type": "float32", "value": 2.0 },
-				"m_vLocalSize": {
-					"type": "SVector2",
-					"value": {
-						"x": 1.0745099782943726,
-						"y": 1.4996299743652344
-					}
-				},
-				"m_fOcclusionMaxDistance": {
-					"type": "float32",
-					"value": 50.0
-				},
-				"m_fOcclusionFactorOpen": {
-					"type": "float32",
-					"value": 0.5
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe"
-				}
-			}
-		},
 		"6c5eb7643d3ce3c7": {
 			"parent": "df165283afee05fc",
 			"name": "ASGTS",
@@ -16449,60 +15575,6 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe"
-				}
-			}
-		},
-		"75c1cd61b7b37434": {
-			"parent": "7808fae7d198efcf",
-			"name": "Light02",
-			"factory": "[modules:/zlightentity.class].pc_entitytype",
-			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": -180.0,
-							"y": 0.0,
-							"z": 160.00006892701202
-						},
-						"position": {
-							"x": -60.445030212402344,
-							"y": -73.65506744384766,
-							"z": -52.21699142456055
-						}
-					}
-				},
-				"m_diffuseColor": {
-					"type": "SColorRGB",
-					"value": "#ffffff"
-				},
-				"m_fDiffusePower": { "type": "float32", "value": 10.0 },
-				"m_vAngularAttenuation": {
-					"type": "SVector2",
-					"value": {
-						"x": 0.2682960033416748,
-						"y": 0.5107539892196655
-					}
-				},
-				"m_eLightType": {
-					"type": "ILightEntity.ELightType",
-					"value": "LT_AREA_QUAD"
-				},
-				"m_vAreaQuadSize": {
-					"type": "SVector2",
-					"value": {
-						"x": 7.90162992477417,
-						"y": 2.680619955062866
-					}
-				},
-				"m_bVisible": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": {
-						"ref": "cafe4794e94ebade",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
-					}
 				}
 			}
 		},
@@ -17055,6 +16127,54 @@
 				"m_bUseOcclusionForCulling": {
 					"type": "bool",
 					"value": true
+				}
+			}
+		},
+		"cafef5a08b38a19b": {
+			"parent": "cafe335e5dc92487",
+			"name": "VolumeBox_AIArea",
+			"factory": "[modules:/zboxvolumeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zboxvolumeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -40.33714294433594,
+							"y": 21.41734313964844,
+							"z": 1.9596099853515625
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 3.9089999198913574,
+						"y": 3.815000057220459,
+						"z": 2.9679999351501465
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafe335e5dc92487": {
+			"parent": "ff8495a30baabbb4",
+			"name": "Garage_Toilet",
+			"factory": "[modules:/zaiareaentity.class].pc_entitytype",
+			"blueprint": "[modules:/zaiareaentity.class].pc_entityblueprint",
+			"properties": {
+				"m_aAreaVolumes": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafef5a08b38a19b"]
+				},
+				"m_rParentArea": {
+					"type": "SEntityTemplateReference",
+					"value": "ff8495a30baabbb4"
 				}
 			}
 		}
@@ -17949,9 +17069,9 @@
 						"5a326236f40a65b4",
 						"d2d340afdf914056",
 						"822f173d52dfd9b6",
-						"2d53c45d971fc4c3",
 						"8f661015e38d6809",
-						"ff8495a30baabbb4"
+						"ff8495a30baabbb4",
+						"cafe335e5dc92487"
 					]
 				}
 			}
