@@ -61,3 +61,4 @@
 00620E27B3DD0169.TEMP,[assembly:/_pro/environment/templates/architecture/walls/plywood_walls_a.template?/plywood_support_outerwall_b_00_modded_bis.entitytemplate].pc_prim
 0001BD8A1A4448B4.PRIM,[assembly:/_pro/environment/geometry/stairs_cardeck00_to_deck01].pc_prim
 00EE26A3E65CC3A3.PRIM,[assembly:/_pro/environment/geometry/stairs_deck00_to_deck01_right].pc_prim
+00554A06F5EBB609.PRIM,[assembly:/_pro/environment/geometry/stairs_deck00_to_deck01_left].pc_prim
