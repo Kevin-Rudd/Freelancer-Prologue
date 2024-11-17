@@ -62,3 +62,4 @@
 0001BD8A1A4448B4.PRIM,[assembly:/_pro/environment/geometry/stairs_cardeck00_to_deck01].pc_prim
 00EE26A3E65CC3A3.PRIM,[assembly:/_pro/environment/geometry/stairs_deck00_to_deck01_right].pc_prim
 00554A06F5EBB609.PRIM,[assembly:/_pro/environment/geometry/stairs_deck00_to_deck01_left].pc_prim
+006180A708EEFC37.PRIM,[assembly:/_pro/environment/geometry/stairs_deck01_to_deck02].pc_prim
