@@ -63,3 +63,5 @@
 00EE26A3E65CC3A3.PRIM,[assembly:/_pro/environment/geometry/stairs_deck00_to_deck01_right].pc_prim
 00554A06F5EBB609.PRIM,[assembly:/_pro/environment/geometry/stairs_deck00_to_deck01_left].pc_prim
 006180A708EEFC37.PRIM,[assembly:/_pro/environment/geometry/stairs_deck01_to_deck02].pc_prim
+00B694ED23BE4469.PRIM,[assembly:/_pro/environment/geometry/wooden_floor].pc_prim
+00731C2A078FE119.PRIM,[assembly:/_pro/environment/geometry/wooden_floor_little].pc_prim
