@@ -20298,6 +20298,651 @@
 					]
 				}
 			}
+		},
+		"cafe2accc8fcff61": {
+			"parent": "cafe9bec1618245a",
+			"name": "hedge_box_a",
+			"factory": "0046615D927754D0",
+			"blueprint": "003DC3BEBE6EC142",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": 35.97398376464844,
+							"y": 165.55203247070312,
+							"z": -4.310598373413086
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.159999966621399,
+						"y": 2.0,
+						"z": 1.7000000476837158
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6480b140d0cb4728",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+					},
+					"postInit": true
+				}
+			}
+		},
+		"cafeef8a64509eb2": {
+			"parent": "cafe9bec1618245a",
+			"name": "hedge_box_a_02",
+			"factory": "0046615D927754D0",
+			"blueprint": "003DC3BEBE6EC142",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 24.630569458007812,
+							"y": 165.55203247070312,
+							"z": -4.310598373413086
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.159999966621399,
+						"y": 2.0,
+						"z": 1.7000000476837158
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6480b140d0cb4728",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+					},
+					"postInit": true
+				}
+			}
+		},
+		"cafe9bec1618245a": {
+			"parent": "cafec7d45221afa7",
+			"name": "hedge_box_a_01",
+			"factory": "0046615D927754D0",
+			"blueprint": "003DC3BEBE6EC142",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": 30.191070556640625,
+							"y": 165.55203247070312,
+							"z": -4.310598373413086
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.159999966621399,
+						"y": 2.0,
+						"z": 1.7000000476837158
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6480b140d0cb4728",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+					},
+					"postInit": true
+				}
+			}
+		},
+		"cafe9780683138a5": {
+			"parent": "cafe9bec1618245a",
+			"name": "hedge_box_a_03",
+			"factory": "0046615D927754D0",
+			"blueprint": "003DC3BEBE6EC142",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": 18.91412353515625,
+							"y": 165.55203247070312,
+							"z": -4.310598373413086
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.159999966621399,
+						"y": 2.0,
+						"z": 1.7000000476837158
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6480b140d0cb4728",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+					},
+					"postInit": true
+				}
+			}
+		},
+		"cafecccc6ea8a55b": {
+			"parent": "cafe9bec1618245a",
+			"name": "hedge_box_a_05",
+			"factory": "0046615D927754D0",
+			"blueprint": "003DC3BEBE6EC142",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": 5.5070037841796875,
+							"y": 165.55203247070312,
+							"z": -4.310598373413086
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.159999966621399,
+						"y": 3.0,
+						"z": 1.7000000476837158
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6480b140d0cb4728",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+					},
+					"postInit": true
+				}
+			}
+		},
+		"cafef29648877ed2": {
+			"parent": "cafe9bec1618245a",
+			"name": "hedge_box_a_04",
+			"factory": "0046615D927754D0",
+			"blueprint": "003DC3BEBE6EC142",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": 12.932769775390623,
+							"y": 165.55203247070312,
+							"z": -4.310598373413086
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.159999966621399,
+						"y": 2.0,
+						"z": 1.7000000476837158
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6480b140d0cb4728",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+					},
+					"postInit": true
+				}
+			}
+		},
+		"cafe047064ee7a7d": {
+			"parent": "cafefd40d61200e6",
+			"name": "Pathfinding",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe75d8af2d1232": {
+			"parent": "cafe047064ee7a7d",
+			"name": "PFObstacle Car Park Bushes",
+			"factory": "[modules:/zpfobstacleentity.class].pc_entitytype",
+			"blueprint": "[modules:/zpfobstacleentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -179.0414124025054
+						},
+						"position": {
+							"x": -156.79840087890625,
+							"y": 163.34463500976565,
+							"z": 0.6379093527793884
+						}
+					}
+				},
+				"m_fPenaltyMultiplier": { "type": "float32", "value": -1 },
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 4.730999946594238,
+						"y": 15.604000091552734,
+						"z": 1.600000023841858
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			}
+		},
+		"cafe3d22c9d76bd0": {
+			"parent": "cafe047064ee7a7d",
+			"name": "PFObstacle Car Park Bushes 2",
+			"factory": "[modules:/zpfobstacleentity.class].pc_entitytype",
+			"blueprint": "[modules:/zpfobstacleentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -179.0414124025054
+						},
+						"position": {
+							"x": -156.79840087890625,
+							"y": 197.17774963378903,
+							"z": 0.6379093527793884
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 4.730999946594238,
+						"y": 15.604000091552734,
+						"z": 1.600000023841858
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			}
+		},
+		"cafea21c20780892": {
+			"parent": "cafe047064ee7a7d",
+			"name": "PFObstacle Car Park Bushes 3",
+			"factory": "[modules:/zpfobstacleentity.class].pc_entitytype",
+			"blueprint": "[modules:/zpfobstacleentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": -164.5991668701172,
+							"y": 143.5120391845703,
+							"z": 0.6379093527793884
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 4.031000137329102,
+						"y": 10.904000282287598,
+						"z": 1.600000023841858
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			}
+		},
+		"cafe3616763f0f0d": {
+			"parent": "cafe047064ee7a7d",
+			"name": "PFObstacle Car Park Bushes 4",
+			"factory": "[modules:/zpfobstacleentity.class].pc_entitytype",
+			"blueprint": "[modules:/zpfobstacleentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 136.5753818938871
+						},
+						"position": {
+							"x": -132.1768035888672,
+							"y": 154.56695556640625,
+							"z": 2.991408109664917e-6
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 6.031000137329102,
+						"y": 10.904000282287598,
+						"z": 1.600000023841858
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			}
+		},
+		"cafea8cce0b0e0c6": {
+			"parent": "cafe75d8af2d1232",
+			"name": "CollisionBox",
+			"factory": "[assembly:/templates/physics/collisionvolumes.template?/collisionbox.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/physics/collisionvolumes.template?/collisionbox.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -179.0414124025054
+						},
+						"position": {
+							"x": -156.79840087890625,
+							"y": 163.50352478027344,
+							"z": 0.6379093527793884
+						}
+					}
+				},
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 3.8310000896453857,
+						"y": 15.604000091552734,
+						"z": 1.600000023841858
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafe17609fd81271": {
+			"parent": "cafe3d22c9d76bd0",
+			"name": "CollisionBox",
+			"factory": "[assembly:/templates/physics/collisionvolumes.template?/collisionbox.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/physics/collisionvolumes.template?/collisionbox.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -179.0414124025054
+						},
+						"position": {
+							"x": -156.9522247314453,
+							"y": 197.169677734375,
+							"z": 0.6379093527793884
+						}
+					}
+				},
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 3.2309999465942383,
+						"y": 15.604000091552734,
+						"z": 1.600000023841858
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafecdc350f4974b": {
+			"parent": "cafea21c20780892",
+			"name": "CollisionBox 2",
+			"factory": "[assembly:/templates/physics/collisionvolumes.template?/collisionbox.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/physics/collisionvolumes.template?/collisionbox.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -91.07307866188782
+						},
+						"position": {
+							"x": -133.56739807128906,
+							"y": 158.95828247070312,
+							"z": 0.6229891180992126
+						}
+					}
+				},
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.4600000381469729,
+						"y": 3.1519999504089355,
+						"z": 1.4980000257492063
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			}
+		},
+		"cafef0ba7f2128ec": {
+			"parent": "cafe3616763f0f0d",
+			"name": "CollisionBox",
+			"factory": "[assembly:/templates/physics/collisionvolumes.template?/collisionbox.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/physics/collisionvolumes.template?/collisionbox.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -86.75681756396902
+						},
+						"position": {
+							"x": -161.53375244140625,
+							"y": 142.64341735839844,
+							"z": 2.574175596237182e-6
+						}
+					}
+				},
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 2.930999994277954,
+						"y": 5.504000186920166,
+						"z": 1.600000023841858
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafea675f7293e32": {
+			"parent": "cafe3616763f0f0d",
+			"name": "CollisionBox",
+			"factory": "[assembly:/templates/physics/collisionvolumes.template?/collisionbox.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/physics/collisionvolumes.template?/collisionbox.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -61.29800405075313
+						},
+						"position": {
+							"x": -173.038330078125,
+							"y": 142.88327026367188,
+							"z": 2.574175596237182e-6
+						}
+					}
+				},
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 2.930999994277954,
+						"y": 5.4039998054504395,
+						"z": 1.600000023841858
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafe07482b11b81e": {
+			"parent": "cafe3616763f0f0d",
+			"name": "CollisionBox",
+			"factory": "[assembly:/templates/physics/collisionvolumes.template?/collisionbox.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/physics/collisionvolumes.template?/collisionbox.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 165.17893469732647
+						},
+						"position": {
+							"x": -167.95880126953125,
+							"y": 143.2063446044922,
+							"z": 2.574175596237182e-6
+						}
+					}
+				},
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 5.031000137329102,
+						"y": 2.803999900817871,
+						"z": 2.4000000953674316
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafe5de91bd7c22d": {
+			"parent": "cafefd40d61200e6",
+			"name": "Geotag_ParkingLot",
+			"factory": "[assembly:/_pro/design/geotag.template?/geotag_parkinglot.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/geotag.template?/geotag_parkinglot.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aBoxes": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafeee8e3652fc0c"],
+					"postInit": true
+				}
+			}
+		},
+		"cafeee8e3652fc0c": {
+			"parent": "cafe5de91bd7c22d",
+			"name": "VolumeBox",
+			"factory": "[modules:/zboxvolumeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zboxvolumeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": -153.21580505371094,
+							"y": 180.6419677734375,
+							"z": 0.0
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 78.32099914550781,
+						"y": 43.3120002746582,
+						"z": 6.557590007781982
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
 		}
 	},
 	"propertyOverrides": [
