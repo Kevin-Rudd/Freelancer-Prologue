@@ -21015,6 +21015,230 @@
 					"postInit": true
 				}
 			}
+		},
+		"cafe224b0db63969": {
+			"parent": "cafef45f2d9fafdb",
+			"name": "SentryZone_Deck_1_to_0_Side",
+			"factory": "[modules:/zsentryzoneentity.class].pc_entitytype",
+			"blueprint": "[modules:/zsentryzoneentity.class].pc_entityblueprint",
+			"properties": {
+				"m_aWaypointActs": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "7c328a4e842d7115",
+							"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+						}
+					]
+				},
+				"m_aReFriskZones": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"m_bIgnoreDistractions": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bDontEscalateOnLineCrossing": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fLookAtRange": { "type": "float32", "value": 2.0 },
+				"m_aActors": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "e68b15a12fd1ea7a",
+							"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+						}
+					],
+					"postInit": true
+				},
+				"m_aEntranceZones": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe0ea1e1872268"],
+					"postInit": true
+				},
+				"m_aGreetingZones": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe5d6b986e1cfa"],
+					"postInit": true
+				},
+				"m_aWarningZones": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe0c35299224e6"],
+					"postInit": true
+				},
+				"m_aDisguisesAllowed": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"cafe09b17bc37d09",
+						"cafe5c76d08d4562",
+						"cafe1189a40db652",
+						"cafe265ca4594fbc"
+					],
+					"postInit": true
+				}
+			},
+			"events": {}
+		},
+		"cafed3d09d4bb5e8": {
+			"parent": "cafe224b0db63969",
+			"name": "VB_Refrisk",
+			"factory": "[modules:/zboxvolumeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zboxvolumeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 0.5868790149688721,
+							"y": 15.052760124206545,
+							"z": 4.62698221206665
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 13.614100456237791,
+						"y": 10.186800003051758,
+						"z": 3.2196600437164307
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafe0c35299224e6": {
+			"parent": "cafe224b0db63969",
+			"name": "VB_Warning",
+			"factory": "[modules:/zboxvolumeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zboxvolumeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 179.76930010577942
+						},
+						"position": {
+							"x": -227.52081298828125,
+							"y": 174.56187438964844,
+							"z": 2.6661057472229004
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 2.0713400840759277,
+						"y": 5.413249969482422,
+						"z": 6.056819915771484
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafe5d6b986e1cfa": {
+			"parent": "cafe224b0db63969",
+			"name": "VB_Greeting",
+			"factory": "[modules:/zboxvolumeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zboxvolumeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -167.59908113653643
+						},
+						"position": {
+							"x": -228.3780212402344,
+							"y": 171.48577880859375,
+							"z": 2.6661057472229004
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 5.677680015563965,
+						"y": 4.307400226593018,
+						"z": 2.838129997253418
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			}
+		},
+		"cafe0ea1e1872268": {
+			"parent": "cafe224b0db63969",
+			"name": "VB_Entry",
+			"factory": "[modules:/zboxvolumeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zboxvolumeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": 180 },
+						"position": {
+							"x": -227.6478729248047,
+							"y": 174.28109741210938,
+							"z": 2.4751949310302734
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 2.3340001106262207,
+						"y": 5.359769821166992,
+						"z": 2.982419967651367
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			}
+		},
+		"cafe5c76d08d4562": {
+			"parent": "cafe68ba8388a6f5",
+			"name": "Prof_Greenland_YachtCrew01",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_greenland_yachtcrew.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_greenland_yachtcrew.entitytemplate].pc_entityblueprint"
+		},
+		"cafe1189a40db652": {
+			"parent": "cafe68ba8388a6f5",
+			"name": "Prof_Greenland_BodyGuard",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_greenland_bodyguard.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_greenland_bodyguard.entitytemplate].pc_entityblueprint"
+		},
+		"cafe9ffcde5993c8": {
+			"parent": "cafe68ba8388a6f5",
+			"name": "Prof_Greenland_Unique_Client",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_greenland_unique_client.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_greenland_unique_client.entitytemplate].pc_entityblueprint"
+		},
+		"cafe265ca4594fbc": {
+			"parent": "cafe68ba8388a6f5",
+			"name": "Prof_Greenland_Engineer01",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_greenland_engineer.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_greenland_engineer.entitytemplate].pc_entityblueprint"
 		}
 	},
 	"propertyOverrides": [
