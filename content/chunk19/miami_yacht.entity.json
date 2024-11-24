@@ -1453,7 +1453,7 @@
 					"type": "SColorRGB",
 					"value": "#fff5d6"
 				},
-				"DiffusePower": { "type": "float32", "value": 70.0 },
+				"DiffusePower": { "type": "float32", "value": 100.0 },
 				"GlowPower": { "type": "float32", "value": 50.0 },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -1486,7 +1486,7 @@
 					"type": "SColorRGB",
 					"value": "#fff5d6"
 				},
-				"DiffusePower": { "type": "float32", "value": 70.0 },
+				"DiffusePower": { "type": "float32", "value": 100.0 },
 				"GlowPower": { "type": "float32", "value": 50.0 },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -1882,7 +1882,10 @@
 					"type": "SEntityTemplateReference",
 					"value": "cafeba819bd2eb04",
 					"postInit": true
-				}
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_fWeight": { "type": "float32", "value": 1.0 },
+				"m_fColorIntensity": { "type": "float32", "value": 1.5 }
 			}
 		},
 		"cafe764f40092f79": {
@@ -3699,7 +3702,7 @@
 					"type": "SColorRGB",
 					"value": "#fff5d6"
 				},
-				"DiffusePower": { "type": "float32", "value": 70.0 },
+				"DiffusePower": { "type": "float32", "value": 100.0 },
 				"GlowPower": { "type": "float32", "value": 50.0 },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -21001,7 +21004,7 @@
 						"position": {
 							"x": -7.8461456298828125,
 							"y": 0.03867587447166443,
-							"z": 0.3483940064907074
+							"z": -0.013061687350273132
 						}
 					}
 				},
@@ -21239,6 +21242,108 @@
 			"name": "Prof_Greenland_Engineer01",
 			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_greenland_engineer.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_greenland_engineer.entitytemplate].pc_entityblueprint"
+		},
+		"cafe193953ecc3f9": {
+			"parent": "cafe031722f4c29b",
+			"name": "Zone_Security",
+			"factory": "[modules:/zdisguisezoneentity.class].pc_entitytype",
+			"blueprint": "[modules:/zdisguisezoneentity.class].pc_entityblueprint",
+			"properties": {
+				"m_aExitPoints": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafed23c266665cf"]
+				},
+				"m_Boxes": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafee7381f5a05c6"],
+					"postInit": true
+				}
+			}
+		},
+		"cafee7381f5a05c6": {
+			"parent": "cafe031722f4c29b",
+			"name": "DZV_SecurityHut",
+			"factory": "[assembly:/templates/gameplay/disguise.template?/disguisezonevolume.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/disguise.template?/disguisezonevolume.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -178.00697326660156,
+							"y": 173.54595947265625,
+							"z": 0.42067092657089233
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 6.64300012588501,
+						"y": 9.28600025177002,
+						"z": 4.942999839782715
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			}
+		},
+		"cafe031722f4c29b": {
+			"parent": "cafef7a5eb37c04c",
+			"name": "TrespassingRule_Deck_0_1",
+			"factory": "[modules:/ztrespassingruleentity.class].pc_entitytype",
+			"blueprint": "[modules:/ztrespassingruleentity.class].pc_entityblueprint",
+			"properties": {
+				"m_Zones": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe193953ecc3f9"],
+					"postInit": true
+				},
+				"m_AllowedProfessions": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"cafea5b4b4a4e0ae",
+						"cafe09b17bc37d09",
+						"cafe1189a40db652"
+					],
+					"postInit": true
+				},
+				"m_KeeperProfessions": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafea5b4b4a4e0ae", "cafe09b17bc37d09"],
+					"postInit": true
+				}
+			}
+		},
+		"cafed23c266665cf": {
+			"parent": "cafe031722f4c29b",
+			"name": "Zone_Exit_Hut",
+			"factory": "[modules:/zorientationentity.class].pc_entitytype",
+			"blueprint": "[modules:/zorientationentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 87.02244597304647
+						},
+						"position": {
+							"x": -47.680084228515625,
+							"y": -17.236526489257812,
+							"z": 0.4792509973049164
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			}
 		}
 	},
 	"propertyOverrides": [
