@@ -1885,7 +1885,7 @@
 				},
 				"m_bVisible": { "type": "bool", "value": true },
 				"m_fWeight": { "type": "float32", "value": 1.0 },
-				"m_fColorIntensity": { "type": "float32", "value": 1.5 }
+				"m_fColorIntensity": { "type": "float32", "value": 1.2 }
 			}
 		},
 		"cafe764f40092f79": {
