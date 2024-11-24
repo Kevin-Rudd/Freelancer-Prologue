@@ -16,9 +16,11 @@
 001EC1885E9D84E6.TEMP,[assembly:/_pro/environment/geometry/wall_part].pc_entitytype
 006CE08E685EAC38.TBLU,[assembly:/_pro/environment/geometry/wall_part].pc_entityblueprint
 00AB1E2E339A12AF.PRIM,[assembly:/_pro/environment/geometry/wall_part].pc_prim
+0076703DB5C5344A.ALOC,[assembly:/_pro/environment/geometry/wall_part].pc_coll
 009079587A800BA0.TEMP,[assembly:/_pro/environment/geometry/wall_part_with_deco].pc_entitytype
 007077447FAABE86.TBLU,[assembly:/_pro/environment/geometry/wall_part_with_deco].pc_entityblueprint
 00378D54DE9FF762.PRIM,[assembly:/_pro/environment/geometry/wall_part_with_deco].pc_prim
+00F351D4EB2A5F0B.ALOC,[assembly:/_pro/environment/geometry/wall_part_with_deco].pc_coll
 00CC29E40B55CA7F.PRIM,[assembly:/_pro/environment/geometry/wall_deco_only_up].pc_prim
 002D95DD7DBCAC4A.ALOC,[assembly:/_pro/environment/geometry/wall_deco_only_up].pc_coll
 0050D560A6EFD1B5.PRIM,[assembly:/_pro/environment/geometry/wall_part_with_window].pc_prim
