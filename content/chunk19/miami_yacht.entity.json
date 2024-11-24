@@ -24640,12 +24640,12 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -90
+							"z": -89.9999965849052
 						},
 						"position": {
-							"x": -24.997499465942383,
-							"y": 43.83723831176758,
-							"z": -5.675337791442871
+							"x": -25.057723999023438,
+							"y": 43.83917236328125,
+							"z": -5.675327301025391
 						}
 					}
 				},
@@ -24987,12 +24987,12 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": 90
+							"z": 89.9999965849052
 						},
 						"position": {
-							"x": -24.286609649658203,
-							"y": 47.294639587402344,
-							"z": -3.104279041290283
+							"x": -24.270095825195312,
+							"y": 47.29462432861328,
+							"z": -4.115548133850098
 						}
 					}
 				},
@@ -25742,12 +25742,12 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -90
+							"z": -89.9999965849052
 						},
 						"position": {
-							"x": -24.997499465942383,
-							"y": 73.11383056640625,
-							"z": -5.675337791442871
+							"x": -25.036026000976562,
+							"y": 73.10986328125,
+							"z": -5.675337314605713
 						}
 					}
 				},
@@ -25820,11 +25820,11 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -90
+							"z": -89.9999965849052
 						},
 						"position": {
-							"x": -24.997499465942383,
-							"y": 50.641170501708984,
+							"x": -25.046035766601562,
+							"y": 50.63330841064453,
 							"z": -5.675337791442871
 						}
 					}
@@ -26167,12 +26167,12 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": 90
+							"z": 89.9999965849052
 						},
 						"position": {
 							"x": -24.328950881958008,
 							"y": 76.6359634399414,
-							"z": -3.104279041290283
+							"z": -4.116000175476074
 						}
 					}
 				},
@@ -26260,12 +26260,12 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -90
+							"z": -89.9999965849052
 						},
 						"position": {
-							"x": -24.997499465942383,
-							"y": 80.11779022216797,
-							"z": -5.675337791442871
+							"x": -25.034332275390625,
+							"y": 80.10968780517578,
+							"z": -5.675338268280029
 						}
 					}
 				},
@@ -26726,19 +26726,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.2047181794665661,
-							"y": 0.027215470845937926,
-							"z": -15.137548591604814
+							"x": -0.20379306019583088,
+							"y": 0.027078896287352015,
+							"z": -15.137604412560721
 						},
 						"position": {
-							"x": -28.382230758666992,
+							"x": -28.382232666015625,
 							"y": 37.84297180175781,
 							"z": -5.353981018066406
-						},
-						"scale": {
-							"x": 1.000000695801254,
-							"y": 0.9999997730167869,
-							"z": 1.000000951851757
 						}
 					}
 				},
@@ -29593,6 +29588,150 @@
 						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
 					},
 					"postInit": true
+				}
+			}
+		},
+		"feedf4c2b02dc971": {
+			"parent": "feed5c32a247a9f4",
+			"name": "balustres_miami_harbour_pillar_b_04",
+			"factory": "[assembly:/_pro/environment/templates/architecture/balustres/balustres_miami_harbour_a.template?/balustres_miami_harbour_pillar_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/architecture/balustres/balustres_miami_harbour_a.template?/balustres_miami_harbour_pillar_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": -24.56890869140625,
+							"y": 42.41338348388672,
+							"z": -5.59000825881958
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6480b140d0cb4728",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.2000000476837158,
+						"y": 1.2000000476837158,
+						"z": 1
+					}
+				}
+			}
+		},
+		"feed84f39bbe4595": {
+			"parent": "feed5c32a247a9f4",
+			"name": "balustres_miami_harbour_pillar_b_01",
+			"factory": "[assembly:/_pro/environment/templates/architecture/balustres/balustres_miami_harbour_a.template?/balustres_miami_harbour_pillar_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/architecture/balustres/balustres_miami_harbour_a.template?/balustres_miami_harbour_pillar_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": -24.562057495117188,
+							"y": 81.52913665771484,
+							"z": -5.590198516845703
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6480b140d0cb4728",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.2000000476837158,
+						"y": 1.2000000476837158,
+						"z": 1
+					}
+				}
+			}
+		},
+		"feed601ae6fabad7": {
+			"parent": "feed5c32a247a9f4",
+			"name": "balustres_miami_harbour_pillar_b_03",
+			"factory": "[assembly:/_pro/environment/templates/architecture/balustres/balustres_miami_harbour_a.template?/balustres_miami_harbour_pillar_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/architecture/balustres/balustres_miami_harbour_a.template?/balustres_miami_harbour_pillar_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": -24.566421508789062,
+							"y": 52.245765686035156,
+							"z": -5.589991569519043
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6480b140d0cb4728",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.2000000476837158,
+						"y": 1.2000000476837158,
+						"z": 1
+					}
+				}
+			}
+		},
+		"feed398cf269fe2a": {
+			"parent": "feed5c32a247a9f4",
+			"name": "balustres_miami_harbour_pillar_b_02",
+			"factory": "[assembly:/_pro/environment/templates/architecture/balustres/balustres_miami_harbour_a.template?/balustres_miami_harbour_pillar_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/architecture/balustres/balustres_miami_harbour_a.template?/balustres_miami_harbour_pillar_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": -24.562057495117188,
+							"y": 71.71366882324219,
+							"z": -5.590000152587891
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6480b140d0cb4728",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+					}
 				}
 			}
 		}
