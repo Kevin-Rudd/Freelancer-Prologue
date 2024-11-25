@@ -8,10 +8,6 @@
 	"dependencies": [
 		"005415E5BE265EFD",{"runtimeID":"003D96EAECB00C82","comment":"adonis_sky","toChunk":1},
 		{
-			"runtimeID": "008B845B79C7713E",
-			"toChunk": 9,
-			"comment": "Helicopter SFX"
-		},{
 			"runtimeID": "0069DB569844D774",
 			"toChunk": 9,
 			"comment": "Mumbai Pier"

@@ -27523,7 +27523,7 @@
 				"m_pMainEvent": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "[assembly:/sound/wwise/exportedwwisedata/events/sfx_cutscenes/sfx_cutscenes_seagull/play_cin_failcut_helicopter_sfx.wwiseevent].pc_wwisebank",
+						"resource": "[assembly:/sound/wwise/exportedwwisedata/events/sfx_cutscenes/sfx_cutscenes_flamingo/play_cin_sfx_exitcut_kronstadthelicopter_01.wwiseevent].pc_wwisebank",
 						"flag": "5F"
 					}
 				},
