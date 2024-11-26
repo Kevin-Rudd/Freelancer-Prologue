@@ -1,5 +1,5 @@
 {
-	"version": "0.6.0",
+	"version": "0.7.0",
 	"id": "KevinRudd.FreelancerPrologue",
 	"name": "Freelancer Prologue/Miami Yacht",
 	"contentFolders": ["content"],
@@ -8,6 +8,14 @@
 	"dependencies": [
 		"005415E5BE265EFD",{"runtimeID":"003D96EAECB00C82","comment":"adonis_sky","toChunk":1},
 		{
+			"runtimeID": "004F5FFA5651FB35",
+			"comment": "starfield",
+			"portFromChunk1": true
+		},{
+			"runtimeID": "0026E1082076FBA6",
+			"comment": "starfield",
+			"portFromChunk1": true
+		},{
 			"runtimeID": "0069DB569844D774",
 			"toChunk": 9,
 			"comment": "Mumbai Pier"
