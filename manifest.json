@@ -8,6 +8,18 @@
 	"dependencies": [
 		"005415E5BE265EFD",{"runtimeID":"003D96EAECB00C82","comment":"adonis_sky","toChunk":1},
 		{
+			"runtimeID": "00A47BD7D49620A3",
+			"comment": "Moon",
+			"portFromChunk1": true
+		},{
+			"runtimeID": "00EA33BD94BD2577",
+			"comment": "Moon",
+			"portFromChunk1": true
+		},{
+			"runtimeID": "00FA593C54570ABE",
+			"comment": "Moon",
+			"portFromChunk1": true
+		},{
 			"runtimeID": "004F5FFA5651FB35",
 			"comment": "starfield",
 			"portFromChunk1": true
