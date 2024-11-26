@@ -77,20 +77,14 @@
 			"properties": {
 				"m_RayleighColor": {
 					"type": "SColorRGB",
-					"value": "#7dbbff"
+					"value": "#273c52"
 				},
 				"m_MieColor": { "type": "SColorRGB", "value": "#ffffff" },
-				"m_fSunRadiusScale": {
-					"type": "float32",
-					"value": 1.5499999523162842
-				},
-				"m_fSunIntensityScale": {
-					"type": "float32",
-					"value": 5000
-				},
+				"m_fSunRadiusScale": { "type": "float32", "value": 3.3 },
+				"m_fSunIntensityScale": { "type": "float32", "value": 10 },
 				"m_fHeightAboveSeaLevel": {
 					"type": "float32",
-					"value": 1
+					"value": 1000
 				},
 				"m_fMieAnisotropy": { "type": "float32", "value": 1 },
 				"m_eRoomBehaviour": {
@@ -221,7 +215,7 @@
 				},
 				"ConstantVector1D_01_Value": {
 					"type": "float32",
-					"value": 100000
+					"value": 20
 				},
 				"ConstantColorRGB_01_Value": {
 					"type": "SColorRGB",
@@ -241,150 +235,37 @@
 		},
 		"cafee633dd77a9b7": {
 			"parent": "cafe20f0f7d68687",
-			"name": "Sky_Generic_Night_A_00",
-			"factory": "[assembly:/_pro/environment/templates/backdrop/sky/sky_generic_night.template?/sky_generic_night_a_00.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/backdrop/sky/sky_generic_night.template?/sky_generic_night_a_00.entitytemplate].pc_entityblueprint",
+			"name": "Sky_Falcon",
+			"factory": "00DBD0E72CCCB165",
+			"blueprint": "00EEF54DA09EEEBB",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": {
-							"x": -29.076719284057617,
-							"y": -31.92248916625977,
-							"z": -25.072330474853516
-						}
+						"rotation": { "x": 0, "y": 0, "z": -135 },
+						"position": { "x": -100, "y": -400, "z": -90 }
 					}
-				},
-				"Multiply_08_V2": {
-					"type": "float32",
-					"value": 0.019999999552965164
-				},
-				"m_bVisible": { "type": "bool", "value": false },
-				"ConstantColorRGB_02_Value": {
-					"type": "SColorRGB",
-					"value": "#0078b0"
 				},
 				"m_eRoomBehaviour": {
 					"type": "ZSpatialEntity.ERoomBehaviour",
 					"value": "ROOM_STATIC_OUTSIDE_CLIENT"
 				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": {
-						"ref": "430268a30ebb43c4",
-						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
-					}
-				}
-			}
-		},
-		"cafe5ab173c6fb88": {
-			"parent": "cafe20f0f7d68687",
-			"name": "fx_plane_500m",
-			"factory": "[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/effects/geometry/misc/fx_basic_shapes.wl2?/fx_plane_500m.prim].entitytype,[modules:/zprojectedareacullingaspect.class].entitytype).pc_entitytype",
-			"blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zprojectedareacullingaspect.class].entitytype).pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 81.25957551816252,
-							"y": -21.499308421952463,
-							"z": 13.768681533520269
-						},
-						"position": { "x": 0.0, "y": -1687.0, "z": 477.0 }
-					}
-				},
-				"m_PrimitiveScale": {
-					"type": "SVector3",
-					"value": {
-						"x": 2.5999999046325684,
-						"y": 3.5,
-						"z": 1.0
-					}
-				},
-				"m_bVisibleInBoxReflection": {
-					"type": "bool",
-					"value": true
-				},
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				},
-				"m_bForceVisible": { "type": "bool", "value": false },
-				"m_bDisablePAC": { "type": "bool", "value": true },
 				"m_bVisible": { "type": "bool", "value": true },
-				"m_bRemovePhysics": { "type": "bool", "value": true },
-				"m_bDisableNavmeshExport": {
-					"type": "bool",
-					"value": true
+				"ConstantVector1D_02_Value": {
+					"type": "float32",
+					"value": 0.2
+				},
+				"ConstantVector1D_07_Value": {
+					"type": "float32",
+					"value": 17.0
+				},
+				"ConstantColorRGB_01_Value": {
+					"type": "SColorRGB",
+					"value": "#30425b"
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe",
-					"postInit": true
-				},
-				"m_bCastShadows": { "type": "bool", "value": false }
-			}
-		},
-		"cafecc07219bb75e": {
-			"parent": "cafe5ab173c6fb88",
-			"name": "fx_custom_moon",
-			"factory": "[assembly:/_pro/effects/materials/custom/fox/fx_custom_moon.mi].pc_entitytype",
-			"blueprint": "[assembly:/_pro/effects/materials/custom/fox/fx_custom_moon.mi].pc_entityblueprint",
-			"properties": {
-				"142001717": {
-					"type": "IRenderMaterialEntity.EModifierOperation",
-					"value": "eReplace"
-				},
-				"277986898": {
-					"type": "IRenderMaterialEntity.EModifierOperation",
-					"value": "eReplace"
-				},
-				"748147322": { "type": "float32", "value": 100 },
-				"974143070": { "type": "float32", "value": 200000 },
-				"2932013595": {
-					"type": "IRenderMaterialEntity.EModifierOperation",
-					"value": "eReplace"
-				},
-				"4004151359": { "type": "SColorRGB", "value": "#e6f7ff" },
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": -121.9581832885742,
-							"y": 42.37390518188477,
-							"z": 22.06916618347168
-						},
-						"position": {
-							"x": -35.43621826171875,
-							"y": -8.46634292602539,
-							"z": 4.354286193847656
-						},
-						"scale": {
-							"x": 0.9999999999999998,
-							"y": 1,
-							"z": 1
-						}
-					}
-				},
-				"Override": { "type": "bool", "value": true },
-				"Texture2D_01": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/_pro/environment/textures/backdrop/sky/moon_a.texture?/diffuse_d.tex](ascolormap).pc_tex",
-						"flag": "5F"
-					}
-				},
-				"Texture2D_01_enab": { "type": "bool", "value": true },
-				"Clients": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafe5ab173c6fb88"],
-					"postInit": true
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "cafe5ab173c6fb88",
 					"postInit": true
 				}
 			}
