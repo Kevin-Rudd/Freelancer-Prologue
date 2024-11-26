@@ -5,9 +5,88 @@
 	"contentFolders": ["content"],
 	"description": "Adds Freeform Training and Final Test to Freelancer",
 	"authors": ["Kevin Rudd", "Kercyx"],
-	"dependencies": [
-		"005415E5BE265EFD",{"runtimeID":"003D96EAECB00C82","comment":"adonis_sky","toChunk":1},
-		{
+	"options": [{
+		"name": "Real Hangar",
+		"tooltip": "Makes The Final Test not take place inside a silo",
+		"enabledByDefault": true,
+		"type": "checkbox",
+		"dependencies": [{
+			"runtimeID": "0084CF8B5BF10A5C",
+			"comment": "Colombia Vistas",
+			"portFromChunk1": true
+		},{
+			"runtimeID": "0086D3FF5A23FF8A",
+			"comment": "Colombia Vistas",
+			"portFromChunk1": true
+		},{
+			"runtimeID": "0067A506309E7D77",
+			"comment": "Colombia Vistas",
+			"portFromChunk1": true
+		},{
+			"runtimeID": "00F82189E98CD993",
+			"comment": "Colombia Vistas",
+			"portFromChunk1": true
+		},{
+			"runtimeID": "0056A6A178FACFD8",
+			"comment": "Colombia Vistas",
+			"portFromChunk1": true
+		},{
+			"runtimeID": "00221C101D068B09",
+			"comment": "Colombia Vistas",
+			"portFromChunk1": true
+		},{
+			"runtimeID": "0078FF6B669DFF1B",
+			"comment": "Colombia Vistas",
+			"portFromChunk1": true
+		},{
+			"runtimeID": "007F678C6A46FDA0",
+			"comment": "Colombia Vistas",
+			"portFromChunk1": true
+		},{
+			"runtimeID": "00F878A932945D3C",
+			"comment": "Colombia Vistas",
+			"portFromChunk1": true
+		},{
+			"runtimeID": "009B154F0B68AD75",
+			"comment": "Colombia Vistas",
+			"portFromChunk1": true
+		},{
+			"runtimeID": "00209FAC41BD6DAA",
+			"comment": "Colombia Vistas",
+			"portFromChunk1": true
+		},{
+			"runtimeID": "00CCAFE9AEF51E7E",
+			"comment": "Colombia Vistas",
+			"portFromChunk1": true
+		},{
+			"runtimeID": "00203DB8E381114D",
+			"comment": "Colombia Vistas",
+			"portFromChunk1": true
+		},{
+			"runtimeID": "00A576E96BDF9513",
+			"comment": "Colombia Vistas",
+			"portFromChunk1": true
+		},{
+			"runtimeID": "004AF57E9565D7E6",
+			"comment": "Colombia Vistas",
+			"portFromChunk1": true
+		},{
+			"runtimeID": "0076553EF3989023",
+			"comment": "Colorado Ground Stuff",
+			"portFromChunk1": true
+		},{
+			"runtimeID": "00F4CEFCBC28FEB9",
+			"comment": "Colorado Ground Stuff",
+			"portFromChunk1": true
+		},{
+			"runtimeID": "0002AEAE2EF54B46",
+			"comment": "Colorado Ground Stuff",
+			"portFromChunk1": true
+		},{
+			"runtimeID": "003D6A1767EA2DEB",
+			"comment": "[assembly:/_pro/environment/materials/generic/ground/colombia_blend_sandstone_mud_dirt_g.mi].pc_mi",
+			"portFromChunk1": true
+		},{
 			"runtimeID": "00DBD0E72CCCB165",
 			"comment": "Sky_Falcon",
 			"portFromChunk1": true
@@ -19,7 +98,12 @@
 			"runtimeID": "0026E1082076FBA6",
 			"comment": "starfield",
 			"portFromChunk1": true
-		},{
+		}],
+		"contentFolders": ["content-Hangar"]
+	}],
+	"dependencies": [
+		"005415E5BE265EFD",{"runtimeID":"003D96EAECB00C82","comment":"adonis_sky","toChunk":1},
+		{
 			"runtimeID": "0069DB569844D774",
 			"toChunk": 9,
 			"comment": "Mumbai Pier"
@@ -262,7 +346,6 @@
 	
 
 	],
-	"options": [],
 	"requirements": [],
 	"packagedefinition": [{
 		"type": "entity",

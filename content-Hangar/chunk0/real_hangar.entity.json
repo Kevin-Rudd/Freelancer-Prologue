@@ -1,0 +1,2975 @@
+{
+	"tempHash": "00ED23A2CAC859EE",
+	"tbluHash": "00F4AC3D23CBE0F9",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "Real_Hangar.brick",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+		},
+		"cafe1b4c49a7b86a": {
+			"parent": "fffffffffffffffe",
+			"name": "Background",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe20f0f7d68687": {
+			"parent": "fffffffffffffffe",
+			"name": "Time of Day",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafea99f6e11220f": {
+			"parent": "cafe20f0f7d68687",
+			"name": "Light_CSM",
+			"factory": "[modules:/zlightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_DIRECTIONAL"
+				},
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": { "x": 500, "y": 500, "z": 500 }
+				},
+				"m_diffuseColor": {
+					"type": "SColorRGB",
+					"value": "#b4e9eb"
+				},
+				"m_bCastCSMShadows": { "type": "bool", "value": true },
+				"m_fDiffusePower": { "type": "float32", "value": 0.8 },
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 3.8723642319738127,
+							"y": 45.54493173307513,
+							"z": -144.31754599958566
+						},
+						"position": {
+							"x": 0.0,
+							"y": -37.1075439453125,
+							"z": 0.0
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_STATIC_OUTSIDE_CLIENT"
+				},
+				"m_fLightBleedingReduction": {
+					"type": "float32",
+					"value": 1
+				},
+				"m_fShadowBlurWidth": { "type": "float32", "value": 8 }
+			}
+		},
+		"cafe2eeb280422b3": {
+			"parent": "cafe20f0f7d68687",
+			"name": "RenderAtmosphericScattering",
+			"factory": "[modules:/zrenderatmosphericscatteringentity.class].pc_entitytype",
+			"blueprint": "[modules:/zrenderatmosphericscatteringentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RayleighColor": {
+					"type": "SColorRGB",
+					"value": "#273c52"
+				},
+				"m_MieColor": { "type": "SColorRGB", "value": "#ffffff" },
+				"m_fSunRadiusScale": { "type": "float32", "value": 3.3 },
+				"m_fSunIntensityScale": { "type": "float32", "value": 10 },
+				"m_fHeightAboveSeaLevel": {
+					"type": "float32",
+					"value": 1000
+				},
+				"m_fMieAnisotropy": { "type": "float32", "value": 1 },
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_STATIC"
+				},
+				"m_bForceVisible": { "type": "bool", "value": false },
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_bIsPrivate": { "type": "bool", "value": false },
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fRayleighDepthScale": {
+					"type": "float32",
+					"value": 0.25
+				},
+				"m_fWorldScale": { "type": "float32", "value": 3.0 },
+				"m_fWaterPlaneHeight": { "type": "float32", "value": 1.0 },
+				"m_fShadowedInscatterIntensity": {
+					"type": "float32",
+					"value": 0.75
+				},
+				"m_fShadowedMieDepthScale": {
+					"type": "float32",
+					"value": 1
+				},
+				"m_fShadowedRayleighDepthScale": {
+					"type": "float32",
+					"value": 10
+				},
+				"m_fInscatterIntensity": { "type": "float32", "value": 2 },
+				"m_fRayleighHeightScale": {
+					"type": "float32",
+					"value": 1000.0
+				}
+			}
+		},
+		"cafee803facf2baa": {
+			"parent": "cafe20f0f7d68687",
+			"name": "fx_glow_starfield",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/effects/geometry/glow/fx_glow_starfield.wl2?/fx_glow_starfield.prim].entitytype,[modules:/zhighrestextureentity.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zhighrestextureentity.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 85 }
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 2, "y": 2, "z": 2 }
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_STATIC_OUTSIDE_CLIENT"
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafe51152b5eba92": {
+			"parent": "cafee803facf2baa",
+			"name": "fx_glow_starfield",
+			"factory": "[assembly:/_pro/effects/materials/glow/fx_glow_starfield.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/materials/glow/fx_glow_starfield.mi].pc_entityblueprint",
+			"properties": {
+				"1787395739": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eLeave"
+				},
+				"2287298018": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eLeave"
+				},
+				"2400778427": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eLeave"
+				},
+				"3979602687": {
+					"type": "float32",
+					"value": 0.1899999976158142
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
+					}
+				},
+				"ConstantColorRGB_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_04_Value": {
+					"type": "float32",
+					"value": 0.009999999776482582
+				},
+				"Smoothstep_01_min_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eLeave"
+				},
+				"Smoothstep_01_min": {
+					"type": "float32",
+					"value": 0.5799999833106995
+				},
+				"Smoothstep_01_max_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eLeave"
+				},
+				"Smoothstep_01_max": {
+					"type": "float32",
+					"value": 0.8799999952316284
+				},
+				"ConstantVector1D_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_01_Value": {
+					"type": "float32",
+					"value": 20
+				},
+				"ConstantColorRGB_01_Value": {
+					"type": "SColorRGB",
+					"value": "#70a9ff"
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafee803facf2baa"],
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafee803facf2baa",
+					"postInit": true
+				}
+			}
+		},
+		"cafee633dd77a9b7": {
+			"parent": "cafe20f0f7d68687",
+			"name": "Sky_Falcon",
+			"factory": "00DBD0E72CCCB165",
+			"blueprint": "00EEF54DA09EEEBB",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -135 },
+						"position": { "x": -100, "y": -400, "z": -90 }
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_STATIC_OUTSIDE_CLIENT"
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"ConstantVector1D_02_Value": {
+					"type": "float32",
+					"value": 0.2
+				},
+				"ConstantVector1D_07_Value": {
+					"type": "float32",
+					"value": 17.0
+				},
+				"ConstantColorRGB_01_Value": {
+					"type": "SColorRGB",
+					"value": "#30425b"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafe27c0e4b384c8": {
+			"parent": "cafe04b10abe4447",
+			"name": "colorado_terrain_outside_08",
+			"factory": "0002AEAE2EF54B46",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
+						"position": {
+							"x": -70.82296752929688,
+							"y": -75.04219055175781,
+							"z": -1.3419231176376345
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00BC310FD149231B",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"cafe36f320d74ac2": {
+			"parent": "cafe27c0e4b384c8",
+			"name": "ScatterContainer_terrain_outside_08_stones",
+			"factory": "[modules:/zscattercontainerentity.class].pc_entitytype",
+			"blueprint": "[modules:/zscattercontainerentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 1.907349087559851e-6,
+							"y": 0.9334716796875,
+							"z": -4.768372036778601e-6
+						}
+					}
+				},
+				"m_eCanvasSize": {
+					"type": "IScatterContainerEntity.ECanvasSize",
+					"value": "SIZE_256"
+				},
+				"Recievers": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe27c0e4b384c8"]
+				},
+				"m_vSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 36.91999816894531,
+						"y": 27.09000015258789,
+						"z": 1.0
+					}
+				},
+				"m_ScatterData": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/runtimeresources/scatter/_pro/scenes/missions/colorado_2/location/scattercontainer_terrain_outside_08_stones_0.scatterdata].pc_scatterdata",
+						"flag": "5F"
+					}
+				},
+				"m_fBrushRadius": {
+					"type": "float32",
+					"value": 0.800000011920929
+				},
+				"m_bBrushFalloff": { "type": "bool", "value": true },
+				"m_fBrushFalloffRange": {
+					"type": "float32",
+					"value": 1.0
+				},
+				"m_nBrushIntensity": { "type": "uint8", "value": 50 },
+				"m_sScatterMap": {
+					"type": "ZString",
+					"value": "[assembly:/runtimeresources/scatter/_pro/scenes/missions/colorado_2/location/scattercontainer_terrain_outside_08_stones_0.scattermap].pc_scattermap"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe27c0e4b384c8"
+				},
+				"Materials": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [],
+					"postInit": true
+				}
+			}
+		},
+		"cafe116410e05678": {
+			"parent": "cafe27c0e4b384c8",
+			"name": "ScatterContainer_terrain_outside_08",
+			"factory": "[modules:/zscattercontainerentity.class].pc_entitytype",
+			"blueprint": "[modules:/zscattercontainerentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 0.0,
+							"y": 0.933456003665924,
+							"z": 0.0
+						}
+					}
+				},
+				"m_eCanvasSize": {
+					"type": "IScatterContainerEntity.ECanvasSize",
+					"value": "SIZE_256"
+				},
+				"Materials": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"Recievers": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe27c0e4b384c8"]
+				},
+				"m_vSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 36.91999816894531,
+						"y": 27.09000015258789,
+						"z": 1.0
+					}
+				},
+				"m_ScatterData": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/runtimeresources/scatter/_pro/scenes/missions/colorado_2/location/scattercontainer_terrain_outside_08_0.scatterdata].pc_scatterdata",
+						"flag": "5F"
+					}
+				},
+				"m_fBrushRadius": {
+					"type": "float32",
+					"value": 0.800000011920929
+				},
+				"m_bBrushFalloff": { "type": "bool", "value": true },
+				"m_fBrushFalloffRange": {
+					"type": "float32",
+					"value": 1.0
+				},
+				"m_nBrushIntensity": { "type": "uint8", "value": 5 },
+				"m_sScatterMap": {
+					"type": "ZString",
+					"value": "[assembly:/runtimeresources/scatter/_pro/scenes/missions/colorado_2/location/scattercontainer_terrain_outside_08_0.scattermap].pc_scattermap"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe27c0e4b384c8"
+				}
+			}
+		},
+		"cafe04b10abe4447": {
+			"parent": "cafe1b4c49a7b86a",
+			"name": "Ground",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe16cca814bbe6": {
+			"parent": "cafe04b10abe4447",
+			"name": "colorado_terrain_outside_08",
+			"factory": "0002AEAE2EF54B46",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
+						"position": {
+							"x": 0.0,
+							"y": -75.20611572265625,
+							"z": -1.3419231176376345
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00BC310FD149231B",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"cafee0434b25a125": {
+			"parent": "cafe16cca814bbe6",
+			"name": "ScatterContainer_terrain_outside_08_stones",
+			"factory": "[modules:/zscattercontainerentity.class].pc_entitytype",
+			"blueprint": "[modules:/zscattercontainerentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 1.907349087559851e-6,
+							"y": 0.9334716796875,
+							"z": -4.768372036778601e-6
+						}
+					}
+				},
+				"m_eCanvasSize": {
+					"type": "IScatterContainerEntity.ECanvasSize",
+					"value": "SIZE_256"
+				},
+				"Recievers": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe16cca814bbe6"]
+				},
+				"m_vSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 36.91999816894531,
+						"y": 27.09000015258789,
+						"z": 1.0
+					}
+				},
+				"m_ScatterData": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/runtimeresources/scatter/_pro/scenes/missions/colorado_2/location/scattercontainer_terrain_outside_08_stones_0.scatterdata].pc_scatterdata",
+						"flag": "5F"
+					}
+				},
+				"m_fBrushRadius": {
+					"type": "float32",
+					"value": 0.800000011920929
+				},
+				"m_bBrushFalloff": { "type": "bool", "value": true },
+				"m_fBrushFalloffRange": {
+					"type": "float32",
+					"value": 1.0
+				},
+				"m_nBrushIntensity": { "type": "uint8", "value": 50 },
+				"m_sScatterMap": {
+					"type": "ZString",
+					"value": "[assembly:/runtimeresources/scatter/_pro/scenes/missions/colorado_2/location/scattercontainer_terrain_outside_08_stones_0.scattermap].pc_scattermap"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe16cca814bbe6"
+				},
+				"Materials": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [],
+					"postInit": true
+				}
+			}
+		},
+		"cafe627e282ec27b": {
+			"parent": "cafe16cca814bbe6",
+			"name": "ScatterContainer_terrain_outside_08",
+			"factory": "[modules:/zscattercontainerentity.class].pc_entitytype",
+			"blueprint": "[modules:/zscattercontainerentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 0.0,
+							"y": 0.933456003665924,
+							"z": 0.0
+						}
+					}
+				},
+				"m_eCanvasSize": {
+					"type": "IScatterContainerEntity.ECanvasSize",
+					"value": "SIZE_256"
+				},
+				"Materials": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"Recievers": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe16cca814bbe6"]
+				},
+				"m_vSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 36.91999816894531,
+						"y": 27.09000015258789,
+						"z": 1.0
+					}
+				},
+				"m_ScatterData": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/runtimeresources/scatter/_pro/scenes/missions/colorado_2/location/scattercontainer_terrain_outside_08_0.scatterdata].pc_scatterdata",
+						"flag": "5F"
+					}
+				},
+				"m_fBrushRadius": {
+					"type": "float32",
+					"value": 0.800000011920929
+				},
+				"m_bBrushFalloff": { "type": "bool", "value": true },
+				"m_fBrushFalloffRange": {
+					"type": "float32",
+					"value": 1.0
+				},
+				"m_nBrushIntensity": { "type": "uint8", "value": 5 },
+				"m_sScatterMap": {
+					"type": "ZString",
+					"value": "[assembly:/runtimeresources/scatter/_pro/scenes/missions/colorado_2/location/scattercontainer_terrain_outside_08_0.scattermap].pc_scattermap"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe16cca814bbe6"
+				}
+			}
+		},
+		"cafe14c329fe9d18": {
+			"parent": "cafe1543ace8831b",
+			"name": "colombia_vista_near_c_d",
+			"factory": "00209FAC41BD6DAA",
+			"blueprint": "00F23B6F2D68397F",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 171.6822052001953,
+							"y": 2.039336919784546,
+							"z": 13.807000160217283
+						}
+					}
+				},
+				"3797360759": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/vista/colombia_vista_near_aa.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe041fd4d2d4ff",
+					"postInit": true
+				}
+			}
+		},
+		"cafe78ea43cbe908": {
+			"parent": "cafe1543ace8831b",
+			"name": "colombia_vista_near_c_lower_c",
+			"factory": "00A576E96BDF9513",
+			"blueprint": "00EF4E84C9B3E1BF",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 19.826419830322266,
+							"y": -27.731630325317383,
+							"z": -9.110153198242188
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"827702796": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/mud_ground_wet_hippo_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"2313804137": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/mud_ground_wet_hippo_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_sVertexPaintSourceResourceId": {
+					"type": "ZString",
+					"value": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/colombia/scenario_hippo/colombia_vista_near_c_lower_c_0dc36c25303e46839554aabff7c932e4.vertexpaint].vertexpaint"
+				},
+				"m_VertexPaintData": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/colombia/scenario_hippo/colombia_vista_near_c_lower_c_0dc36c25303e46839554aabff7c932e4.vertexdata].pc_vertexdata",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe041fd4d2d4ff",
+					"postInit": true
+				}
+			}
+		},
+		"cafe27fd4d1aa8f9": {
+			"parent": "cafe1543ace8831b",
+			"name": "colombia_vista_far_e",
+			"factory": "0086D3FF5A23FF8A",
+			"blueprint": "00FBC168F1CF9BEB",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -264.6737060546875,
+							"y": 1055.761962890625,
+							"z": -9.157236099243164
+						}
+					}
+				},
+				"3797360759": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/vista/colombia_vista_far_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe041fd4d2d4ff",
+					"postInit": true
+				}
+			}
+		},
+		"cafe8de757d0208c": {
+			"parent": "cafe1543ace8831b",
+			"name": "colombia_vista_med_e",
+			"factory": "0056A6A178FACFD8",
+			"blueprint": "00E14FF8400EF51C",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 2.0742348699976976,
+							"y": 1.2280577201931904,
+							"z": -170.98702890596982
+						},
+						"position": {
+							"x": 499.2262878417969,
+							"y": 1866.583984375,
+							"z": 305.93359375
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"40434442": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/vista/colombia_vista_med_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe041fd4d2d4ff",
+					"postInit": true
+				}
+			}
+		},
+		"cafeefd884f2275e": {
+			"parent": "cafe1543ace8831b",
+			"name": "colombia_vista_near_c_b",
+			"factory": "00F878A932945D3C",
+			"blueprint": "006D37FE95545F64",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -104.11209869384766,
+							"y": 34.35369873046875,
+							"z": 10.066900253295898
+						}
+					}
+				},
+				"3797360759": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/vista/colombia_vista_far_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe041fd4d2d4ff",
+					"postInit": true
+				}
+			}
+		},
+		"cafec6a7b5d332a4": {
+			"parent": "cafe1543ace8831b",
+			"name": "colombia_vista_med_e_right",
+			"factory": "0078FF6B669DFF1B",
+			"blueprint": "0022BDC53B2C0E3E",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 2.0602363246160813,
+							"y": 1.2038371652663584,
+							"z": -170.9861520643938
+						},
+						"position": {
+							"x": 804.7877197265625,
+							"y": 1722.08203125,
+							"z": 296.2781066894531
+						}
+					}
+				},
+				"40434442": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/vista/colombia_vista_med_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe041fd4d2d4ff",
+					"postInit": true
+				}
+			}
+		},
+		"cafed103a8440d5e": {
+			"parent": "cafe1543ace8831b",
+			"name": "colombia_vista_med_e_left",
+			"factory": "00221C101D068B09",
+			"blueprint": "00C126A73292A052",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 2.074639241564135,
+							"y": 1.2031217622292412,
+							"z": -171.00590789407065
+						},
+						"position": {
+							"x": 320.8725891113281,
+							"y": 1790.886962890625,
+							"z": 299.3031005859375
+						}
+					}
+				},
+				"40434442": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/vista/colombia_vista_med_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe041fd4d2d4ff",
+					"postInit": true
+				}
+			}
+		},
+		"cafe80e0ead84b98": {
+			"parent": "cafe1543ace8831b",
+			"name": "colombia_vista_near_c_lower_b",
+			"factory": "00203DB8E381114D",
+			"blueprint": "0013098FBF4221A6",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -110.6852035522461,
+							"y": -0.05865500122308731,
+							"z": -9.699172973632812
+						}
+					}
+				},
+				"827702796": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/mud_ground_wet_hippo_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"2313804137": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/mud_ground_wet_hippo_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_sVertexPaintSourceResourceId": {
+					"type": "ZString",
+					"value": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/colombia/scenario_hippo/colombia_vista_near_c_lower_b_76e73ac6492a4c4bbea3f95eb0808c99.vertexpaint].vertexpaint"
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_VertexPaintData": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/colombia/scenario_hippo/colombia_vista_near_c_lower_b_76e73ac6492a4c4bbea3f95eb0808c99.vertexdata].pc_vertexdata",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe041fd4d2d4ff",
+					"postInit": true
+				}
+			}
+		},
+		"cafe116f4799de93": {
+			"parent": "cafe1543ace8831b",
+			"name": "colombia_vista_near_c_lower_a",
+			"factory": "00CCAFE9AEF51E7E",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -229.56179809570312,
+							"y": 12.613309860229492,
+							"z": -7.676774978637695
+						}
+					}
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0009C4B81C82F51B",
+						"flag": "5F"
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe041fd4d2d4ff",
+					"postInit": true
+				}
+			}
+		},
+		"cafe3efb25ebd893": {
+			"parent": "cafe1543ace8831b",
+			"name": "colombia_vista_far_c_left",
+			"factory": "0084CF8B5BF10A5C",
+			"blueprint": "00A16E8B5C412270",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -138.99099731445312,
+							"y": 640.4867553710938,
+							"z": 29.11185646057129
+						}
+					}
+				},
+				"3797360759": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/vista/colombia_vista_far_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe041fd4d2d4ff",
+					"postInit": true
+				}
+			}
+		},
+		"cafeb9ccf0c8093f": {
+			"parent": "cafe1543ace8831b",
+			"name": "colombia_vista_near_c_lower_d",
+			"factory": "004AF57E9565D7E6",
+			"blueprint": "0016D070E492953A",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 179.07679748535156,
+							"y": -14.49866008758545,
+							"z": -9.741744995117188
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"827702796": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/mud_ground_wet_hippo_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"2313804137": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/mud_ground_wet_hippo_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_sVertexPaintSourceResourceId": {
+					"type": "ZString",
+					"value": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/colombia/scenario_hippo/colombia_vista_near_c_lower_d_a6429e0b38a945aea67897d8175726dd.vertexpaint].vertexpaint"
+				},
+				"m_VertexPaintData": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/colombia/scenario_hippo/colombia_vista_near_c_lower_d_a6429e0b38a945aea67897d8175726dd.vertexdata].pc_vertexdata",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe041fd4d2d4ff",
+					"postInit": true
+				}
+			}
+		},
+		"cafe76784137cee3": {
+			"parent": "cafe1543ace8831b",
+			"name": "colombia_vista_med_c",
+			"factory": "00F82189E98CD993",
+			"blueprint": "00D63B5D864068E7",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -47.68001937866211,
+							"y": 258.5492858886719,
+							"z": 8.656042098999023
+						}
+					}
+				},
+				"m_fLODScale": { "type": "float32", "value": 1.0 },
+				"3797360759": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/vista/colombia_vista_far_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe041fd4d2d4ff",
+					"postInit": true
+				}
+			}
+		},
+		"cafe1ac22d08b8b1": {
+			"parent": "cafe1543ace8831b",
+			"name": "colombia_vista_near_c_a",
+			"factory": "007F678C6A46FDA0",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -218.42730712890625,
+							"y": -13.586520195007324,
+							"z": 10.596839904785156
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe041fd4d2d4ff",
+					"postInit": true
+				}
+			}
+		},
+		"cafeb6362d0e5fc1": {
+			"parent": "cafe1543ace8831b",
+			"name": "colombia_vista_near_c_c",
+			"factory": "009B154F0B68AD75",
+			"blueprint": "00FE96667144D48C",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 24.086669921875,
+							"y": 34.8106689453125,
+							"z": 5.682310104370117
+						}
+					}
+				},
+				"3797360759": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/vista/colombia_vista_far_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe041fd4d2d4ff",
+					"postInit": true
+				}
+			}
+		},
+		"cafe0334d1085433": {
+			"parent": "cafe1543ace8831b",
+			"name": "colombia_vista_far_e_right",
+			"factory": "0067A506309E7D77",
+			"blueprint": "009ABED2C5EAC531",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 235.6772003173828,
+							"y": 998.1102294921876,
+							"z": 112.7302017211914
+						}
+					}
+				},
+				"3797360759": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/vista/colombia_vista_far_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe041fd4d2d4ff",
+					"postInit": true
+				}
+			}
+		},
+		"cafe1543ace8831b": {
+			"parent": "cafe7cdd24567037",
+			"name": "Back Vistas",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe041fd4d2d4ff": {
+			"parent": "cafe1543ace8831b",
+			"name": "Spatial",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 21.193802240740492
+						},
+						"position": {
+							"x": -0.7696304321289062,
+							"y": 135.44927978515625,
+							"z": -43.74848556518555
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					},
+					"postInit": true
+				}
+			}
+		},
+		"cafef5edf1d06890": {
+			"parent": "cafe2b7d4c4da00a",
+			"name": "colombia_vista_near_c_d",
+			"factory": "00209FAC41BD6DAA",
+			"blueprint": "00F23B6F2D68397F",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 171.6822052001953,
+							"y": 2.039336919784546,
+							"z": 13.807000160217283
+						}
+					}
+				},
+				"3797360759": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/vista/colombia_vista_near_aa.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe72f4b51ea362",
+					"postInit": true
+				}
+			}
+		},
+		"cafe35294e0f0738": {
+			"parent": "cafe2b7d4c4da00a",
+			"name": "colombia_vista_near_c_lower_c",
+			"factory": "00A576E96BDF9513",
+			"blueprint": "00EF4E84C9B3E1BF",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 19.826419830322266,
+							"y": -27.731630325317383,
+							"z": -9.110153198242188
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"827702796": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/mud_ground_wet_hippo_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"2313804137": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/mud_ground_wet_hippo_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_sVertexPaintSourceResourceId": {
+					"type": "ZString",
+					"value": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/colombia/scenario_hippo/colombia_vista_near_c_lower_c_0dc36c25303e46839554aabff7c932e4.vertexpaint].vertexpaint"
+				},
+				"m_VertexPaintData": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/colombia/scenario_hippo/colombia_vista_near_c_lower_c_0dc36c25303e46839554aabff7c932e4.vertexdata].pc_vertexdata",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe72f4b51ea362",
+					"postInit": true
+				}
+			}
+		},
+		"cafe5bfeaa76ae4b": {
+			"parent": "cafe2b7d4c4da00a",
+			"name": "colombia_vista_far_e",
+			"factory": "0086D3FF5A23FF8A",
+			"blueprint": "00FBC168F1CF9BEB",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -264.6737060546875,
+							"y": 1055.761962890625,
+							"z": -9.157236099243164
+						}
+					}
+				},
+				"3797360759": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/vista/colombia_vista_far_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe72f4b51ea362",
+					"postInit": true
+				}
+			}
+		},
+		"cafe7830490a2d3e": {
+			"parent": "cafe2b7d4c4da00a",
+			"name": "colombia_vista_med_e",
+			"factory": "0056A6A178FACFD8",
+			"blueprint": "00E14FF8400EF51C",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 2.0742348699976976,
+							"y": 1.2280577201931904,
+							"z": -170.98702890596982
+						},
+						"position": {
+							"x": 499.2262878417969,
+							"y": 1866.583984375,
+							"z": 305.93359375
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"40434442": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/vista/colombia_vista_med_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe72f4b51ea362",
+					"postInit": true
+				}
+			}
+		},
+		"cafeded37d2916aa": {
+			"parent": "cafe2b7d4c4da00a",
+			"name": "colombia_vista_near_c_b",
+			"factory": "00F878A932945D3C",
+			"blueprint": "006D37FE95545F64",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -104.11209869384766,
+							"y": 34.35369873046875,
+							"z": 10.066900253295898
+						}
+					}
+				},
+				"3797360759": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/vista/colombia_vista_far_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe72f4b51ea362",
+					"postInit": true
+				}
+			}
+		},
+		"cafe9c7ae88db58d": {
+			"parent": "cafe2b7d4c4da00a",
+			"name": "colombia_vista_med_e_right",
+			"factory": "0078FF6B669DFF1B",
+			"blueprint": "0022BDC53B2C0E3E",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 2.0602363246160813,
+							"y": 1.2038371652663584,
+							"z": -170.9861520643938
+						},
+						"position": {
+							"x": 804.7877197265625,
+							"y": 1722.08203125,
+							"z": 296.2781066894531
+						}
+					}
+				},
+				"40434442": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/vista/colombia_vista_med_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe72f4b51ea362",
+					"postInit": true
+				}
+			}
+		},
+		"cafe5a39e15de8ec": {
+			"parent": "cafe2b7d4c4da00a",
+			"name": "colombia_vista_med_e_left",
+			"factory": "00221C101D068B09",
+			"blueprint": "00C126A73292A052",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 2.074639241564135,
+							"y": 1.2031217622292412,
+							"z": -171.00590789407065
+						},
+						"position": {
+							"x": 320.8725891113281,
+							"y": 1790.886962890625,
+							"z": 299.3031005859375
+						}
+					}
+				},
+				"40434442": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/vista/colombia_vista_med_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe72f4b51ea362",
+					"postInit": true
+				}
+			}
+		},
+		"cafe08b2ee4e7f4c": {
+			"parent": "cafe2b7d4c4da00a",
+			"name": "colombia_vista_near_c_lower_b",
+			"factory": "00203DB8E381114D",
+			"blueprint": "0013098FBF4221A6",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -110.6852035522461,
+							"y": -0.05865500122308731,
+							"z": -9.699172973632812
+						}
+					}
+				},
+				"827702796": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/mud_ground_wet_hippo_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"2313804137": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/mud_ground_wet_hippo_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_sVertexPaintSourceResourceId": {
+					"type": "ZString",
+					"value": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/colombia/scenario_hippo/colombia_vista_near_c_lower_b_76e73ac6492a4c4bbea3f95eb0808c99.vertexpaint].vertexpaint"
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_VertexPaintData": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/colombia/scenario_hippo/colombia_vista_near_c_lower_b_76e73ac6492a4c4bbea3f95eb0808c99.vertexdata].pc_vertexdata",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe72f4b51ea362",
+					"postInit": true
+				}
+			}
+		},
+		"cafe0d019c440af1": {
+			"parent": "cafe2b7d4c4da00a",
+			"name": "colombia_vista_near_c_lower_a",
+			"factory": "00CCAFE9AEF51E7E",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -229.56179809570312,
+							"y": 12.613309860229492,
+							"z": -7.676774978637695
+						}
+					}
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0009C4B81C82F51B",
+						"flag": "5F"
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe72f4b51ea362",
+					"postInit": true
+				}
+			}
+		},
+		"cafea6dae4c45c59": {
+			"parent": "cafe2b7d4c4da00a",
+			"name": "colombia_vista_far_c_left",
+			"factory": "0084CF8B5BF10A5C",
+			"blueprint": "00A16E8B5C412270",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -138.99099731445312,
+							"y": 640.4867553710938,
+							"z": 29.11185646057129
+						}
+					}
+				},
+				"3797360759": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/vista/colombia_vista_far_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe72f4b51ea362",
+					"postInit": true
+				}
+			}
+		},
+		"cafe104033c18ce8": {
+			"parent": "cafe2b7d4c4da00a",
+			"name": "colombia_vista_near_c_lower_d",
+			"factory": "004AF57E9565D7E6",
+			"blueprint": "0016D070E492953A",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 179.07679748535156,
+							"y": -14.49866008758545,
+							"z": -9.741744995117188
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"827702796": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/mud_ground_wet_hippo_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"2313804137": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/mud_ground_wet_hippo_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_sVertexPaintSourceResourceId": {
+					"type": "ZString",
+					"value": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/colombia/scenario_hippo/colombia_vista_near_c_lower_d_a6429e0b38a945aea67897d8175726dd.vertexpaint].vertexpaint"
+				},
+				"m_VertexPaintData": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/colombia/scenario_hippo/colombia_vista_near_c_lower_d_a6429e0b38a945aea67897d8175726dd.vertexdata].pc_vertexdata",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe72f4b51ea362",
+					"postInit": true
+				}
+			}
+		},
+		"cafee68518b42446": {
+			"parent": "cafe2b7d4c4da00a",
+			"name": "colombia_vista_med_c",
+			"factory": "00F82189E98CD993",
+			"blueprint": "00D63B5D864068E7",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -47.68001937866211,
+							"y": 258.5492858886719,
+							"z": 8.656042098999023
+						}
+					}
+				},
+				"m_fLODScale": { "type": "float32", "value": 1.0 },
+				"3797360759": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/vista/colombia_vista_far_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe72f4b51ea362",
+					"postInit": true
+				}
+			}
+		},
+		"cafe1831717dac0e": {
+			"parent": "cafe2b7d4c4da00a",
+			"name": "colombia_vista_near_c_a",
+			"factory": "007F678C6A46FDA0",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -218.42730712890625,
+							"y": -13.586520195007324,
+							"z": 10.596839904785156
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe72f4b51ea362",
+					"postInit": true
+				}
+			}
+		},
+		"cafe1b81f65e7bbc": {
+			"parent": "cafe2b7d4c4da00a",
+			"name": "colombia_vista_near_c_c",
+			"factory": "009B154F0B68AD75",
+			"blueprint": "00FE96667144D48C",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 24.086669921875,
+							"y": 34.8106689453125,
+							"z": 5.682310104370117
+						}
+					}
+				},
+				"3797360759": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/vista/colombia_vista_far_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe72f4b51ea362",
+					"postInit": true
+				}
+			}
+		},
+		"cafe6243be049f89": {
+			"parent": "cafe2b7d4c4da00a",
+			"name": "colombia_vista_far_e_right",
+			"factory": "0067A506309E7D77",
+			"blueprint": "009ABED2C5EAC531",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 235.6772003173828,
+							"y": 998.1102294921876,
+							"z": 112.7302017211914
+						}
+					}
+				},
+				"3797360759": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/vista/colombia_vista_far_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe72f4b51ea362",
+					"postInit": true
+				}
+			}
+		},
+		"cafe2b7d4c4da00a": {
+			"parent": "cafe7cdd24567037",
+			"name": "Left Vistas",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe72f4b51ea362": {
+			"parent": "cafe2b7d4c4da00a",
+			"name": "Spatial",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 76.74152374267578,
+							"y": -130.41622924804688,
+							"z": -47.243282318115234
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					},
+					"postInit": true
+				}
+			}
+		},
+		"cafee2cfd46fe0b6": {
+			"parent": "cafe4fc7133e5437",
+			"name": "colombia_vista_near_c_d",
+			"factory": "00209FAC41BD6DAA",
+			"blueprint": "00F23B6F2D68397F",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 171.6822052001953,
+							"y": 2.039336919784546,
+							"z": 13.807000160217283
+						}
+					}
+				},
+				"3797360759": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/vista/colombia_vista_near_aa.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe9aefdcd2c348",
+					"postInit": true
+				}
+			}
+		},
+		"cafe26b9ba7ecae3": {
+			"parent": "cafe4fc7133e5437",
+			"name": "colombia_vista_near_c_lower_c",
+			"factory": "00A576E96BDF9513",
+			"blueprint": "00EF4E84C9B3E1BF",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 19.826419830322266,
+							"y": -27.731630325317383,
+							"z": -9.110153198242188
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"827702796": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/mud_ground_wet_hippo_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"2313804137": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/mud_ground_wet_hippo_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_sVertexPaintSourceResourceId": {
+					"type": "ZString",
+					"value": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/colombia/scenario_hippo/colombia_vista_near_c_lower_c_0dc36c25303e46839554aabff7c932e4.vertexpaint].vertexpaint"
+				},
+				"m_VertexPaintData": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/colombia/scenario_hippo/colombia_vista_near_c_lower_c_0dc36c25303e46839554aabff7c932e4.vertexdata].pc_vertexdata",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe9aefdcd2c348",
+					"postInit": true
+				}
+			}
+		},
+		"cafe51fdb1d96bd7": {
+			"parent": "cafe4fc7133e5437",
+			"name": "colombia_vista_far_e",
+			"factory": "0086D3FF5A23FF8A",
+			"blueprint": "00FBC168F1CF9BEB",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -264.6737060546875,
+							"y": 1055.761962890625,
+							"z": -9.157236099243164
+						}
+					}
+				},
+				"3797360759": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/vista/colombia_vista_far_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe9aefdcd2c348",
+					"postInit": true
+				}
+			}
+		},
+		"cafed8ba960180af": {
+			"parent": "cafe4fc7133e5437",
+			"name": "colombia_vista_med_e",
+			"factory": "0056A6A178FACFD8",
+			"blueprint": "00E14FF8400EF51C",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 2.0742348699976976,
+							"y": 1.2280577201931904,
+							"z": -170.98702890596982
+						},
+						"position": {
+							"x": 499.2262878417969,
+							"y": 1866.583984375,
+							"z": 305.93359375
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"40434442": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/vista/colombia_vista_med_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe9aefdcd2c348",
+					"postInit": true
+				}
+			}
+		},
+		"cafe36c46e6be589": {
+			"parent": "cafe4fc7133e5437",
+			"name": "colombia_vista_near_c_b",
+			"factory": "00F878A932945D3C",
+			"blueprint": "006D37FE95545F64",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -104.11209869384766,
+							"y": 34.35369873046875,
+							"z": 10.066900253295898
+						}
+					}
+				},
+				"3797360759": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/vista/colombia_vista_far_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe9aefdcd2c348",
+					"postInit": true
+				}
+			}
+		},
+		"cafe79637989acea": {
+			"parent": "cafe4fc7133e5437",
+			"name": "colombia_vista_med_e_right",
+			"factory": "0078FF6B669DFF1B",
+			"blueprint": "0022BDC53B2C0E3E",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 2.0602363246160813,
+							"y": 1.2038371652663584,
+							"z": -170.9861520643938
+						},
+						"position": {
+							"x": 804.7877197265625,
+							"y": 1722.08203125,
+							"z": 296.2781066894531
+						}
+					}
+				},
+				"40434442": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/vista/colombia_vista_med_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe9aefdcd2c348",
+					"postInit": true
+				}
+			}
+		},
+		"cafed2d6853f48ac": {
+			"parent": "cafe4fc7133e5437",
+			"name": "colombia_vista_med_e_left",
+			"factory": "00221C101D068B09",
+			"blueprint": "00C126A73292A052",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 2.074639241564135,
+							"y": 1.2031217622292412,
+							"z": -171.00590789407065
+						},
+						"position": {
+							"x": 320.8725891113281,
+							"y": 1790.886962890625,
+							"z": 299.3031005859375
+						}
+					}
+				},
+				"40434442": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/vista/colombia_vista_med_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe9aefdcd2c348",
+					"postInit": true
+				}
+			}
+		},
+		"cafe9c5249020e1a": {
+			"parent": "cafe4fc7133e5437",
+			"name": "colombia_vista_near_c_lower_b",
+			"factory": "00203DB8E381114D",
+			"blueprint": "0013098FBF4221A6",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -110.6852035522461,
+							"y": -0.05865500122308731,
+							"z": -9.699172973632812
+						}
+					}
+				},
+				"827702796": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/mud_ground_wet_hippo_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"2313804137": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/mud_ground_wet_hippo_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_sVertexPaintSourceResourceId": {
+					"type": "ZString",
+					"value": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/colombia/scenario_hippo/colombia_vista_near_c_lower_b_76e73ac6492a4c4bbea3f95eb0808c99.vertexpaint].vertexpaint"
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_VertexPaintData": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/colombia/scenario_hippo/colombia_vista_near_c_lower_b_76e73ac6492a4c4bbea3f95eb0808c99.vertexdata].pc_vertexdata",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe9aefdcd2c348",
+					"postInit": true
+				}
+			}
+		},
+		"cafeb3c04e8e67ce": {
+			"parent": "cafe4fc7133e5437",
+			"name": "colombia_vista_near_c_lower_a",
+			"factory": "00CCAFE9AEF51E7E",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -229.56179809570312,
+							"y": 12.613309860229492,
+							"z": -7.676774978637695
+						}
+					}
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0009C4B81C82F51B",
+						"flag": "5F"
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe9aefdcd2c348",
+					"postInit": true
+				}
+			}
+		},
+		"cafe1992cde7340a": {
+			"parent": "cafe4fc7133e5437",
+			"name": "colombia_vista_far_c_left",
+			"factory": "0084CF8B5BF10A5C",
+			"blueprint": "00A16E8B5C412270",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -138.99099731445312,
+							"y": 640.4867553710938,
+							"z": 29.11185646057129
+						}
+					}
+				},
+				"3797360759": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/vista/colombia_vista_far_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe9aefdcd2c348",
+					"postInit": true
+				}
+			}
+		},
+		"cafeda467c77770f": {
+			"parent": "cafe4fc7133e5437",
+			"name": "colombia_vista_near_c_lower_d",
+			"factory": "004AF57E9565D7E6",
+			"blueprint": "0016D070E492953A",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 179.07679748535156,
+							"y": -14.49866008758545,
+							"z": -9.741744995117188
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"827702796": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/mud_ground_wet_hippo_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"2313804137": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/mud_ground_wet_hippo_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_sVertexPaintSourceResourceId": {
+					"type": "ZString",
+					"value": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/colombia/scenario_hippo/colombia_vista_near_c_lower_d_a6429e0b38a945aea67897d8175726dd.vertexpaint].vertexpaint"
+				},
+				"m_VertexPaintData": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/colombia/scenario_hippo/colombia_vista_near_c_lower_d_a6429e0b38a945aea67897d8175726dd.vertexdata].pc_vertexdata",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe9aefdcd2c348",
+					"postInit": true
+				}
+			}
+		},
+		"cafe3ed4a86093a0": {
+			"parent": "cafe4fc7133e5437",
+			"name": "colombia_vista_med_c",
+			"factory": "00F82189E98CD993",
+			"blueprint": "00D63B5D864068E7",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -47.68001937866211,
+							"y": 258.5492858886719,
+							"z": 8.656042098999023
+						}
+					}
+				},
+				"m_fLODScale": { "type": "float32", "value": 1.0 },
+				"3797360759": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/vista/colombia_vista_far_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe9aefdcd2c348",
+					"postInit": true
+				}
+			}
+		},
+		"cafe38b283208f1c": {
+			"parent": "cafe4fc7133e5437",
+			"name": "colombia_vista_near_c_a",
+			"factory": "007F678C6A46FDA0",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -218.42730712890625,
+							"y": -13.586520195007324,
+							"z": 10.596839904785156
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe9aefdcd2c348",
+					"postInit": true
+				}
+			}
+		},
+		"cafec70ab0b1d328": {
+			"parent": "cafe4fc7133e5437",
+			"name": "colombia_vista_near_c_c",
+			"factory": "009B154F0B68AD75",
+			"blueprint": "00FE96667144D48C",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 24.086669921875,
+							"y": 34.8106689453125,
+							"z": 5.682310104370117
+						}
+					}
+				},
+				"3797360759": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/vista/colombia_vista_far_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe9aefdcd2c348",
+					"postInit": true
+				}
+			}
+		},
+		"cafe24fb1c8b4c08": {
+			"parent": "cafe4fc7133e5437",
+			"name": "colombia_vista_far_e_right",
+			"factory": "0067A506309E7D77",
+			"blueprint": "009ABED2C5EAC531",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 235.6772003173828,
+							"y": 998.1102294921876,
+							"z": 112.7302017211914
+						}
+					}
+				},
+				"3797360759": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/vista/colombia_vista_far_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe9aefdcd2c348",
+					"postInit": true
+				}
+			}
+		},
+		"cafe4fc7133e5437": {
+			"parent": "cafe7cdd24567037",
+			"name": "Front Vistas",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe9aefdcd2c348": {
+			"parent": "cafe4fc7133e5437",
+			"name": "Spatial",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
+						"position": {
+							"x": -0.7696304321289062,
+							"y": -210.84503173828125,
+							"z": -43.74848556518555
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					},
+					"postInit": true
+				}
+			}
+		},
+		"cafe7631adbcad2f": {
+			"parent": "cafe9cf53bae35ba",
+			"name": "colombia_vista_near_c_d",
+			"factory": "00209FAC41BD6DAA",
+			"blueprint": "00F23B6F2D68397F",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 171.6822052001953,
+							"y": 2.039336919784546,
+							"z": 13.807000160217283
+						}
+					}
+				},
+				"3797360759": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/vista/colombia_vista_near_aa.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe4d8d8d2dd526",
+					"postInit": true
+				}
+			}
+		},
+		"cafedeea2b2b04ef": {
+			"parent": "cafe9cf53bae35ba",
+			"name": "colombia_vista_near_c_lower_c",
+			"factory": "00A576E96BDF9513",
+			"blueprint": "00EF4E84C9B3E1BF",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 19.826419830322266,
+							"y": -27.731630325317383,
+							"z": -9.110153198242188
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"827702796": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/mud_ground_wet_hippo_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"2313804137": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/mud_ground_wet_hippo_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_sVertexPaintSourceResourceId": {
+					"type": "ZString",
+					"value": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/colombia/scenario_hippo/colombia_vista_near_c_lower_c_0dc36c25303e46839554aabff7c932e4.vertexpaint].vertexpaint"
+				},
+				"m_VertexPaintData": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/colombia/scenario_hippo/colombia_vista_near_c_lower_c_0dc36c25303e46839554aabff7c932e4.vertexdata].pc_vertexdata",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe4d8d8d2dd526",
+					"postInit": true
+				}
+			}
+		},
+		"cafe8e8cddb50de9": {
+			"parent": "cafe9cf53bae35ba",
+			"name": "colombia_vista_far_e",
+			"factory": "0086D3FF5A23FF8A",
+			"blueprint": "00FBC168F1CF9BEB",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -264.6737060546875,
+							"y": 1055.761962890625,
+							"z": -9.157236099243164
+						}
+					}
+				},
+				"3797360759": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/vista/colombia_vista_far_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe4d8d8d2dd526",
+					"postInit": true
+				}
+			}
+		},
+		"cafe53c2249a4a75": {
+			"parent": "cafe9cf53bae35ba",
+			"name": "colombia_vista_med_e",
+			"factory": "0056A6A178FACFD8",
+			"blueprint": "00E14FF8400EF51C",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 2.0742348699976976,
+							"y": 1.2280577201931904,
+							"z": -170.98702890596982
+						},
+						"position": {
+							"x": 499.2262878417969,
+							"y": 1866.583984375,
+							"z": 305.93359375
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"40434442": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/vista/colombia_vista_med_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe4d8d8d2dd526",
+					"postInit": true
+				}
+			}
+		},
+		"cafe23a8128d5628": {
+			"parent": "cafe9cf53bae35ba",
+			"name": "colombia_vista_near_c_b",
+			"factory": "00F878A932945D3C",
+			"blueprint": "006D37FE95545F64",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -104.11209869384766,
+							"y": 34.35369873046875,
+							"z": 10.066900253295898
+						}
+					}
+				},
+				"3797360759": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/vista/colombia_vista_far_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe4d8d8d2dd526",
+					"postInit": true
+				}
+			}
+		},
+		"cafebbe89e75bb32": {
+			"parent": "cafe9cf53bae35ba",
+			"name": "colombia_vista_med_e_right",
+			"factory": "0078FF6B669DFF1B",
+			"blueprint": "0022BDC53B2C0E3E",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 2.0602363246160813,
+							"y": 1.2038371652663584,
+							"z": -170.9861520643938
+						},
+						"position": {
+							"x": 804.7877197265625,
+							"y": 1722.08203125,
+							"z": 296.2781066894531
+						}
+					}
+				},
+				"40434442": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/vista/colombia_vista_med_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe4d8d8d2dd526",
+					"postInit": true
+				}
+			}
+		},
+		"cafed7ccc1126e08": {
+			"parent": "cafe9cf53bae35ba",
+			"name": "colombia_vista_med_e_left",
+			"factory": "00221C101D068B09",
+			"blueprint": "00C126A73292A052",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 2.074639241564135,
+							"y": 1.2031217622292412,
+							"z": -171.00590789407065
+						},
+						"position": {
+							"x": 320.8725891113281,
+							"y": 1790.886962890625,
+							"z": 299.3031005859375
+						}
+					}
+				},
+				"40434442": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/vista/colombia_vista_med_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe4d8d8d2dd526",
+					"postInit": true
+				}
+			}
+		},
+		"cafeb6ad6a305545": {
+			"parent": "cafe9cf53bae35ba",
+			"name": "colombia_vista_near_c_lower_b",
+			"factory": "00203DB8E381114D",
+			"blueprint": "0013098FBF4221A6",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -110.6852035522461,
+							"y": -0.05865500122308731,
+							"z": -9.699172973632812
+						}
+					}
+				},
+				"827702796": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/mud_ground_wet_hippo_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"2313804137": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/mud_ground_wet_hippo_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_sVertexPaintSourceResourceId": {
+					"type": "ZString",
+					"value": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/colombia/scenario_hippo/colombia_vista_near_c_lower_b_76e73ac6492a4c4bbea3f95eb0808c99.vertexpaint].vertexpaint"
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_VertexPaintData": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/colombia/scenario_hippo/colombia_vista_near_c_lower_b_76e73ac6492a4c4bbea3f95eb0808c99.vertexdata].pc_vertexdata",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe4d8d8d2dd526",
+					"postInit": true
+				}
+			}
+		},
+		"cafe500a018b93e8": {
+			"parent": "cafe9cf53bae35ba",
+			"name": "colombia_vista_near_c_lower_a",
+			"factory": "00CCAFE9AEF51E7E",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -229.56179809570312,
+							"y": 12.613309860229492,
+							"z": -7.676774978637695
+						}
+					}
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0009C4B81C82F51B",
+						"flag": "5F"
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe4d8d8d2dd526",
+					"postInit": true
+				}
+			}
+		},
+		"cafe7b5d3d2f64c4": {
+			"parent": "cafe9cf53bae35ba",
+			"name": "colombia_vista_far_c_left",
+			"factory": "0084CF8B5BF10A5C",
+			"blueprint": "00A16E8B5C412270",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -138.99099731445312,
+							"y": 640.4867553710938,
+							"z": 29.11185646057129
+						}
+					}
+				},
+				"3797360759": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/vista/colombia_vista_far_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe4d8d8d2dd526",
+					"postInit": true
+				}
+			}
+		},
+		"cafe8fc4cfbaab1e": {
+			"parent": "cafe9cf53bae35ba",
+			"name": "colombia_vista_near_c_lower_d",
+			"factory": "004AF57E9565D7E6",
+			"blueprint": "0016D070E492953A",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 179.07679748535156,
+							"y": -14.49866008758545,
+							"z": -9.741744995117188
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"827702796": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/mud_ground_wet_hippo_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"2313804137": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/mud_ground_wet_hippo_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_sVertexPaintSourceResourceId": {
+					"type": "ZString",
+					"value": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/colombia/scenario_hippo/colombia_vista_near_c_lower_d_a6429e0b38a945aea67897d8175726dd.vertexpaint].vertexpaint"
+				},
+				"m_VertexPaintData": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/colombia/scenario_hippo/colombia_vista_near_c_lower_d_a6429e0b38a945aea67897d8175726dd.vertexdata].pc_vertexdata",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe4d8d8d2dd526",
+					"postInit": true
+				}
+			}
+		},
+		"cafedf37fe9fd951": {
+			"parent": "cafe9cf53bae35ba",
+			"name": "colombia_vista_med_c",
+			"factory": "00F82189E98CD993",
+			"blueprint": "00D63B5D864068E7",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -47.68001937866211,
+							"y": 258.5492858886719,
+							"z": 8.656042098999023
+						}
+					}
+				},
+				"m_fLODScale": { "type": "float32", "value": 1.0 },
+				"3797360759": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/vista/colombia_vista_far_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe4d8d8d2dd526",
+					"postInit": true
+				}
+			}
+		},
+		"cafe91e0b79fe7ed": {
+			"parent": "cafe9cf53bae35ba",
+			"name": "colombia_vista_near_c_a",
+			"factory": "007F678C6A46FDA0",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -218.42730712890625,
+							"y": -13.586520195007324,
+							"z": 10.596839904785156
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe4d8d8d2dd526",
+					"postInit": true
+				}
+			}
+		},
+		"cafec4ca923142de": {
+			"parent": "cafe9cf53bae35ba",
+			"name": "colombia_vista_near_c_c",
+			"factory": "009B154F0B68AD75",
+			"blueprint": "00FE96667144D48C",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 24.086669921875,
+							"y": 34.8106689453125,
+							"z": 5.682310104370117
+						}
+					}
+				},
+				"3797360759": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/vista/colombia_vista_far_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe4d8d8d2dd526",
+					"postInit": true
+				}
+			}
+		},
+		"cafe26b9ec1dcbc4": {
+			"parent": "cafe9cf53bae35ba",
+			"name": "colombia_vista_far_e_right",
+			"factory": "0067A506309E7D77",
+			"blueprint": "009ABED2C5EAC531",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 235.6772003173828,
+							"y": 998.1102294921876,
+							"z": 112.7302017211914
+						}
+					}
+				},
+				"3797360759": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/levels/hippo/vista/colombia_vista_far_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe4d8d8d2dd526",
+					"postInit": true
+				}
+			}
+		},
+		"cafe9cf53bae35ba": {
+			"parent": "cafe7cdd24567037",
+			"name": "Right Vistas",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe4d8d8d2dd526": {
+			"parent": "cafe9cf53bae35ba",
+			"name": "Spatial",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -139.21726196762873
+						},
+						"position": {
+							"x": -253.30712890625,
+							"y": -210.84503173828125,
+							"z": -43.74848556518555
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					},
+					"postInit": true
+				}
+			}
+		},
+		"cafe7cdd24567037": {
+			"parent": "cafe1b4c49a7b86a",
+			"name": "Vistas",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		}
+	},
+	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "430268a30ebb43c4",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_vRoomMax": {
+					"type": "SVector3",
+					"value": {
+						"x": 342.5010070800781,
+						"y": 335.2309875488281,
+						"z": 546.1110229492188
+					}
+				},
+				"m_vRoomMin": {
+					"type": "SVector3",
+					"value": {
+						"x": -603.8380126953125,
+						"y": -423.2799987792969,
+						"z": -71.97339630126953
+					}
+				}
+			}
+		}
+	],
+	"overrideDeletes": [
+		{
+			"ref": "4d6375b90a2a4b31",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+		},
+		{
+			"ref": "e92112ab6913ad29",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+		},
+		{
+			"ref": "6a8449026080141e",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/tod_night_clear.brick].pc_entitytype"
+		},
+		{ "ref": "8e46d2ce03967041", "externalScene": "00085C1193BB05A6" },
+		{ "ref": "7c5753bcd997f229", "externalScene": "00085C1193BB05A6" },
+		{ "ref": "23177cefbb345a5f", "externalScene": "00085C1193BB05A6" },
+		{ "ref": "fc6fd6c674d7cf61", "externalScene": "00085C1193BB05A6" }
+	],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [
+		"[assembly:/_pro/scenes/missions/thefacility/mission_polarbear_module_005.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/thefacility/tod_night_clear.brick].pc_entitytype",
+		"00085C1193BB05A6"
+	],
+	"subType": "brick",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}
