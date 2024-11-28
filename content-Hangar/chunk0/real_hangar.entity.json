@@ -27419,6 +27419,135 @@
 				"OnTrue": { "TurnOn": ["cafe03925c7b6f9c"] },
 				"OnFalse": { "TurnOff": ["cafe03925c7b6f9c"] }
 			}
+		},
+		"cafeefd3562d35fe": {
+			"parent": "fffffffffffffffe",
+			"name": "Global Overrides",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafecf8c4f233758": {
+			"parent": "cafeefd3562d35fe",
+			"name": "plywood_normal_wall_a",
+			"factory": "[assembly:/_pro/environment/materials/architecture/walls/plywood_normal_wall_a.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/materials/architecture/walls/plywood_normal_wall_a.mi].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				},
+				"Global": { "type": "bool", "value": true },
+				"Override": { "type": "bool", "value": true },
+				"Texture2DNormal_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "006691BEBE9DC783",
+						"flag": "5F"
+					}
+				},
+				"Texture2D_01_enab": { "type": "bool", "value": true },
+				"Texture2D_03_enab": { "type": "bool", "value": true },
+				"Texture2DNormal_01_enab": {
+					"type": "bool",
+					"value": true
+				},
+				"Texture2D_03": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00C416177AB1DA9E",
+						"flag": "5F"
+					}
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0013C6FC6BCAA463",
+						"flag": "5F"
+					}
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#b9c57a"
+				},
+				"ConstantColorRGB_02_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				}
+			}
+		},
+		"cafe4f2a8ed19139": {
+			"parent": "cafeefd3562d35fe",
+			"name": "plywood_normal_wall_a 2",
+			"factory": "[assembly:/_pro/environment/materials/architecture/walls/plywood_normal_wall_a.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/materials/architecture/walls/plywood_normal_wall_a.mi].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				},
+				"Global": { "type": "bool", "value": true },
+				"Override": { "type": "bool", "value": true },
+				"MaterialInstanceOverrideDest": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/decals/wall/decal_details_plywood_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"Texture2DNormal_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "006691BEBE9DC783",
+						"flag": "5F"
+					}
+				},
+				"Texture2D_01_enab": { "type": "bool", "value": true },
+				"Texture2D_03_enab": { "type": "bool", "value": true },
+				"Texture2DNormal_01_enab": {
+					"type": "bool",
+					"value": true
+				},
+				"Texture2D_03": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00C416177AB1DA9E",
+						"flag": "5F"
+					}
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0013C6FC6BCAA463",
+						"flag": "5F"
+					}
+				},
+				"ConstantColorRGB_02_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#cc00e6"
+				}
+			}
 		}
 	},
 	"propertyOverrides": [
