@@ -16,7 +16,7 @@
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"cafe20f0f7d68687": {
-			"parent": "fffffffffffffffe",
+			"parent": "cafe98c0fae60173",
 			"name": "Time of Day",
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
@@ -1884,14 +1884,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 2.0742348699976976,
-							"y": 1.2280577201931904,
-							"z": -170.98702890596982
+							"x": 2.0742360822764923,
+							"y": 1.2280578789261831,
+							"z": -170.98702814456
 						},
 						"position": {
 							"x": 499.2262878417969,
 							"y": 1866.583984375,
-							"z": 305.93359375
+							"z": 250.95252990722656
 						}
 					}
 				},
@@ -1952,14 +1952,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 2.0602363246160813,
-							"y": 1.2038371652663584,
-							"z": -170.9861520643938
+							"x": 2.0601885013992036,
+							"y": 1.2039591724369143,
+							"z": -170.98613658218875
 						},
 						"position": {
 							"x": 804.7877197265625,
 							"y": 1722.08203125,
-							"z": 296.2781066894531
+							"z": 241.4480133056641
 						}
 					}
 				},
@@ -1988,14 +1988,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 2.074639241564135,
-							"y": 1.2031217622292412,
-							"z": -171.00590789407065
+							"x": 2.0746509418770804,
+							"y": 1.203024831506626,
+							"z": -171.0058745369932
 						},
 						"position": {
 							"x": 320.8725891113281,
 							"y": 1790.886962890625,
-							"z": 299.3031005859375
+							"z": 245.0192108154297
 						}
 					}
 				},
@@ -2457,14 +2457,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 2.0742348699976976,
-							"y": 1.2280577201931904,
-							"z": -170.98702890596982
+							"x": 2.0742360822764923,
+							"y": 1.2280578789261831,
+							"z": -170.98702814456
 						},
 						"position": {
-							"x": 499.2262878417969,
-							"y": 1866.583984375,
-							"z": 305.93359375
+							"x": 499.22711181640625,
+							"y": 1866.582763671875,
+							"z": 206.89271545410156
 						}
 					}
 				},
@@ -2525,14 +2525,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 2.0602363246160813,
-							"y": 1.2038371652663584,
-							"z": -170.9861520643938
+							"x": 2.06018764798902,
+							"y": 1.2039603468879176,
+							"z": -170.98607034211048
 						},
 						"position": {
-							"x": 804.7877197265625,
-							"y": 1722.08203125,
-							"z": 296.2781066894531
+							"x": 804.787841796875,
+							"y": 1722.0806884765625,
+							"z": 197.03518676757812
 						}
 					}
 				},
@@ -2561,14 +2561,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 2.074639241564135,
-							"y": 1.2031217622292412,
-							"z": -171.00590789407065
+							"x": 2.074440578227891,
+							"y": 1.2033876585695795,
+							"z": -171.00583554884955
 						},
 						"position": {
-							"x": 320.8725891113281,
+							"x": 320.8726806640625,
 							"y": 1790.886962890625,
-							"z": 299.3031005859375
+							"z": 200.5038299560547
 						}
 					}
 				},
@@ -21401,14 +21401,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 2.0742348699976976,
-							"y": 1.2280577201931904,
-							"z": -170.98702890596982
+							"x": 2.0742360822764923,
+							"y": 1.2280578789261831,
+							"z": -170.98702814456
 						},
 						"position": {
-							"x": 499.2262878417969,
-							"y": 1866.583984375,
-							"z": 305.93359375
+							"x": 499.2262573242187,
+							"y": 1866.5838623046875,
+							"z": 253.45285034179688
 						}
 					}
 				},
@@ -21469,14 +21469,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 2.0602363246160813,
-							"y": 1.2038371652663584,
-							"z": -170.9861520643938
+							"x": 2.060241839533852,
+							"y": 1.2038672652947622,
+							"z": -170.9862224534049
 						},
 						"position": {
 							"x": 804.7877197265625,
 							"y": 1722.08203125,
-							"z": 296.2781066894531
+							"z": 244.4107360839844
 						}
 					}
 				},
@@ -21505,14 +21505,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 2.074639241564135,
-							"y": 1.2031217622292412,
-							"z": -171.00590789407065
+							"x": 2.0746092148663204,
+							"y": 1.2030966343195753,
+							"z": -171.00689867947182
 						},
 						"position": {
-							"x": 320.8725891113281,
-							"y": 1790.886962890625,
-							"z": 299.3031005859375
+							"x": 320.8720703125,
+							"y": 1790.88671875,
+							"z": 248.23959350585935
 						}
 					}
 				},
@@ -23047,13 +23047,13 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 1.500000172313451,
-							"y": 0.0,
-							"z": 90.00000250447833
+							"x": 1.4999826932396965,
+							"y": -0.00001627506013119234,
+							"z": 90.00000341509418
 						},
 						"position": {
 							"x": 2.0,
-							"y": -0.05400000140070915,
+							"y": -0.05399942398071289,
 							"z": 0.0
 						}
 					}
@@ -24762,34 +24762,6 @@
 				}
 			}
 		},
-		"cafeaf8d9183d484": {
-			"parent": "cafef38ffd7f2b97",
-			"name": "fence_wire_top_end_A",
-			"factory": "[assembly:/_pro/environment/templates/architecture/fences/fence_wire_a.template?/fence_wire_top_end_a.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/architecture/fences/fence_wire_a.template?/fence_wire_top_end_a.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
-							"z": 166.1414896263164
-						},
-						"position": {
-							"x": 19.881900787353516,
-							"y": 53.05437850952149,
-							"z": 0.0
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "cafef38ffd7f2b97",
-					"postInit": true
-				}
-			}
-		},
 		"cafe8ff10f954c07": {
 			"parent": "cafef38ffd7f2b97",
 			"name": "fence_wire_blocker_Base_A68",
@@ -26163,6 +26135,1290 @@
 					"value": "cafe2beda17a12c9"
 				}
 			}
+		},
+		"cafe837941230a1a": {
+			"parent": "cafe3c5383dd8ef7",
+			"name": "Radio_Tower_Sniper_Stingray",
+			"factory": "00D03F330BE61DCF",
+			"blueprint": "00341BA17D9963B9",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": -4.2564544677734375,
+							"y": 64.13898468017578,
+							"z": -54.754581451416016
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					},
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafe3866956921ec": {
+			"parent": "cafe8bb6c669ac46",
+			"name": "TimerSimple",
+			"factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Delay time (ms)": { "type": "int32", "value": 2000 },
+				"m_bEnabled": { "type": "bool", "value": false }
+			},
+			"events": {
+				"Out": {
+					"Toggle": ["cafeeb6b54aed412"],
+					"In": ["cafe3866956921ec"]
+				}
+			}
+		},
+		"cafe8bb6c669ac46": {
+			"parent": "cafe837941230a1a",
+			"name": "Lamp_Prison_Small_A",
+			"factory": "005C99DC472C1120",
+			"blueprint": "0055A36F3F9CD9C9",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 89.70100321247553,
+							"y": -1.0657569954588046,
+							"z": 90.4049362596707
+						},
+						"position": {
+							"x": 0.144012451171875,
+							"y": -0.001464701839722693,
+							"z": 73.4605712890625
+						}
+					}
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ff0000"
+				},
+				"DiffusePower": { "type": "float32", "value": 10.0 },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"GlowPower": { "type": "float32", "value": 9000.0 },
+				"m_bRemovePhysics": { "type": "bool", "value": false },
+				"cablem_bVisible": { "type": "bool", "value": true },
+				"m_eGlowType": {
+					"type": "ERenderGlowTypes",
+					"value": "ERENDERGLOWTYPE_NONE"
+				},
+				"m_fLODScale": { "type": "float32", "value": 1.0 },
+				"LightOn": { "type": "bool", "value": true },
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 1000.0
+				},
+				"GlowPlaneOn": { "type": "bool", "value": true },
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_fLODOffset": { "type": "float32", "value": 10.0 },
+				"GlowPlane_Scale": {
+					"type": "SVector3",
+					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+				},
+				"GlowPlane_Intensity": { "type": "float32", "value": 1.0 },
+				"OmniFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 5.0, "y": 30.0 }
+				},
+				"BigGlowVisibility": { "type": "bool", "value": true },
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"LightCastShadows": { "type": "bool", "value": false },
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 1.2009999752044678, "y": 3.0 }
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe837941230a1a"
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafec64736a18092": {
+			"parent": "cafe8bb6c669ac46",
+			"name": "TimerSimple 1",
+			"factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Delay time (ms)": { "type": "int32", "value": 500 },
+				"m_bEnabled": { "type": "bool", "value": true }
+			},
+			"events": { "Out": { "In": ["cafe3866956921ec"] } }
+		},
+		"cafeeb6b54aed412": {
+			"parent": "cafe8bb6c669ac46",
+			"name": "ValueBool_Basic",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+			"events": {
+				"OnTrue": { "TurnOn": ["cafe8bb6c669ac46"] },
+				"OnFalse": { "TurnOff": ["cafe8bb6c669ac46"] }
+			}
+		},
+		"cafe98c0fae60173": {
+			"parent": "fffffffffffffffe",
+			"name": "Lighting",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe56566fbac8cb": {
+			"parent": "cafe98c0fae60173",
+			"name": "Runway",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafec4b5cdc9659e": {
+			"parent": "cafe2229ac44406b",
+			"name": "TimerSimple",
+			"factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Delay time (ms)": { "type": "int32", "value": 2000 },
+				"m_bEnabled": { "type": "bool", "value": false }
+			},
+			"events": {
+				"Out": {
+					"Toggle": ["cafe8e3fb73f38f4"],
+					"In": ["cafec4b5cdc9659e"]
+				}
+			}
+		},
+		"cafe2229ac44406b": {
+			"parent": "cafe56566fbac8cb",
+			"name": "Lamp_Prison_Small_A1",
+			"factory": "005C99DC472C1120",
+			"blueprint": "0055A36F3F9CD9C9",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 96.02402881960218
+						},
+						"position": {
+							"x": -202.213134765625,
+							"y": 51.64268493652344,
+							"z": -54.101348876953125
+						}
+					}
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ff0000"
+				},
+				"DiffusePower": { "type": "float32", "value": 10.0 },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"GlowPower": { "type": "float32", "value": 9000.0 },
+				"m_bRemovePhysics": { "type": "bool", "value": false },
+				"cablem_bVisible": { "type": "bool", "value": true },
+				"m_eGlowType": {
+					"type": "ERenderGlowTypes",
+					"value": "ERENDERGLOWTYPE_NONE"
+				},
+				"m_fLODScale": { "type": "float32", "value": 1.0 },
+				"LightOn": { "type": "bool", "value": true },
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 1000.0
+				},
+				"GlowPlaneOn": { "type": "bool", "value": true },
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_fLODOffset": { "type": "float32", "value": 10.0 },
+				"GlowPlane_Scale": {
+					"type": "SVector3",
+					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+				},
+				"GlowPlane_Intensity": { "type": "float32", "value": 1.0 },
+				"OmniFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 5.0, "y": 30.0 }
+				},
+				"BigGlowVisibility": { "type": "bool", "value": true },
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"LightCastShadows": { "type": "bool", "value": false },
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 1.2009999752044678, "y": 3.0 }
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafeeb4d0639ce72": {
+			"parent": "cafe2229ac44406b",
+			"name": "TimerSimple 1",
+			"factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Delay time (ms)": { "type": "int32", "value": 900 },
+				"m_bEnabled": { "type": "bool", "value": true }
+			},
+			"events": { "Out": { "In": ["cafec4b5cdc9659e"] } }
+		},
+		"cafe8e3fb73f38f4": {
+			"parent": "cafe2229ac44406b",
+			"name": "ValueBool_Basic",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+			"events": {
+				"OnTrue": { "TurnOn": ["cafe2229ac44406b"] },
+				"OnFalse": { "TurnOff": ["cafe2229ac44406b"] }
+			}
+		},
+		"cafe3df92a7d5825": {
+			"parent": "cafec209f0eb6662",
+			"name": "TimerSimple",
+			"factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Delay time (ms)": { "type": "int32", "value": 2000 },
+				"m_bEnabled": { "type": "bool", "value": false }
+			},
+			"events": {
+				"Out": {
+					"Toggle": ["cafe12f35647c912"],
+					"In": ["cafe3df92a7d5825"]
+				}
+			}
+		},
+		"cafec209f0eb6662": {
+			"parent": "cafe56566fbac8cb",
+			"name": "Lamp_Prison_Small_A",
+			"factory": "005C99DC472C1120",
+			"blueprint": "0055A36F3F9CD9C9",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 169.402921225999
+						},
+						"position": {
+							"x": -109.31597900390624,
+							"y": 23.53797912597656,
+							"z": -54.101348876953125
+						}
+					}
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ff0000"
+				},
+				"DiffusePower": { "type": "float32", "value": 10.0 },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"GlowPower": { "type": "float32", "value": 9000.0 },
+				"m_bRemovePhysics": { "type": "bool", "value": false },
+				"cablem_bVisible": { "type": "bool", "value": true },
+				"m_eGlowType": {
+					"type": "ERenderGlowTypes",
+					"value": "ERENDERGLOWTYPE_NONE"
+				},
+				"m_fLODScale": { "type": "float32", "value": 1.0 },
+				"LightOn": { "type": "bool", "value": true },
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 1000.0
+				},
+				"GlowPlaneOn": { "type": "bool", "value": true },
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_fLODOffset": { "type": "float32", "value": 10.0 },
+				"GlowPlane_Scale": {
+					"type": "SVector3",
+					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+				},
+				"GlowPlane_Intensity": { "type": "float32", "value": 1.0 },
+				"OmniFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 5.0, "y": 30.0 }
+				},
+				"BigGlowVisibility": { "type": "bool", "value": true },
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"LightCastShadows": { "type": "bool", "value": false },
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 1.2009999752044678, "y": 3.0 }
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafe8bad99bd71c2": {
+			"parent": "cafec209f0eb6662",
+			"name": "TimerSimple 1",
+			"factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Delay time (ms)": { "type": "int32", "value": 700 },
+				"m_bEnabled": { "type": "bool", "value": true }
+			},
+			"events": { "Out": { "In": ["cafe3df92a7d5825"] } }
+		},
+		"cafe12f35647c912": {
+			"parent": "cafec209f0eb6662",
+			"name": "ValueBool_Basic",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+			"events": {
+				"OnTrue": { "TurnOn": ["cafec209f0eb6662"] },
+				"OnFalse": { "TurnOff": ["cafec209f0eb6662"] }
+			}
+		},
+		"cafef08d25f419ea": {
+			"parent": "cafe3a42633d3a37",
+			"name": "TimerSimple",
+			"factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Delay time (ms)": { "type": "int32", "value": 2000 },
+				"m_bEnabled": { "type": "bool", "value": false }
+			},
+			"events": {
+				"Out": {
+					"Toggle": ["cafecd04842b0fd5"],
+					"In": ["cafef08d25f419ea"]
+				}
+			}
+		},
+		"cafe3a42633d3a37": {
+			"parent": "cafe56566fbac8cb",
+			"name": "Lamp_Prison_Small_A1",
+			"factory": "005C99DC472C1120",
+			"blueprint": "0055A36F3F9CD9C9",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 94.9401242383975
+						},
+						"position": {
+							"x": -46.278900146484375,
+							"y": 45.31140899658203,
+							"z": -54.101348876953125
+						}
+					}
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ff0000"
+				},
+				"DiffusePower": { "type": "float32", "value": 10.0 },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"GlowPower": { "type": "float32", "value": 9000.0 },
+				"m_bRemovePhysics": { "type": "bool", "value": false },
+				"cablem_bVisible": { "type": "bool", "value": true },
+				"m_eGlowType": {
+					"type": "ERenderGlowTypes",
+					"value": "ERENDERGLOWTYPE_NONE"
+				},
+				"m_fLODScale": { "type": "float32", "value": 1.0 },
+				"LightOn": { "type": "bool", "value": true },
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 1000.0
+				},
+				"GlowPlaneOn": { "type": "bool", "value": false },
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_fLODOffset": { "type": "float32", "value": 10.0 },
+				"GlowPlane_Scale": {
+					"type": "SVector3",
+					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+				},
+				"GlowPlane_Intensity": { "type": "float32", "value": 1.0 },
+				"OmniFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 5.0, "y": 30.0 }
+				},
+				"BigGlowVisibility": { "type": "bool", "value": true },
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"LightCastShadows": { "type": "bool", "value": false },
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 1.2009999752044678, "y": 3.0 }
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafe2de40538e930": {
+			"parent": "cafe3a42633d3a37",
+			"name": "TimerSimple 1",
+			"factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Delay time (ms)": { "type": "int32", "value": 500 },
+				"m_bEnabled": { "type": "bool", "value": true }
+			},
+			"events": { "Out": { "In": ["cafef08d25f419ea"] } }
+		},
+		"cafecd04842b0fd5": {
+			"parent": "cafe3a42633d3a37",
+			"name": "ValueBool_Basic",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+			"events": {
+				"OnTrue": { "TurnOn": ["cafe3a42633d3a37"] },
+				"OnFalse": { "TurnOff": ["cafe3a42633d3a37"] }
+			}
+		},
+		"cafe0c8a0475e32d": {
+			"parent": "cafe323f795d2d98",
+			"name": "TimerSimple",
+			"factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Delay time (ms)": { "type": "int32", "value": 2000 },
+				"m_bEnabled": { "type": "bool", "value": false }
+			},
+			"events": {
+				"Out": {
+					"Toggle": ["cafe4836e02cbbb1"],
+					"In": ["cafe0c8a0475e32d"]
+				}
+			}
+		},
+		"cafe323f795d2d98": {
+			"parent": "cafe56566fbac8cb",
+			"name": "Lamp_Prison_Small_A1",
+			"factory": "005C99DC472C1120",
+			"blueprint": "0055A36F3F9CD9C9",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 92.7759867792282
+						},
+						"position": {
+							"x": -153.68716430664065,
+							"y": 50.20396423339844,
+							"z": -54.101348876953125
+						}
+					}
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ff0000"
+				},
+				"DiffusePower": { "type": "float32", "value": 10.0 },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"GlowPower": { "type": "float32", "value": 9000.0 },
+				"m_bRemovePhysics": { "type": "bool", "value": false },
+				"cablem_bVisible": { "type": "bool", "value": true },
+				"m_eGlowType": {
+					"type": "ERenderGlowTypes",
+					"value": "ERENDERGLOWTYPE_NONE"
+				},
+				"m_fLODScale": { "type": "float32", "value": 1.0 },
+				"LightOn": { "type": "bool", "value": true },
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 1000.0
+				},
+				"GlowPlaneOn": { "type": "bool", "value": true },
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_fLODOffset": { "type": "float32", "value": 10.0 },
+				"GlowPlane_Scale": {
+					"type": "SVector3",
+					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+				},
+				"GlowPlane_Intensity": { "type": "float32", "value": 1.0 },
+				"OmniFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 5.0, "y": 30.0 }
+				},
+				"BigGlowVisibility": { "type": "bool", "value": true },
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"LightCastShadows": { "type": "bool", "value": false },
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 1.2009999752044678, "y": 3.0 }
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafe26bdda252625": {
+			"parent": "cafe323f795d2d98",
+			"name": "TimerSimple 1",
+			"factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Delay time (ms)": { "type": "int32", "value": 800 },
+				"m_bEnabled": { "type": "bool", "value": true }
+			},
+			"events": { "Out": { "In": ["cafe0c8a0475e32d"] } }
+		},
+		"cafe4836e02cbbb1": {
+			"parent": "cafe323f795d2d98",
+			"name": "ValueBool_Basic",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+			"events": {
+				"OnTrue": { "TurnOn": ["cafe323f795d2d98"] },
+				"OnFalse": { "TurnOff": ["cafe323f795d2d98"] }
+			}
+		},
+		"cafeb12987df4c25": {
+			"parent": "cafe60fdf521a40a",
+			"name": "TimerSimple",
+			"factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Delay time (ms)": { "type": "int32", "value": 2000 },
+				"m_bEnabled": { "type": "bool", "value": false }
+			},
+			"events": {
+				"Out": {
+					"Toggle": ["cafe198c7d4084e8"],
+					"In": ["cafeb12987df4c25"]
+				}
+			}
+		},
+		"cafe60fdf521a40a": {
+			"parent": "cafe56566fbac8cb",
+			"name": "Lamp_Prison_Small_A1",
+			"factory": "005C99DC472C1120",
+			"blueprint": "0055A36F3F9CD9C9",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 91.02209643109944
+						},
+						"position": {
+							"x": -110.1378402709961,
+							"y": 48.56646728515625,
+							"z": -54.101348876953125
+						}
+					}
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ff0000"
+				},
+				"DiffusePower": { "type": "float32", "value": 10.0 },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"GlowPower": { "type": "float32", "value": 9000.0 },
+				"m_bRemovePhysics": { "type": "bool", "value": false },
+				"cablem_bVisible": { "type": "bool", "value": true },
+				"m_eGlowType": {
+					"type": "ERenderGlowTypes",
+					"value": "ERENDERGLOWTYPE_NONE"
+				},
+				"m_fLODScale": { "type": "float32", "value": 1.0 },
+				"LightOn": { "type": "bool", "value": true },
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 1000.0
+				},
+				"GlowPlaneOn": { "type": "bool", "value": true },
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_fLODOffset": { "type": "float32", "value": 10.0 },
+				"GlowPlane_Scale": {
+					"type": "SVector3",
+					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+				},
+				"GlowPlane_Intensity": { "type": "float32", "value": 1.0 },
+				"OmniFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 5.0, "y": 30.0 }
+				},
+				"BigGlowVisibility": { "type": "bool", "value": true },
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"LightCastShadows": { "type": "bool", "value": false },
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 1.2009999752044678, "y": 3.0 }
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafe5cb2bb3670e0": {
+			"parent": "cafe60fdf521a40a",
+			"name": "TimerSimple 1",
+			"factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Delay time (ms)": { "type": "int32", "value": 700 },
+				"m_bEnabled": { "type": "bool", "value": true }
+			},
+			"events": { "Out": { "In": ["cafeb12987df4c25"] } }
+		},
+		"cafe198c7d4084e8": {
+			"parent": "cafe60fdf521a40a",
+			"name": "ValueBool_Basic",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+			"events": {
+				"OnTrue": { "TurnOn": ["cafe60fdf521a40a"] },
+				"OnFalse": { "TurnOff": ["cafe60fdf521a40a"] }
+			}
+		},
+		"cafeef7a5b9fb33b": {
+			"parent": "cafea17dad27f06c",
+			"name": "TimerSimple",
+			"factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Delay time (ms)": { "type": "int32", "value": 2000 },
+				"m_bEnabled": { "type": "bool", "value": false }
+			},
+			"events": {
+				"Out": {
+					"Toggle": ["cafe4dc52a0c999d"],
+					"In": ["cafeef7a5b9fb33b"]
+				}
+			}
+		},
+		"cafea17dad27f06c": {
+			"parent": "cafe56566fbac8cb",
+			"name": "Lamp_Prison_Small_A",
+			"factory": "005C99DC472C1120",
+			"blueprint": "0055A36F3F9CD9C9",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -170.0641128443356
+						},
+						"position": {
+							"x": -77.96490478515625,
+							"y": 22.898902893066406,
+							"z": -54.09787368774414
+						}
+					}
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ff0000"
+				},
+				"DiffusePower": { "type": "float32", "value": 10.0 },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"GlowPower": { "type": "float32", "value": 9000.0 },
+				"m_bRemovePhysics": { "type": "bool", "value": false },
+				"cablem_bVisible": { "type": "bool", "value": true },
+				"m_eGlowType": {
+					"type": "ERenderGlowTypes",
+					"value": "ERENDERGLOWTYPE_NONE"
+				},
+				"m_fLODScale": { "type": "float32", "value": 1.0 },
+				"LightOn": { "type": "bool", "value": true },
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 1000.0
+				},
+				"GlowPlaneOn": { "type": "bool", "value": true },
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_fLODOffset": { "type": "float32", "value": 10.0 },
+				"GlowPlane_Scale": {
+					"type": "SVector3",
+					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+				},
+				"GlowPlane_Intensity": { "type": "float32", "value": 1.0 },
+				"OmniFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 5.0, "y": 30.0 }
+				},
+				"BigGlowVisibility": { "type": "bool", "value": true },
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"LightCastShadows": { "type": "bool", "value": false },
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 1.2009999752044678, "y": 3.0 }
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafeb71c5581fa0e": {
+			"parent": "cafea17dad27f06c",
+			"name": "TimerSimple 1",
+			"factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Delay time (ms)": { "type": "int32", "value": 600 },
+				"m_bEnabled": { "type": "bool", "value": true }
+			},
+			"events": { "Out": { "In": ["cafeef7a5b9fb33b"] } }
+		},
+		"cafe4dc52a0c999d": {
+			"parent": "cafea17dad27f06c",
+			"name": "ValueBool_Basic",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+			"events": {
+				"OnTrue": { "TurnOn": ["cafea17dad27f06c"] },
+				"OnFalse": { "TurnOff": ["cafea17dad27f06c"] }
+			}
+		},
+		"cafe88a4042936ed": {
+			"parent": "cafe5d890c87fff2",
+			"name": "TimerSimple",
+			"factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Delay time (ms)": { "type": "int32", "value": 2000 },
+				"m_bEnabled": { "type": "bool", "value": false }
+			},
+			"events": {
+				"Out": {
+					"Toggle": ["cafe278e1ebf7213"],
+					"In": ["cafe88a4042936ed"]
+				}
+			}
+		},
+		"cafe5d890c87fff2": {
+			"parent": "cafe56566fbac8cb",
+			"name": "Lamp_Prison_Small_A1",
+			"factory": "005C99DC472C1120",
+			"blueprint": "0055A36F3F9CD9C9",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 94.47519478618904
+						},
+						"position": {
+							"x": -76.59335327148438,
+							"y": 47.451072692871094,
+							"z": -54.101348876953125
+						}
+					}
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ff0000"
+				},
+				"DiffusePower": { "type": "float32", "value": 10.0 },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"GlowPower": { "type": "float32", "value": 9000.0 },
+				"m_bRemovePhysics": { "type": "bool", "value": false },
+				"cablem_bVisible": { "type": "bool", "value": true },
+				"m_eGlowType": {
+					"type": "ERenderGlowTypes",
+					"value": "ERENDERGLOWTYPE_NONE"
+				},
+				"m_fLODScale": { "type": "float32", "value": 1.0 },
+				"LightOn": { "type": "bool", "value": true },
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 1000.0
+				},
+				"GlowPlaneOn": { "type": "bool", "value": true },
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_fLODOffset": { "type": "float32", "value": 10.0 },
+				"GlowPlane_Scale": {
+					"type": "SVector3",
+					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+				},
+				"GlowPlane_Intensity": { "type": "float32", "value": 1.0 },
+				"OmniFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 5.0, "y": 30.0 }
+				},
+				"BigGlowVisibility": { "type": "bool", "value": true },
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"LightCastShadows": { "type": "bool", "value": false },
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 1.2009999752044678, "y": 3.0 }
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafeccc1a44e3b5c": {
+			"parent": "cafe5d890c87fff2",
+			"name": "TimerSimple 1",
+			"factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Delay time (ms)": { "type": "int32", "value": 600 },
+				"m_bEnabled": { "type": "bool", "value": true }
+			},
+			"events": { "Out": { "In": ["cafe88a4042936ed"] } }
+		},
+		"cafe278e1ebf7213": {
+			"parent": "cafe5d890c87fff2",
+			"name": "ValueBool_Basic",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+			"events": {
+				"OnTrue": { "TurnOn": ["cafe5d890c87fff2"] },
+				"OnFalse": { "TurnOff": ["cafe5d890c87fff2"] }
+			}
+		},
+		"cafe14a542f01ffb": {
+			"parent": "cafee32e91763dbb",
+			"name": "TimerSimple",
+			"factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Delay time (ms)": { "type": "int32", "value": 2000 },
+				"m_bEnabled": { "type": "bool", "value": false }
+			},
+			"events": {
+				"Out": {
+					"Toggle": ["cafea1f6db8d26e4"],
+					"In": ["cafe14a542f01ffb"]
+				}
+			}
+		},
+		"cafee32e91763dbb": {
+			"parent": "cafe56566fbac8cb",
+			"name": "Lamp_Prison_Small_A",
+			"factory": "005C99DC472C1120",
+			"blueprint": "0055A36F3F9CD9C9",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -95.16164104824487
+						},
+						"position": {
+							"x": -204.42340087890625,
+							"y": 25.67660903930664,
+							"z": -54.101348876953125
+						}
+					}
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ff0000"
+				},
+				"DiffusePower": { "type": "float32", "value": 10.0 },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"GlowPower": { "type": "float32", "value": 9000.0 },
+				"m_bRemovePhysics": { "type": "bool", "value": false },
+				"cablem_bVisible": { "type": "bool", "value": true },
+				"m_eGlowType": {
+					"type": "ERenderGlowTypes",
+					"value": "ERENDERGLOWTYPE_NONE"
+				},
+				"m_fLODScale": { "type": "float32", "value": 1.0 },
+				"LightOn": { "type": "bool", "value": true },
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 1000.0
+				},
+				"GlowPlaneOn": { "type": "bool", "value": true },
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_fLODOffset": { "type": "float32", "value": 10.0 },
+				"GlowPlane_Scale": {
+					"type": "SVector3",
+					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+				},
+				"GlowPlane_Intensity": { "type": "float32", "value": 1.0 },
+				"OmniFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 5.0, "y": 30.0 }
+				},
+				"BigGlowVisibility": { "type": "bool", "value": true },
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"LightCastShadows": { "type": "bool", "value": false },
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 1.2009999752044678, "y": 3.0 }
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafe6580214ee38f": {
+			"parent": "cafee32e91763dbb",
+			"name": "TimerSimple 1",
+			"factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Delay time (ms)": { "type": "int32", "value": 900 },
+				"m_bEnabled": { "type": "bool", "value": true }
+			},
+			"events": { "Out": { "In": ["cafe14a542f01ffb"] } }
+		},
+		"cafea1f6db8d26e4": {
+			"parent": "cafee32e91763dbb",
+			"name": "ValueBool_Basic",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+			"events": {
+				"OnTrue": { "TurnOn": ["cafee32e91763dbb"] },
+				"OnFalse": { "TurnOff": ["cafee32e91763dbb"] }
+			}
+		},
+		"cafe2c1b7ba10238": {
+			"parent": "cafed910ba058703",
+			"name": "TimerSimple",
+			"factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Delay time (ms)": { "type": "int32", "value": 2000 },
+				"m_bEnabled": { "type": "bool", "value": false }
+			},
+			"events": {
+				"Out": {
+					"Toggle": ["cafe5e34e5991c48"],
+					"In": ["cafe2c1b7ba10238"]
+				}
+			}
+		},
+		"cafed910ba058703": {
+			"parent": "cafe56566fbac8cb",
+			"name": "Lamp_Prison_Small_A",
+			"factory": "005C99DC472C1120",
+			"blueprint": "0055A36F3F9CD9C9",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -93.15652919049012
+						},
+						"position": {
+							"x": -151.97018432617188,
+							"y": 24.031360626220703,
+							"z": -54.101348876953125
+						}
+					}
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ff0000"
+				},
+				"DiffusePower": { "type": "float32", "value": 10.0 },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"GlowPower": { "type": "float32", "value": 9000.0 },
+				"m_bRemovePhysics": { "type": "bool", "value": false },
+				"cablem_bVisible": { "type": "bool", "value": true },
+				"m_eGlowType": {
+					"type": "ERenderGlowTypes",
+					"value": "ERENDERGLOWTYPE_NONE"
+				},
+				"m_fLODScale": { "type": "float32", "value": 1.0 },
+				"LightOn": { "type": "bool", "value": true },
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 1000.0
+				},
+				"GlowPlaneOn": { "type": "bool", "value": true },
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_fLODOffset": { "type": "float32", "value": 10.0 },
+				"GlowPlane_Scale": {
+					"type": "SVector3",
+					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+				},
+				"GlowPlane_Intensity": { "type": "float32", "value": 1.0 },
+				"OmniFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 5.0, "y": 30.0 }
+				},
+				"BigGlowVisibility": { "type": "bool", "value": true },
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"LightCastShadows": { "type": "bool", "value": false },
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 1.2009999752044678, "y": 3.0 }
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafe7b59790e5bc6": {
+			"parent": "cafed910ba058703",
+			"name": "TimerSimple 1",
+			"factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Delay time (ms)": { "type": "int32", "value": 800 },
+				"m_bEnabled": { "type": "bool", "value": true }
+			},
+			"events": { "Out": { "In": ["cafe2c1b7ba10238"] } }
+		},
+		"cafe5e34e5991c48": {
+			"parent": "cafed910ba058703",
+			"name": "ValueBool_Basic",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+			"events": {
+				"OnTrue": { "TurnOn": ["cafed910ba058703"] },
+				"OnFalse": { "TurnOff": ["cafed910ba058703"] }
+			}
+		},
+		"cafe30d50ebf3f40": {
+			"parent": "cafe03925c7b6f9c",
+			"name": "TimerSimple",
+			"factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Delay time (ms)": { "type": "int32", "value": 2000 },
+				"m_bEnabled": { "type": "bool", "value": false }
+			},
+			"events": {
+				"Out": {
+					"Toggle": ["cafe91bc75007eb8"],
+					"In": ["cafe30d50ebf3f40"]
+				}
+			}
+		},
+		"cafe03925c7b6f9c": {
+			"parent": "cafe56566fbac8cb",
+			"name": "Lamp_Prison_Small_A",
+			"factory": "005C99DC472C1120",
+			"blueprint": "0055A36F3F9CD9C9",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -175.21856700135856
+						},
+						"position": {
+							"x": -47.653900146484375,
+							"y": 21.318378448486328,
+							"z": -54.061370849609375
+						}
+					}
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ff0000"
+				},
+				"DiffusePower": { "type": "float32", "value": 10.0 },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"GlowPower": { "type": "float32", "value": 9000.0 },
+				"m_bRemovePhysics": { "type": "bool", "value": false },
+				"cablem_bVisible": { "type": "bool", "value": true },
+				"m_eGlowType": {
+					"type": "ERenderGlowTypes",
+					"value": "ERENDERGLOWTYPE_NONE"
+				},
+				"m_fLODScale": { "type": "float32", "value": 1.0 },
+				"LightOn": { "type": "bool", "value": true },
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 1000.0
+				},
+				"GlowPlaneOn": { "type": "bool", "value": false },
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_fLODOffset": { "type": "float32", "value": 10.0 },
+				"GlowPlane_Scale": {
+					"type": "SVector3",
+					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+				},
+				"GlowPlane_Intensity": { "type": "float32", "value": 1.0 },
+				"OmniFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 5.0, "y": 30.0 }
+				},
+				"BigGlowVisibility": { "type": "bool", "value": false },
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"LightCastShadows": { "type": "bool", "value": false },
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 1.2009999752044678, "y": 3.0 }
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafee28d9fd78312": {
+			"parent": "cafe03925c7b6f9c",
+			"name": "TimerSimple 1",
+			"factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Delay time (ms)": { "type": "int32", "value": 500 },
+				"m_bEnabled": { "type": "bool", "value": true }
+			},
+			"events": { "Out": { "In": ["cafe30d50ebf3f40"] } }
+		},
+		"cafe91bc75007eb8": {
+			"parent": "cafe03925c7b6f9c",
+			"name": "ValueBool_Basic",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+			"events": {
+				"OnTrue": { "TurnOn": ["cafe03925c7b6f9c"] },
+				"OnFalse": { "TurnOff": ["cafe03925c7b6f9c"] }
+			}
 		}
 	},
 	"propertyOverrides": [
@@ -26338,6 +27594,174 @@
 		{
 			"ref": "9f13707c663bab32",
 			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/dressing_module_005.brick].pc_entitytype"
+		},
+		{
+			"ref": "135caf9441947562",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/dressing_module_005.brick].pc_entitytype"
+		},
+		{
+			"ref": "2ac2e22328c93e75",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/dressing_module_005.brick].pc_entitytype"
+		},
+		{
+			"ref": "7653779dc3845e2e",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/dressing_module_005.brick].pc_entitytype"
+		},
+		{
+			"ref": "7e03e6526cf971be",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_hangar.brick].pc_entitytype"
+		},
+		{
+			"ref": "786ff0d5d8493277",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_hangar.brick].pc_entitytype"
+		},
+		{
+			"ref": "7a2d2ed97ad8fc19",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_hangar.brick].pc_entitytype"
+		},
+		{
+			"ref": "e5f4899615c72214",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_hangar.brick].pc_entitytype"
+		},
+		{
+			"ref": "3dde0eb9bd23c7c3",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_hangar.brick].pc_entitytype"
+		},
+		{
+			"ref": "e063ed6610f17d82",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_hangar.brick].pc_entitytype"
+		},
+		{
+			"ref": "698e5e01141237ba",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_hangar.brick].pc_entitytype"
+		},
+		{
+			"ref": "9fb21d8e97d3b806",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_hangar.brick].pc_entitytype"
+		},
+		{
+			"ref": "6a822bca8d8a572a",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_hangar.brick].pc_entitytype"
+		},
+		{
+			"ref": "b4f8928d902e2e8b",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_hangar.brick].pc_entitytype"
+		},
+		{
+			"ref": "f589fe9df0fefa81",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_hangar.brick].pc_entitytype"
+		},
+		{
+			"ref": "651454210d2828b6",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_hangar.brick].pc_entitytype"
+		},
+		{
+			"ref": "306135f0bec01705",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_hangar.brick].pc_entitytype"
+		},
+		{
+			"ref": "90ed91df1463daea",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_hangar.brick].pc_entitytype"
+		},
+		{
+			"ref": "d9f86f5ccb413b78",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_hangar.brick].pc_entitytype"
+		},
+		{
+			"ref": "5ebefe5fbc79e87b",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_hangar.brick].pc_entitytype"
+		},
+		{
+			"ref": "ee879855836f8203",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_hangar.brick].pc_entitytype"
+		},
+		{
+			"ref": "17ade87916a34b1f",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_hangar.brick].pc_entitytype"
+		},
+		{
+			"ref": "6182483b55e35257",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_hangar.brick].pc_entitytype"
+		},
+		{
+			"ref": "caf538ff217d9423",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_hangar.brick].pc_entitytype"
+		},
+		{
+			"ref": "533434d1fce33458",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_hangar.brick].pc_entitytype"
+		},
+		{
+			"ref": "4c340c23b5816e22",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_hangar.brick].pc_entitytype"
+		},
+		{
+			"ref": "ea4035396b97ed75",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_hangar.brick].pc_entitytype"
+		},
+		{
+			"ref": "1d795e3cc17cd330",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_hangar.brick].pc_entitytype"
+		},
+		{
+			"ref": "473e78fcaa153244",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_hangar.brick].pc_entitytype"
+		},
+		{
+			"ref": "37a9404d2f1cf9be",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_hangar.brick].pc_entitytype"
+		},
+		{
+			"ref": "3958befad18acb71",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_hangar.brick].pc_entitytype"
+		},
+		{
+			"ref": "5061f9a3be2eb26f",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_hangar.brick].pc_entitytype"
+		},
+		{
+			"ref": "a6954b7c6968686e",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_hangar.brick].pc_entitytype"
+		},
+		{
+			"ref": "3529e61946354640",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_hangar.brick].pc_entitytype"
+		},
+		{
+			"ref": "6039e5c490c9a701",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_hangar.brick].pc_entitytype"
+		},
+		{
+			"ref": "f72d9de4cfee8611",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_hangar.brick].pc_entitytype"
+		},
+		{
+			"ref": "ec424706b4c871dc",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_hangar.brick].pc_entitytype"
+		},
+		{
+			"ref": "901328231a242114",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_hangar.brick].pc_entitytype"
+		},
+		{
+			"ref": "4907707a64723474",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_hangar.brick].pc_entitytype"
+		},
+		{
+			"ref": "d494d07f097856bc",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_hangar.brick].pc_entitytype"
+		},
+		{
+			"ref": "6e4384ce4458d114",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_hangar.brick].pc_entitytype"
+		},
+		{
+			"ref": "bb1b6a914f7f5c1d",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_hangar.brick].pc_entitytype"
+		},
+		{
+			"ref": "f7fb7750d95cd16b",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_hangar.brick].pc_entitytype"
 		}
 	],
 	"pinConnectionOverrides": [],

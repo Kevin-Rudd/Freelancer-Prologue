@@ -265,6 +265,10 @@
 			"comment": "Soviet Helicopter",
 			"portFromChunk1": true
 		},{
+			"runtimeID": "00D03F330BE61DCF",
+			"comment": "Radio Tower",
+			"portFromChunk1": true
+		},{
 			"runtimeID": "00630331F49279F5",
 			"comment": "Dugong Sound",
 			"portFromChunk1": true
