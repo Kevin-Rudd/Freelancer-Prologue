@@ -261,6 +261,10 @@
 		"enabledByDefault": true,
 		"type": "checkbox",
 		"dependencies": [{
+			"runtimeID": "00AE4095BD7B4BB8",
+			"comment": "Soviet Helicopter",
+			"portFromChunk1": true
+		},{
 			"runtimeID": "00630331F49279F5",
 			"comment": "Dugong Sound",
 			"portFromChunk1": true
