@@ -19232,9 +19232,398 @@
 					}
 				}
 			}
+		},
+		"cafe36ee138851ee": {
+			"parent": "fffffffffffffffe",
+			"name": "Hangar",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafec469ff8a8cf6": {
+			"parent": "cafefa9f65152d33",
+			"name": "seagull_terrain_METAL_panels_zmapped_a_05",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_terrain_a.template?/seagull_terrain_asphalt_panels_zmapped_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_terrain_a.template?/seagull_terrain_asphalt_panels_zmapped_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 0.23154652440041268
+						},
+						"position": {
+							"x": -22.543066024780273,
+							"y": 16.624561309814453,
+							"z": 7.539999961853027
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.4300000071525574,
+						"y": 2.3499999046325684,
+						"z": 1.0
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00425759AF23E403",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"cafefa9f65152d33": {
+			"parent": "cafe36ee138851ee",
+			"name": "Floors",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe7deeacdd492a": {
+			"parent": "cafefa9f65152d33",
+			"name": "seagull_terrain_METAL_panels_zmapped_a_06",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_terrain_a.template?/seagull_terrain_asphalt_panels_zmapped_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_terrain_a.template?/seagull_terrain_asphalt_panels_zmapped_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 90.27835860794173
+						},
+						"position": {
+							"x": 22.876317977905273,
+							"y": -15.682037353515623,
+							"z": 2.940000057220459
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 1.0, "y": 4.900000095367432, "z": 1.0 }
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00425759AF23E403",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"cafea0a66c23bd74": {
+			"parent": "cafefa9f65152d33",
+			"name": "seagull_terrain_METAL_panels_zmapped_a_01",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_terrain_a.template?/seagull_terrain_asphalt_panels_zmapped_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_terrain_a.template?/seagull_terrain_asphalt_panels_zmapped_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 0.23154652440041268
+						},
+						"position": {
+							"x": 15.746471405029297,
+							"y": 26.64595413208008,
+							"z": 7.539999961853027
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.699999988079071,
+						"y": 3.049999952316284,
+						"z": 1.0
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00425759AF23E403",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"cafe8f90deca4bd3": {
+			"parent": "cafefa9f65152d33",
+			"name": "seagull_terrain_METAL_panels_zmapped_a_02",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_terrain_a.template?/seagull_terrain_asphalt_panels_zmapped_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_terrain_a.template?/seagull_terrain_asphalt_panels_zmapped_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 0.23154652440041268
+						},
+						"position": {
+							"x": -26.282859802246097,
+							"y": 26.64595413208008,
+							"z": 7.539999961853027
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.3799999952316284,
+						"y": 3.4000000953674316,
+						"z": 1.0
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00425759AF23E403",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"cafe0df4bf042280": {
+			"parent": "cafefa9f65152d33",
+			"name": "seagull_terrain_METAL_panels_zmapped_a_03",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_terrain_a.template?/seagull_terrain_asphalt_panels_zmapped_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_terrain_a.template?/seagull_terrain_asphalt_panels_zmapped_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 0.23154652440041268
+						},
+						"position": {
+							"x": -18.294464111328125,
+							"y": 26.64595413208008,
+							"z": 7.539999961853027
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.3400000035762787,
+						"y": 3.4000000953674316,
+						"z": 1.0
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00425759AF23E403",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"cafe69bdcd38f9e8": {
+			"parent": "cafefa9f65152d33",
+			"name": "seagull_terrain_METAL_panels_zmapped_a_04",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_terrain_a.template?/seagull_terrain_asphalt_panels_zmapped_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_terrain_a.template?/seagull_terrain_asphalt_panels_zmapped_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 0.23154652440041268
+						},
+						"position": {
+							"x": -22.543066024780273,
+							"y": 26.64595413208008,
+							"z": 7.539999961853027
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.4300000071525574,
+						"y": 0.5299999713897705,
+						"z": 1.0
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00425759AF23E403",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"cafe490b5e54ca2e": {
+			"parent": "cafefa9f65152d33",
+			"name": "seagull_terrain_METAL_panels_zmapped_a_07 STAIRS",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_terrain_a.template?/seagull_terrain_asphalt_panels_zmapped_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_terrain_a.template?/seagull_terrain_asphalt_panels_zmapped_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 90.27835860794173
+						},
+						"position": {
+							"x": 22.820079803466797,
+							"y": -15.684158325195312,
+							"z": 7.346582889556885
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.3799999952316284,
+						"y": 0.4000000059604645,
+						"z": 1.0
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00425759AF23E403",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"cafe19f832c825a8": {
+			"parent": "cafefa9f65152d33",
+			"name": "seagull_terrain_METAL_panels_zmapped_a_00",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_terrain_a.template?/seagull_terrain_asphalt_panels_zmapped_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_terrain_a.template?/seagull_terrain_asphalt_panels_zmapped_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 90.27835860794173
+						},
+						"position": {
+							"x": 22.876317977905273,
+							"y": -3.696567296981811,
+							"z": 7.539999961853027
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 1.2, "y": 4.25, "z": 1.0 }
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00425759AF23E403",
+						"flag": "5F"
+					}
+				}
+			}
 		}
 	},
 	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "b13b09329df48a5c",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_hangar.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00662780D101DDAC",
+						"flag": "5F"
+					}
+				}
+			}
+		},
 		{
 			"entities": [
 				{
@@ -19326,7 +19715,8 @@
 		"[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/thefacility/tod_night_clear.brick].pc_entitytype",
 		"00085C1193BB05A6",
-		"[assembly:/_pro/scenes/missions/thefacility/dressing_module_005.brick].pc_entitytype"
+		"[assembly:/_pro/scenes/missions/thefacility/dressing_module_005.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/thefacility/trainingset_hangar.brick].pc_entitytype"
 	],
 	"subType": "brick",
 	"quickEntityVersion": 3.1,
