@@ -27558,6 +27558,56 @@
 		{
 			"entities": [
 				{
+					"ref": "e4c57704a249e3ce",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+			"m_mTransform": {
+			"type": "SMatrix43",
+			"value": {
+				"rotation": {
+					"x": 0,
+					"y": 0,
+					"z": -89.9999965849052
+				},
+				"position": {
+					"x": -204.09030151367188,
+					"y": 103.04570007324219,
+					"z": -1.5043920278549194
+				}
+			}
+		}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "e1167cac70a9e5c3",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+			"m_mTransform": {
+			"type": "SMatrix43",
+			"value": {
+				"rotation": {
+					"x": 0,
+					"y": 0,
+					"z": -90
+				},
+				"position": {
+					"x": -204.09030151367188,
+					"y": 129.28370666503906,
+					"z": -1.5043920278549194
+				}
+			}
+		}
+			}
+		},
+		{
+			"entities": [
+				{
 					"ref": "f6896679d667f356",
 					"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
 				}
