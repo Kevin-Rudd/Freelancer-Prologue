@@ -260,7 +260,19 @@
 		"tooltip": "Makes The Final Test not take place inside a silo",
 		"enabledByDefault": true,
 		"type": "checkbox",
-		"dependencies": [{
+		"dependencies": ["00746FB20D1C98C1",{
+			"runtimeID": "00C75E0DF03BBE27",
+			"comment": "Corrugated Metal",
+			"portFromChunk1": true
+		},{
+			"runtimeID": "0053B326ED85721F",
+			"comment": "Corrugated Metal",
+			"portFromChunk1": true
+		},{
+			"runtimeID": "0070E9D778A42C86",
+			"comment": "Corrugated Metal",
+			"portFromChunk1": true
+		},{
 			"runtimeID": "00AE4095BD7B4BB8",
 			"comment": "Soviet Helicopter",
 			"portFromChunk1": true
