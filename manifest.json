@@ -260,7 +260,8 @@
 		"tooltip": "Makes The Final Test not take place inside a silo",
 		"enabledByDefault": true,
 		"type": "checkbox",
-		"dependencies": ["00746FB20D1C98C1",{
+		"dependencies": [
+			"00746FB20D1C98C1",{
 			"runtimeID": "003C7A98980FF033",
 			"comment": "Colombia Ground Piece",
 			"portFromChunk1": true
@@ -437,7 +438,22 @@
 			"comment": "starfield",
 			"portFromChunk1": true
 		}],
-		"contentFolders": ["content-Hangar"]
+		"localisationOverrides": {
+				"008D33DE8C75CACB": {
+					"english": {
+						"1626680168": "Sierra Cantante, Cuba"
+					},
+					"french": {"1626680168": "Sierra Cantante, Cuba"},
+					"italian": {"1626680168": "Sierra Cantante, Cuba"},
+					"german": {"1626680168": "Sierra Cantante, Kuba"},
+					"spanish": {"1626680168": "Sierra Cantante, Cuba"},
+					"russian": {"1626680168": "Сьерра-Кантанте, Куба"},
+					"chineseSimplified": {"1626680168": "古巴塞拉坎坦特"},
+					"chineseTraditional": {"1626680168": "古巴塞拉坎坦特"},
+					"japanese": {"1626680168": "シエラ カンタンテ、キューバ"}
+				}
+			},
+			"contentFolders": ["content-Hangar"]
 	}],
 	"packagedefinition": [{
 		"type": "entity",
