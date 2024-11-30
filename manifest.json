@@ -261,16 +261,24 @@
 		"enabledByDefault": true,
 		"type": "checkbox",
 		"dependencies": ["00746FB20D1C98C1",{
-			"runtimeID": "00C75E0DF03BBE27",
-			"comment": "Corrugated Metal",
+			"runtimeID": "00AAF9822C3D6E65",
+			"comment": "prison_int_doorframe_4x4_a",
 			"portFromChunk1": true
 		},{
-			"runtimeID": "0053B326ED85721F",
-			"comment": "Corrugated Metal",
+			"runtimeID": "0072FE537EEDC5D5",
+			"comment": "prison_int_wall_4x4_a",
 			"portFromChunk1": true
 		},{
-			"runtimeID": "0070E9D778A42C86",
-			"comment": "Corrugated Metal",
+			"runtimeID": "00B026278CDB88C2",
+			"comment": "prison_int_wall_2x4_a",
+			"portFromChunk1": true
+		},{
+			"runtimeID": "00FB43EBAA65ADCB",
+			"comment": "a_int_wall_3x4_blank_a",
+			"portFromChunk1": true
+		},{
+			"runtimeID": "00C36C7B4E06B56D",
+			"comment": "villa_inside_wall_4x5m_a",
 			"portFromChunk1": true
 		},{
 			"runtimeID": "00AE4095BD7B4BB8",
