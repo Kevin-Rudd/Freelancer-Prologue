@@ -1,10 +1,6 @@
 {
     "Data": {
-        "RandomBricks": {
-            "TimeOfDay": [
-                "assembly:/_pro/scenes/missions/thefacility/real_hangar.brick"
-            ]
-        },"Bricks": [],
+        "Bricks": [],
         "VR": [
             {
                 "Quality": "base",
@@ -51,6 +47,17 @@
                         }
                     }
                 }
+            }
+        ],
+        "GameDifficulties": [{
+                "Difficulty": "easy",
+                "Bricks": []
+            }, {
+                "Difficulty": "normal",
+                "Bricks": []
+            }, {
+                "Difficulty": "hard",
+                "Bricks": []
             }
         ]
     },

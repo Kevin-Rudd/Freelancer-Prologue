@@ -259,6 +259,7 @@
 		"name": "Real Hangar",
 		"tooltip": "Makes The Final Test not take place inside a silo",
 		"enabledByDefault": true,
+		"blobsFolders": ["blobs-Hangar"],
 		"type": "checkbox",
 		"dependencies": [
 			"00746FB20D1C98C1",{

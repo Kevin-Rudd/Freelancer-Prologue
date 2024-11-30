@@ -17218,7 +17218,7 @@
 		},
 		"cafe4d7ba406fa09": {
 			"parent": "cafeb812d065cf88",
-			"name": "Spatial Back",
+			"name": "Spatial Front Far",
 			"factory": "[modules:/zspatialentity.class].pc_entitytype",
 			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
 			"properties": {
@@ -17228,11 +17228,11 @@
 						"rotation": {
 							"x": -0.0,
 							"y": 0.0,
-							"z": 96.00396759097949
+							"z": -75.78911463917153
 						},
 						"position": {
-							"x": -33.21707534790039,
-							"y": 162.64190673828125,
+							"x": 11.95474624633789,
+							"y": -201.65670776367188,
 							"z": -44.3251838684082
 						}
 					}
@@ -17244,7 +17244,8 @@
 						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
 					},
 					"postInit": true
-				}
+				},
+				"m_bVisible": { "type": "bool", "value": true }
 			}
 		},
 		"cafece69c60afe54": {
@@ -27463,7 +27464,11 @@
 			"properties": {
 				"m_Boxes": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafe792a340ab9f0", "cafe524dd187db66"],
+					"value": [
+						"cafe792a340ab9f0",
+						"cafe524dd187db66",
+						"cafed614e2d17c5b"
+					],
 					"postInit": true
 				}
 			},
@@ -40036,6 +40041,3948 @@
 					"value": "cafedeaeecbdab60"
 				}
 			}
+		},
+		"cafed989f3697894": {
+			"parent": "cafeb3d57708be21",
+			"name": "chinesebanyan_med_3_12",
+			"factory": "0008624B83DED7D8",
+			"blueprint": "00319F0DE71247B7",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.3750749488220004,
+							"y": -0.4963595815981085,
+							"z": -66.8571611558799
+						},
+						"position": {
+							"x": -12.895859718322754,
+							"y": -155.26260375976565,
+							"z": -15.616939544677734
+						}
+					}
+				},
+				"m_bRemovePhysics": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafe71d737d3b435": {
+			"parent": "cafeb3d57708be21",
+			"name": "redmangrove_low",
+			"factory": "00733CE031C9B295",
+			"blueprint": "0005A031A2E48568",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 7.756732105337975,
+							"y": -0.5984652381811876,
+							"z": 36.68273949530408
+						},
+						"position": {
+							"x": 71.87867736816406,
+							"y": 49.248870849609375,
+							"z": -11.153420448303224
+						}
+					}
+				},
+				"m_fLODScale": {
+					"type": "float32",
+					"value": 0.8999999761581421
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.600000023841858,
+						"y": 1.600000023841858,
+						"z": 1.600000023841858
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafe87749736733b": {
+			"parent": "cafeb3d57708be21",
+			"name": "chinesebanyan_med_3_19",
+			"factory": "0008624B83DED7D8",
+			"blueprint": "00319F0DE71247B7",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -88.15475608730813
+						},
+						"position": {
+							"x": 29.335039138793945,
+							"y": 49.27920913696289,
+							"z": -13.522120475769045
+						}
+					}
+				},
+				"m_bRemovePhysics": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafe2823e77c0580": {
+			"parent": "cafeb3d57708be21",
+			"name": "palm_med_hanging_a_mesh_01",
+			"factory": "0039B4652887765A",
+			"blueprint": "001BDA2B391EFCBF",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -7.120030662503229,
+							"y": 15.205692466559816,
+							"z": 124.44574351069978
+						},
+						"position": {
+							"x": 72.33775329589844,
+							"y": 44.47964096069336,
+							"z": -9.567987442016602
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafe9f7030a5b752": {
+			"parent": "cafeb3d57708be21",
+			"name": "curly_palm_med_mesh_a_07",
+			"factory": "00EECD9D7EBA2795",
+			"blueprint": "007A24205831B384",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 34.62388106691974,
+							"y": -19.59534989721415,
+							"z": 121.14403215946967
+						},
+						"position": {
+							"x": 73.12413024902344,
+							"y": 47.5872802734375,
+							"z": -9.812803268432615
+						}
+					}
+				},
+				"m_bForceVisible": { "type": "bool", "value": false },
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_STATIC"
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_bRemovePhysics": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafe780ee54a7bdb": {
+			"parent": "cafeb3d57708be21",
+			"name": "redmangrove_low_backdrop_26",
+			"factory": "00734B15D9F0AC56",
+			"blueprint": "009C772460622DFB",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 68.80268348615944
+						},
+						"position": {
+							"x": 71.43862915039062,
+							"y": -71.86356353759766,
+							"z": -14.798230171203612
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.7999999523162842,
+						"y": 1.7999999523162842,
+						"z": 1.7999999523162842
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafefee211ae460f": {
+			"parent": "cafeb3d57708be21",
+			"name": "water_hyacinth_Static_c_12",
+			"factory": "00163D2EAF77F128",
+			"blueprint": "00938EE3E9470AA4",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -97.12214525324214
+						},
+						"position": {
+							"x": 73.4168472290039,
+							"y": 35.678340911865234,
+							"z": -9.98069190979004
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafeceb1b3bc2ebc": {
+			"parent": "cafeb3d57708be21",
+			"name": "redmangrove_low_backdrop_03",
+			"factory": "00734B15D9F0AC56",
+			"blueprint": "009C772460622DFB",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 1.5635587310676575,
+							"y": -7.278362447068038,
+							"z": 78.11951623483883
+						},
+						"position": {
+							"x": -35.34769821166992,
+							"y": -165.01150512695312,
+							"z": -13.816840171813965
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.7999999523162842,
+						"y": 1.7999999523162842,
+						"z": 1.7999999523162842
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafeeb5d883b0b90": {
+			"parent": "cafeb3d57708be21",
+			"name": "redmangrove_low_backdrop_22",
+			"factory": "00734B15D9F0AC56",
+			"blueprint": "009C772460622DFB",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 176.43240764531254
+						},
+						"position": {
+							"x": 64.26229858398438,
+							"y": -83.73532104492188,
+							"z": -15.804490089416504
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.7999999523162842,
+						"y": 1.7999999523162842,
+						"z": 1.7999999523162842
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafe8f73384fd174": {
+			"parent": "cafeb3d57708be21",
+			"name": "bush_fern_b_15",
+			"factory": "0023F4A8D8717388",
+			"blueprint": "00EC45AED2B0CF30",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.06678357050898423,
+							"y": 39.838826166557894,
+							"z": -175.3915162714568
+						},
+						"position": {
+							"x": 57.37641906738281,
+							"y": 13.874239921569824,
+							"z": -9.10099983215332
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.468119978904724,
+						"y": 1.468119978904724,
+						"z": 1.468119978904724
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafe38a69f56f4e4": {
+			"parent": "cafeb3d57708be21",
+			"name": "chinesebanyan_med_3_25",
+			"factory": "0008624B83DED7D8",
+			"blueprint": "00319F0DE71247B7",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 139.39751779147113
+						},
+						"position": {
+							"x": 62.47726058959961,
+							"y": 61.996829986572266,
+							"z": -19.30644989013672
+						}
+					}
+				},
+				"m_bRemovePhysics": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafe2bdf853f12a5": {
+			"parent": "cafeb3d57708be21",
+			"name": "redmangrove_low_backdrop",
+			"factory": "00734B15D9F0AC56",
+			"blueprint": "009C772460622DFB",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 4.1286994853797445,
+							"y": -6.599357899736942,
+							"z": 40.28964226938399
+						},
+						"position": {
+							"x": 74.89933776855469,
+							"y": -41.441410064697266,
+							"z": -16.10563087463379
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.7999999523162842,
+						"y": 1.7999999523162842,
+						"z": 1.7999999523162842
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafeb94a047248aa": {
+			"parent": "cafeb3d57708be21",
+			"name": "palm_med_hanging_a_mesh",
+			"factory": "0039B4652887765A",
+			"blueprint": "001BDA2B391EFCBF",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 5.843347673657099,
+							"y": 13.648572160868994,
+							"z": 164.5422145520192
+						},
+						"position": {
+							"x": 72.33775329589844,
+							"y": 44.47964096069336,
+							"z": -9.567987442016602
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafe19e0dfe26694": {
+			"parent": "cafeb3d57708be21",
+			"name": "redmangrove_low_backdrop_29",
+			"factory": "00734B15D9F0AC56",
+			"blueprint": "009C772460622DFB",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 93.65255762275764
+						},
+						"position": {
+							"x": 42.00933837890625,
+							"y": -103.81809997558594,
+							"z": -14.53345012664795
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.7999999523162842,
+						"y": 1.7999999523162842,
+						"z": 1.7999999523162842
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafe7ccd6f37268d": {
+			"parent": "cafeb3d57708be21",
+			"name": "CoconutPalm_Medium_A_07",
+			"factory": "003EBC8B1A766A14",
+			"blueprint": "00CF57F82445BDC4",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.47682686887235726,
+							"y": -0.2832143035692241,
+							"z": 40.86665657286109
+						},
+						"position": {
+							"x": 22.520200729370117,
+							"y": 16.45009994506836,
+							"z": 0.3750210106372833
+						}
+					}
+				},
+				"m_bValue": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafe41e7bcbaff47": {
+			"parent": "cafeb3d57708be21",
+			"name": "redmangrove_low_backdrop_18",
+			"factory": "00734B15D9F0AC56",
+			"blueprint": "009C772460622DFB",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -3.1760988589556383
+						},
+						"position": {
+							"x": 71.31551361083984,
+							"y": -35.26729965209961,
+							"z": -15.894949913024902
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.7999999523162842,
+						"y": 1.7999999523162842,
+						"z": 1.7999999523162842
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafed85ad6901a3e": {
+			"parent": "cafeb3d57708be21",
+			"name": "redmangrove_low_backdrop_21",
+			"factory": "00734B15D9F0AC56",
+			"blueprint": "009C772460622DFB",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 68.80268348615944
+						},
+						"position": {
+							"x": 71.53672790527344,
+							"y": -65.08421325683594,
+							"z": -14.798230171203612
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.7999999523162842,
+						"y": 1.7999999523162842,
+						"z": 1.7999999523162842
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafee2cc3ca4743d": {
+			"parent": "cafeb3d57708be21",
+			"name": "curly_palm_med_mesh_a_11",
+			"factory": "00EECD9D7EBA2795",
+			"blueprint": "007A24205831B384",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 24.033425210241692,
+							"y": -18.312533577399368,
+							"z": 88.77022966179952
+						},
+						"position": {
+							"x": 70.77436828613281,
+							"y": 65.11641693115234,
+							"z": -9.99245834350586
+						}
+					}
+				},
+				"m_bForceVisible": { "type": "bool", "value": false },
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_STATIC"
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_bRemovePhysics": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafe57abad1f5bb3": {
+			"parent": "cafeb3d57708be21",
+			"name": "chinesebanyan_med_3_11",
+			"factory": "0008624B83DED7D8",
+			"blueprint": "00319F0DE71247B7",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.3843001015103884,
+							"y": -0.4964168314427666,
+							"z": -152.81171855026042
+						},
+						"position": {
+							"x": 0.11332699656486513,
+							"y": -147.3524932861328,
+							"z": -15.616939544677734
+						}
+					}
+				},
+				"m_bRemovePhysics": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafe853af744435f": {
+			"parent": "cafeb3d57708be21",
+			"name": "redmangrove_low_backdrop_24",
+			"factory": "00734B15D9F0AC56",
+			"blueprint": "009C772460622DFB",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 84.78789267636708
+						},
+						"position": {
+							"x": 77.33830261230469,
+							"y": -70.88021850585938,
+							"z": -17.001890182495117
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.7999999523162842,
+						"y": 1.7999999523162842,
+						"z": 1.7999999523162842
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafed90160225da7": {
+			"parent": "cafeb3d57708be21",
+			"name": "CoconutPalm_Medium_A_21",
+			"factory": "003EBC8B1A766A14",
+			"blueprint": "00CF57F82445BDC4",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.22856239371512227,
+							"y": -0.5053555101512603,
+							"z": -28.54485905175911
+						},
+						"position": {
+							"x": 15.140000343322754,
+							"y": 65.65582275390625,
+							"z": -4.448080062866211
+						}
+					}
+				},
+				"m_bValue": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafe12a318f5e3bf": {
+			"parent": "cafeb3d57708be21",
+			"name": "redmangrove_low_backdrop_27",
+			"factory": "00734B15D9F0AC56",
+			"blueprint": "009C772460622DFB",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 93.65255762275764
+						},
+						"position": {
+							"x": 32.54985046386719,
+							"y": -123.9574966430664,
+							"z": -14.53345012664795
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.7999999523162842,
+						"y": 1.7999999523162842,
+						"z": 1.7999999523162842
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafe9be6ec4dbe23": {
+			"parent": "cafeb3d57708be21",
+			"name": "redmangrove_low_backdrop_15",
+			"factory": "00734B15D9F0AC56",
+			"blueprint": "009C772460622DFB",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 7.756618740265326,
+							"y": -0.5985228609444272,
+							"z": 93.77787773767533
+						},
+						"position": {
+							"x": 51.86417007446289,
+							"y": -8.11248779296875,
+							"z": -15.75473976135254
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.7999999523162842,
+						"y": 1.7999999523162842,
+						"z": 1.7999999523162842
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafe59f9a439ac28": {
+			"parent": "cafeb3d57708be21",
+			"name": "water_hyacinth_Static_c_08",
+			"factory": "00163D2EAF77F128",
+			"blueprint": "00938EE3E9470AA4",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 73.33710748272075
+						},
+						"position": {
+							"x": 75.24285888671875,
+							"y": -31.30801010131836,
+							"z": -9.928762435913086
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafead43035fd4dc": {
+			"parent": "cafeb3d57708be21",
+			"name": "CoconutPalm_Medium_A_25",
+			"factory": "003EBC8B1A766A14",
+			"blueprint": "00CF57F82445BDC4",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.26345705054443075,
+							"y": -0.5022612466333016,
+							"z": -31.707126647427167
+						},
+						"position": {
+							"x": 63.568660736083984,
+							"y": -82.02967834472656,
+							"z": -9.640630722045898
+						}
+					}
+				},
+				"m_bValue": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafe0201b55fea34": {
+			"parent": "cafeb3d57708be21",
+			"name": "redmangrove_low_backdrop_14",
+			"factory": "00734B15D9F0AC56",
+			"blueprint": "009C772460622DFB",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -14.736461046578029,
+							"y": 8.25945795851569,
+							"z": 69.49665307845665
+						},
+						"position": {
+							"x": 67.27298736572266,
+							"y": 46.95479965209961,
+							"z": -18.13909912109375
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.7999999523162842,
+						"y": 1.7999999523162842,
+						"z": 1.7999999523162842
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafe1e7f63f6a393": {
+			"parent": "cafeb3d57708be21",
+			"name": "water_hyacinth_Static_c_10",
+			"factory": "00163D2EAF77F128",
+			"blueprint": "00938EE3E9470AA4",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -42.97836431191114
+						},
+						"position": {
+							"x": 82.38223266601562,
+							"y": 35.53955078125,
+							"z": -9.98069190979004
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafea492297de7d1": {
+			"parent": "cafeb3d57708be21",
+			"name": "CoconutPalm_Medium_A_06",
+			"factory": "003EBC8B1A766A14",
+			"blueprint": "00CF57F82445BDC4",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.3891636760293409,
+							"y": -0.35878874351120665,
+							"z": -84.53849544001028
+						},
+						"position": {
+							"x": 72.73661804199219,
+							"y": -43.257659912109375,
+							"z": -11.72012996673584
+						}
+					}
+				},
+				"m_bValue": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafe1c16cf0e5a9f": {
+			"parent": "cafeb3d57708be21",
+			"name": "redmangrove_low_02",
+			"factory": "00733CE031C9B295",
+			"blueprint": "0005A031A2E48568",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 8.330070440161656,
+							"y": 8.479008145054593,
+							"z": 45.201101899700575
+						},
+						"position": {
+							"x": 79.84078979492188,
+							"y": -53.1593017578125,
+							"z": -10.681730270385742
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.600000023841858,
+						"y": 1.600000023841858,
+						"z": 1.600000023841858
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafe163a0c91ba58": {
+			"parent": "cafeb3d57708be21",
+			"name": "CoconutPalm_Medium_A_16",
+			"factory": "003EBC8B1A766A14",
+			"blueprint": "00CF57F82445BDC4",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.2609359730035913,
+							"y": -0.5028343184359535,
+							"z": -31.707117521476334
+						},
+						"position": {
+							"x": -18.790660858154297,
+							"y": -159.14109802246094,
+							"z": -7.5832200050354
+						}
+					}
+				},
+				"m_bValue": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafe4dc0bd3d334d": {
+			"parent": "cafeb3d57708be21",
+			"name": "redmangrove_low_backdrop_11",
+			"factory": "00734B15D9F0AC56",
+			"blueprint": "009C772460622DFB",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 7.756618740265326,
+							"y": -0.5985228609444272,
+							"z": 93.77787773767533
+						},
+						"position": {
+							"x": 44.40184020996094,
+							"y": 21.256929397583008,
+							"z": -13.839380264282228
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.7999999523162842,
+						"y": 1.7999999523162842,
+						"z": 1.7999999523162842
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafed1e259949e5a": {
+			"parent": "cafeb3d57708be21",
+			"name": "CoconutPalm_Medium_A_01",
+			"factory": "003EBC8B1A766A14",
+			"blueprint": "00CF57F82445BDC4",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -26.58803237498679,
+							"y": 2.573330662830125,
+							"z": -84.72996858702666
+						},
+						"position": {
+							"x": 42.047611236572266,
+							"y": 56.90073013305664,
+							"z": -6.710459232330322
+						}
+					}
+				},
+				"m_bValue": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafe412ac0d2d13a": {
+			"parent": "cafeb3d57708be21",
+			"name": "curly_palm_med_mesh_a_06",
+			"factory": "00EECD9D7EBA2795",
+			"blueprint": "007A24205831B384",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -23.904535551280276
+						},
+						"position": {
+							"x": 63.75714111328125,
+							"y": 94.3922119140625,
+							"z": -7.905389785766602
+						}
+					}
+				},
+				"m_bForceVisible": { "type": "bool", "value": false },
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_STATIC"
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_bRemovePhysics": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafed425f3ddbe83": {
+			"parent": "cafeb3d57708be21",
+			"name": "CoconutPalm_Medium_A_23",
+			"factory": "003EBC8B1A766A14",
+			"blueprint": "00CF57F82445BDC4",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.2609359730035913,
+							"y": -0.5028343184359535,
+							"z": -31.707117521476334
+						},
+						"position": {
+							"x": 17.763139724731445,
+							"y": 32.74761962890625,
+							"z": -0.037574999034404755
+						}
+					}
+				},
+				"m_bValue": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafea5ab4c616d67": {
+			"parent": "cafeb3d57708be21",
+			"name": "redmangrove_low_backdrop_10",
+			"factory": "00734B15D9F0AC56",
+			"blueprint": "009C772460622DFB",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 31.88932215108477
+						},
+						"position": {
+							"x": 73.85661315917969,
+							"y": -58.29618835449219,
+							"z": -15.153349876403809
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.7999999523162842,
+						"y": 1.7999999523162842,
+						"z": 1.7999999523162842
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafec5c19619ff11": {
+			"parent": "cafeb3d57708be21",
+			"name": "redmangrove_low_backdrop_33",
+			"factory": "00734B15D9F0AC56",
+			"blueprint": "009C772460622DFB",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.03976330417689279,
+							"y": 0.07121867428036491,
+							"z": 38.628341802699055
+						},
+						"position": {
+							"x": 70.03103637695312,
+							"y": 61.61037826538086,
+							"z": -13.683679580688477
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.7999999523162842,
+						"y": 1.7999999523162842,
+						"z": 1.7999999523162842
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafe56af03d6ba9b": {
+			"parent": "cafeb3d57708be21",
+			"name": "chinesebanyan_med_3_16",
+			"factory": "0008624B83DED7D8",
+			"blueprint": "00319F0DE71247B7",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -83.91625319259676
+						},
+						"position": {
+							"x": 40.93342971801758,
+							"y": 33.310489654541016,
+							"z": -12.719200134277344
+						}
+					}
+				},
+				"m_bRemovePhysics": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafed6ee3af275fb": {
+			"parent": "cafeb3d57708be21",
+			"name": "curly_palm_med_mesh_a_12",
+			"factory": "00EECD9D7EBA2795",
+			"blueprint": "007A24205831B384",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 20.501507660175147,
+							"y": -13.528685734552122,
+							"z": 105.62243019545494
+						},
+						"position": {
+							"x": 39.51140975952149,
+							"y": -115.7646026611328,
+							"z": -10.546299934387209
+						}
+					}
+				},
+				"m_bForceVisible": { "type": "bool", "value": false },
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_STATIC"
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_bRemovePhysics": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafe8284ecec8062": {
+			"parent": "cafeb3d57708be21",
+			"name": "chinesebanyan_med_3_03",
+			"factory": "0008624B83DED7D8",
+			"blueprint": "00319F0DE71247B7",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 4.338484686035325,
+							"y": 3.6628330609861623,
+							"z": -134.83169529324002
+						},
+						"position": {
+							"x": -34.78007888793945,
+							"y": -135.56039428710938,
+							"z": -7.91874885559082
+						}
+					}
+				},
+				"m_bRemovePhysics": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafe4d8caf56cad7": {
+			"parent": "cafeb3d57708be21",
+			"name": "CoconutPalm_Medium_A_10",
+			"factory": "003EBC8B1A766A14",
+			"blueprint": "00CF57F82445BDC4",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.22924996966573227,
+							"y": -0.5061574883910354,
+							"z": -36.47537244994679
+						},
+						"position": {
+							"x": 72.48568725585938,
+							"y": 86.099609375,
+							"z": -9.255193710327148
+						}
+					}
+				},
+				"m_bValue": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafe85f121617902": {
+			"parent": "cafeb3d57708be21",
+			"name": "CoconutPalm_Medium_A_22",
+			"factory": "003EBC8B1A766A14",
+			"blueprint": "00CF57F82445BDC4",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.2609359730035913,
+							"y": -0.5028343184359535,
+							"z": -31.707117521476334
+						},
+						"position": {
+							"x": 12.248339653015137,
+							"y": -37.4290885925293,
+							"z": 2.4993081092834473
+						}
+					}
+				},
+				"m_bValue": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafe58133e298eb4": {
+			"parent": "cafeb3d57708be21",
+			"name": "redmangrove_low_05",
+			"factory": "00733CE031C9B295",
+			"blueprint": "0005A031A2E48568",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 6.300213166682716,
+							"y": 18.27015873996052,
+							"z": -97.84403826495875
+						},
+						"position": {
+							"x": 70.54344177246094,
+							"y": -178.37550354003906,
+							"z": -10.85062026977539
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.600000023841858,
+						"y": 1.600000023841858,
+						"z": 1.600000023841858
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafebf881e0cd261": {
+			"parent": "cafeb3d57708be21",
+			"name": "chinesebanyan_med_3_22",
+			"factory": "0008624B83DED7D8",
+			"blueprint": "00319F0DE71247B7",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 34.21943505061605
+						},
+						"position": {
+							"x": 53.80513000488281,
+							"y": 101.08930206298828,
+							"z": -8.810558319091797
+						}
+					}
+				},
+				"m_bRemovePhysics": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafef895d365dde6": {
+			"parent": "cafeb3d57708be21",
+			"name": "flower_leaves_c_06",
+			"factory": "[assembly:/_pro/environment/geometry/foliage/ground_cover_flowers_a.wl2?/flower_leaves_c.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -15.161792148669766,
+							"y": -21.326979282991697,
+							"z": 38.180420474593504
+						},
+						"position": {
+							"x": 56.6890983581543,
+							"y": 5.714202880859375,
+							"z": -10.363490104675291
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.4249999523162842,
+						"y": 1.4249999523162842,
+						"z": 1.4249999523162842
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafebee9334d7191": {
+			"parent": "cafeb3d57708be21",
+			"name": "chinesebanyan_med_3_10",
+			"factory": "0008624B83DED7D8",
+			"blueprint": "00319F0DE71247B7",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.3834406586053209,
+							"y": -0.4970471052552041,
+							"z": -57.343649120968294
+						},
+						"position": {
+							"x": 16.480390548706055,
+							"y": -139.7593994140625,
+							"z": -12.84945011138916
+						}
+					}
+				},
+				"m_bRemovePhysics": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafef1d9f270cf65": {
+			"parent": "cafeb3d57708be21",
+			"name": "water_hyacinth_Static_c_07",
+			"factory": "00163D2EAF77F128",
+			"blueprint": "00938EE3E9470AA4",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -81.02978942411652
+						},
+						"position": {
+							"x": 72.70719909667969,
+							"y": -26.011959075927734,
+							"z": -9.928762435913086
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafeb3d57708be21": {
+			"parent": "cafea1195a788aaa",
+			"name": "Foliage",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafecaf4874865c7": {
+			"parent": "cafeb3d57708be21",
+			"name": "water_hyacinth_Static_c_06",
+			"factory": "00163D2EAF77F128",
+			"blueprint": "00938EE3E9470AA4",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 71.83985575696366
+						},
+						"position": {
+							"x": 62.39418029785156,
+							"y": -10.386380195617676,
+							"z": -9.954916000366213
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafe08d76e9c1905": {
+			"parent": "cafeb3d57708be21",
+			"name": "chinesebanyan_med_3",
+			"factory": "0008624B83DED7D8",
+			"blueprint": "00319F0DE71247B7",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 65.50795342297394
+						},
+						"position": {
+							"x": 71.70755004882812,
+							"y": -52.18510055541992,
+							"z": -15.485139846801758
+						}
+					}
+				},
+				"m_bRemovePhysics": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafe918a6a252e00": {
+			"parent": "cafeb3d57708be21",
+			"name": "redmangrove_low_backdrop_25",
+			"factory": "00734B15D9F0AC56",
+			"blueprint": "009C772460622DFB",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 93.65255762275764
+						},
+						"position": {
+							"x": 69.8037109375,
+							"y": -77.31356811523438,
+							"z": -16.586700439453125
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.7999999523162842,
+						"y": 1.7999999523162842,
+						"z": 1.7999999523162842
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafe6b164614523f": {
+			"parent": "cafeb3d57708be21",
+			"name": "palm_med_hanging_a_mesh_02",
+			"factory": "0039B4652887765A",
+			"blueprint": "001BDA2B391EFCBF",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 3.042643663997036,
+							"y": 8.241741683419272,
+							"z": 112.1622042326358
+						},
+						"position": {
+							"x": 42.13431930541992,
+							"y": 7.057219982147217,
+							"z": -8.460807800292969
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafeeb10cf46ddea": {
+			"parent": "cafeb3d57708be21",
+			"name": "redmangrove_low_backdrop_06",
+			"factory": "00734B15D9F0AC56",
+			"blueprint": "009C772460622DFB",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 93.38717943544349
+						},
+						"position": {
+							"x": 78.60369873046875,
+							"y": 93.56915283203124,
+							"z": -17.38892936706543
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_fLODScale": { "type": "float32", "value": 0.5 },
+				"m_fLODOffset": { "type": "float32", "value": -2.0 },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.7999999523162842,
+						"y": 1.7999999523162842,
+						"z": 1.7999999523162842
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafed2f67f37bf28": {
+			"parent": "cafeb3d57708be21",
+			"name": "water_hyacinth_Static_c_03",
+			"factory": "00163D2EAF77F128",
+			"blueprint": "00938EE3E9470AA4",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -26.53432848262536
+						},
+						"position": {
+							"x": 59.75693130493164,
+							"y": 1.0388489961624146,
+							"z": -9.954916000366213
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafe5f550b0d346b": {
+			"parent": "cafeb3d57708be21",
+			"name": "bush_fern_a_12",
+			"factory": "00E84516663E9657",
+			"blueprint": "0019E3A1D29C0180",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 3.460450400261094,
+							"y": 11.131414935664129,
+							"z": 154.04717637684195
+						},
+						"position": {
+							"x": 75.31755065917969,
+							"y": 63.70009994506836,
+							"z": -9.382783889770508
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.2999999523162842,
+						"y": 1.2999999523162842,
+						"z": 1.2999999523162842
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafeb343e3743083": {
+			"parent": "cafeb3d57708be21",
+			"name": "chinesebanyan_med_3_05",
+			"factory": "0008624B83DED7D8",
+			"blueprint": "00319F0DE71247B7",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -1.2588821377062305,
+							"y": -1.960816192642724,
+							"z": -115.33803578231527
+						},
+						"position": {
+							"x": 66.13784790039062,
+							"y": -71.01455688476562,
+							"z": -10.267760276794434
+						}
+					}
+				},
+				"m_bRemovePhysics": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafe9bc11f0f5c44": {
+			"parent": "cafeb3d57708be21",
+			"name": "redmangrove_low_backdrop_05",
+			"factory": "00734B15D9F0AC56",
+			"blueprint": "009C772460622DFB",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -3.180181643372032,
+							"y": 5.8421425095657975,
+							"z": 78.63815807462494
+						},
+						"position": {
+							"x": 81.53549194335938,
+							"y": 101.73069763183594,
+							"z": -17.419340133666992
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.7999999523162842,
+						"y": 1.7999999523162842,
+						"z": 1.7999999523162842
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafe01a1ea414f9b": {
+			"parent": "cafeb3d57708be21",
+			"name": "redmangrove_low_backdrop_09",
+			"factory": "00734B15D9F0AC56",
+			"blueprint": "009C772460622DFB",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 27.803451164555273
+						},
+						"position": {
+							"x": 69.38694763183594,
+							"y": -30.076339721679688,
+							"z": -18.820049285888672
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.7999999523162842,
+						"y": 1.7999999523162842,
+						"z": 1.7999999523162842
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafe478022b70f5a": {
+			"parent": "cafeb3d57708be21",
+			"name": "redmangrove_low_01",
+			"factory": "00733CE031C9B295",
+			"blueprint": "0005A031A2E48568",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 31.88932215108477
+						},
+						"position": {
+							"x": 74.9964828491211,
+							"y": -49.07672119140625,
+							"z": -14.202719688415527
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.600000023841858,
+						"y": 1.600000023841858,
+						"z": 1.600000023841858
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafeb5df5bc0debd": {
+			"parent": "cafeb3d57708be21",
+			"name": "redmangrove_low_backdrop_17",
+			"factory": "00734B15D9F0AC56",
+			"blueprint": "009C772460622DFB",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 1.5627617863762353,
+							"y": -7.622000670840794,
+							"z": 19.766149075016017
+						},
+						"position": {
+							"x": 42.7435302734375,
+							"y": 15.166290283203123,
+							"z": -16.582529067993164
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.7999999523162842,
+						"y": 1.7999999523162842,
+						"z": 1.7999999523162842
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafec008ec256b44": {
+			"parent": "cafeb3d57708be21",
+			"name": "redmangrove_low_backdrop_23",
+			"factory": "00734B15D9F0AC56",
+			"blueprint": "009C772460622DFB",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 93.65255762275764
+						},
+						"position": {
+							"x": 83.33219909667969,
+							"y": -70.22254943847656,
+							"z": -19.21837997436523
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.7999999523162842,
+						"y": 1.7999999523162842,
+						"z": 1.7999999523162842
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafe7605ae1d89c1": {
+			"parent": "cafeb3d57708be21",
+			"name": "curly_palm_med_mesh_a_09",
+			"factory": "00EECD9D7EBA2795",
+			"blueprint": "007A24205831B384",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 20.502004461231092,
+							"y": -13.527970917730164,
+							"z": 59.072619598977006
+						},
+						"position": {
+							"x": 55.22148132324219,
+							"y": 1.4763790369033811,
+							"z": -11.202890396118164
+						}
+					}
+				},
+				"m_bForceVisible": { "type": "bool", "value": false },
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_STATIC"
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_bRemovePhysics": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafe49572ea90d4e": {
+			"parent": "cafeb3d57708be21",
+			"name": "redmangrove_low_backdrop_01",
+			"factory": "00734B15D9F0AC56",
+			"blueprint": "009C772460622DFB",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 7.756732105337975,
+							"y": -0.5984652381811876,
+							"z": 36.68273949530408
+						},
+						"position": {
+							"x": -29.564010620117188,
+							"y": -171.11659240722656,
+							"z": -11.231459617614746
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.7999999523162842,
+						"y": 1.7999999523162842,
+						"z": 1.7999999523162842
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafe3ffe802e986b": {
+			"parent": "cafeb3d57708be21",
+			"name": "water_hyacinth_Static_c_01",
+			"factory": "00163D2EAF77F128",
+			"blueprint": "00938EE3E9470AA4",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -38.564196462374255
+						},
+						"position": {
+							"x": 59.10702896118164,
+							"y": 11.265469551086426,
+							"z": -10.019659996032717
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafe0986808e3e3b": {
+			"parent": "cafeb3d57708be21",
+			"name": "chinesebanyan_med_3_08",
+			"factory": "0008624B83DED7D8",
+			"blueprint": "00319F0DE71247B7",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -1.2487371598156782,
+							"y": -1.967694723580394,
+							"z": -64.7962791919474
+						},
+						"position": {
+							"x": 31.656339645385746,
+							"y": -116.97630310058594,
+							"z": -11.867179870605469
+						}
+					}
+				},
+				"m_bRemovePhysics": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafeb68089ab7a99": {
+			"parent": "cafeb3d57708be21",
+			"name": "redmangrove_low_backdrop_02",
+			"factory": "00734B15D9F0AC56",
+			"blueprint": "009C772460622DFB",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 4.1286994853797445,
+							"y": -6.599357899736942,
+							"z": 40.28964226938399
+						},
+						"position": {
+							"x": 38.12173080444336,
+							"y": -9.93878173828125,
+							"z": -14.167980194091797
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.7999999523162842,
+						"y": 1.7999999523162842,
+						"z": 1.7999999523162842
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafe752b261fcd5f": {
+			"parent": "cafeb3d57708be21",
+			"name": "chinesebanyan_med_3_24",
+			"factory": "0008624B83DED7D8",
+			"blueprint": "00319F0DE71247B7",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -51.59858652135124
+						},
+						"position": {
+							"x": 63.25931930541992,
+							"y": 79.00253295898438,
+							"z": -19.550159454345703
+						}
+					}
+				},
+				"m_bRemovePhysics": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafe140ff9f4dfd9": {
+			"parent": "cafeb3d57708be21",
+			"name": "curly_palm_med_mesh_a",
+			"factory": "00EECD9D7EBA2795",
+			"blueprint": "007A24205831B384",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 23.010084104872295,
+							"y": -26.87034559568073,
+							"z": 33.791960066057655
+						},
+						"position": {
+							"x": 74.70268249511719,
+							"y": -38.21788024902344,
+							"z": -9.697587966918944
+						}
+					}
+				},
+				"m_bForceVisible": { "type": "bool", "value": false },
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_STATIC"
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_bRemovePhysics": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafec0278a8f38bf": {
+			"parent": "cafeb3d57708be21",
+			"name": "redmangrove_low_backdrop_28",
+			"factory": "00734B15D9F0AC56",
+			"blueprint": "009C772460622DFB",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 93.65255762275764
+						},
+						"position": {
+							"x": 37.34632873535156,
+							"y": -119.68789672851564,
+							"z": -14.53345012664795
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.7999999523162842,
+						"y": 1.7999999523162842,
+						"z": 1.7999999523162842
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafe5240df085a8c": {
+			"parent": "cafeb3d57708be21",
+			"name": "chinesebanyan_med_3_20",
+			"factory": "0008624B83DED7D8",
+			"blueprint": "00319F0DE71247B7",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -88.15475608730813
+						},
+						"position": {
+							"x": 42.28995895385742,
+							"y": -2.319946050643921,
+							"z": -17.217500686645508
+						}
+					}
+				},
+				"m_bRemovePhysics": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafe74cdd0ebb69e": {
+			"parent": "cafeb3d57708be21",
+			"name": "palm_med_hanging_a_mesh_03",
+			"factory": "0039B4652887765A",
+			"blueprint": "001BDA2B391EFCBF",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 3.043967289991074,
+							"y": 8.240412116968471,
+							"z": 7.4082992142130974
+						},
+						"position": {
+							"x": 52.60622024536133,
+							"y": -19.540189743041992,
+							"z": -8.460807800292969
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafe45bbe4bbd8d3": {
+			"parent": "cafeb3d57708be21",
+			"name": "jungle_tree_a_a_b_mesh_01",
+			"factory": "0079290FD6E771A4",
+			"blueprint": "005B654568BD2CA2",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.18115266117490364,
+							"y": -1.2096613952867998,
+							"z": 17.032806878271426
+						},
+						"position": {
+							"x": 39.24489974975586,
+							"y": -110.9375991821289,
+							"z": -8.875890731811523
+						}
+					}
+				},
+				"m_bRemovePhysics": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafe806ba7ad3e6b": {
+			"parent": "cafeb3d57708be21",
+			"name": "water_hyacinth_Static_c_05",
+			"factory": "00163D2EAF77F128",
+			"blueprint": "00938EE3E9470AA4",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 34.385965855007484
+						},
+						"position": {
+							"x": 59.53895950317383,
+							"y": -7.224822998046875,
+							"z": -9.954916000366213
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafe16c2546fbb3d": {
+			"parent": "cafeb3d57708be21",
+			"name": "palm_med_hanging_a_mesh_04",
+			"factory": "0039B4652887765A",
+			"blueprint": "001BDA2B391EFCBF",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 3.0441985928528403,
+							"y": 8.240353202493592,
+							"z": 85.82287481431749
+						},
+						"position": {
+							"x": 63.69512939453125,
+							"y": -23.156160354614254,
+							"z": -9.958547592163086
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafec72dea66db67": {
+			"parent": "cafeb3d57708be21",
+			"name": "chinesebanyan_med_3_17",
+			"factory": "0008624B83DED7D8",
+			"blueprint": "00319F0DE71247B7",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 152.64244101251597
+						},
+						"position": {
+							"x": 54.7783203125,
+							"y": 44.262451171875,
+							"z": -13.3403902053833
+						}
+					}
+				},
+				"m_bRemovePhysics": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafef88786961541": {
+			"parent": "cafeb3d57708be21",
+			"name": "redmangrove_low_backdrop_16",
+			"factory": "00734B15D9F0AC56",
+			"blueprint": "009C772460622DFB",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 1.5627617863762353,
+							"y": -7.622000670840794,
+							"z": 19.766149075016017
+						},
+						"position": {
+							"x": 44.929779052734375,
+							"y": 12.28561019897461,
+							"z": -13.491809844970703
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.7999999523162842,
+						"y": 1.7999999523162842,
+						"z": 1.7999999523162842
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafe15055beeb52b": {
+			"parent": "cafeb3d57708be21",
+			"name": "chinesebanyan_med_3_21",
+			"factory": "0008624B83DED7D8",
+			"blueprint": "00319F0DE71247B7",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -103.92390595856072
+						},
+						"position": {
+							"x": 61.35348892211914,
+							"y": -20.80514907836914,
+							"z": -14.786210060119627
+						}
+					}
+				},
+				"m_bRemovePhysics": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa",
+					"postInit": true
+				}
+			}
+		},
+		"cafea1195a788aaa": {
+			"parent": "cafeb812d065cf88",
+			"name": "Spatial Back",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 96.00396759097949
+						},
+						"position": {
+							"x": -33.21707534790039,
+							"y": 162.64190673828125,
+							"z": -44.3251838684082
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					},
+					"postInit": true
+				}
+			}
+		},
+		"cafe30237e72a046": {
+			"parent": "cafeb3d57708be21",
+			"name": "curly_palm_med_mesh_a_02",
+			"factory": "00EECD9D7EBA2795",
+			"blueprint": "007A24205831B384",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 6.385508633747005,
+							"y": -6.783556688696744,
+							"z": 90.88491707794763
+						},
+						"position": {
+							"x": 67.62184143066406,
+							"y": 89.5791015625,
+							"z": -10.587730407714844
+						}
+					}
+				},
+				"m_bForceVisible": { "type": "bool", "value": false },
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_STATIC"
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_bRemovePhysics": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa"
+				}
+			}
+		},
+		"cafe188552ffe69f": {
+			"parent": "cafeb3d57708be21",
+			"name": "redmangrove_low_backdrop_04",
+			"factory": "00734B15D9F0AC56",
+			"blueprint": "009C772460622DFB",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 4.104670910030981,
+							"y": 3.8764378541876936,
+							"z": 103.4851545418256
+						},
+						"position": {
+							"x": 82.62320709228516,
+							"y": 118.09919738769533,
+							"z": -14.790360450744627
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.7999999523162842,
+						"y": 1.7999999523162842,
+						"z": 1.7999999523162842
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa"
+				}
+			}
+		},
+		"cafe968453b58fc8": {
+			"parent": "cafeb3d57708be21",
+			"name": "flower_leaves_c_12",
+			"factory": "[assembly:/_pro/environment/geometry/foliage/ground_cover_flowers_a.wl2?/flower_leaves_c.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -8.341825618149365,
+							"y": -27.89696616870902,
+							"z": 141.243529684392
+						},
+						"position": {
+							"x": 74.53440856933594,
+							"y": 67.12960815429688,
+							"z": -9.760637283325195
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 2.992500066757202,
+						"y": 2.992500066757202,
+						"z": 2.992500066757202
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa"
+				}
+			}
+		},
+		"cafe398af9902c77": {
+			"parent": "cafeb3d57708be21",
+			"name": "chinesebanyan_med_3_04",
+			"factory": "0008624B83DED7D8",
+			"blueprint": "00319F0DE71247B7",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -1.2587674790886536,
+							"y": -1.9611023027967591,
+							"z": -115.33800326183116
+						},
+						"position": {
+							"x": 10.80782985687256,
+							"y": -93.3210906982422,
+							"z": -13.267629623413086
+						}
+					}
+				},
+				"m_bRemovePhysics": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa"
+				}
+			}
+		},
+		"cafe97905f4bfd46": {
+			"parent": "cafeb3d57708be21",
+			"name": "redmangrove_low_backdrop_34",
+			"factory": "00734B15D9F0AC56",
+			"blueprint": "009C772460622DFB",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -6.273920061102652,
+							"y": 3.875232381379825,
+							"z": 58.42109826618457
+						},
+						"position": {
+							"x": 70.98703002929688,
+							"y": 58.889129638671875,
+							"z": -15.183859825134276
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.7999999523162842,
+						"y": 1.7999999523162842,
+						"z": 1.7999999523162842
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa"
+				}
+			}
+		},
+		"cafe61af2e1f3659": {
+			"parent": "cafeb3d57708be21",
+			"name": "chinesebanyan_med_3_14",
+			"factory": "0008624B83DED7D8",
+			"blueprint": "00319F0DE71247B7",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.40223349412933385,
+							"y": -0.47498747204945896,
+							"z": -87.48651596566559
+						},
+						"position": {
+							"x": 74.14842224121094,
+							"y": -179.5648956298828,
+							"z": -15.71127986907959
+						}
+					}
+				},
+				"m_bRemovePhysics": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa"
+				}
+			}
+		},
+		"cafe9bba8cd915ef": {
+			"parent": "cafeb3d57708be21",
+			"name": "water_hyacinth_Static_c_04",
+			"factory": "00163D2EAF77F128",
+			"blueprint": "00938EE3E9470AA4",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 148.77909394282128
+						},
+						"position": {
+							"x": 59.220340728759766,
+							"y": -3.663573980331421,
+							"z": -9.954916000366213
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa"
+				}
+			}
+		},
+		"cafe83bcabd6b37c": {
+			"parent": "cafeb3d57708be21",
+			"name": "curly_palm_med_mesh_a_08",
+			"factory": "00EECD9D7EBA2795",
+			"blueprint": "007A24205831B384",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 16.554515226411766,
+							"y": -26.546115961928095,
+							"z": 68.90009756964743
+						},
+						"position": {
+							"x": 54.81193923950195,
+							"y": 36.915008544921875,
+							"z": -10.417460441589355
+						}
+					}
+				},
+				"m_bForceVisible": { "type": "bool", "value": false },
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_STATIC"
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_bRemovePhysics": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa"
+				}
+			}
+		},
+		"cafea45df460d1fa": {
+			"parent": "cafeb3d57708be21",
+			"name": "flower_leaves_c_11",
+			"factory": "[assembly:/_pro/environment/geometry/foliage/ground_cover_flowers_a.wl2?/flower_leaves_c.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -8.34340512315518,
+							"y": -27.89788263335552,
+							"z": 141.2427074770402
+						},
+						"position": {
+							"x": 74.7445068359375,
+							"y": 70.81680297851562,
+							"z": -10.376399993896484
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 2.992500066757202,
+						"y": 2.992500066757202,
+						"z": 2.992500066757202
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa"
+				}
+			}
+		},
+		"cafe4b8c977e3891": {
+			"parent": "cafeb3d57708be21",
+			"name": "redmangrove_low_backdrop_13",
+			"factory": "00734B15D9F0AC56",
+			"blueprint": "009C772460622DFB",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 9.827295949032692,
+							"y": -1.3571782213165824,
+							"z": 23.40408632254567
+						},
+						"position": {
+							"x": 58.00979995727539,
+							"y": -16.339509963989258,
+							"z": -15.118049621582031
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.7999999523162842,
+						"y": 1.7999999523162842,
+						"z": 1.7999999523162842
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa"
+				}
+			}
+		},
+		"cafeac638e3d5765": {
+			"parent": "cafeb3d57708be21",
+			"name": "redmangrove_low_backdrop_08",
+			"factory": "00734B15D9F0AC56",
+			"blueprint": "009C772460622DFB",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 1.5635587310676575,
+							"y": -7.278362447068038,
+							"z": 78.11951623483883
+						},
+						"position": {
+							"x": -35.34769821166992,
+							"y": -170.46380615234375,
+							"z": -13.816840171813965
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.7999999523162842,
+						"y": 1.7999999523162842,
+						"z": 1.7999999523162842
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa"
+				}
+			}
+		},
+		"cafebf501a4f7f10": {
+			"parent": "cafeb3d57708be21",
+			"name": "chinesebanyan_med_3_15",
+			"factory": "0008624B83DED7D8",
+			"blueprint": "00319F0DE71247B7",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -97.90754916798694
+						},
+						"position": {
+							"x": 80.11112976074219,
+							"y": 103.2582015991211,
+							"z": -9.283587455749512
+						}
+					}
+				},
+				"m_bRemovePhysics": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa"
+				}
+			}
+		},
+		"cafed4e102c021a4": {
+			"parent": "cafeb3d57708be21",
+			"name": "redmangrove_low_backdrop_20",
+			"factory": "00734B15D9F0AC56",
+			"blueprint": "009C772460622DFB",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 178.21729801886048
+						},
+						"position": {
+							"x": 62.76795959472656,
+							"y": -78.06864929199219,
+							"z": -14.982069969177246
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.7999999523162842,
+						"y": 1.7999999523162842,
+						"z": 1.7999999523162842
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa"
+				}
+			}
+		},
+		"cafe170cbcdabecd": {
+			"parent": "cafeb3d57708be21",
+			"name": "CoconutPalm_Medium_A_114",
+			"factory": "003EBC8B1A766A14",
+			"blueprint": "00CF57F82445BDC4",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.27228055127456796,
+							"y": -0.4899995941948857,
+							"z": -11.84545205071471
+						},
+						"position": {
+							"x": 38.211181640625,
+							"y": -106.39759826660156,
+							"z": -8.477924346923828
+						}
+					}
+				},
+				"m_bValue": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa"
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafe5e9bf51915a8": {
+			"parent": "cafeb3d57708be21",
+			"name": "curly_palm_med_mesh_a_10",
+			"factory": "00EECD9D7EBA2795",
+			"blueprint": "007A24205831B384",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 24.033369358111333,
+							"y": -18.312645150643306,
+							"z": 47.908593723667494
+						},
+						"position": {
+							"x": 50.66569900512695,
+							"y": 8.987091064453125,
+							"z": -8.988330841064453
+						}
+					}
+				},
+				"m_bForceVisible": { "type": "bool", "value": false },
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_STATIC"
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_bRemovePhysics": { "type": "bool", "value": true },
+				"m_fLODScale": { "type": "float32", "value": 1.0 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa"
+				}
+			}
+		},
+		"cafedbe136582584": {
+			"parent": "cafeb3d57708be21",
+			"name": "bush_fern_b_21",
+			"factory": "0023F4A8D8717388",
+			"blueprint": "00EC45AED2B0CF30",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 34.67458361737493,
+							"y": -20.50793125455646,
+							"z": 14.627247051870016
+						},
+						"position": {
+							"x": 75.19904327392578,
+							"y": 65.40714263916016,
+							"z": -9.14577293395996
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.468119978904724,
+						"y": 1.468119978904724,
+						"z": 1.468119978904724
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa"
+				}
+			}
+		},
+		"cafecb66fecada03": {
+			"parent": "cafeb3d57708be21",
+			"name": "chinesebanyan_med_3_07",
+			"factory": "0008624B83DED7D8",
+			"blueprint": "00319F0DE71247B7",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -1.253265134710932,
+							"y": -1.9647137492265463,
+							"z": -14.948973752975776
+						},
+						"position": {
+							"x": 39.015228271484375,
+							"y": -100.18470001220705,
+							"z": -14.005080223083496
+						}
+					}
+				},
+				"m_bRemovePhysics": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa"
+				}
+			}
+		},
+		"cafe5aee9a593711": {
+			"parent": "cafeb3d57708be21",
+			"name": "water_hyacinth_Static_c",
+			"factory": "00163D2EAF77F128",
+			"blueprint": "00938EE3E9470AA4",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 132.6560824500219
+						},
+						"position": {
+							"x": 93.78048706054688,
+							"y": -50.68410110473633,
+							"z": -10.112990379333496
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa"
+				}
+			}
+		},
+		"cafeb3a7b64221da": {
+			"parent": "cafeb3d57708be21",
+			"name": "jungle_tree_a_a_b_mesh",
+			"factory": "0079290FD6E771A4",
+			"blueprint": "005B654568BD2CA2",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.15863047193374818,
+							"y": -1.2131569043568666,
+							"z": -29.517177443033695
+						},
+						"position": {
+							"x": 51.53390884399414,
+							"y": 4.602509021759033,
+							"z": -9.532487869262695
+						}
+					}
+				},
+				"m_bRemovePhysics": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa"
+				}
+			}
+		},
+		"cafec877169da068": {
+			"parent": "cafeb3d57708be21",
+			"name": "redmangrove_low_04",
+			"factory": "00733CE031C9B295",
+			"blueprint": "0005A031A2E48568",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 6.300213166682716,
+							"y": 18.27015873996052,
+							"z": 9.636114778336548
+						},
+						"position": {
+							"x": 70.30000305175781,
+							"y": -170.1417999267578,
+							"z": -10.85062026977539
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.600000023841858,
+						"y": 1.600000023841858,
+						"z": 1.600000023841858
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa"
+				}
+			}
+		},
+		"cafe3966921966b8": {
+			"parent": "cafeb3d57708be21",
+			"name": "redmangrove_low_backdrop_31",
+			"factory": "00734B15D9F0AC56",
+			"blueprint": "009C772460622DFB",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.0010313251126229505,
+							"y": 0.05935849317577688,
+							"z": 75.17347966072293
+						},
+						"position": {
+							"x": 57.81779098510742,
+							"y": 53.03091049194336,
+							"z": -14.226229667663574
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.7999999523162842,
+						"y": 1.7999999523162842,
+						"z": 1.7999999523162842
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa"
+				}
+			}
+		},
+		"cafe89eed2e25d8a": {
+			"parent": "cafeb3d57708be21",
+			"name": "redmangrove_low_backdrop_07",
+			"factory": "00734B15D9F0AC56",
+			"blueprint": "009C772460622DFB",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -5.245342221765716,
+							"y": 4.401837573527938,
+							"z": 36.23473548803489
+						},
+						"position": {
+							"x": 71.28199768066406,
+							"y": 75.36234283447266,
+							"z": -17.866500854492188
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.7999999523162842,
+						"y": 1.7999999523162842,
+						"z": 1.7999999523162842
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa"
+				}
+			}
+		},
+		"cafe64dc50a7fca2": {
+			"parent": "cafeb3d57708be21",
+			"name": "curly_palm_med_mesh_a_03",
+			"factory": "00EECD9D7EBA2795",
+			"blueprint": "007A24205831B384",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 9.300917981375388,
+							"y": -0.32721797526017077,
+							"z": 136.86519529426897
+						},
+						"position": {
+							"x": 67.34967041015625,
+							"y": -83.35106658935547,
+							"z": -9.853181838989258
+						}
+					}
+				},
+				"m_bForceVisible": { "type": "bool", "value": false },
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_STATIC"
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_bRemovePhysics": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa"
+				}
+			}
+		},
+		"cafe2756f23f6fb1": {
+			"parent": "cafeb3d57708be21",
+			"name": "bush_fern_b_18",
+			"factory": "0023F4A8D8717388",
+			"blueprint": "00EC45AED2B0CF30",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 29.114912727963787,
+							"y": -32.978798090540565,
+							"z": 21.61584827048517
+						},
+						"position": {
+							"x": 56.10599136352539,
+							"y": 8.046478271484375,
+							"z": -9.08949089050293
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.76173996925354,
+						"y": 1.76173996925354,
+						"z": 1.76173996925354
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa"
+				}
+			}
+		},
+		"cafe56dcc4d3bbfc": {
+			"parent": "cafeb3d57708be21",
+			"name": "redmangrove_low_backdrop_19",
+			"factory": "00734B15D9F0AC56",
+			"blueprint": "009C772460622DFB",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 24.4269691072384
+						},
+						"position": {
+							"x": 45.47433090209961,
+							"y": 7.420012950897217,
+							"z": -14.09547996520996
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.7999999523162842,
+						"y": 1.7999999523162842,
+						"z": 1.7999999523162842
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa"
+				}
+			}
+		},
+		"cafe59d2f2cc51a1": {
+			"parent": "cafeb3d57708be21",
+			"name": "water_hyacinth_Static_c_02",
+			"factory": "00163D2EAF77F128",
+			"blueprint": "00938EE3E9470AA4",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 132.65624420751982
+						},
+						"position": {
+							"x": 58.661251068115234,
+							"y": 5.356110095977783,
+							"z": -10.019659996032717
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa"
+				}
+			}
+		},
+		"cafee90b113a52ec": {
+			"parent": "cafeb3d57708be21",
+			"name": "curly_palm_med_mesh_a_05",
+			"factory": "00EECD9D7EBA2795",
+			"blueprint": "007A24205831B384",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 16.480529810606665,
+							"y": -4.47396210014761,
+							"z": 83.25649725328078
+						},
+						"position": {
+							"x": 73.24427795410156,
+							"y": -44.6893310546875,
+							"z": -11.536259651184082
+						}
+					}
+				},
+				"m_bForceVisible": { "type": "bool", "value": false },
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_STATIC"
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_bRemovePhysics": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa"
+				}
+			}
+		},
+		"cafe56564578a125": {
+			"parent": "cafeb3d57708be21",
+			"name": "redmangrove_low_03",
+			"factory": "00733CE031C9B295",
+			"blueprint": "0005A031A2E48568",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 6.300213166682716,
+							"y": 18.27015873996052,
+							"z": 91.51078364780388
+						},
+						"position": {
+							"x": 48.37139892578125,
+							"y": -105.63500213623048,
+							"z": -10.85062026977539
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.600000023841858,
+						"y": 1.600000023841858,
+						"z": 1.600000023841858
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa"
+				}
+			}
+		},
+		"cafe8f726cb38c01": {
+			"parent": "cafeb3d57708be21",
+			"name": "water_hyacinth_Static_c_09",
+			"factory": "00163D2EAF77F128",
+			"blueprint": "00938EE3E9470AA4",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 159.18700211715188
+						},
+						"position": {
+							"x": 77.16172790527344,
+							"y": 37.476898193359375,
+							"z": -9.98069190979004
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa"
+				}
+			}
+		},
+		"cafe3860bca3345d": {
+			"parent": "cafeb3d57708be21",
+			"name": "chinesebanyan_med_3_13",
+			"factory": "0008624B83DED7D8",
+			"blueprint": "00319F0DE71247B7",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.346140025962785,
+							"y": -0.517330624770176,
+							"z": -21.59153002944426
+						},
+						"position": {
+							"x": -24.99547004699707,
+							"y": -160.4477996826172,
+							"z": -15.616939544677734
+						}
+					}
+				},
+				"m_bRemovePhysics": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa"
+				}
+			}
+		},
+		"cafee1ac731d6cb9": {
+			"parent": "cafeb3d57708be21",
+			"name": "redmangrove_low_backdrop_12",
+			"factory": "00734B15D9F0AC56",
+			"blueprint": "009C772460622DFB",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 9.827295949032692,
+							"y": -1.3571782213165824,
+							"z": 23.40408632254567
+						},
+						"position": {
+							"x": 64.20652770996094,
+							"y": -18.602510452270508,
+							"z": -15.118049621582031
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.7999999523162842,
+						"y": 1.7999999523162842,
+						"z": 1.7999999523162842
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa"
+				}
+			}
+		},
+		"cafeda7e9b5fb7a7": {
+			"parent": "cafeb3d57708be21",
+			"name": "redmangrove_low_backdrop_32",
+			"factory": "00734B15D9F0AC56",
+			"blueprint": "009C772460622DFB",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.002177241729912522,
+							"y": 0.07912550818221037,
+							"z": 88.39264194158447
+						},
+						"position": {
+							"x": 71.07633972167969,
+							"y": 67.93878173828125,
+							"z": -10.430669784545898
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.7999999523162842,
+						"y": 1.7999999523162842,
+						"z": 1.7999999523162842
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa"
+				}
+			}
+		},
+		"cafe58a1998fd84a": {
+			"parent": "cafeb3d57708be21",
+			"name": "chinesebanyan_med_3_26",
+			"factory": "0008624B83DED7D8",
+			"blueprint": "00319F0DE71247B7",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -51.11743559005054
+						},
+						"position": {
+							"x": 79.90794372558594,
+							"y": 112.8394012451172,
+							"z": -13.026840209960938
+						}
+					}
+				},
+				"m_bRemovePhysics": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa"
+				}
+			}
+		},
+		"cafe5118e90b45f7": {
+			"parent": "cafeb3d57708be21",
+			"name": "chinesebanyan_med_3_06",
+			"factory": "0008624B83DED7D8",
+			"blueprint": "00319F0DE71247B7",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -1.2568187080824278,
+							"y": -1.9622489801574177,
+							"z": -69.04586999509158
+						},
+						"position": {
+							"x": 52.3238410949707,
+							"y": -92.7149429321289,
+							"z": -17.308940887451172
+						}
+					}
+				},
+				"m_bRemovePhysics": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa"
+				}
+			}
+		},
+		"cafea6f6cea9f5ca": {
+			"parent": "cafeb3d57708be21",
+			"name": "flower_leaves_c_07",
+			"factory": "[assembly:/_pro/environment/geometry/foliage/ground_cover_flowers_a.wl2?/flower_leaves_c.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -15.161555066397606,
+							"y": -21.327113138638044,
+							"z": 84.73020756196148
+						},
+						"position": {
+							"x": 43.59730911254883,
+							"y": -113.91560363769533,
+							"z": -9.70688819885254
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.4249999523162842,
+						"y": 1.4249999523162842,
+						"z": 1.4249999523162842
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa"
+				}
+			}
+		},
+		"cafea1a3157b7a57": {
+			"parent": "cafeb3d57708be21",
+			"name": "chinesebanyan_med_3_09",
+			"factory": "0008624B83DED7D8",
+			"blueprint": "00319F0DE71247B7",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.3906034902940976,
+							"y": -0.5036365271315776,
+							"z": -120.35999213277786
+						},
+						"position": {
+							"x": 26.59514045715332,
+							"y": -130.92019653320312,
+							"z": -14.310930252075195
+						}
+					}
+				},
+				"m_bRemovePhysics": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa"
+				}
+			}
+		},
+		"cafe8db67f2124c6": {
+			"parent": "cafeb3d57708be21",
+			"name": "chinesebanyan_med_3_23",
+			"factory": "0008624B83DED7D8",
+			"blueprint": "00319F0DE71247B7",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -51.59858652135124
+						},
+						"position": {
+							"x": 35.70832824707031,
+							"y": 74.0509033203125,
+							"z": -10.67255973815918
+						}
+					}
+				},
+				"m_bRemovePhysics": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa"
+				}
+			}
+		},
+		"cafeab01f75eec6c": {
+			"parent": "cafeb3d57708be21",
+			"name": "CoconutPalm_Medium_A_02",
+			"factory": "003EBC8B1A766A14",
+			"blueprint": "00CF57F82445BDC4",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 2.5708695554888745,
+							"y": -2.0275479000803385,
+							"z": -28.482892515682327
+						},
+						"position": {
+							"x": 63.14765930175781,
+							"y": 57.77899169921875,
+							"z": -9.611570358276367
+						}
+					}
+				},
+				"m_bValue": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa"
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafe87aa62645db4": {
+			"parent": "cafeb3d57708be21",
+			"name": "curly_palm_med_mesh_a_01",
+			"factory": "00EECD9D7EBA2795",
+			"blueprint": "007A24205831B384",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 34.62488335772595,
+							"y": -19.593403821972142,
+							"z": 121.14363063071887
+						},
+						"position": {
+							"x": -28.318559646606445,
+							"y": -172.7781982421875,
+							"z": -9.890838623046877
+						}
+					}
+				},
+				"m_bForceVisible": { "type": "bool", "value": false },
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_STATIC"
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_bRemovePhysics": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa"
+				}
+			}
+		},
+		"cafea50e665aac24": {
+			"parent": "cafeb3d57708be21",
+			"name": "chinesebanyan_med_3_02",
+			"factory": "0008624B83DED7D8",
+			"blueprint": "00319F0DE71247B7",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -64.66171276744431
+						},
+						"position": {
+							"x": 64.20213317871094,
+							"y": -34.07033920288086,
+							"z": -15.552900314331056
+						}
+					}
+				},
+				"m_bRemovePhysics": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa"
+				}
+			}
+		},
+		"cafea826caf0415f": {
+			"parent": "cafeb3d57708be21",
+			"name": "chinesebanyan_med_3_01",
+			"factory": "0008624B83DED7D8",
+			"blueprint": "00319F0DE71247B7",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -5.925426616757448,
+							"y": 4.426548955045546,
+							"z": -68.25278843641253
+						},
+						"position": {
+							"x": 11.595029830932615,
+							"y": -74.76889038085938,
+							"z": -5.4896697998046875
+						}
+					}
+				},
+				"m_bRemovePhysics": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa"
+				}
+			}
+		},
+		"cafe615dd997d2b2": {
+			"parent": "cafeb3d57708be21",
+			"name": "chinesebanyan_med_3_18",
+			"factory": "0008624B83DED7D8",
+			"blueprint": "00319F0DE71247B7",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 69.4859487691041
+						},
+						"position": {
+							"x": 46.06304931640625,
+							"y": 22.150909423828125,
+							"z": -12.31149959564209
+						}
+					}
+				},
+				"m_bRemovePhysics": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa"
+				}
+			}
+		},
+		"cafe1fa8ecb624bd": {
+			"parent": "cafeb3d57708be21",
+			"name": "water_hyacinth_Static_c_11",
+			"factory": "00163D2EAF77F128",
+			"blueprint": "00938EE3E9470AA4",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -140.3749232562418
+						},
+						"position": {
+							"x": 77.8865966796875,
+							"y": 33.51926040649414,
+							"z": -9.98069190979004
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa"
+				}
+			}
+		},
+		"cafe8b012b7410fa": {
+			"parent": "cafeb3d57708be21",
+			"name": "redmangrove_low_backdrop_30",
+			"factory": "00734B15D9F0AC56",
+			"blueprint": "009C772460622DFB",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 6.300332918173156,
+							"y": 18.27010319176111,
+							"z": 91.51078237562406
+						},
+						"position": {
+							"x": 32.34410095214844,
+							"y": -117.08399963378906,
+							"z": -15.8654203414917
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.7999999523162842,
+						"y": 1.7999999523162842,
+						"z": 1.7999999523162842
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa"
+				}
+			}
+		},
+		"cafecd4fcee17e0e": {
+			"parent": "cafeb3d57708be21",
+			"name": "curly_palm_med_mesh_a_04",
+			"factory": "00EECD9D7EBA2795",
+			"blueprint": "007A24205831B384",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 13.469509117397024,
+							"y": -15.401541099101305,
+							"z": 70.4018342330767
+						},
+						"position": {
+							"x": 75.31358337402344,
+							"y": -62.107181549072266,
+							"z": -10.96269989013672
+						}
+					}
+				},
+				"m_bForceVisible": { "type": "bool", "value": false },
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_STATIC"
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_bRemovePhysics": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea1195a788aaa"
+				}
+			}
 		}
 	},
 	"propertyOverrides": [
@@ -40152,6 +44099,10 @@
 				{
 					"ref": "21e4518e045da197",
 					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_hangar.brick].pc_entitytype"
+				},
+				{
+					"ref": "6d9304fbdb00f744",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/mission_polarbear_module_005.brick].pc_entitytype"
 				}
 			],
 			"properties": {
