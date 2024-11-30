@@ -261,6 +261,14 @@
 		"enabledByDefault": true,
 		"type": "checkbox",
 		"dependencies": ["00746FB20D1C98C1",{
+			"runtimeID": "003C7A98980FF033",
+			"comment": "Colombia Ground Piece",
+			"portFromChunk1": true
+		},{
+			"runtimeID": "00753F60E3B43D71",
+			"comment": "Colombia Rock",
+			"portFromChunk1": true
+		},{
 			"runtimeID": "00AAF9822C3D6E65",
 			"comment": "prison_int_doorframe_4x4_a",
 			"portFromChunk1": true

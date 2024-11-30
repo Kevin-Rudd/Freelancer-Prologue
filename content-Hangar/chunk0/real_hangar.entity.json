@@ -19026,7 +19026,7 @@
 		},
 		"cafeaedf31728c9f": {
 			"parent": "cafe04b10abe4447",
-			"name": "seagull_terrain_asphalt_panels_zmapped_a_06",
+			"name": "seagull_terrain_asphalt_panels_zmapped_a_05",
 			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_terrain_a.template?/seagull_terrain_asphalt_panels_zmapped_a.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_terrain_a.template?/seagull_terrain_asphalt_panels_zmapped_a.entitytemplate].pc_entityblueprint",
 			"properties": {
@@ -19039,19 +19039,15 @@
 							"z": 92.1304307865799
 						},
 						"position": {
-							"x": 35.31846237182617,
-							"y": 79.22429656982422,
+							"x": -29.167041778564453,
+							"y": 59.00250625610352,
 							"z": -1.4600000381469729
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": {
-						"x": 2.8299999237060547,
-						"y": 22.690000534057617,
-						"z": 1.0
-					}
+					"value": { "x": 3, "y": 2, "z": 1.0 }
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -28219,24 +28215,32 @@
 		},
 		"cafefca3b65ec30c": {
 			"parent": "cafe46acf41ca8a1",
-			"name": "Unplaced 3",
+			"name": "Lower Bathroom",
 			"factory": "0061DD9F8DB62AD1",
 			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 89.9999965849052
+						},
 						"position": {
-							"x": 15.563661575317385,
-							"y": 26.516258239746097,
-							"z": 2.4448046684265137
+							"x": 0.5302432775497437,
+							"y": -19.608623504638672,
+							"z": 2.4081647396087646
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 3.5, "y": 9.699999809265137, "z": 1.0 }
+					"value": {
+						"x": 2.9000000953674316,
+						"y": 4.800000190734863,
+						"z": 1.0
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -28257,11 +28261,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90 },
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 89.9999965849052
+						},
 						"position": {
 							"x": -9.287612915039064,
 							"y": -17.092510223388672,
-							"z": 2.4448046684265137
+							"z": 2.4078311920166016
 						}
 					}
 				},
@@ -28555,7 +28563,7 @@
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"cafe83f6f0fd95e9": {
-			"parent": "cafead44a7a047ce",
+			"parent": "cafe5e8db67c7220",
 			"name": "villa_inside_wall_4x5m_a 2",
 			"factory": "[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/environment/geometry/levels/llama/llama_old_villa_modular_kit_interior.wl2?/villa_inside_wall_4x5m_a.prim].entitytype,[modules:/zexplosionblockeraspect.class].entitytype).pc_entitytype",
 			"blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zexplosionblockeraspect.class].entitytype).pc_entityblueprint",
@@ -28590,47 +28598,59 @@
 			}
 		},
 		"cafec0990a8855b9": {
-			"parent": "cafead44a7a047ce",
-			"name": "a_int_wall_3x4_blank_a_10",
+			"parent": "cafe4ef30753e323",
+			"name": "a_int_wall_3x4_blank_a_08",
 			"factory": "00FB43EBAA65ADCB",
 			"blueprint": "001639C89F934130",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
-							"z": 89.9999965849052
-						},
+						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
 						"position": {
-							"x": 15.518508911132812,
-							"y": 26.64655876159668,
-							"z": -1.4935239553451538
+							"x": 0.7224220037460327,
+							"y": -19.629011154174805,
+							"z": -1.4663676023483276
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+					"value": {
+						"x": 1.0,
+						"y": 1.3700000047683716,
+						"z": 1.0
+					}
 				},
 				"top_trimTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": 0.0, "y": 0.0, "z": 4.0 }
+						"position": {
+							"x": 0.0,
+							"y": 0.0,
+							"z": 3.900000095367432
+						}
 					}
 				},
 				"2094291647": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "[assembly:/_pro/environment/materials/generic/wall/concrete_bare_modular_b.mi].pc_mi",
+						"resource": "[assembly:/_pro/environment/materials/generic/wall/gecko_tilesceramic_white_a_relief.mi].pc_mi",
 						"flag": "5F"
 					}
 				},
 				"m_eRoomBehaviour": {
 					"type": "ZSpatialEntity.ERoomBehaviour",
 					"value": "ROOM_DYNAMIC"
+				},
+				"Trim_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.0,
+						"y": 1.3700000047683716,
+						"z": 1.0
+					}
 				}
 			}
 		},
@@ -28732,7 +28752,7 @@
 			}
 		},
 		"cafeb655fae8553c": {
-			"parent": "cafead44a7a047ce",
+			"parent": "cafe5e8db67c7220",
 			"name": "villa_inside_wall_4x5m_a",
 			"factory": "[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/environment/geometry/levels/llama/llama_old_villa_modular_kit_interior.wl2?/villa_inside_wall_4x5m_a.prim].entitytype,[modules:/zexplosionblockeraspect.class].entitytype).pc_entitytype",
 			"blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zexplosionblockeraspect.class].entitytype).pc_entityblueprint",
@@ -28765,9 +28785,2698 @@
 					"value": "ROOM_DYNAMIC"
 				}
 			}
+		},
+		"cafe5e8db67c7220": {
+			"parent": "cafead44a7a047ce",
+			"name": "Walkway",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe4ef30753e323": {
+			"parent": "cafead44a7a047ce",
+			"name": "Lower Bathroom",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe7835fa078af3": {
+			"parent": "cafead44a7a047ce",
+			"name": "Change Room",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe3832417c2eed": {
+			"parent": "cafe7835fa078af3",
+			"name": "a_int_wall_3x4_blank_a_10",
+			"factory": "00FB43EBAA65ADCB",
+			"blueprint": "001639C89F934130",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 15.726353645324709,
+							"y": 26.65370750427246,
+							"z": -1.4935239553451538
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 1.0, "y": 1.649999976158142, "z": 1.0 }
+				},
+				"top_trimTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": 0.0, "y": 0.0, "z": 4.0 }
+					}
+				},
+				"2094291647": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/generic/wall/gecko_tilesceramic_white_a_relief.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"Trim_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 1.0, "y": 1.649999976158142, "z": 1.0 }
+				}
+			}
+		},
+		"cafef63a163e3c5b": {
+			"parent": "cafe4ef30753e323",
+			"name": "a_int_wall_3x4_blank_a_10",
+			"factory": "00FB43EBAA65ADCB",
+			"blueprint": "001639C89F934130",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": -9.03170680999756,
+							"y": -19.346195220947266,
+							"z": -1.4663676023483276
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.0,
+						"y": 1.2000000476837158,
+						"z": 1.0
+					}
+				},
+				"top_trimTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 0.0,
+							"y": 0.0,
+							"z": 3.900000095367432
+						}
+					}
+				},
+				"2094291647": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/generic/wall/gecko_tilesceramic_white_a_relief.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"Trim_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.0,
+						"y": 1.2000000476837158,
+						"z": 1.0
+					}
+				}
+			}
+		},
+		"cafef129ecc8c041": {
+			"parent": "cafe4ef30753e323",
+			"name": "a_int_wall_3x4_blank_a_09",
+			"factory": "00FB43EBAA65ADCB",
+			"blueprint": "001639C89F934130",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": -4.069693565368652,
+							"y": -19.346195220947266,
+							"z": -1.4663676023483276
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 1.0, "y": 1.100000023841858, "z": 1.0 }
+				},
+				"top_trimTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 0.0,
+							"y": 0.0,
+							"z": 3.900000095367432
+						}
+					}
+				},
+				"2094291647": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/generic/wall/gecko_tilesceramic_white_a_relief.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"Trim_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 1.0, "y": 1.100000023841858, "z": 1.0 }
+				}
+			}
+		},
+		"cafe942262214203": {
+			"parent": "cafe04b10abe4447",
+			"name": "colombia_small_rock_c_2m_Moss_18",
+			"factory": "[assembly:/_pro/environment/templates/levels/colombia/colombia_rocks.template?/colombia_small_rock_c_2m_moss.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/colombia/colombia_rocks.template?/colombia_small_rock_c_2m_moss.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -136.53353669909723
+						},
+						"position": {
+							"x": -45.716339111328125,
+							"y": -40.78779602050781,
+							"z": -1.3419231176376345
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.1103700399398804,
+						"y": 1.243939995765686,
+						"z": 1.5301899909973145
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_fLODScale": { "type": "float32", "value": 2.0 },
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"cafeea387314c9ac": {
+			"parent": "cafe04b10abe4447",
+			"name": "terrain_ruins_g_part_b_02",
+			"factory": "003C7A98980FF033",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.3145371308613591,
+							"y": -0.008713347062956619,
+							"z": 91.58815038974883
+						},
+						"position": {
+							"x": 43.21748733520508,
+							"y": 53.14984130859375,
+							"z": -1.7705910205841064
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"cafe710d23fb0610": {
+			"parent": "cafe04b10abe4447",
+			"name": "terrain_ruins_g_part_b_01",
+			"factory": "003C7A98980FF033",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.012137450631102536,
+							"y": -0.6759765587673547,
+							"z": -50.15916799441442
+						},
+						"position": {
+							"x": -46.595916748046875,
+							"y": -46.28189849853515,
+							"z": -1.743231177330017
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"cafe46b32cf431ac": {
+			"parent": "cafe04b10abe4447",
+			"name": "terrain_ruins_g_part_b_03",
+			"factory": "003C7A98980FF033",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 1.5920446393774892,
+							"y": -1.178202726714575,
+							"z": -123.68878019572546
+						},
+						"position": {
+							"x": 38.116580963134766,
+							"y": -54.13053894042969,
+							"z": -1.6109358072280884
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"cafead295797d278": {
+			"parent": "cafe04b10abe4447",
+			"name": "seagull_terrain_asphalt_panels_zmapped_a_06 RUNWAY",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_terrain_a.template?/seagull_terrain_asphalt_panels_zmapped_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_terrain_a.template?/seagull_terrain_asphalt_panels_zmapped_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 92.1304307865799
+						},
+						"position": {
+							"x": 35.31846237182617,
+							"y": 79.22429656982422,
+							"z": -1.4600000381469729
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 2.8299999237060547,
+						"y": 22.690000534057617,
+						"z": 1.0
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"cafe282f38499a22": {
+			"parent": "cafe04b10abe4447",
+			"name": "colombia_small_rock_c_2m_Moss_20",
+			"factory": "[assembly:/_pro/environment/templates/levels/colombia/colombia_rocks.template?/colombia_small_rock_c_2m_moss.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/colombia/colombia_rocks.template?/colombia_small_rock_c_2m_moss.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
+						"position": {
+							"x": -28.766647338867188,
+							"y": 52.1242790222168,
+							"z": -1.3419231176376345
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.1103700399398804,
+						"y": 1.243939995765686,
+						"z": 1.5301899909973145
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_fLODScale": { "type": "float32", "value": 2.0 },
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"cafe56c0ccd76dee": {
+			"parent": "cafe04b10abe4447",
+			"name": "colombia_small_rock_c_2m_Moss_21",
+			"factory": "[assembly:/_pro/environment/templates/levels/colombia/colombia_rocks.template?/colombia_small_rock_c_2m_moss.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/colombia/colombia_rocks.template?/colombia_small_rock_c_2m_moss.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 9.775112992905758
+						},
+						"position": {
+							"x": -45.23508071899414,
+							"y": -47.79411315917969,
+							"z": -1.3419231176376345
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.1103700399398804,
+						"y": 1.243939995765686,
+						"z": 1.5301899909973145
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_fLODScale": { "type": "float32", "value": 2.0 },
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"cafe70425a407eaa": {
+			"parent": "cafe04b10abe4447",
+			"name": "colombia_small_rock_c_2m_Moss_19",
+			"factory": "[assembly:/_pro/environment/templates/levels/colombia/colombia_rocks.template?/colombia_small_rock_c_2m_moss.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/colombia/colombia_rocks.template?/colombia_small_rock_c_2m_moss.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -161.74891691432768
+						},
+						"position": {
+							"x": -33.30295944213867,
+							"y": -48.79832077026367,
+							"z": -1.3419231176376345
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.1103700399398804,
+						"y": 1.243939995765686,
+						"z": 1.5301899909973145
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_fLODScale": { "type": "float32", "value": 2.0 },
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"cafe999a3834eef8": {
+			"parent": "fffffffffffffffe",
+			"name": "From Deleted Folders",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe45cbe6c97039": {
+			"parent": "cafe999a3834eef8",
+			"name": "Bushes",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe68bb4a706e99": {
+			"parent": "cafe157bb75556f0",
+			"name": "pile_of_coca_leaves_c_13",
+			"factory": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_d.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_d.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -60.82592010498047,
+							"y": -53.017799377441406,
+							"z": -54.093238830566406
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafecb4c7000382a": {
+			"parent": "cafe3e25edc77369",
+			"name": "DarkLight 3",
+			"factory": "[modules:/zdarklightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zdarklightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 159.87581551299854
+						},
+						"position": {
+							"x": -79.28695678710938,
+							"y": -42.35818099975586,
+							"z": -53.5
+						}
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_ENVIRONMENT"
+				},
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 4.49793004989624,
+						"y": 4.955810070037842,
+						"z": 1.2768100500106812
+					}
+				},
+				"m_vBoxFadePos": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8744540214538574,
+						"y": 0.925091028213501,
+						"z": 0.2288099974393845
+					}
+				},
+				"m_vBoxFadeNeg": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8102279901504517,
+						"y": 0.9832800030708312,
+						"z": 0.0
+					}
+				},
+				"m_fDiffusePower": {
+					"type": "float32",
+					"value": 0.699999988079071
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafec6189d979b41": {
+			"parent": "cafee589862fdbee",
+			"name": "pile_of_coca_leaves_c_34",
+			"factory": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_c.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_c.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -156.69834682441356
+						},
+						"position": {
+							"x": -4.099943161010742,
+							"y": -36.4182014465332,
+							"z": -54.09326934814453
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafe9bf9a28579ed": {
+			"parent": "cafe2c11119ee9df",
+			"name": "pile_of_coca_leaves_c_27",
+			"factory": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_d.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_d.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 164.87154066474605
+						},
+						"position": {
+							"x": -0.011951450258493423,
+							"y": -66.07048034667969,
+							"z": -54.093238830566406
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafe82da105db329": {
+			"parent": "cafed2dcac450be4",
+			"name": "pile_of_coca_leaves_c_21",
+			"factory": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_d.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_d.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 44.344263398723875
+						},
+						"position": {
+							"x": -70.64649963378906,
+							"y": -56.39387893676758,
+							"z": -54.093231201171875
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafe3dff20ebb92d": {
+			"parent": "cafeb8a421bf2c6f",
+			"name": "DarkLight 10",
+			"factory": "[modules:/zdarklightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zdarklightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 93.5057655328802
+						},
+						"position": {
+							"x": 2.4332430362701416,
+							"y": -37.286598205566406,
+							"z": -53.5
+						}
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_ENVIRONMENT"
+				},
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 8.940059661865234,
+						"y": 2.739680051803589,
+						"z": 1.2768100500106812
+					}
+				},
+				"m_vBoxFadePos": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.949858009815216,
+						"y": 0.925091028213501,
+						"z": 0.2288099974393845
+					}
+				},
+				"m_vBoxFadeNeg": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.6529390215873718,
+						"y": 0.9832800030708312,
+						"z": 0.0
+					}
+				},
+				"m_fDiffusePower": {
+					"type": "float32",
+					"value": 0.699999988079071
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafe11236a531e79": {
+			"parent": "cafe5889768bcb2c",
+			"name": "pile_of_coca_leaves_c_16",
+			"factory": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_c.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_c.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -36.5682471687892
+						},
+						"position": {
+							"x": -69.22432708740234,
+							"y": -53.098018646240234,
+							"z": -54.093238830566406
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafe677e82dda934": {
+			"parent": "cafe33afc95b99bd",
+			"name": "DarkLight 12",
+			"factory": "[modules:/zdarklightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zdarklightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 93.5057655328802
+						},
+						"position": {
+							"x": -4.779885768890381,
+							"y": -81.45320129394531,
+							"z": -53.5
+						}
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_ENVIRONMENT"
+				},
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 3.994529962539673,
+						"y": 3.0040299892425537,
+						"z": 1.2768100500106812
+					}
+				},
+				"m_vBoxFadePos": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.484593003988266,
+						"y": 1.3357399702072144,
+						"z": 0.2288099974393845
+					}
+				},
+				"m_vBoxFadeNeg": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.1834900379180908,
+						"y": 0.9379720091819764,
+						"z": 0.0
+					}
+				},
+				"m_fDiffusePower": {
+					"type": "float32",
+					"value": 0.699999988079071
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafed2dcac450be4": {
+			"parent": "cafe85464f86cdde",
+			"name": "pile_of_coca_leaves_c_20",
+			"factory": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_d.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_d.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -162.72933699668587
+						},
+						"position": {
+							"x": -67.52703857421875,
+							"y": -55.418209075927734,
+							"z": -54.093238830566406
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafe0073223e8ca0": {
+			"parent": "cafe349cd9c59e7f",
+			"name": "pile_of_coca_leaves_c_44",
+			"factory": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_d.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_d.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 85.89565844886181
+						},
+						"position": {
+							"x": -2.392580032348633,
+							"y": -35.82278823852539,
+							"z": -54.105491638183594
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafe5889768bcb2c": {
+			"parent": "cafe7683a01f441e",
+			"name": "pile_of_coca_leaves_c_15",
+			"factory": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_d.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_d.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 152.9264445448479
+						},
+						"position": {
+							"x": -59.2769889831543,
+							"y": -50.1396598815918,
+							"z": -54.09326171875
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafe17015ce8c449": {
+			"parent": "cafeb7161288f490",
+			"name": "pile_of_coca_leaves_c_37",
+			"factory": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_d.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_d.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -10.946189534541668
+						},
+						"position": {
+							"x": -3.502219915390014,
+							"y": -25.484560012817383,
+							"z": -54.09326934814453
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafeb8a421bf2c6f": {
+			"parent": "cafe3e25edc77369",
+			"name": "DarkLight 9",
+			"factory": "[modules:/zdarklightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zdarklightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+						"position": {
+							"x": -4.98126220703125,
+							"y": -31.02387046813965,
+							"z": -53.5
+						}
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_ENVIRONMENT"
+				},
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 12.356800079345703,
+						"y": 2.739680051803589,
+						"z": 1.2768100500106812
+					}
+				},
+				"m_vBoxFadePos": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8260970115661621,
+						"y": 0.925091028213501,
+						"z": 0.2288099974393845
+					}
+				},
+				"m_vBoxFadeNeg": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.7178030014038086,
+						"y": 0.9832800030708312,
+						"z": 0.0
+					}
+				},
+				"m_fDiffusePower": {
+					"type": "float32",
+					"value": 0.699999988079071
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafedfdb057afd59": {
+			"parent": "cafe024b50bc2e92",
+			"name": "DarkLight 15",
+			"factory": "[modules:/zdarklightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zdarklightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 38.80375585652053
+						},
+						"position": {
+							"x": -67.6492919921875,
+							"y": -69.5927734375,
+							"z": -53.5
+						}
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_ENVIRONMENT"
+				},
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 4.944590091705322,
+						"y": 4.009580135345459,
+						"z": 1.2768100500106812
+					}
+				},
+				"m_vBoxFadePos": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8173559904098511,
+						"y": 0.8656079769134521,
+						"z": 0.2288099974393845
+					}
+				},
+				"m_vBoxFadeNeg": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.1834900379180908,
+						"y": 0.8300399780273438,
+						"z": 0.0
+					}
+				},
+				"m_fDiffusePower": {
+					"type": "float32",
+					"value": 0.699999988079071
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafed55d75bc88e6": {
+			"parent": "cafe17015ce8c449",
+			"name": "pile_of_coca_leaves_c_38",
+			"factory": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_d.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_d.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 165.8558660907191
+						},
+						"position": {
+							"x": 1.9242080450057983,
+							"y": -33.358741760253906,
+							"z": -54.09326934814453
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafece0639c08152": {
+			"parent": "cafe3e25edc77369",
+			"name": "DarkLight 2",
+			"factory": "[modules:/zdarklightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zdarklightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -76.90254780731503
+						},
+						"position": {
+							"x": -74.2813720703125,
+							"y": -51.484859466552734,
+							"z": -53.5
+						}
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_ENVIRONMENT"
+				},
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 5.385499954223633,
+						"y": 6.914269924163818,
+						"z": 1.2768100500106812
+					}
+				},
+				"m_vBoxFadePos": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8744540214538574,
+						"y": 0.925091028213501,
+						"z": 0.2288099974393845
+					}
+				},
+				"m_vBoxFadeNeg": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8102279901504517,
+						"y": 0.9832800030708312,
+						"z": 0.0
+					}
+				},
+				"m_fDiffusePower": {
+					"type": "float32",
+					"value": 0.699999988079071
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafe157bb75556f0": {
+			"parent": "cafe3374a145dcc9",
+			"name": "pile_of_coca_leaves_c_12",
+			"factory": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_d.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_d.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -59.77701950073242,
+							"y": -48.61827087402344,
+							"z": -54.09326171875
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafe18647b044c72": {
+			"parent": "cafe3e25edc77369",
+			"name": "DarkLight 4",
+			"factory": "[modules:/zdarklightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zdarklightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -142.62118228708007
+						},
+						"position": {
+							"x": -74.84040832519531,
+							"y": -19.18255043029785,
+							"z": -53.5
+						}
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_ENVIRONMENT"
+				},
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 3.7749600410461426,
+						"y": 7.940839767456055,
+						"z": 1.2768100500106812
+					}
+				},
+				"m_vBoxFadePos": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8744540214538574,
+						"y": 0.925091028213501,
+						"z": 0.2288099974393845
+					}
+				},
+				"m_vBoxFadeNeg": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8102279901504517,
+						"y": 0.9832800030708312,
+						"z": 0.0
+					}
+				},
+				"m_fDiffusePower": {
+					"type": "float32",
+					"value": 0.699999988079071
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafed1771b393e62": {
+			"parent": "cafeb3ab072d9a59",
+			"name": "pile_of_coca_leaves_c_40",
+			"factory": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_d.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_d.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 165.8558660907191
+						},
+						"position": {
+							"x": 1.6737669706344604,
+							"y": -36.84331130981445,
+							"z": -54.09326934814453
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafe33afc95b99bd": {
+			"parent": "cafe3dff20ebb92d",
+			"name": "DarkLight 11",
+			"factory": "[modules:/zdarklightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zdarklightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 93.5057655328802
+						},
+						"position": {
+							"x": 1.602643966674805,
+							"y": -66.93389892578125,
+							"z": -53.5
+						}
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_ENVIRONMENT"
+				},
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 5.522510051727295,
+						"y": 3.0040299892425537,
+						"z": 1.2768100500106812
+					}
+				},
+				"m_vBoxFadePos": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.7479509711265564,
+						"y": 1.3357399702072144,
+						"z": 0.2288099974393845
+					}
+				},
+				"m_vBoxFadeNeg": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.6529390215873718,
+						"y": 0.9379720091819764,
+						"z": 0.0
+					}
+				},
+				"m_fDiffusePower": {
+					"type": "float32",
+					"value": 0.699999988079071
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafee589862fdbee": {
+			"parent": "cafef1bfbddb957a",
+			"name": "pile_of_coca_leaves_c_33",
+			"factory": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_d.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_d.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -10.946189534541668
+						},
+						"position": {
+							"x": -3.4988749027252197,
+							"y": -36.84056091308594,
+							"z": -54.09326934814453
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafebd6538336331": {
+			"parent": "cafe6c653ced2365",
+			"name": "pile_of_coca_leaves_c_07",
+			"factory": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_c.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_c.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -64.1285171508789,
+							"y": -51.83124923706055,
+							"z": -54.093238830566406
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafe3374a145dcc9": {
+			"parent": "cafe0eefa37a10ee",
+			"name": "pile_of_coca_leaves_c_11",
+			"factory": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_c.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_c.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 112.1570810607725
+						},
+						"position": {
+							"x": -61.50278091430664,
+							"y": -47.625770568847656,
+							"z": -54.09326171875
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafe1639c8e99fc4": {
+			"parent": "cafe11236a531e79",
+			"name": "pile_of_coca_leaves_c_17",
+			"factory": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_d.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_d.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 85.89565844886181
+						},
+						"position": {
+							"x": -69.72664642333984,
+							"y": -51.493289947509766,
+							"z": -54.093238830566406
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafe9bfbfde21862": {
+			"parent": "cafed1771b393e62",
+			"name": "pile_of_coca_leaves_c_41",
+			"factory": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_d.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_d.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 165.8558660907191
+						},
+						"position": {
+							"x": 0.6880074143409729,
+							"y": -39.18645095825195,
+							"z": -54.09326934814453
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafe0eefa37a10ee": {
+			"parent": "cafef1e9437cf502",
+			"name": "pile_of_coca_leaves_c_10",
+			"factory": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_d.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_d.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 74.95081881182834
+						},
+						"position": {
+							"x": -62.60873031616211,
+							"y": -53.30241012573242,
+							"z": -54.093238830566406
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafee5f017f26b37": {
+			"parent": "cafe3e25edc77369",
+			"name": "DarkLight",
+			"factory": "[modules:/zdarklightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zdarklightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -15.561107603217426
+						},
+						"position": {
+							"x": -62.61716842651367,
+							"y": -50.56504821777344,
+							"z": -53.5
+						}
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_ENVIRONMENT"
+				},
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 4.0555500984191895,
+						"y": 5.095950126647949,
+						"z": 1.2768100500106812
+					}
+				},
+				"m_vBoxFadePos": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8744540214538574,
+						"y": 0.925091028213501,
+						"z": 0.2288099974393845
+					}
+				},
+				"m_vBoxFadeNeg": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8102279901504517,
+						"y": 0.9832800030708312,
+						"z": 0.0
+					}
+				},
+				"m_fDiffusePower": {
+					"type": "float32",
+					"value": 0.699999988079071
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafe349cd9c59e7f": {
+			"parent": "cafe73d2e7812573",
+			"name": "pile_of_coca_leaves_c_43",
+			"factory": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_d.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_d.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 85.89565844886181
+						},
+						"position": {
+							"x": -71.40522766113281,
+							"y": -49.47584915161133,
+							"z": -54.09988021850586
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafef1e9437cf502": {
+			"parent": "cafee04d7131a0ee",
+			"name": "pile_of_coca_leaves_c_09",
+			"factory": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_d.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_d.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -65.60714721679688,
+							"y": -49.254371643066406,
+							"z": -54.068870544433594
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafe85464f86cdde": {
+			"parent": "cafe07dec05f48f2",
+			"name": "pile_of_coca_leaves_c_19",
+			"factory": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_c.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_c.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 74.80684224651583
+						},
+						"position": {
+							"x": -69.2044677734375,
+							"y": -55.30110168457031,
+							"z": -54.093238830566406
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafe07dec05f48f2": {
+			"parent": "cafe1639c8e99fc4",
+			"name": "pile_of_coca_leaves_c_18",
+			"factory": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_d.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_d.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -67.0308181329838
+						},
+						"position": {
+							"x": -67.6811294555664,
+							"y": -54.04256820678711,
+							"z": -54.093231201171875
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafe024b50bc2e92": {
+			"parent": "cafe022d76975fa2",
+			"name": "DarkLight 14",
+			"factory": "[modules:/zdarklightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zdarklightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 86.4520396539299
+						},
+						"position": {
+							"x": -65.8354263305664,
+							"y": -75.13822937011719,
+							"z": -53.5
+						}
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_ENVIRONMENT"
+				},
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 4.944590091705322,
+						"y": 2.407020092010498,
+						"z": 1.2768100500106812
+					}
+				},
+				"m_vBoxFadePos": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8173559904098511,
+						"y": 0.8656079769134521,
+						"z": 0.2288099974393845
+					}
+				},
+				"m_vBoxFadeNeg": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.1834900379180908,
+						"y": 0.9379720091819764,
+						"z": 0.0
+					}
+				},
+				"m_fDiffusePower": {
+					"type": "float32",
+					"value": 0.699999988079071
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafe9f4c6d0fa57d": {
+			"parent": "cafec79dfd09425d",
+			"name": "pile_of_coca_leaves_c_24",
+			"factory": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_d.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_d.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 119.784280699617
+						},
+						"position": {
+							"x": -67.79670715332031,
+							"y": -66.98834991455078,
+							"z": -54.093231201171875
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafe3e25edc77369": {
+			"parent": "cafe45cbe6c97039",
+			"name": "DarkLight 8",
+			"factory": "[modules:/zdarklightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zdarklightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 94.74970050652196
+						},
+						"position": {
+							"x": 4.355236053466797,
+							"y": -4.651406764984131,
+							"z": -53.5
+						}
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_ENVIRONMENT"
+				},
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 4.756209850311279,
+						"y": 3.4554500579833984,
+						"z": 1.2768100500106812
+					}
+				},
+				"m_vBoxFadePos": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8744540214538574,
+						"y": 0.925091028213501,
+						"z": 0.2288099974393845
+					}
+				},
+				"m_vBoxFadeNeg": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8102279901504517,
+						"y": 0.9832800030708312,
+						"z": 0.0
+					}
+				},
+				"m_fDiffusePower": {
+					"type": "float32",
+					"value": 0.699999988079071
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafe6c653ced2365": {
+			"parent": "cafe3dff20ebb92d",
+			"name": "pile_of_coca_leaves_a",
+			"factory": "[assembly:/_pro/environment/materials/props/misc/pile_of_coca_leaves_a.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/materials/props/misc/pile_of_coca_leaves_a.mi].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"ConstantColorRGB_02_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#d6ffe8"
+				},
+				"Override": { "type": "bool", "value": false },
+				"Global": { "type": "bool", "value": true },
+				"ConstantVector1D_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_01_Value": {
+					"type": "float32",
+					"value": 0.44999998807907104
+				},
+				"Active": { "type": "bool", "value": true },
+				"ConstantVector1D_05_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_05_Value": {
+					"type": "float32",
+					"value": 0.4000000059604645
+				},
+				"ConstantVector1D_04_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_04_Value": {
+					"type": "float32",
+					"value": 0.0
+				},
+				"Texture2D_01_enab": { "type": "bool", "value": true },
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/textures/props/misc/pile_of_coca_leaves_a.texture?/diffuse_b.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [],
+					"postInit": true
+				}
+			}
+		},
+		"cafe3e845329e2bc": {
+			"parent": "cafe9bf9a28579ed",
+			"name": "pile_of_coca_leaves_c_28",
+			"factory": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_d.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_d.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -42.20219149738267
+						},
+						"position": {
+							"x": -0.6362000107765198,
+							"y": -69.35897827148438,
+							"z": -54.093238830566406
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafe7683a01f441e": {
+			"parent": "cafe68bb4a706e99",
+			"name": "pile_of_coca_leaves_c_14",
+			"factory": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_c.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_c.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 30.46261726215416
+						},
+						"position": {
+							"x": -60.5584716796875,
+							"y": -51.22835922241211,
+							"z": -54.09326171875
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafe68e51a337d5f": {
+			"parent": "cafe82da105db329",
+			"name": "pile_of_coca_leaves_c_22",
+			"factory": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_c.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_c.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -1.7961952678659137,
+							"y": 5.064780102879062,
+							"z": 131.17668848025357
+						},
+						"position": {
+							"x": -66.2188720703125,
+							"y": -68.8680419921875,
+							"z": -54.03606033325195
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafe022d76975fa2": {
+			"parent": "cafe677e82dda934",
+			"name": "DarkLight 13",
+			"factory": "[modules:/zdarklightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zdarklightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 77.47456634453837
+						},
+						"position": {
+							"x": -9.143269538879396,
+							"y": -83.24376678466797,
+							"z": -53.5
+						}
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_ENVIRONMENT"
+				},
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 3.994529962539673,
+						"y": 3.0040299892425537,
+						"z": 1.2768100500106812
+					}
+				},
+				"m_vBoxFadePos": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.484593003988266,
+						"y": 1.3357399702072144,
+						"z": 0.2288099974393845
+					}
+				},
+				"m_vBoxFadeNeg": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.1834900379180908,
+						"y": 0.9379720091819764,
+						"z": 0.0
+					}
+				},
+				"m_fDiffusePower": {
+					"type": "float32",
+					"value": 0.699999988079071
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafec3e34797cce1": {
+			"parent": "cafe3e25edc77369",
+			"name": "DarkLight 6",
+			"factory": "[modules:/zdarklightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zdarklightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 144.79931916456223
+						},
+						"position": {
+							"x": -4.382094860076904,
+							"y": 9.37102508544922,
+							"z": -53.5
+						}
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_ENVIRONMENT"
+				},
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 3.7749600410461426,
+						"y": 6.318940162658691,
+						"z": 1.2768100500106812
+					}
+				},
+				"m_vBoxFadePos": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8744540214538574,
+						"y": 0.925091028213501,
+						"z": 0.2288099974393845
+					}
+				},
+				"m_vBoxFadeNeg": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8102279901504517,
+						"y": 0.9832800030708312,
+						"z": 0.0
+					}
+				},
+				"m_fDiffusePower": {
+					"type": "float32",
+					"value": 0.699999988079071
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafeaadf9086f136": {
+			"parent": "cafe3e25edc77369",
+			"name": "DarkLight 7",
+			"factory": "[modules:/zdarklightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zdarklightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 144.79931916456223
+						},
+						"position": {
+							"x": -0.8621249794960022,
+							"y": -0.3763430118560791,
+							"z": -53.5
+						}
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_ENVIRONMENT"
+				},
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 5.425119876861572,
+						"y": 4.369229793548584,
+						"z": 1.2768100500106812
+					}
+				},
+				"m_vBoxFadePos": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8744540214538574,
+						"y": 0.925091028213501,
+						"z": 0.2288099974393845
+					}
+				},
+				"m_vBoxFadeNeg": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8102279901504517,
+						"y": 0.9832800030708312,
+						"z": 0.0
+					}
+				},
+				"m_fDiffusePower": {
+					"type": "float32",
+					"value": 0.699999988079071
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafef1bfbddb957a": {
+			"parent": "cafeec1ccca415b6",
+			"name": "pile_of_coca_leaves_c_32",
+			"factory": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_d.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_d.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -163.87272319165962
+						},
+						"position": {
+							"x": -3.526263952255249,
+							"y": -35.28667068481445,
+							"z": -54.09326934814453
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafe2c11119ee9df": {
+			"parent": "cafe2bbdf936293e",
+			"name": "pile_of_coca_leaves_c_26",
+			"factory": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_d.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_d.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 14.39474203126411
+						},
+						"position": {
+							"x": -70.32039642333984,
+							"y": -67.8157730102539,
+							"z": -54.09321975708008
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafe2bbdf936293e": {
+			"parent": "cafe9f4c6d0fa57d",
+			"name": "pile_of_coca_leaves_c_25",
+			"factory": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_d.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_d.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 14.39474203126411
+						},
+						"position": {
+							"x": -64.761962890625,
+							"y": -71.75776672363281,
+							"z": -54.09321975708008
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafedc86fee88eeb": {
+			"parent": "cafec6189d979b41",
+			"name": "pile_of_coca_leaves_c_35",
+			"factory": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_d.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_d.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -10.946189534541668
+						},
+						"position": {
+							"x": -3.470823049545288,
+							"y": -27.84428024291992,
+							"z": -54.09326934814453
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafe73d2e7812573": {
+			"parent": "cafe9bfbfde21862",
+			"name": "pile_of_coca_leaves_c_42",
+			"factory": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_d.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_d.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 165.8558660907191
+						},
+						"position": {
+							"x": -0.672508180141449,
+							"y": -3.5081748962402344,
+							"z": -54.093238830566406
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafee52776f825d8": {
+			"parent": "cafe3e25edc77369",
+			"name": "DarkLight 5",
+			"factory": "[modules:/zdarklightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zdarklightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -148.36177063074382
+						},
+						"position": {
+							"x": -71.19048309326172,
+							"y": -9.441232681274414,
+							"z": -53.5
+						}
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_ENVIRONMENT"
+				},
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 3.7749600410461426,
+						"y": 4.709630012512207,
+						"z": 1.2768100500106812
+					}
+				},
+				"m_vBoxFadePos": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8744540214538574,
+						"y": 0.925091028213501,
+						"z": 0.2288099974393845
+					}
+				},
+				"m_vBoxFadeNeg": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8102279901504517,
+						"y": 0.9832800030708312,
+						"z": 0.0
+					}
+				},
+				"m_fDiffusePower": {
+					"type": "float32",
+					"value": 0.699999988079071
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafeb7161288f490": {
+			"parent": "cafedc86fee88eeb",
+			"name": "pile_of_coca_leaves_c_36",
+			"factory": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_c.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_c.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -156.69834682441356
+						},
+						"position": {
+							"x": -4.07189416885376,
+							"y": -27.42190933227539,
+							"z": -54.09326934814453
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafec79dfd09425d": {
+			"parent": "cafe68e51a337d5f",
+			"name": "pile_of_coca_leaves_c_23",
+			"factory": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_d.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_d.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -87.28935651984997
+						},
+						"position": {
+							"x": -64.83544921875,
+							"y": -69.85880279541016,
+							"z": -54.093231201171875
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafeec1ccca415b6": {
+			"parent": "cafedae3b2ebfbd9",
+			"name": "pile_of_coca_leaves_c_31",
+			"factory": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_d.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_d.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -131.36176703368713
+						},
+						"position": {
+							"x": 1.5679240226745603,
+							"y": -63.44855117797851,
+							"z": -54.093238830566406
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafedae3b2ebfbd9": {
+			"parent": "cafede4d827afa1a",
+			"name": "pile_of_coca_leaves_c_30",
+			"factory": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_d.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_d.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -42.20219149738267
+						},
+						"position": {
+							"x": -0.02317238040268421,
+							"y": -64.2297592163086,
+							"z": -54.093238830566406
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafeb3ab072d9a59": {
+			"parent": "cafed55d75bc88e6",
+			"name": "pile_of_coca_leaves_c_39",
+			"factory": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_c.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_c.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 20.103864018470617
+						},
+						"position": {
+							"x": 2.1344799995422363,
+							"y": -34.877201080322266,
+							"z": -54.09326934814453
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafede4d827afa1a": {
+			"parent": "cafe3e845329e2bc",
+			"name": "pile_of_coca_leaves_c_29",
+			"factory": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_c.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_c.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -164.66608199907495
+						},
+						"position": {
+							"x": 0.4013938903808594,
+							"y": -67.58258056640625,
+							"z": -54.093238830566406
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafee04d7131a0ee": {
+			"parent": "cafebd6538336331",
+			"name": "pile_of_coca_leaves_c_08",
+			"factory": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_d.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/misc/misc_props_a.template?/pile_of_coca_leaves_d.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -64.92648315429688,
+							"y": -50.59463882446289,
+							"z": -54.093238830566406
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "430268a30ebb43c4",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+					}
+				}
+			}
 		}
 	},
 	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "6b2852baa56e96d0",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_hangar.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0, "z": -180 },
+						"position": {
+							"x": -2.5180352,
+							"y": 1.9713421,
+							"z": 3.8954475
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "6cec73db86bac49a",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_hangar.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0, "z": -180 },
+						"position": {
+							"x": 1.3521988,
+							"y": 1.9713402,
+							"z": 3.8988202
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "efcb3460bf021383",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_hangar.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0, "z": -0.0 },
+						"position": {
+							"x": -1.2434673,
+							"y": -1.3501701,
+							"z": 3.8866699
+						}
+					}
+				}
+			}
+		},
 		{
 			"entities": [
 				{
@@ -28813,6 +31522,10 @@
 				},
 				{
 					"ref": "f92e04de14c0e9f5",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_hangar.brick].pc_entitytype"
+				},
+				{
+					"ref": "21e4518e045da197",
 					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_hangar.brick].pc_entitytype"
 				}
 			],
@@ -29167,6 +31880,26 @@
 		},
 		{
 			"ref": "8fcec816f055ef7e",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_hangar.brick].pc_entitytype"
+		},
+		{
+			"ref": "20e93bfdc2030de4",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_hangar.brick].pc_entitytype"
+		},
+		{
+			"ref": "4a53e4bc88704635",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_hangar.brick].pc_entitytype"
+		},
+		{
+			"ref": "8ef3be6153ab70d2",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_hangar.brick].pc_entitytype"
+		},
+		{
+			"ref": "6a2e2d095d11c55e",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_hangar.brick].pc_entitytype"
+		},
+		{
+			"ref": "b47fde87a728ef90",
 			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_hangar.brick].pc_entitytype"
 		}
 	],
