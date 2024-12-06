@@ -1,3 +1,5 @@
+0045F0402ECED2B1.TEMP,[assembly:/_pro/environment/templates/levels/the_facility/facility_yacht.template?/module_yacht_miami.entitytemplate].pc_entitytype
+0055905E2B632AE8.TBLU,[assembly:/_pro/environment/templates/levels/the_facility/facility_yacht.template?/module_yacht_miami.entitytemplate].pc_entityblueprint
 00AA30D8A8047CC3.PRIM,[assembly:/_pro/environment/templates/levels/the_facility/facility_yacht.template?/module_yacht_miami.entitytemplate].pc_prim
 002839BCA01CE78A.ALOC,[assembly:/_pro/environment/templates/levels/the_facility/facility_yacht.template?/module_yacht_miami.entitytemplate].pc_coll
 00B41E6FDE729980.PRIM,[assembly:/_pro/environment/geometry/levels/miami/terrain_parking_a.wl2?/terrain_parking_a_yacht.prim].pc_prim
@@ -95,3 +97,13 @@
 005D9FD88C8265BA.ALOC,[assembly:/_pro/environment/geometry/wooden_floor].pc_coll
 00731C2A078FE119.PRIM,[assembly:/_pro/environment/geometry/wooden_floor_little].pc_prim
 004BA72C1A97DF89.ALOC,[assembly:/_pro/environment/geometry/wooden_floor_little].pc_coll
+00E707DC4E91533E.TEMP,[assembly:/_pro/environment/geometry/levels/the facility/module_yacht_a.wl2?/bar_modded.prim].pc_entitytype
+002184289322B9FC.TBLU,[assembly:/_pro/environment/geometry/levels/the facility/module_yacht_a.wl2?/bar_modded.prim].pc_entityblueprint
+0026DDEE9F481937.TEMP,[assembly:/_pro/environment/geometry/levels/the facility/module_yacht_a.wl2?/bar_modded_bis.prim].pc_entitytype
+00586940E67F2F4A.TBLU,[assembly:/_pro/environment/geometry/levels/the facility/module_yacht_a.wl2?/bar_modded_bis.prim].pc_entityblueprint
+
+
+00E707DC4E91533E.TEMP,[assembly:/_pro/environment/templates/architecture/walls/plywood_walls_a.template?/plywood_support_ceiling_a_00_modded.entitytemplate].pc_entitytype
+002184289322B9FC.TBLU,[assembly:/_pro/environment/templates/architecture/walls/plywood_walls_a.template?/plywood_support_ceiling_a_00_modded.entitytemplate].pc_entityblueprint
+007F6796129F01ED.TEMP,[assembly:/_pro/environment/templates/architecture/walls/plywood_walls_a.template?/plywood_support_ceiling_a_00_modded_bis.entitytemplate].pc_entitytype
+00D153D3191A91B7.PRIM,[assembly:/_pro/environment/templates/architecture/walls/plywood_walls_a.template?/plywood_support_ceiling_a_00_modded.entitytemplate].pc_prim
