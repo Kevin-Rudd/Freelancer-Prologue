@@ -924,33 +924,6 @@
 				}
 			}
 		},
-		"657fa7aa7d19de82": {
-			"parent": "afb61b74e3b5083d",
-			"name": "Plywood_Support_Ceiling_A_00_77",
-			"factory": "00E707DC4E91533E",
-			"blueprint": "002184289322B9FC",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 4.1685471534729,
-							"y": 6.509099006652832,
-							"z": 2.970881938934326
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "afb61b74e3b5083d"
-				}
-			}
-		},
 		"bcb94defaccd668e": {
 			"parent": "afb61b74e3b5083d",
 			"name": "Metal_Bolt_A_00_77",
@@ -1981,12 +1954,12 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -90
+							"z": -89.9999965849052
 						},
 						"position": {
-							"x": 0.3735150098800659,
-							"y": 1.021880030632019,
-							"z": 3.4757750034332275
+							"x": 0.232147216796875,
+							"y": 1.0218963623046875,
+							"z": 3.4662976264953613
 						}
 					}
 				},
@@ -16749,33 +16722,6 @@
 				}
 			}
 		},
-		"e26c8b696a979600": {
-			"parent": "afb61b74e3b5083d",
-			"name": "Plywood_Support_Ceiling_A_00_126",
-			"factory": "00E707DC4E91533E",
-			"blueprint": "002184289322B9FC",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 4.1685471534729,
-							"y": 23.712919235229492,
-							"z": 2.970881938934326
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "afb61b74e3b5083d"
-				}
-			}
-		},
 		"8fbb3f4d9aceda5a": {
 			"parent": "7a54a2d333e077cc",
 			"name": "yacht_railing_short_rail_a94",
@@ -18788,33 +18734,6 @@
 						"type": "bool",
 						"value": false
 					}
-				}
-			}
-		},
-		"12ef13fb05bbbfda": {
-			"parent": "afb61b74e3b5083d",
-			"name": "Plywood_Support_Ceiling_A_00_125",
-			"factory": "00E707DC4E91533E",
-			"blueprint": "002184289322B9FC",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": -90,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 4.172048091888428,
-							"y": 13.710869789123535,
-							"z": 2.9815919399261475
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "afb61b74e3b5083d"
 				}
 			}
 		},
@@ -24092,33 +24011,6 @@
 					"type": "SEntityTemplateReference",
 					"value": "30affe792d19fe3e",
 					"postInit": true
-				}
-			}
-		},
-		"e318f2fbcc24e6ad": {
-			"parent": "afb61b74e3b5083d",
-			"name": "Plywood_Support_Ceiling_A_00_124",
-			"factory": "00E707DC4E91533E",
-			"blueprint": "002184289322B9FC",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": -90,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": -17.99513053894043,
-							"y": 13.701290130615234,
-							"z": 2.9943060874938965
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "afb61b74e3b5083d"
 				}
 			}
 		},
@@ -29943,33 +29835,6 @@
 				}
 			}
 		},
-		"6e2f4b3264b3c42e": {
-			"parent": "afb61b74e3b5083d",
-			"name": "Plywood_Support_Ceiling_A_00_123",
-			"factory": "00E707DC4E91533E",
-			"blueprint": "002184289322B9FC",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": -90,
-							"y": 0,
-							"z": -180
-						},
-						"position": {
-							"x": -17.986459732055664,
-							"y": 25.864999771118164,
-							"z": 2.8295319080352783
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "afb61b74e3b5083d"
-				}
-			}
-		},
 		"fdde402eacdc8344": {
 			"parent": "afb61b74e3b5083d",
 			"name": "Metal_Support_Angle_B07",
@@ -34169,33 +34034,6 @@
 				}
 			}
 		},
-		"b42e74c02d17f15a": {
-			"parent": "afb61b74e3b5083d",
-			"name": "Plywood_Support_Ceiling_A_00_122",
-			"factory": "00E707DC4E91533E",
-			"blueprint": "002184289322B9FC",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": -90,
-							"y": 0,
-							"z": -180
-						},
-						"position": {
-							"x": -17.981239318847656,
-							"y": 23.69407081604004,
-							"z": 2.9943060874938965
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "afb61b74e3b5083d"
-				}
-			}
-		},
 		"5622c9d627db6e65": {
 			"parent": "2f0209720b04c16d",
 			"name": "yacht_railing_short_join_b121",
@@ -37492,33 +37330,6 @@
 							"x": -1.7886029481887815,
 							"y": -3.790924072265625,
 							"z": 3.950723886489868
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "afb61b74e3b5083d"
-				}
-			}
-		},
-		"64919f187b6ab786": {
-			"parent": "afb61b74e3b5083d",
-			"name": "Plywood_Support_Ceiling_A_00_79",
-			"factory": "00E707DC4E91533E",
-			"blueprint": "002184289322B9FC",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": -17.995100021362305,
-							"y": 6.509099006652832,
-							"z": 2.989516019821167
 						}
 					}
 				},
