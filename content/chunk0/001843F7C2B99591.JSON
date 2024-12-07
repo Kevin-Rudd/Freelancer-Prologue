@@ -6,7 +6,6 @@
         "GameChangers": [],
         "RandomBricks": {
             "TimeOfDay": [
-                "assembly:/_pro/scenes/missions/miami/mild_sunset.brick"
             ]
         }
     },
