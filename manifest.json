@@ -1,6 +1,6 @@
 {
-	"version": "0.7.0",
-	"id": "KevinRudd.FreelancerPrologue",
+	"version": "0.8.0",
+	"id": "TeamRuddcy.RealYacht",
 	"name": "Real Yacht",
 	"contentFolders": ["content"],
 	"description": "Converts Freeform Training to a real yacht docked at Miami",
@@ -257,8 +257,12 @@
 	],
 	"packagedefinition": [{
 		"type": "entity",
-		"partition": "sheep",
-		"path": "[assembly:/_pro/scenes/missions/sheep/scene_hex.entity].entitytemplate"
+		"partition": "miami",
+		"path": "[assembly:/_pro/scenes/missions/thefacility/_scene_mission_yacht.entity].entitytemplate"
+	},{
+		"type": "entity",
+		"partition": "miami",
+		"path": "[assembly:/_pro/scenes/missions/thefacility/_scene_mission_yacht_escalation.entity].entitytemplate"
 	}],
     "loadBefore": [],
 	"frameworkVersion": "2.2.0"

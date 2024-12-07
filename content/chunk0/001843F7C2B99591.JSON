@@ -19,10 +19,10 @@
         "Description": "UI_CONTRACT_POLARBEAR_MODULE_002_B_DESC",
         "TileImage": "images/contracts/polarbear/module_002_b/tile.jpg",
         "CodeName_Hint": "Polarbear Module 002_B",
-        "ScenePath": "assembly:/_pro/scenes/missions/miami/scene_flamingo.entity",
+        "ScenePath": "assembly:/_pro/scenes/missions/thefacility/_scene_mission_yacht.entity",
         "Location": "LOCATION_MIAMI",
         "LastUpdate": "2015-03-11T13:50:08.347Z",
-        "Type": "evergreen",
+        "Type": "mission",
         "Release": "1.0.x"
     },
     "UserData": {}
