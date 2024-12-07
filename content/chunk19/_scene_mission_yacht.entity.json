@@ -437,10 +437,6 @@
 	],
 	"overrideDeletes": [
 		{
-			"ref": "619a84a2f55f8689",
-			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
-		},
-		{
 			"ref": "d32ce3b9f42a96d8",
 			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
 		},
@@ -458,10 +454,6 @@
 		},
 		{
 			"ref": "84fb369f47af7406",
-			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
-		},
-		{
-			"ref": "a1b68b0d1df901f4",
 			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
 		},
 		{
