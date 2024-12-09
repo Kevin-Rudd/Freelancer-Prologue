@@ -394,7 +394,11 @@
 			"entities": [
 				{
 					"ref": "fffffffffffffffe",
-					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "fffffffffffffffe",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/miami_yacht.brick].pc_entitytype"
 				}
 			],
 			"properties": {
@@ -405,7 +409,7 @@
 						"position": {
 							"x": -218.93112,
 							"y": 164.257396,
-							"z": -0.47924766
+							"z": 0.47924766
 						}
 					}
 				}
@@ -437,6 +441,26 @@
 	],
 	"overrideDeletes": [
 		{
+			"ref": "368e359b84e12686",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "efbba3c869ffb7c9",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "ab6426812c1c4c63",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "619a84a2f55f8689",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "0cc69071ac5c420a",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
 			"ref": "d32ce3b9f42a96d8",
 			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
 		},
@@ -462,6 +486,14 @@
 		},
 		{
 			"ref": "31541316b03e8f89",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "eb28ceaef80a328a",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "6f2989ead52a5f3b",
 			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
 		}
 	],
