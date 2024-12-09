@@ -1617,7 +1617,8 @@
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe",
 					"postInit": true
-				}
+				},
+				"m_bVisible": { "type": "bool", "value": false }
 			},
 			"events": {
 				"OnRing": {
@@ -1664,7 +1665,8 @@
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe",
 					"postInit": true
-				}
+				},
+				"m_bVisible": { "type": "bool", "value": false }
 			},
 			"events": {
 				"OnRing": {
@@ -5686,7 +5688,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe"
-				}
+				},
+				"m_bVisible": { "type": "bool", "value": false }
 			},
 			"events": {
 				"OnRing": {
