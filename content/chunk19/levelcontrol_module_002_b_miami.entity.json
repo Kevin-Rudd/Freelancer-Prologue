@@ -996,7 +996,10 @@
 						"b6374361e95efb63",
 						"62df9648ab65e2cd",
 						"bb33732f481d410b",
-						"2a1b7f2ac99ea78f"
+						"2a1b7f2ac99ea78f",
+						"cafee0050445f9b4",
+						"cafe04f9efa8c33d",
+						"cafe0c114f9d8f34"
 					],
 					"postInit": true
 				}
@@ -1020,8 +1023,15 @@
 				}
 			},
 			"outputCopying": {
-				"OnStop": { "Stopped": ["fba7cfbaccc1a581"] },
-				"OnPlay": { "OnStart": ["fba7cfbaccc1a581"] }
+				"OnStop": {
+					"Stopped": ["fba7cfbaccc1a581"],
+					"SetFalse": ["cafe114891647869"]
+				},
+				"OnPlay": {
+					"OnStart": ["fba7cfbaccc1a581"],
+					"SetTrue": ["cafe114891647869"]
+				},
+				"OnSkip": { "SetFalse": ["cafe114891647869"] }
 			}
 		},
 		"fba7cfbaccc1a581": {
@@ -1671,6 +1681,12 @@
 			"events": {
 				"OnRing": {
 					"Start": ["fba7cfbaccc1a581"],
+					"MakeInvisible": [
+						{
+							"ref": "3bbdb6207e817a24",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+						}
+					],
 					"DisableBehaviors": ["b0e3f96856741476"]
 				}
 			},
@@ -2383,7 +2399,7 @@
 				"m_pHandlerSpeak": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "[assembly:/localization/hitman6/conversations/tutorial/9000_handler/ds9246_outrofreeform.sweetdialog?/ds9246_outrofreeform_young_diana_001.sweetdialogitem].pc_dialogevent",
+						"resource": "[assembly:/localization/hitman6/conversations/edgy/fox/42000_elusive/42000_tomorrowland/42700_tomorrowland_handler/ds42701_missiondone.sweetdialog].pc_dialogevent",
 						"flag": "5F"
 					}
 				},
@@ -5842,6 +5858,372 @@
 			"events": {
 				"OnTrue": { "Send": ["19f938bc93a2b509"] },
 				"OnFalse": { "Send": ["c9c5e5eab97661d0"] }
+			}
+		},
+		"cafe4402992d7350": {
+			"parent": "fba7cfbaccc1a581",
+			"name": "Exits",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe49f5d28dfa7e": {
+			"parent": "cafe4402992d7350",
+			"name": "Make 47 Invisible TimerSimple",
+			"factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Delay time (ms)": { "type": "int32", "value": 100 }
+			},
+			"events": {
+				"Out": {
+					"MakeInvisible": [
+						{
+							"ref": "3bbdb6207e817a24",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+						}
+					]
+				}
+			}
+		},
+		"cafe0c114f9d8f34": {
+			"parent": "cafee0050445f9b4",
+			"name": "EntityTrack_ ValueFloat_HelicopterFX_Intensity",
+			"factory": "[modules:/zentitygroup.class].pc_entitytype",
+			"blueprint": "[modules:/zentitygroup.class].pc_entityblueprint",
+			"properties": {
+				"m_aTracksAndGroups": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe61085ecf826f"]
+				},
+				"m_targetEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe66cea96b5487",
+					"postInit": true
+				}
+			}
+		},
+		"cafe04f9efa8c33d": {
+			"parent": "cafee0050445f9b4",
+			"name": "EntityTrack_ FX_E_Helicopter_Takeoff_Paris",
+			"factory": "[modules:/zentitygroup.class].pc_entitytype",
+			"blueprint": "[modules:/zentitygroup.class].pc_entityblueprint",
+			"properties": {
+				"m_aTracksAndGroups": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe85a4ce0d8e85"]
+				},
+				"m_targetEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe46b2141ff824",
+					"postInit": true
+				}
+			}
+		},
+		"cafee0050445f9b4": {
+			"parent": "3b037d5470b1f25a",
+			"name": "EntityTrack_ helicopter_private_a",
+			"factory": "[modules:/zentitygroup.class].pc_entitytype",
+			"blueprint": "[modules:/zentitygroup.class].pc_entityblueprint",
+			"properties": {
+				"m_targetEntity": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "feedade519944f13",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
+					},
+					"postInit": true
+				},
+				"m_aTracksAndGroups": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe75018df6568d", "cafecc3ff0776692"],
+					"postInit": true
+				}
+			}
+		},
+		"cafe61085ecf826f": {
+			"parent": "cafe0c114f9d8f34",
+			"name": " Track",
+			"factory": "[modules:/zentitypropertytrack.class].pc_entitytype",
+			"blueprint": "[modules:/zentitypropertytrack.class].pc_entityblueprint",
+			"properties": {
+				"m_sPropertyName": {
+					"type": "ZString",
+					"value": "m_fValue"
+				},
+				"m_entityGroup": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe0c114f9d8f34",
+					"postInit": true
+				},
+				"m_aItems": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafeb2c0744984c6"],
+					"postInit": true
+				}
+			}
+		},
+		"cafeb2c0744984c6": {
+			"parent": "cafe61085ecf826f",
+			"name": "CurveItem",
+			"factory": "[modules:/zfloatcurvesource.class].pc_entitytype",
+			"blueprint": "[modules:/zfloatcurvesource.class].pc_entityblueprint",
+			"properties": {
+				"m_startTime": {
+					"type": "ZGameTime",
+					"value": { "m_nTicks": 0 }
+				},
+				"m_duration": {
+					"type": "ZGameTime",
+					"value": { "m_nTicks": 10003415 }
+				},
+				"m_curve": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[0, 1, 0, 0, 0, 0, 0, 1],
+							[
+								0.13976240158081055, 1, 0, 0,
+								0.21460182964801788, -0.7146018147468567,
+								-4.8090179775077144e-17, 1
+							],
+							[
+								0.5698812007904053, 0.5, 0, 0,
+								0.21460182964801788, 0.07079632580280304,
+								-0.7853981852531433, 0.5
+							],
+							[1, 0, 0, 0, 0, 0, 0, 0]
+						]
+					}
+				}
+			}
+		},
+		"cafe85a4ce0d8e85": {
+			"parent": "cafe04f9efa8c33d",
+			"name": "TrajectoryTrack",
+			"factory": "[modules:/ztrajectorytrack.class].pc_entitytype",
+			"blueprint": "[modules:/ztrajectorytrack.class].pc_entityblueprint",
+			"properties": {
+				"m_entityGroup": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe04f9efa8c33d",
+					"postInit": true
+				}
+			}
+		},
+		"cafe75018df6568d": {
+			"parent": "cafee0050445f9b4",
+			"name": "TrajectoryTrack",
+			"factory": "[modules:/ztrajectorytrack.class].pc_entitytype",
+			"blueprint": "[modules:/ztrajectorytrack.class].pc_entityblueprint",
+			"properties": {
+				"m_bRestoreValueAfterEnd": {
+					"type": "bool",
+					"value": false
+				},
+				"m_entityGroup": {
+					"type": "SEntityTemplateReference",
+					"value": "cafee0050445f9b4",
+					"postInit": true
+				},
+				"m_aItems": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe67366c522b5c"],
+					"postInit": true
+				}
+			}
+		},
+		"cafecc3ff0776692": {
+			"parent": "cafee0050445f9b4",
+			"name": " Track",
+			"factory": "[modules:/zentitypropertytrack.class].pc_entitytype",
+			"blueprint": "[modules:/zentitypropertytrack.class].pc_entityblueprint",
+			"properties": {
+				"m_sPropertyName": {
+					"type": "ZString",
+					"value": "RotorFullSpeed"
+				},
+				"m_entityGroup": {
+					"type": "SEntityTemplateReference",
+					"value": "cafee0050445f9b4"
+				},
+				"m_aItems": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafee524f46eab5e"],
+					"postInit": true
+				}
+			}
+		},
+		"cafe67366c522b5c": {
+			"parent": "cafe75018df6568d",
+			"name": "TrajectoryResourceItem",
+			"factory": "[modules:/zmorphemetrajectorysource.class].pc_entitytype",
+			"blueprint": "[modules:/zmorphemetrajectorysource.class].pc_entityblueprint",
+			"properties": {
+				"m_startTime": {
+					"type": "ZGameTime",
+					"value": { "m_nTicks": 0 }
+				},
+				"m_duration": {
+					"type": "ZGameTime",
+					"value": { "m_nTicks": 20971520 }
+				},
+				"m_eCoordinateSpace": {
+					"type": "ECoordinateSpace",
+					"value": "CSPACE_CHARACTER_RELATIVE"
+				},
+				"m_animationResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00D65881050E89B4",
+						"flag": "5F"
+					}
+				},
+				"m_bCrop": { "type": "bool", "value": false },
+				"m_SkipFromEnd": {
+					"type": "ZGameTime",
+					"value": { "m_nTicks": 0 }
+				}
+			}
+		},
+		"cafee524f46eab5e": {
+			"parent": "cafecc3ff0776692",
+			"name": "BooleanItem",
+			"factory": "[modules:/zbooleansource.class].pc_entitytype",
+			"blueprint": "[modules:/zbooleansource.class].pc_entityblueprint",
+			"properties": {
+				"m_startTime": {
+					"type": "ZGameTime",
+					"value": { "m_nTicks": 0 }
+				},
+				"m_duration": {
+					"type": "ZGameTime",
+					"value": { "m_nTicks": 20866658 }
+				},
+				"m_fTimes": {
+					"type": "TArray<ZGameTime>",
+					"value": [{ "m_nTicks": 0 }]
+				},
+				"m_bValues": { "type": "TArray<bool>", "value": [true] }
+			}
+		},
+		"cafe66cea96b5487": {
+			"parent": "cafe4402992d7350",
+			"name": "ValueFloat_HelicopterFX_Intensity",
+			"factory": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_fValue": { "type": "float32", "value": 0 },
+				"m_bSetValueAlwaysTriggerChangedEvent": {
+					"type": "bool",
+					"value": true
+				}
+			}
+		},
+		"cafe46b2141ff824": {
+			"parent": "cafe4402992d7350",
+			"name": "FX_E_Helicopter_Takeoff_Seagull_01",
+			"factory": "[assembly:/_pro/effects/templates/dust/fx_helicopter_takeoff.template?/fx_e_helicopter_takeoff_seagull.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/dust/fx_helicopter_takeoff.template?/fx_e_helicopter_takeoff_seagull.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"HelicopterRotorSpeedValue": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe1b7ef8a3b5bc"
+				},
+				"DustAlpha": {
+					"type": "float32",
+					"value": 0.30000001192092896
+				},
+				"m_ParticleColorRangeStart": {
+					"type": "SColorRGB",
+					"value": "#c2baa9"
+				},
+				"m_ParticleColorRangeEnd": {
+					"type": "SColorRGB",
+					"value": "#8f8b7e"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "feedade519944f13",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafe114891647869": {
+			"parent": "cafe29489a8c527b",
+			"name": "VBB_Cutscene_Helicopter_Audio",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint"
+		},
+		"cafe29489a8c527b": {
+			"parent": "cafe4402992d7350",
+			"name": "VBO_Cutscene_Helicopter_Audio",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aValues": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe114891647869"]
+				}
+			},
+			"events": {
+				"OnTrue": { "Send": ["cafeb5f1ef495be8"] },
+				"OnFalse": { "Stop": ["cafeb5f1ef495be8"] }
+			}
+		},
+		"cafeb5f1ef495be8": {
+			"parent": "cafe29489a8c527b",
+			"name": "play_cin_failcut_helicopter_sfx",
+			"factory": "[modules:/zaudioevententity.class].pc_entitytype",
+			"blueprint": "[modules:/zaudioevententity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMainEvent": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/sound/wwise/exportedwwisedata/events/sfx_cutscenes/sfx_cutscenes_flamingo/play_cin_sfx_exitcut_kronstadthelicopter_01.wwiseevent].pc_wwisebank",
+						"flag": "5F"
+					}
+				},
+				"m_pEmitter": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe6de3818912c2"
+				}
+			}
+		},
+		"cafe6de3818912c2": {
+			"parent": "cafeb5f1ef495be8",
+			"name": "2DAE_Cutscenes",
+			"factory": "[assembly:/templates/sound/wwise/soundentities.template?/2daudioemitter.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/sound/wwise/soundentities.template?/2daudioemitter.entitytemplate].pc_entityblueprint",
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafe1b7ef8a3b5bc": {
+			"parent": "cafe46b2141ff824",
+			"name": "ValueFloat_HelicopterFX_Intensity",
+			"factory": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_fValue": { "type": "float32", "value": 0 },
+				"m_bSetValueAlwaysTriggerChangedEvent": {
+					"type": "bool",
+					"value": true
+				}
+			}
+		},
+		"cafe70b5b90ebd07": {
+			"parent": "cafe29489a8c527b",
+			"name": "Miami_Sound_Bank",
+			"factory": "[modules:/zsoundbankentity.class].pc_entitytype",
+			"blueprint": "[modules:/zsoundbankentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pBankResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/sound/wwise/exportedwwisedata/soundbanks/levelspecific/miami.wwisesoundbank].pc_wwisebank",
+						"flag": "5F"
+					}
+				}
 			}
 		}
 	},
