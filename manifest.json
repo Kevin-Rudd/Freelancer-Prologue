@@ -3,6 +3,7 @@
 	"id": "TeamRuddcy.RealYacht",
 	"name": "Real Yacht",
 	"contentFolders": ["content"],
+	"blobsFolders": ["blobs"],
 	"description": "Converts Freeform Training to a real yacht docked at Miami",
 	"authors": ["Team Ruddcy"],
 	"dependencies": [

@@ -1,0 +1,14 @@
+{
+    "scene": "assembly:/_pro/scenes/missions/thefacility/_scene_mission_yacht.entity",
+    "actors": [],
+    "entrances": [
+        {
+            "id": "59739ad0-bc5e-4106-9b30-253f07b15b9a",
+            "isDefaultSpawn": true,
+            "isPreferredSpawn": false,
+            "WorldTransform": "-0.719752, 0.694231, 0, -0.694231, -0.719752, 0, 0, 0, 1, -40.80788, -30.53061, 0.485024"
+        }
+    ],
+    "Exits": [],
+    "AgencyPickups": []
+}
