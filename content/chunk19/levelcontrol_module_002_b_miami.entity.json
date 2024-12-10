@@ -649,7 +649,8 @@
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe",
 					"postInit": true
-				}
+				},
+				"m_bSpawnOnStart": { "type": "bool", "value": false }
 			}
 		},
 		"fdab6bdc282d91e2": {
@@ -723,7 +724,8 @@
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe",
 					"postInit": true
-				}
+				},
+				"m_bSpawnOnStart": { "type": "bool", "value": false }
 			}
 		},
 		"4aaa72e0b06c5a82": {
@@ -1265,7 +1267,8 @@
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe",
 					"postInit": true
-				}
+				},
+				"m_bSpawnOnStart": { "type": "bool", "value": false }
 			}
 		},
 		"08f2d9bad4cf87f2": {
@@ -1302,7 +1305,8 @@
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe",
 					"postInit": true
-				}
+				},
+				"m_bSpawnOnStart": { "type": "bool", "value": false }
 			}
 		},
 		"00ad0b60f5d1e285": {
@@ -1553,7 +1557,8 @@
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe",
 					"postInit": true
-				}
+				},
+				"m_bSpawnOnStart": { "type": "bool", "value": false }
 			}
 		},
 		"7bcbcc9487506d54": {
@@ -1641,8 +1646,8 @@
 		"47fc5c8146ff84d4": {
 			"parent": "7b97c5ff010220e4",
 			"name": "Setpiece_Tutorial_Unique_Activator_End_Mission_Helicopter",
-			"factory": "[assembly:/_pro/design/setpieces/unique/setpiece_tutorial_unique.template?/setpiece_tutorial_unique_activator_end_mission.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/setpieces/unique/setpiece_tutorial_unique.template?/setpiece_tutorial_unique_activator_end_mission.entitytemplate].pc_entityblueprint",
+			"factory": "[assembly:/_pro/design/levelflow.template?/exit_pushbutton.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/levelflow.template?/exit_pushbutton.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
@@ -1679,7 +1684,7 @@
 				"m_bVisible": { "type": "bool", "value": false }
 			},
 			"events": {
-				"OnRing": {
+				"Exit": {
 					"Start": ["fba7cfbaccc1a581"],
 					"MakeInvisible": [
 						{
@@ -1689,8 +1694,7 @@
 					],
 					"DisableBehaviors": ["b0e3f96856741476"]
 				}
-			},
-			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+			}
 		},
 		"ba4692a4c4d7e8ad": {
 			"parent": "7ef840cd57804342",
@@ -1803,7 +1807,8 @@
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe",
 					"postInit": true
-				}
+				},
+				"m_bSpawnOnStart": { "type": "bool", "value": false }
 			}
 		},
 		"5a5c3eb0fb30ff1b": {
@@ -2662,7 +2667,8 @@
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe",
 					"postInit": true
-				}
+				},
+				"m_bSpawnOnStart": { "type": "bool", "value": false }
 			}
 		},
 		"53135fe51076b85d": {
@@ -2772,7 +2778,8 @@
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe",
 					"postInit": true
-				}
+				},
+				"m_bSpawnOnStart": { "type": "bool", "value": false }
 			}
 		},
 		"9b0ca75e2062a2e3": {
@@ -2911,7 +2918,8 @@
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe",
 					"postInit": true
-				}
+				},
+				"m_bSpawnOnStart": { "type": "bool", "value": false }
 			}
 		},
 		"b9e159bb9dedca86": {
@@ -3844,7 +3852,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe"
-				}
+				},
+				"m_bSpawnOnStart": { "type": "bool", "value": false }
 			}
 		},
 		"61ae0a097f42376d": {
@@ -5230,7 +5239,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe"
-				}
+				},
+				"m_bSpawnOnStart": { "type": "bool", "value": false }
 			}
 		},
 		"4d2d4b2946aba161": {

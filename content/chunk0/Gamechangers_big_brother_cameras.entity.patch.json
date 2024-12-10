@@ -1,0 +1,319 @@
+{
+	"tempHash": "00CF4128EF0A3198",
+	"tbluHash": "00E80D3840151B7B",
+	"patch": [
+		{ "RemoveEntityByID": "313ba1352dcccac4" },
+		{
+			"SubEntityOperation": [
+				"5babcecaef8b0f62",
+				{ "RemovePropertyByName": "m_eidParent" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"5babcecaef8b0f62",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -13.363445,
+								"y": -0.97375596,
+								"z": -178.49365
+							},
+							"position": {
+								"x": -4.958275,
+								"y": 20.37812,
+								"z": 6.1246605
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"5babcecaef8b0f62",
+				{
+					"AddProperty": [
+						"m_eRoomBehaviour",
+						{
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_DYNAMIC"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"b96ba00e22eea140",
+				{ "RemovePropertyByName": "m_eidParent" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"b96ba00e22eea140",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": -89.10689947949552
+							},
+							"position": {
+								"x": -33.281368255615234,
+								"y": 11.39107894897461,
+								"z": 4.8599162101745605
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"b96ba00e22eea140",
+				{
+					"AddProperty": [
+						"m_eRoomBehaviour",
+						{
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_DYNAMIC"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"b96ba00e22eea140",
+				{
+					"AddProperty": [
+						"DetectionDistance",
+						{ "type": "float32", "value": 15.0 }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e3ba7644d6778986",
+				{
+					"SetParent": {
+						"ref": "fffffffffffffffe",
+						"externalScene": null
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"d046874a3f1c5c7f",
+				{ "RemovePropertyByName": "m_eidParent" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"d046874a3f1c5c7f",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -31.107906,
+								"y": 0.64852667,
+								"z": -95.21641
+							},
+							"position": {
+								"x": 7.940199,
+								"y": 3.586712,
+								"z": 10.275894
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"d046874a3f1c5c7f",
+				{
+					"AddProperty": [
+						"m_eRoomBehaviour",
+						{
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_DYNAMIC"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"fffffffffffffffe",
+				{ "SetName": "Gamechangers_big_brother_cameras" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"428fbbbb4a2412be",
+				{
+					"SetParent": {
+						"ref": "e3ba7644d6778986",
+						"externalScene": null
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"428fbbbb4a2412be",
+				{ "RemovePropertyByName": "m_eidParent" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"428fbbbb4a2412be",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": -180.0
+							},
+							"position": {
+								"x": 12.26336669921875,
+								"y": -26.98737335205078,
+								"z": -0.4523378312587738
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"6c73818b4229a465",
+				{ "RemovePropertyByName": "m_eidParent" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"6c73818b4229a465",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": 92.81951279646876
+							},
+							"position": {
+								"x": -10.40706729888916,
+								"y": -3.910302639007568,
+								"z": 6.090411186218262
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"6c73818b4229a465",
+				{
+					"AddProperty": [
+						"m_eRoomBehaviour",
+						{
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_DYNAMIC"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"6c73818b4229a465",
+				{
+					"AddProperty": [
+						"RotationOffset",
+						{
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -9.199964639821212,
+									"y": 0.0,
+									"z": 0.0
+								},
+								"position": {
+									"x": 0.0,
+									"y": 0.0,
+									"z": 0.0
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"b14a89482327ff7a",
+				{ "RemovePropertyByName": "m_eidParent" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"b14a89482327ff7a",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -13.363859,
+								"y": -0.9749849,
+								"z": 92.130424
+							},
+							"position": {
+								"x": -10.404999,
+								"y": 13.413618,
+								"z": 2.9484482
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"b14a89482327ff7a",
+				{
+					"AddProperty": [
+						"m_eRoomBehaviour",
+						{
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_DYNAMIC"
+						}
+					]
+				}
+			]
+		},
+		{
+			"RemoveExternalScene": "[assembly:/_pro/scenes/missions/thefacility/location_interior.brick].pc_entitytype"
+		},
+		{
+			"RemoveExternalScene": "[assembly:/_pro/scenes/missions/thefacility/dressing_module_002.brick].pc_entitytype"
+		},
+		{
+			"RemoveExternalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht.brick].pc_entitytype"
+		}
+	],
+	"patchVersion": 6
+}

@@ -264,6 +264,10 @@
 		"type": "entity",
 		"partition": "miami",
 		"path": "[assembly:/_pro/scenes/missions/thefacility/_scene_mission_yacht_escalation.entity].entitytemplate"
+	},{
+		"type": "entity",
+		"partition": "miami",
+		"path": "[assembly:/_pro/scenes/missions/thefacility/createcontract_module_002_b_miami.brick].entitytype"
 	}],
     "loadBefore": [],
 	"frameworkVersion": "2.2.0"
