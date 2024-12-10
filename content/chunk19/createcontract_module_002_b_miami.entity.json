@@ -432,12 +432,6 @@
 						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
-			},
-			"subsets": {
-				"Activatable_NormalGameplay, IEntity": [
-					"fffffffffffffffe"
-				],
-				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"cafe85dc643c9073": {
@@ -468,12 +462,6 @@
 						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
-			},
-			"subsets": {
-				"Activatable_NormalGameplay, IEntity": [
-					"fffffffffffffffe"
-				],
-				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"cafea5735b972467": {
@@ -504,12 +492,6 @@
 						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 					}
 				}
-			},
-			"subsets": {
-				"Activatable_NormalGameplay, IEntity": [
-					"fffffffffffffffe"
-				],
-				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		}
 	},
