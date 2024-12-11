@@ -2705,7 +2705,8 @@
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe",
 					"postInit": true
-				}
+				},
+				"m_bSpawnOnStart": { "type": "bool", "value": false }
 			}
 		},
 		"2fd06a09eeb87c66": {
@@ -3904,7 +3905,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe"
-				}
+				},
+				"m_bSpawnOnStart": { "type": "bool", "value": false }
 			}
 		},
 		"823cd5e75a26591c": {
@@ -4481,7 +4483,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe"
-				}
+				},
+				"m_bSpawnOnStart": { "type": "bool", "value": false }
 			}
 		},
 		"5a344876f4726570": {
@@ -5275,7 +5278,8 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe"
-				}
+				},
+				"m_bSpawnOnStart": { "type": "bool", "value": false }
 			}
 		},
 		"08ebd1b35bcc000e": {

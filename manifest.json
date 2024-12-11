@@ -6,6 +6,9 @@
 	"blobsFolders": ["blobs"],
 	"description": "Converts Freeform Training to a real yacht docked at Miami",
 	"authors": ["Team Ruddcy"],
+	"thumbs": [
+                "ConsoleCmd OnlineResources_Disable 1"
+            ],
 	"dependencies": [
 		"00875085D6135309","005415E5BE265EFD",{"runtimeID":"003D96EAECB00C82","comment":"adonis_sky","toChunk":1},
 		{
@@ -268,6 +271,10 @@
 		"type": "entity",
 		"partition": "miami",
 		"path": "[assembly:/_pro/scenes/missions/thefacility/createcontract_module_002_b_miami.brick].entitytype"
+	},{
+		"type": "entity",
+		"partition": "miami",
+		"path": "[assembly:/_pro/scenes/missions/thefacility/vr_overrides_polarbear002_miami.brick].entitytype"
 	}],
     "loadBefore": [],
 	"frameworkVersion": "2.2.0"

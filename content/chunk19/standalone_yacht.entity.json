@@ -312,18 +312,6 @@
 			"externalScene": "[assembly:/_pro/scenes/missions/miami/miami_yacht.brick].pc_entitytype"
 		},
 		{
-			"ref": "cafed4a0e080ff80",
-			"externalScene": "[assembly:/_pro/scenes/missions/miami/miami_yacht.brick].pc_entitytype"
-		},
-		{
-			"ref": "cafe610504e5ae8e",
-			"externalScene": "[assembly:/_pro/scenes/missions/miami/miami_yacht.brick].pc_entitytype"
-		},
-		{
-			"ref": "cafe3e36a04742bb",
-			"externalScene": "[assembly:/_pro/scenes/missions/miami/miami_yacht.brick].pc_entitytype"
-		},
-		{
 			"ref": "06b4e1fb8d4f23d3",
 			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
 		}

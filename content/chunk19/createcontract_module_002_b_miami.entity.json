@@ -541,6 +541,22 @@
 				{
 					"ref": "921f727f58625b5d",
 					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
+				},
+				{
+					"ref": "90030375a934b018",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
+				},
+				{
+					"ref": "4d2d4b2946aba161",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
+				},
+				{
+					"ref": "53135fe51076b85d",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
+				},
+				{
+					"ref": "3daf1d06e591b98d",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
 				}
 			],
 			"properties": {

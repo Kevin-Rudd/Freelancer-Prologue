@@ -1,13 +1,47 @@
 {
     "Data": {
-        "Objectives": [],
+        "Objectives": [{
+            "Id": "bffa7478-8100-480d-8207-1e5650291012",
+            "Primary": true,
+            "SuccessEvent": {
+                "EventName": "Kill",
+                "EventValues": {
+                    "RepositoryId": "3d25ee6c-61fa-4ba5-8f19-fedd905fd8fb"
+                }
+            },
+            "ResetEvent": null,
+            "FailedEvent": null,
+            "Category": "primary"
+        }],
         "Bricks": [],
-        "VR": [],
+        "VR": [
+                    {
+                        "Quality": "base",
+                        "Bricks": [
+                            "assembly:/_pro/Scenes/Bricks/vr_setup.brick",
+                            "assembly:/_pro/scenes/missions/thefacility/vr_overrides_polarbear002_miami.brick"
+                        ]
+                    }
+                ],
         "GameChangers": [],
         "RandomBricks": {
             "TimeOfDay": [
             ]
-        }
+        },
+        "GameDifficulties": [
+            {
+                "Difficulty": "easy",
+                "Bricks": []
+            },
+            {
+                "Difficulty": "normal",
+                "Bricks": []
+            },
+            {
+                "Difficulty": "hard",
+                "Bricks": []
+            }
+        ]
     },
     "Metadata": {
         "Id": "b573932d-7a34-44f1-bcf4-ea8f79f75710",
