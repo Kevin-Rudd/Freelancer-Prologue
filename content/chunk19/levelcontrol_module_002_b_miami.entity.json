@@ -3502,7 +3502,7 @@
 			"events": { "Out": { "In": ["1810dbf91fcbd889"] } }
 		},
 		"f4ccd5d82d9ca092": {
-			"parent": "b13d5f87dcd185c0",
+			"parent": "eb6a53d5ab65ac6c",
 			"name": "ItemSpawner13",
 			"factory": "[modules:/zitemspawner.class].pc_entitytype",
 			"blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
@@ -3534,7 +3534,8 @@
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe",
 					"postInit": true
-				}
+				},
+				"m_bSpawnOnStart": { "type": "bool", "value": false }
 			}
 		},
 		"e36a378f4d78c2f1": {
@@ -6237,6 +6238,54 @@
 						"resource": "[assembly:/sound/wwise/exportedwwisedata/soundbanks/levelspecific/miami.wwisesoundbank].pc_wwisebank",
 						"flag": "5F"
 					}
+				}
+			}
+		},
+		"cafe68b7266b04e5": {
+			"parent": "b13d5f87dcd185c0",
+			"name": "ItemKey_Tool_RustyPin",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "46f0749f-8775-447c-bcac-45e2e40a505d"
+				}
+			}
+		},
+		"cafe8787ed78e53d": {
+			"parent": "cafe68b7266b04e5",
+			"name": "ItemSpawner13",
+			"factory": "[modules:/zitemspawner.class].pc_entitytype",
+			"blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -30.797664029538815,
+							"y": 88.82441496145567,
+							"z": 31.407433695406827
+						},
+						"position": {
+							"x": -38.09128189086914,
+							"y": -29.36691093444824,
+							"z": 1.4919090270996094
+						}
+					}
+				},
+				"m_rMainItemKey": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe68b7266b04e5"
+				},
+				"m_bUsePlacementAttach": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
 				}
 			}
 		}

@@ -387,6 +387,229 @@
 					"value": "fffffffffffffffe"
 				}
 			}
+		},
+		"cafe8cd74813a167": {
+			"parent": "cafeb48bbfa3e300",
+			"name": "SetPiece_Surveillance_Camera_A02",
+			"factory": "[assembly:/_pro/design/setpieces/setpiece_surveilliance.template?/setpiece_surveillance_camera_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/setpiece_surveilliance.template?/setpiece_surveillance_camera_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -13.363445,
+							"y": -0.97375596,
+							"z": -178.49365
+						},
+						"position": {
+							"x": -4.958275,
+							"y": 20.37812,
+							"z": 6.1246605
+						}
+					}
+				},
+				"Rotating": { "type": "bool", "value": true },
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"subsets": {
+				"Activatable_NormalGameplay, IEntity": [
+					"fffffffffffffffe"
+				],
+				"AudioEmitters": ["fffffffffffffffe"]
+			}
+		},
+		"cafe3bce42983bcf": {
+			"parent": "cafeb48bbfa3e300",
+			"name": "SetPiece_Surveillance_Camera_A01",
+			"factory": "[assembly:/_pro/design/setpieces/setpiece_surveilliance.template?/setpiece_surveillance_camera_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/setpiece_surveilliance.template?/setpiece_surveillance_camera_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -89.10689947949552
+						},
+						"position": {
+							"x": -33.281368255615234,
+							"y": 11.39107894897461,
+							"z": 4.8599162101745605
+						}
+					}
+				},
+				"Rotating": { "type": "bool", "value": true },
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"DetectionDistance": { "type": "float32", "value": 15.0 }
+			},
+			"subsets": {
+				"Activatable_NormalGameplay, IEntity": [
+					"fffffffffffffffe"
+				],
+				"AudioEmitters": ["fffffffffffffffe"]
+			}
+		},
+		"cafeb48bbfa3e300": {
+			"parent": "fffffffffffffffe",
+			"name": "Gamechangers_Cameras",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafed4214f756a92": {
+			"parent": "cafeb48bbfa3e300",
+			"name": "SetPiece_Surveillance_Camera_A04",
+			"factory": "[assembly:/_pro/design/setpieces/setpiece_surveilliance.template?/setpiece_surveillance_camera_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/setpiece_surveilliance.template?/setpiece_surveillance_camera_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -31.107906,
+							"y": 0.64852667,
+							"z": -95.21641
+						},
+						"position": {
+							"x": 7.940199,
+							"y": 3.586712,
+							"z": 10.275894
+						}
+					}
+				},
+				"Rotating": { "type": "bool", "value": true },
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"subsets": {
+				"Activatable_NormalGameplay, IEntity": [
+					"fffffffffffffffe"
+				],
+				"AudioEmitters": ["fffffffffffffffe"]
+			}
+		},
+		"cafe200ed090bd28": {
+			"parent": "cafeb48bbfa3e300",
+			"name": "SetPiece_Surveillance_Recorder_A",
+			"factory": "[assembly:/_pro/design/setpieces/setpiece_surveilliance.template?/setpiece_surveillance_recorder_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/setpiece_surveilliance.template?/setpiece_surveillance_recorder_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 10.120017051696776,
+							"y": 8.586962699890137,
+							"z": -0.4523378312587738
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_aSecurityDevices": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"cafee351b851ee5b",
+						"cafe3d500cd02d58",
+						"cafe3bce42983bcf",
+						"cafe8cd74813a167",
+						"cafed4214f756a92"
+					],
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafee351b851ee5b": {
+			"parent": "cafeb48bbfa3e300",
+			"name": "SetPiece_Surveillance_Camera_A",
+			"factory": "[assembly:/_pro/design/setpieces/setpiece_surveilliance.template?/setpiece_surveillance_camera_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/setpiece_surveilliance.template?/setpiece_surveillance_camera_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 92.81951279646876
+						},
+						"position": {
+							"x": -10.40706729888916,
+							"y": -3.910302639007568,
+							"z": 6.090411186218262
+						}
+					}
+				},
+				"Rotating": { "type": "bool", "value": false },
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"RotationOffset": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -9.199964639821212,
+							"y": 0.0,
+							"z": 0.0
+						},
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				}
+			},
+			"subsets": {
+				"Activatable_NormalGameplay, IEntity": [
+					"fffffffffffffffe"
+				],
+				"AudioEmitters": ["fffffffffffffffe"]
+			}
+		},
+		"cafe3d500cd02d58": {
+			"parent": "cafeb48bbfa3e300",
+			"name": "SetPiece_Surveillance_Camera_A03",
+			"factory": "[assembly:/_pro/design/setpieces/setpiece_surveilliance.template?/setpiece_surveillance_camera_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/setpiece_surveilliance.template?/setpiece_surveillance_camera_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -13.363859,
+							"y": -0.9749849,
+							"z": 92.130424
+						},
+						"position": {
+							"x": -10.404999,
+							"y": 13.413618,
+							"z": 2.9484482
+						}
+					}
+				},
+				"Rotating": { "type": "bool", "value": true },
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"subsets": {
+				"Activatable_NormalGameplay, IEntity": [
+					"fffffffffffffffe"
+				],
+				"AudioEmitters": ["fffffffffffffffe"]
+			}
 		}
 	},
 	"propertyOverrides": [

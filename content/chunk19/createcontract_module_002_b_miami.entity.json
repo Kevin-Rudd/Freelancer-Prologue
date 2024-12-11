@@ -557,10 +557,25 @@
 				{
 					"ref": "3daf1d06e591b98d",
 					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
+				},
+				{
+					"ref": "f4ccd5d82d9ca092",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
 				}
 			],
 			"properties": {
 				"m_bSpawnOnStart": { "type": "bool", "value": true }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "cafe8787ed78e53d",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_bSpawnOnStart": { "type": "bool", "value": false }
 			}
 		},
 		{
@@ -637,6 +652,10 @@
 		{
 			"ref": "cafe3e36a04742bb",
 			"externalScene": "[assembly:/_pro/scenes/missions/miami/miami_yacht.brick].pc_entitytype"
+		},
+		{
+			"ref": "cafeb48bbfa3e300",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/_scene_mission_yacht.entity].pc_entitytemplate"
 		}
 	],
 	"pinConnectionOverrides": [
@@ -719,7 +738,8 @@
 		"[assembly:/_pro/scenes/bricks/gameessentialsbase.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype",
-		"[assembly:/_pro/scenes/missions/miami/miami_yacht.brick].pc_entitytype"
+		"[assembly:/_pro/scenes/missions/miami/miami_yacht.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/thefacility/_scene_mission_yacht.entity].pc_entitytemplate"
 	],
 	"subType": "brick",
 	"quickEntityVersion": 3.1,
