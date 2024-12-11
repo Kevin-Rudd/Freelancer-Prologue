@@ -1,10 +1,11 @@
 {
-	"version": "0.8.0",
+	"version": "1.0.0",
 	"id": "TeamRuddcy.RealYacht",
 	"name": "Real Yacht",
 	"contentFolders": ["content"],
 	"blobsFolders": ["blobs"],
 	"description": "Converts Freeform Training to a real yacht docked at Miami",
+	"updateCheck": "https://raw.githubusercontent.com/Kevin-Rudd/Freelancer-Prologue/master/updates.json",
 	"authors": ["Team Ruddcy"],
 	"thumbs": [
                 "ConsoleCmd OnlineResources_Disable 1"

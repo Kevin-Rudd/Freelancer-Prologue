@@ -499,6 +499,31 @@
 		{
 			"entities": [
 				{
+					"ref": "997f61e432c2ecd2",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -176.68043076797164
+						},
+						"position": {
+							"x": -7.480208873748779,
+							"y": -30.336320877075195,
+							"z": 3.1325058937072754
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
 					"ref": "29a365f6e3ffc6e4",
 					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
 				}

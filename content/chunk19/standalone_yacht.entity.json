@@ -146,6 +146,114 @@
 				},
 				"m_bEnabled": { "type": "bool", "value": true }
 			}
+		},
+		"cafe25ece0b6483e": {
+			"parent": "cafe1f069f7c8c14",
+			"name": "PFObstacle Shipping Container 2",
+			"factory": "[modules:/zpfobstacleentity.class].pc_entitytype",
+			"blueprint": "[modules:/zpfobstacleentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": -29.98150634765625,
+							"y": -29.4305419921875,
+							"z": 1.360813856124878
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 3.2309999465942383,
+						"y": 7.203999996185303,
+						"z": 4.5
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe1f069f7c8c14"
+				},
+				"m_bEnabled": { "type": "bool", "value": true }
+			}
+		},
+		"cafe3aefddc4e893": {
+			"parent": "cafe1f069f7c8c14",
+			"name": "PFObstacle Shipping Forklift",
+			"factory": "[modules:/zpfobstacleentity.class].pc_entitytype",
+			"blueprint": "[modules:/zpfobstacleentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -19.719691032594497
+						},
+						"position": {
+							"x": -38.555938720703125,
+							"y": -33.7786865234375,
+							"z": 0.4762545228004456
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 2.8310000896453857,
+						"y": 1.6039999723434448,
+						"z": 4.5
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe1f069f7c8c14"
+				},
+				"m_bEnabled": { "type": "bool", "value": true }
+			}
+		},
+		"cafe14088084a519": {
+			"parent": "cafe1f069f7c8c14",
+			"name": "PFObstacle Shipping Container 1",
+			"factory": "[modules:/zpfobstacleentity.class].pc_entitytype",
+			"blueprint": "[modules:/zpfobstacleentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 0.2893909828011777
+						},
+						"position": {
+							"x": -43.04771423339844,
+							"y": -26.35039329528809,
+							"z": 1.4495091438293457
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 3.930999994277954,
+						"y": 8.303999900817871,
+						"z": 4.5
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe1f069f7c8c14"
+				},
+				"m_bEnabled": { "type": "bool", "value": true }
+			}
 		}
 	},
 	"propertyOverrides": [
@@ -248,6 +356,10 @@
 	],
 	"overrideDeletes": [
 		{
+			"ref": "71f1b6c2443befa4",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
+		},
+		{
 			"ref": "368e359b84e12686",
 			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
 		},
@@ -321,7 +433,8 @@
 	"externalScenes": [
 		"[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/miami/miami_yacht.brick].pc_entitytype",
-		"[assembly:/_pro/scenes/missions/miami/tod_sunset.brick].pc_entitytype"
+		"[assembly:/_pro/scenes/missions/miami/tod_sunset.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 	],
 	"subType": "brick",
 	"quickEntityVersion": 3.1,
