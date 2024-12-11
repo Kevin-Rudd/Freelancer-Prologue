@@ -4,7 +4,7 @@
 	"name": "Real Yacht",
 	"contentFolders": ["content"],
 	"blobsFolders": ["blobs"],
-	"description": "Converts Freeform Training to a real yacht docked at Miami",
+	"description": "Converts Freeform Training to a real yacht docked at Miami. Requires companion SDK mod to work online.",
 	"updateCheck": "https://raw.githubusercontent.com/Kevin-Rudd/Freelancer-Prologue/master/updates.json",
 	"authors": ["Team Ruddcy"],
 	"thumbs": [
