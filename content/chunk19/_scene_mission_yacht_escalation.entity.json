@@ -33,7 +33,10 @@
 						"4fa18d218e76569b",
 						"0a4c240d375a6e23",
 						"f51560fedeaec5b4",
-						"cd68833b69ab56b7"
+						"cd68833b69ab56b7",
+						"cafea2546ab13fb3",
+						"cafe0888ec0714d6",
+						"cafe9cfc0a602e74"
 					],
 					"postInit": true
 				}
@@ -225,7 +228,12 @@
 				},
 				"m_bVisible": { "type": "bool", "value": false }
 			},
-			"events": { "OnRing": { "Start": ["48a9ba9021f272d9"] } },
+			"events": {
+				"OnRing": {
+					"Start": ["48a9ba9021f272d9"],
+					"DisableBehaviors": ["cafea77dbe0d6bd3"]
+				}
+			},
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		},
 		"9ec711a3b63f6cf9": {
@@ -754,8 +762,8 @@
 		"dcb50fd3d9a4660d": {
 			"parent": "7d3a3a78315e0916",
 			"name": "Setpiece_Tutorial_Unique_Activator_End_Mission_Helicopter",
-			"factory": "[assembly:/_pro/design/setpieces/unique/setpiece_tutorial_unique.template?/setpiece_tutorial_unique_activator_end_mission.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/setpieces/unique/setpiece_tutorial_unique.template?/setpiece_tutorial_unique_activator_end_mission.entitytemplate].pc_entityblueprint",
+			"factory": "[assembly:/_pro/design/levelflow.template?/exit_pushbutton.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/levelflow.template?/exit_pushbutton.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
@@ -763,12 +771,12 @@
 						"rotation": {
 							"x": -0.0,
 							"y": 0.0,
-							"z": 64.20808294541182
+							"z": 68.73402391139577
 						},
 						"position": {
-							"x": -2.1605539321899414,
-							"y": -8.636396408081055,
-							"z": 10.34097957611084
+							"x": -1.1450029611587524,
+							"y": -8.23504638671875,
+							"z": 10.30072021484375
 						}
 					}
 				},
@@ -779,10 +787,6 @@
 				"m_eRoomBehaviour": {
 					"type": "ZSpatialEntity.ERoomBehaviour",
 					"value": "ROOM_DYNAMIC"
-				},
-				"m_aEnableConditions": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": []
 				},
 				"Manual_Exit_Trigger_Needed": {
 					"type": "bool",
@@ -795,8 +799,18 @@
 				},
 				"m_bVisible": { "type": "bool", "value": false }
 			},
-			"events": { "OnRing": { "Start": ["9698ffc0a804fd68"] } },
-			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+			"events": {
+				"Exit": {
+					"Start": ["9698ffc0a804fd68"],
+					"MakeInvisible": [
+						{
+							"ref": "3bbdb6207e817a24",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+						}
+					],
+					"DisableBehaviors": ["cafea77dbe0d6bd3"]
+				}
+			}
 		},
 		"bf22b26e66f35490": {
 			"parent": "92d10dff9f275a22",
@@ -903,7 +917,12 @@
 				},
 				"m_bVisible": { "type": "bool", "value": false }
 			},
-			"events": { "OnRing": { "Start": ["24ed2992f8e905d5"] } },
+			"events": {
+				"OnRing": {
+					"Start": ["24ed2992f8e905d5"],
+					"DisableBehaviors": ["cafea77dbe0d6bd3"]
+				}
+			},
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		},
 		"b8e9ea3178b47747": {
@@ -2565,6 +2584,378 @@
 					"value": ["c3ad5d24aac27ec7"]
 				}
 			}
+		},
+		"cafe191c3b2bcbd8": {
+			"parent": "cafea2546ab13fb3",
+			"name": "Exits",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe28629a7cb19c": {
+			"parent": "cafe191c3b2bcbd8",
+			"name": "Make 47 Invisible TimerSimple",
+			"factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Delay time (ms)": { "type": "int32", "value": 100 }
+			},
+			"events": {
+				"Out": {
+					"MakeInvisible": [
+						{
+							"ref": "3bbdb6207e817a24",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+						}
+					]
+				}
+			}
+		},
+		"cafe9cfc0a602e74": {
+			"parent": "cafea2546ab13fb3",
+			"name": "EntityTrack_ ValueFloat_HelicopterFX_Intensity",
+			"factory": "[modules:/zentitygroup.class].pc_entitytype",
+			"blueprint": "[modules:/zentitygroup.class].pc_entityblueprint",
+			"properties": {
+				"m_aTracksAndGroups": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe69d830597c5b"]
+				},
+				"m_targetEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe235c8fa73dc3",
+					"postInit": true
+				}
+			}
+		},
+		"cafe0888ec0714d6": {
+			"parent": "cafea2546ab13fb3",
+			"name": "EntityTrack_ FX_E_Helicopter_Takeoff_Paris",
+			"factory": "[modules:/zentitygroup.class].pc_entitytype",
+			"blueprint": "[modules:/zentitygroup.class].pc_entityblueprint",
+			"properties": {
+				"m_aTracksAndGroups": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe8ec2e32fe1a9"]
+				},
+				"m_targetEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "cafec484692562e9",
+					"postInit": true
+				}
+			}
+		},
+		"cafea2546ab13fb3": {
+			"parent": "88b76a78a7887b9a",
+			"name": "EntityTrack_ helicopter_private_a",
+			"factory": "[modules:/zentitygroup.class].pc_entitytype",
+			"blueprint": "[modules:/zentitygroup.class].pc_entityblueprint",
+			"properties": {
+				"m_targetEntity": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "feedade519944f13",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
+					},
+					"postInit": true
+				},
+				"m_aTracksAndGroups": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe6724de4618d5", "cafe30e7d4b22c6c"],
+					"postInit": true
+				}
+			}
+		},
+		"cafe69d830597c5b": {
+			"parent": "cafe9cfc0a602e74",
+			"name": " Track",
+			"factory": "[modules:/zentitypropertytrack.class].pc_entitytype",
+			"blueprint": "[modules:/zentitypropertytrack.class].pc_entityblueprint",
+			"properties": {
+				"m_sPropertyName": {
+					"type": "ZString",
+					"value": "m_fValue"
+				},
+				"m_entityGroup": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe9cfc0a602e74",
+					"postInit": true
+				},
+				"m_aItems": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe30ebfb945f64"],
+					"postInit": true
+				}
+			}
+		},
+		"cafe30ebfb945f64": {
+			"parent": "cafe69d830597c5b",
+			"name": "CurveItem",
+			"factory": "[modules:/zfloatcurvesource.class].pc_entitytype",
+			"blueprint": "[modules:/zfloatcurvesource.class].pc_entityblueprint",
+			"properties": {
+				"m_startTime": {
+					"type": "ZGameTime",
+					"value": { "m_nTicks": 0 }
+				},
+				"m_duration": {
+					"type": "ZGameTime",
+					"value": { "m_nTicks": 10003415 }
+				},
+				"m_curve": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[0, 1, 0, 0, 0, 0, 0, 1],
+							[
+								0.13976240158081055, 1, 0, 0,
+								0.21460182964801788, -0.7146018147468567,
+								-4.8090179775077144e-17, 1
+							],
+							[
+								0.5698812007904053, 0.5, 0, 0,
+								0.21460182964801788, 0.07079632580280304,
+								-0.7853981852531433, 0.5
+							],
+							[1, 0, 0, 0, 0, 0, 0, 0]
+						]
+					}
+				}
+			}
+		},
+		"cafe8ec2e32fe1a9": {
+			"parent": "cafe0888ec0714d6",
+			"name": "TrajectoryTrack",
+			"factory": "[modules:/ztrajectorytrack.class].pc_entitytype",
+			"blueprint": "[modules:/ztrajectorytrack.class].pc_entityblueprint",
+			"properties": {
+				"m_entityGroup": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe0888ec0714d6",
+					"postInit": true
+				}
+			}
+		},
+		"cafe6724de4618d5": {
+			"parent": "cafea2546ab13fb3",
+			"name": "TrajectoryTrack",
+			"factory": "[modules:/ztrajectorytrack.class].pc_entitytype",
+			"blueprint": "[modules:/ztrajectorytrack.class].pc_entityblueprint",
+			"properties": {
+				"m_bRestoreValueAfterEnd": {
+					"type": "bool",
+					"value": false
+				},
+				"m_entityGroup": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea2546ab13fb3",
+					"postInit": true
+				},
+				"m_aItems": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe5bae8481197e"],
+					"postInit": true
+				}
+			}
+		},
+		"cafe30e7d4b22c6c": {
+			"parent": "cafea2546ab13fb3",
+			"name": " Track",
+			"factory": "[modules:/zentitypropertytrack.class].pc_entitytype",
+			"blueprint": "[modules:/zentitypropertytrack.class].pc_entityblueprint",
+			"properties": {
+				"m_sPropertyName": {
+					"type": "ZString",
+					"value": "RotorFullSpeed"
+				},
+				"m_entityGroup": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea2546ab13fb3"
+				},
+				"m_aItems": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafeda7ca2f16b83"],
+					"postInit": true
+				}
+			}
+		},
+		"cafe5bae8481197e": {
+			"parent": "cafe6724de4618d5",
+			"name": "TrajectoryResourceItem",
+			"factory": "[modules:/zmorphemetrajectorysource.class].pc_entitytype",
+			"blueprint": "[modules:/zmorphemetrajectorysource.class].pc_entityblueprint",
+			"properties": {
+				"m_startTime": {
+					"type": "ZGameTime",
+					"value": { "m_nTicks": 0 }
+				},
+				"m_duration": {
+					"type": "ZGameTime",
+					"value": { "m_nTicks": 20971520 }
+				},
+				"m_eCoordinateSpace": {
+					"type": "ECoordinateSpace",
+					"value": "CSPACE_CHARACTER_RELATIVE"
+				},
+				"m_animationResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00D65881050E89B4",
+						"flag": "5F"
+					}
+				},
+				"m_bCrop": { "type": "bool", "value": false },
+				"m_SkipFromEnd": {
+					"type": "ZGameTime",
+					"value": { "m_nTicks": 0 }
+				}
+			}
+		},
+		"cafeda7ca2f16b83": {
+			"parent": "cafe30e7d4b22c6c",
+			"name": "BooleanItem",
+			"factory": "[modules:/zbooleansource.class].pc_entitytype",
+			"blueprint": "[modules:/zbooleansource.class].pc_entityblueprint",
+			"properties": {
+				"m_startTime": {
+					"type": "ZGameTime",
+					"value": { "m_nTicks": 0 }
+				},
+				"m_duration": {
+					"type": "ZGameTime",
+					"value": { "m_nTicks": 20866658 }
+				},
+				"m_fTimes": {
+					"type": "TArray<ZGameTime>",
+					"value": [{ "m_nTicks": 0 }]
+				},
+				"m_bValues": { "type": "TArray<bool>", "value": [true] }
+			}
+		},
+		"cafe235c8fa73dc3": {
+			"parent": "cafe191c3b2bcbd8",
+			"name": "ValueFloat_HelicopterFX_Intensity",
+			"factory": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_fValue": { "type": "float32", "value": 0 },
+				"m_bSetValueAlwaysTriggerChangedEvent": {
+					"type": "bool",
+					"value": true
+				}
+			}
+		},
+		"cafec484692562e9": {
+			"parent": "cafe191c3b2bcbd8",
+			"name": "FX_E_Helicopter_Takeoff_Seagull_01",
+			"factory": "[assembly:/_pro/effects/templates/dust/fx_helicopter_takeoff.template?/fx_e_helicopter_takeoff_seagull.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/dust/fx_helicopter_takeoff.template?/fx_e_helicopter_takeoff_seagull.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"HelicopterRotorSpeedValue": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeb603fc90b875"
+				},
+				"DustAlpha": {
+					"type": "float32",
+					"value": 0.30000001192092896
+				},
+				"m_ParticleColorRangeStart": {
+					"type": "SColorRGB",
+					"value": "#c2baa9"
+				},
+				"m_ParticleColorRangeEnd": {
+					"type": "SColorRGB",
+					"value": "#8f8b7e"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "feedade519944f13",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafe14df4a029152": {
+			"parent": "cafe2cbedd2b92eb",
+			"name": "VBB_Cutscene_Helicopter_Audio",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint"
+		},
+		"cafe2cbedd2b92eb": {
+			"parent": "cafe191c3b2bcbd8",
+			"name": "VBO_Cutscene_Helicopter_Audio",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aValues": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe14df4a029152"]
+				}
+			},
+			"events": {
+				"OnTrue": { "Send": ["cafe28cadb36b7f0"] },
+				"OnFalse": { "Stop": ["cafe28cadb36b7f0"] }
+			}
+		},
+		"cafe28cadb36b7f0": {
+			"parent": "cafe2cbedd2b92eb",
+			"name": "play_cin_failcut_helicopter_sfx",
+			"factory": "[modules:/zaudioevententity.class].pc_entitytype",
+			"blueprint": "[modules:/zaudioevententity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMainEvent": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/sound/wwise/exportedwwisedata/events/sfx_cutscenes/sfx_cutscenes_flamingo/play_cin_sfx_exitcut_kronstadthelicopter_01.wwiseevent].pc_wwisebank",
+						"flag": "5F"
+					}
+				},
+				"m_pEmitter": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe028aef14018b"
+				}
+			}
+		},
+		"cafe028aef14018b": {
+			"parent": "cafe28cadb36b7f0",
+			"name": "2DAE_Cutscenes",
+			"factory": "[assembly:/templates/sound/wwise/soundentities.template?/2daudioemitter.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/sound/wwise/soundentities.template?/2daudioemitter.entitytemplate].pc_entityblueprint",
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafeb603fc90b875": {
+			"parent": "cafec484692562e9",
+			"name": "ValueFloat_HelicopterFX_Intensity",
+			"factory": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_fValue": { "type": "float32", "value": 0 },
+				"m_bSetValueAlwaysTriggerChangedEvent": {
+					"type": "bool",
+					"value": true
+				}
+			}
+		},
+		"cafe7e32ab4a29f3": {
+			"parent": "cafe2cbedd2b92eb",
+			"name": "Miami_Sound_Bank",
+			"factory": "[modules:/zsoundbankentity.class].pc_entitytype",
+			"blueprint": "[modules:/zsoundbankentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pBankResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/sound/wwise/exportedwwisedata/soundbanks/levelspecific/miami.wwisesoundbank].pc_wwisebank",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"cafea77dbe0d6bd3": {
+			"parent": "dcb50fd3d9a4660d",
+			"name": "AICrippleEntity",
+			"factory": "[modules:/zaicrippleentity.class].pc_entitytype",
+			"blueprint": "[modules:/zaicrippleentity.class].pc_entityblueprint"
 		}
 	},
 	"propertyOverrides": [
@@ -2671,8 +3062,8 @@
 		{
 			"entities": [
 				{
-					"ref": "cafebdf79ea26a4f",
-					"externalScene": "[assembly:/_pro/scenes/missions/miami/miami_yacht.brick].pc_entitytype"
+					"ref": "cafe9524f3cefd37",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 				}
 			],
 			"properties": {
@@ -2680,7 +3071,12 @@
 			}
 		}
 	],
-	"overrideDeletes": [],
+	"overrideDeletes": [
+		{
+			"ref": "cafe267cb681eea3",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
+		}
+	],
 	"pinConnectionOverrides": [],
 	"pinConnectionOverrideDeletes": [],
 	"externalScenes": [
@@ -2689,7 +3085,8 @@
 		"[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/thefacility/standalone_yacht.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/thefacility/mapcontent_facility_yacht.brick].pc_entitytype",
-		"[assembly:/_pro/scenes/missions/miami/miami_yacht.brick].pc_entitytype"
+		"[assembly:/_pro/scenes/missions/miami/miami_yacht.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 	],
 	"subType": "scene",
 	"quickEntityVersion": 3.1,

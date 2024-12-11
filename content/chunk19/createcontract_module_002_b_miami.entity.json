@@ -756,6 +756,10 @@
 		{
 			"ref": "cafeb48bbfa3e300",
 			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/_scene_mission_yacht.entity].pc_entitytemplate"
+		},
+		{
+			"ref": "cafe267cb681eea3",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 		}
 	],
 	"pinConnectionOverrides": [

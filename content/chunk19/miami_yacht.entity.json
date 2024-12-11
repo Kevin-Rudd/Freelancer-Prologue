@@ -4791,13 +4791,13 @@
 				"OutfitRequirementTextResource": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "00452B3B386FF07A",
+						"resource": "00DA588317D7B30F",
 						"flag": "5F"
 					}
 				},
 				"m_rRequirements": {
 					"type": "SEntityTemplateReference",
-					"value": null,
+					"value": "cafe96c96f157679",
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -13062,49 +13062,6 @@
 				}
 			}
 		},
-		"cafe0be930fbe18d": {
-			"parent": "cafea5a2112b6c6f",
-			"name": "Setpiece_HIPS_Crouch_CheckTire_25cm",
-			"factory": "[assembly:/_pro/design/setpieces/setpieces_hideinplainsight.template?/setpiece_hips_crouch_checktire_25cm.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_hideinplainsight.template?/setpiece_hips_crouch_checktire_25cm.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 32.08446957441888
-						},
-						"position": {
-							"x": 9.292951583862305,
-							"y": -11.145719528198242,
-							"z": -0.044367000460624695
-						}
-					}
-				},
-				"OutfitRequirementTextResource": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "00452B3B386FF07A",
-						"flag": "5F"
-					}
-				},
-				"m_aUIHighlightGeom": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": []
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "cafe57579a7d95fb"
-				},
-				"m_rRequirements": {
-					"type": "SEntityTemplateReference",
-					"value": null,
-					"postInit": true
-				}
-			}
-		},
 		"cafea9edf69cd257": {
 			"parent": "cafedc1ddaba6924",
 			"name": "Container_Plastic_Closed_B_00",
@@ -13505,7 +13462,7 @@
 					"type": "SEntityTemplateReference",
 					"value": "cafe57579a7d95fb"
 				},
-				"m_bIsLocked": { "type": "bool", "value": true },
+				"m_bIsLocked": { "type": "bool", "value": false },
 				"m_bAutoClose": { "type": "bool", "value": true },
 				"m_bValueOpenFromInside": { "type": "bool", "value": true }
 			},
@@ -16642,11 +16599,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": -180 },
+						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
 						"position": {
-							"x": -180.56199645996097,
+							"x": -178.31570434570312,
 							"y": 161.7059326171875,
-							"z": 4.129392623901367
+							"z": 3.801271438598633
 						}
 					}
 				},
@@ -22524,6 +22481,12 @@
 					}
 				}
 			}
+		},
+		"cafe96c96f157679": {
+			"parent": "cafecb475267c030",
+			"name": "Prof_Greenland_Engineer",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_greenland_engineer.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_greenland_engineer.entitytemplate].pc_entityblueprint"
 		}
 	},
 	"propertyOverrides": [
