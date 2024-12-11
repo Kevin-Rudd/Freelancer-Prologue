@@ -259,7 +259,8 @@
 	
 
 	],
-	"packagedefinition": [{
+	"packagedefinition": [
+		{
 		"type": "entity",
 		"partition": "miami",
 		"path": "[assembly:/_pro/scenes/missions/thefacility/_scene_mission_yacht.entity].entitytemplate"
@@ -276,6 +277,20 @@
 		"partition": "miami",
 		"path": "[assembly:/_pro/scenes/missions/thefacility/vr_overrides_polarbear002_miami.brick].entitytype"
 	}],
-    "loadBefore": [],
+	"localisationOverrides": {
+				"007FD5AB96A8AFD6": {
+					"english": {
+						"627586687": "The Sparrow"
+					},
+					"french": {"627586687": "Le Moineau"},
+					"italian": {"627586687": "Il Passero"},
+					"german": {"627586687": "Der Spatz"},
+					"spanish": {"627586687": "El Gorrión"},
+					"russian": {"627586687": "Воробей"},
+					"chineseSimplified": {"627586687": "麻雀"},
+					"chineseTraditional": {"627586687": "麻雀"},
+					"japanese": {"627586687": "スズメ"}
+				}
+			},
 	"frameworkVersion": "2.2.0"
 }
