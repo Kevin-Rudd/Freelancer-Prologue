@@ -2571,6 +2571,81 @@
 		{
 			"entities": [
 				{
+					"ref": "29a365f6e3ffc6e4",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_aDisguisesAllowed": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "5c37a497b404d333",
+							"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+						},
+						{
+							"ref": "6bbd9dabca083ab9",
+							"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+						},
+						{
+							"ref": "3046c92d11e1047d",
+							"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+						},
+						{
+							"ref": "a32fd264450ac7b1",
+							"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+						},
+						{
+							"ref": "40d88074ef62e729",
+							"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+						}
+					]
+				},
+				"m_bFrisk": { "type": "bool", "value": false },
+				"m_rRequiredItemKeywords": {
+					"type": "SEntityTemplateReference",
+					"value": null
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "3a3b32ca9e809f0f",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_AllowedProfessions": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "5c37a497b404d333",
+							"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+						},
+						{
+							"ref": "6bbd9dabca083ab9",
+							"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+						},
+						{
+							"ref": "3046c92d11e1047d",
+							"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+						},
+						{
+							"ref": "a32fd264450ac7b1",
+							"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+						},
+						{
+							"ref": "40d88074ef62e729",
+							"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+						}
+					]
+				}
+			}
+		},
+		{
+			"entities": [
+				{
 					"ref": "cafebdf79ea26a4f",
 					"externalScene": "[assembly:/_pro/scenes/missions/miami/miami_yacht.brick].pc_entitytype"
 				}
