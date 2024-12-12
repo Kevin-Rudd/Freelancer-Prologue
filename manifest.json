@@ -277,6 +277,10 @@
 		"type": "entity",
 		"partition": "miami",
 		"path": "[assembly:/_pro/scenes/missions/thefacility/vr_overrides_polarbear002_miami.brick].entitytype"
+	},{
+		"type": "entity",
+		"partition": "miami",
+		"path": "[assembly:/_pro/scenes/missions/thefacility/gamechangers_guard_enforcers_miami.brick].entitytype"
 	}],
 	"localisationOverrides": {
 				"007FD5AB96A8AFD6": {

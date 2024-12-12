@@ -117,18 +117,18 @@
 		},
 		"cafe55c674b63584": {
 			"parent": "cafe1f069f7c8c14",
-			"name": "PFObstacle Garage Wall 2",
+			"name": "PFObstacle Garage Toilet",
 			"factory": "[modules:/zpfobstacleentity.class].pc_entitytype",
 			"blueprint": "[modules:/zpfobstacleentity.class].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
 						"position": {
-							"x": -42.35235595703125,
-							"y": 2.7275466918945312,
-							"z": 1.8589069843292236
+							"x": -38.919918060302734,
+							"y": 19.24984359741211,
+							"z": 0.5110935568809509
 						}
 					}
 				},
@@ -245,6 +245,38 @@
 					"value": {
 						"x": 3.930999994277954,
 						"y": 8.303999900817871,
+						"z": 4.5
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe1f069f7c8c14"
+				},
+				"m_bEnabled": { "type": "bool", "value": true }
+			}
+		},
+		"cafeca8736f6ef17": {
+			"parent": "cafe1f069f7c8c14",
+			"name": "PFObstacle Garage Wall 2",
+			"factory": "[modules:/zpfobstacleentity.class].pc_entitytype",
+			"blueprint": "[modules:/zpfobstacleentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
+						"position": {
+							"x": -42.35235595703125,
+							"y": 2.7275466918945312,
+							"z": 1.8589069843292236
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 2.430999994277954,
+						"y": 0.40400001406669617,
 						"z": 4.5
 					}
 				},
