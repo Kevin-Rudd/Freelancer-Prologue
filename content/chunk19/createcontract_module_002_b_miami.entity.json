@@ -79,6 +79,15 @@
 			"factory": "[modules:/zentitygroup.class].pc_entitytype",
 			"blueprint": "[modules:/zentitygroup.class].pc_entityblueprint",
 			"properties": {
+				"m_targetEntity": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "3bbdb6207e817a24",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype",
+						"exposedEntity": "CameraEntity01"
+					},
+					"postInit": true
+				},
 				"m_aTracksAndGroups": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": ["898f676609bd257d"],
@@ -126,6 +135,14 @@
 				"m_duration": {
 					"type": "ZGameTime",
 					"value": { "m_nTicks": 3680501 }
+				},
+				"m_pCamera": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "3bbdb6207e817a24",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype",
+						"exposedEntity": "CameraEntity01"
+					}
 				}
 			}
 		},
@@ -139,7 +156,14 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": ["f221e6410b1e4114"]
 				},
-				"FadeInHUD": { "type": "bool", "value": false }
+				"FadeInHUD": { "type": "bool", "value": false },
+				"m_rSpawner": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "17a834da877e5ba8",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
+					}
+				}
 			},
 			"outputCopying": {
 				"OnPlay": { "OnStart": ["67570fbd1ed54882"] },
@@ -844,7 +868,8 @@
 		"[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/miami/miami_yacht.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/thefacility/_scene_mission_yacht.entity].pc_entitytemplate",
-		"[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+		"[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
 	],
 	"subType": "brick",
 	"quickEntityVersion": 3.1,

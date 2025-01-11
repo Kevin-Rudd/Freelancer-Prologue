@@ -7,6 +7,21 @@
             "isDefaultSpawn": true,
             "isPreferredSpawn": false,
             "WorldTransform": "-0.719752, 0.694231, 0, -0.694231, -0.719752, 0, 0, 0, 1, -40.80788, -30.53061, 0.485024"
+        },{
+            "id": "3e84bc0c-c1a9-4bec-90bf-cfbdb9818ec7",
+            "isDefaultSpawn": false,
+            "isPreferredSpawn": false,
+            "WorldTransform": "0.012819, 0.999918, 0, -0.999918, 0.012819, 0, 0, 0, 1, -197.7041, 120.3689, -2.612943"
+        }, {
+            "id": "27cc83fa-5fb3-4763-85a4-c584efc90e5e",
+            "isDefaultSpawn": true,
+            "isPreferredSpawn": false,
+            "WorldTransform": "-0.987416, -0.158144, 0, 0.158144, -0.987416, 0, 0, 0, 1, -88.03167, -104.6894, 0.000168"
+        }, {
+            "id": "f1de2373-eebe-4448-808a-8c2764b2c931",
+            "isDefaultSpawn": true,
+            "isPreferredSpawn": false,
+            "WorldTransform": "-0.987416, -0.158144, 0, 0.158144, -0.987416, 0, 0, 0, 1, -88.03167, -104.6894, 0.000168"
         }
     ],
     "Exits": [],

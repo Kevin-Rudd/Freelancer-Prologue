@@ -25,8 +25,7 @@
                 ],
         "GameChangers": [],
         "RandomBricks": {
-            "TimeOfDay": [
-            ]
+            "TimeOfDay": ["assembly:/_pro/scenes/missions/miami/override_yacht_standalone.brick"]
         },
         "GameDifficulties": [
             {
