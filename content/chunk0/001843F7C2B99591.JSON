@@ -25,7 +25,7 @@
                 ],
         "GameChangers": [],
         "RandomBricks": {
-            "TimeOfDay": ["assembly:/_pro/scenes/missions/miami/override_yacht_standalone.brick"]
+            "TimeOfDay": ["assembly:/_pro/scenes/missions/miami/mission_mild_yacht.brick"]
         },
         "GameDifficulties": [
             {
@@ -51,7 +51,7 @@
         "Description": "UI_CONTRACT_POLARBEAR_MODULE_002_B_DESC",
         "TileImage": "images/contracts/polarbear/module_002_b/tile.jpg",
         "CodeName_Hint": "Polarbear Module 002_B",
-        "ScenePath": "assembly:/_pro/scenes/missions/thefacility/_scene_mission_yacht.entity",
+        "ScenePath": "assembly:/_pro/scenes/missions/miami/scene_flamingo_mild_pinochle.entity",
         "Location": "LOCATION_MIAMI",
         "LastUpdate": "2015-03-11T13:50:08.347Z",
         "Type": "mission",
