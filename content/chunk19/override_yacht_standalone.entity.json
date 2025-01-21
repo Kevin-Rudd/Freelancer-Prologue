@@ -5,13 +5,13 @@
 	"entities": {
 		"212b5540215d1ac6": {
 			"parent": "2e79be34b35faa2c",
-			"name": "Setpiece_Evergreen_MoneyMuleSetup_Unique_04",
+			"name": "Setpiece_Evergreen_MoneyMuleSetup_Unique_04 Floor 2 Guest M",
 			"factory": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/setpiece_evergreen_moneymulesetup_unique.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/setpiece_evergreen_moneymulesetup_unique.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
-					"value": "f97447b3-502c-416e-ad36-0a8ea085ada2"
+					"value": "cfc20192-0c87-4490-936f-7ae7ef038c55"
 				},
 				"m_sActorName": {
 					"type": "ZString",
@@ -23,12 +23,12 @@
 						"rotation": {
 							"x": -0.0,
 							"y": 0.0,
-							"z": 116.6805103452699
+							"z": -72.52547313165897
 						},
 						"position": {
-							"x": -99.65838623046876,
-							"y": 38.76509094238281,
-							"z": 1.9808349609375
+							"x": -3.02374267578125,
+							"y": -20.503692626953125,
+							"z": 3.1282851696014404
 						}
 					}
 				},
@@ -658,30 +658,6 @@
 				"Rooms": ["fffffffffffffffe"]
 			}
 		},
-		"8b8f9983f39fe74e": {
-			"parent": "93ed83135ee87eeb",
-			"name": "ApproachPathPoint 6",
-			"factory": "004EB3E28EF0E475",
-			"blueprint": "00F65D0CDFB76C46",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": {
-							"x": -48.42364883422851,
-							"y": -54.21162033081055,
-							"z": 0.0001630000042496249
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
-			}
-		},
 		"c6bb40849351ea3d": {
 			"parent": "febfd4ecd1d67bcb",
 			"name": "Private Zone 02",
@@ -814,30 +790,6 @@
 				}
 			}
 		},
-		"59ef2413078b6878": {
-			"parent": "e472c9008c9bd85b",
-			"name": "ApproachPathPoint 4",
-			"factory": "004EB3E28EF0E475",
-			"blueprint": "00F65D0CDFB76C46",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": {
-							"x": -181.07069396972656,
-							"y": 127.69190216064452,
-							"z": 1.0412559509277344
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
-			}
-		},
 		"e17a91ddb6e75312": {
 			"parent": "b9f72c0ebfa639de",
 			"name": "Stashes",
@@ -964,30 +916,6 @@
 			},
 			"outputCopying": {
 				"OnActTimeout": { "OnActTimeout": ["9c2d20cc2f798145"] }
-			}
-		},
-		"4836733743e26112": {
-			"parent": "93ed83135ee87eeb",
-			"name": "ApproachPathPoint 3",
-			"factory": "004EB3E28EF0E475",
-			"blueprint": "00F65D0CDFB76C46",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": {
-							"x": -43.28125,
-							"y": -40.95515060424805,
-							"z": 0.005801999941468239
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
 			}
 		},
 		"fc3a9dcbcb11115e": {
@@ -1141,13 +1069,13 @@
 		},
 		"54016e6d4dd86fe1": {
 			"parent": "2e79be34b35faa2c",
-			"name": "Setpiece_Evergreen_MoneyMuleSetup_Unique_06",
+			"name": "Setpiece_Evergreen_MoneyMuleSetup_Unique_06 Garage Engineer",
 			"factory": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/setpiece_evergreen_moneymulesetup_unique.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/setpiece_evergreen_moneymulesetup_unique.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
-					"value": "f97447b3-502c-416e-ad36-0a8ea085ada2"
+					"value": "e222cc14-8d48-42de-9af6-1b745dbb3614"
 				},
 				"m_sActorName": {
 					"type": "ZString",
@@ -1159,16 +1087,16 @@
 						"rotation": {
 							"x": -0.0,
 							"y": 0.0,
-							"z": 91.1015794106876
+							"z": -62.843176629596115
 						},
 						"position": {
-							"x": -203.33380126953125,
-							"y": 91.13809204101564,
-							"z": -2.5774519443511963
+							"x": -30.28143310546875,
+							"y": 21.59751892089844,
+							"z": 0.4794153571128845
 						}
 					}
 				},
-				"m_nOutfitVariation": { "type": "int32", "value": 0 },
+				"m_nOutfitVariation": { "type": "int32", "value": 2 },
 				"seed": {
 					"type": "SEntityTemplateReference",
 					"value": {
@@ -1462,57 +1390,9 @@
 			"factory": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_persistent_safes.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_persistent_safes.entitytemplate].pc_entityblueprint"
 		},
-		"cfe2525463abbe27": {
-			"parent": "e472c9008c9bd85b",
-			"name": "ApproachPathPoint 6",
-			"factory": "004EB3E28EF0E475",
-			"blueprint": "00F65D0CDFB76C46",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": {
-							"x": -186.5343017578125,
-							"y": 103.03780364990234,
-							"z": 0.1757040023803711
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
-			}
-		},
-		"efb68e85a0c64f56": {
-			"parent": "93ed83135ee87eeb",
-			"name": "ApproachPathPoint 5",
-			"factory": "004EB3E28EF0E475",
-			"blueprint": "00F65D0CDFB76C46",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": {
-							"x": -49.43804168701172,
-							"y": -50.97201919555664,
-							"z": 0.0001630000042496249
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
-			}
-		},
 		"fbb89eb982d6dae5": {
 			"parent": "2e79be34b35faa2c",
-			"name": "Setpiece_Evergreen_MoneyMuleSetup_Unique_01",
+			"name": "Setpiece_Evergreen_MoneyMuleSetup_Unique_01 Floor 1 Guest",
 			"factory": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/setpiece_evergreen_moneymulesetup_unique.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/setpiece_evergreen_moneymulesetup_unique.entitytemplate].pc_entityblueprint",
 			"properties": {
@@ -1530,12 +1410,12 @@
 						"rotation": {
 							"x": -0.0,
 							"y": 0.0,
-							"z": 116.6805103452699
+							"z": -144.26799513711987
 						},
 						"position": {
-							"x": -65.73088073730469,
-							"y": -21.365249633789062,
-							"z": 4.400000095367432
+							"x": -20.4339599609375,
+							"y": -12.993026733398438,
+							"z": 0.4762545228004456
 						}
 					}
 				},
@@ -1629,18 +1509,18 @@
 						"rotation": {
 							"x": -0.0,
 							"y": 0.0,
-							"z": 167.80133844035336
+							"z": 178.49337842571097
 						},
 						"position": {
-							"x": -87.80420684814453,
-							"y": 72.79431915283203,
-							"z": 0.00015900000289548188
+							"x": 1.2899627685546875,
+							"y": 3.327327013015747,
+							"z": 6.707705974578857
 						}
 					}
 				},
 				"m_aApproachPath": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["dfccc6a4694cb75a", "8d7c8f4980e8e5e7"],
+					"value": [],
 					"postInit": true
 				},
 				"m_pActor": {
@@ -1710,13 +1590,13 @@
 		},
 		"b84c41bc0e312f12": {
 			"parent": "2e79be34b35faa2c",
-			"name": "Setpiece_Evergreen_MoneyMuleSetup_Unique_03",
+			"name": "Setpiece_Evergreen_MoneyMuleSetup_Unique_03 Kitchen Sailor",
 			"factory": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/setpiece_evergreen_moneymulesetup_unique.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/setpiece_evergreen_moneymulesetup_unique.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
-					"value": "2a5a3dba-bafd-4a1f-8bbf-204668b32fe1"
+					"value": "bbffa24b-fa46-4f9d-a73d-71de56ff3bfe"
 				},
 				"m_sActorName": {
 					"type": "ZString",
@@ -1781,12 +1661,12 @@
 						"rotation": {
 							"x": -0.0,
 							"y": 0.0,
-							"z": -91.84598823058812
+							"z": -91.92556047604512
 						},
 						"position": {
-							"x": -32.2541389465332,
-							"y": 5.475841045379639,
-							"z": 5.399993896484375
+							"x": -1.0409393310546875,
+							"y": -8.97381591796875,
+							"z": 3.1340227127075195
 						}
 					}
 				},
@@ -1916,12 +1796,12 @@
 						"rotation": {
 							"x": -0.0,
 							"y": 0.0,
-							"z": 179.18625790841747
+							"z": -174.96277138835646
 						},
 						"position": {
-							"x": -146.548095703125,
-							"y": -38.716949462890625,
-							"z": 15.05286979675293
+							"x": -9.541900634765623,
+							"y": -4.5908355712890625,
+							"z": 6.714061737060547
 						}
 					}
 				},
@@ -1946,7 +1826,7 @@
 		},
 		"1bde732366daab40": {
 			"parent": "2e79be34b35faa2c",
-			"name": "Setpiece_Evergreen_MoneyMuleSetup_Unique",
+			"name": "Setpiece_Evergreen_MoneyMuleSetup_Unique Pier Civ",
 			"factory": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/setpiece_evergreen_moneymulesetup_unique.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/setpiece_evergreen_moneymulesetup_unique.entitytemplate].pc_entityblueprint",
 			"properties": {
@@ -1964,12 +1844,12 @@
 						"rotation": {
 							"x": -0.0,
 							"y": 0.0,
-							"z": 163.7494045476678
+							"z": -86.83835397100397
 						},
 						"position": {
-							"x": -86.70393371582031,
-							"y": -51.90650177001953,
-							"z": 0.00016399999731220305
+							"x": -33.229705810546875,
+							"y": -0.7980499267578125,
+							"z": 0.4762545228004456
 						}
 					}
 				},
@@ -2115,14 +1995,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -2.6968711108736505,
-							"y": -1.232356410263625,
-							"z": 89.53619296172008
+							"x": -0.0,
+							"y": -0.0,
+							"z": 61.70956943885855
 						},
 						"position": {
-							"x": -55.57064056396485,
-							"y": 60.51015853881836,
-							"z": 0.20000000298023224
+							"x": 5.63946533203125,
+							"y": -20.409423828125,
+							"z": 3.129173040390014
 						}
 					}
 				},
@@ -2143,54 +2023,6 @@
 			},
 			"outputCopying": {
 				"OnActTimeout": { "OnActTimeout": ["993e524997b2a895"] }
-			}
-		},
-		"507802b036920816": {
-			"parent": "93ed83135ee87eeb",
-			"name": "ApproachPathPoint 2",
-			"factory": "004EB3E28EF0E475",
-			"blueprint": "00F65D0CDFB76C46",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": {
-							"x": -44.4893913269043,
-							"y": -37.938079833984375,
-							"z": 0.005801999941468239
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
-			}
-		},
-		"8d7c8f4980e8e5e7": {
-			"parent": "cd059479a7a9a92c",
-			"name": "ApproachPathPoint 5",
-			"factory": "004EB3E28EF0E475",
-			"blueprint": "00F65D0CDFB76C46",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": {
-							"x": -87.25293731689453,
-							"y": 54.44868850708008,
-							"z": 0.15528100728988647
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
 			}
 		},
 		"e5b12e2a59a47ada": {
@@ -2246,12 +2078,12 @@
 						"rotation": {
 							"x": -0.0,
 							"y": 0.0,
-							"z": 131.59268955930028
+							"z": -155.00249379343546
 						},
 						"position": {
-							"x": -60.10084915161133,
-							"y": 68.712890625,
-							"z": 0.00015799999528098851
+							"x": -0.5015106201171875,
+							"y": 13.661727905273438,
+							"z": 3.1414129734039307
 						}
 					}
 				},
@@ -2833,9 +2665,9 @@
 		},
 		"5ddd88c5b3de88d0": {
 			"parent": "278ed8185ba3ab50",
-			"name": "ACT_MR_Stand_Vending_Machine",
-			"factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_vending_machine.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_vending_machine.entitytemplate].pc_entityblueprint",
+			"name": "act_mr_guard_stand_armsside",
+			"factory": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_guard_stand_armsside.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_guard_stand_armsside.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_fActTimeout": { "type": "float32", "value": 15.0 },
 				"m_mTransform": {
@@ -2844,12 +2676,12 @@
 						"rotation": {
 							"x": -0.0,
 							"y": 0.0,
-							"z": 1.22077896700621
+							"z": -1.4523915347174796
 						},
 						"position": {
-							"x": -162.88250732421875,
-							"y": -10.08080005645752,
-							"z": 15.0
+							"x": 0.6289825439453125,
+							"y": 33.7930908203125,
+							"z": 3.140601873397827
 						}
 					}
 				},
@@ -2874,7 +2706,7 @@
 		},
 		"671332fb527e2fac": {
 			"parent": "2e79be34b35faa2c",
-			"name": "Setpiece_Evergreen_MoneyMuleSetup_Unique_05",
+			"name": "Setpiece_Evergreen_MoneyMuleSetup_Unique_05 Ship Guard",
 			"factory": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/setpiece_evergreen_moneymulesetup_unique.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/setpiece_evergreen_moneymulesetup_unique.entitytemplate].pc_entityblueprint",
 			"properties": {
@@ -2884,7 +2716,7 @@
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
-					"value": "d37ae121-69b4-4a9c-ab57-972063505e2f"
+					"value": "8f928c7a-99dd-43db-a027-1310cf49f3ad"
 				},
 				"m_mTransform": {
 					"type": "SMatrix43",
@@ -2892,16 +2724,16 @@
 						"rotation": {
 							"x": -0.0,
 							"y": 0.0,
-							"z": 116.6805103452699
+							"z": -43.2034343326047
 						},
 						"position": {
-							"x": -161.47970581054688,
-							"y": -5.851521015167236,
-							"z": 15.0
+							"x": -0.3494720458984375,
+							"y": -22.32318115234375,
+							"z": 3.1273107528686523
 						}
 					}
 				},
-				"m_nOutfitVariation": { "type": "int32", "value": 13 },
+				"m_nOutfitVariation": { "type": "int32", "value": 2 },
 				"seed": {
 					"type": "SEntityTemplateReference",
 					"value": {
@@ -2945,30 +2777,6 @@
 			},
 			"events": { "OnStart": { "Start": ["3f8584a2e3e6198f"] } }
 		},
-		"c33e7cd2570512e3": {
-			"parent": "93ed83135ee87eeb",
-			"name": "ApproachPathPoint 4",
-			"factory": "004EB3E28EF0E475",
-			"blueprint": "00F65D0CDFB76C46",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": {
-							"x": -43.29314041137695,
-							"y": -49.657249450683594,
-							"z": 0.005801999941468239
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
-			}
-		},
 		"2a5a3d379594b055": {
 			"parent": "7e8808cbe1650d7c",
 			"name": "ItemSpawner",
@@ -2979,11 +2787,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": {
-							"x": -68.17170715332031,
-							"y": -18.370769500732425,
-							"z": -2.2007510662078857
-						}
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
 				"m_rMainItemKey": {
@@ -2993,7 +2797,11 @@
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
+					"value": {
+						"ref": "e18558af6b1ac045",
+						"externalScene": null,
+						"exposedEntity": "Spatial_GlassPosition"
+					},
 					"postInit": true
 				}
 			}
@@ -3453,18 +3261,18 @@
 						"rotation": {
 							"x": -0.0,
 							"y": 0.0,
-							"z": 91.91065283260308
+							"z": -155.1983154321837
 						},
 						"position": {
-							"x": -204.11090087890625,
-							"y": 103.58889770507812,
-							"z": -2.546489953994751
+							"x": -15.689682006835938,
+							"y": 20.743072509765625,
+							"z": 0.4762532114982605
 						}
 					}
 				},
 				"m_aApproachPath": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["fc95be66d0e3ec14", "cfe2525463abbe27"],
+					"value": [],
 					"postInit": true
 				},
 				"m_pActor": {
@@ -3640,20 +3448,20 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.4088875974515466,
-							"y": 2.9370075775819173,
-							"z": 162.95197238728977
+							"x": -0.0,
+							"y": 0.0,
+							"z": -90.30257195749395
 						},
 						"position": {
-							"x": -86.73139190673828,
-							"y": -51.77170181274414,
-							"z": -0.012895000167191029
+							"x": -20.977310180664062,
+							"y": -15.368392944335938,
+							"z": 0.4762545228004456
 						}
 					}
 				},
 				"m_aApproachPath": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["d7dbe718abb4ef55"],
+					"value": [],
 					"postInit": true
 				},
 				"m_pActor": {
@@ -3688,18 +3496,18 @@
 						"rotation": {
 							"x": -0.0,
 							"y": 0.0,
-							"z": 91.54929543059298
+							"z": 176.76493102338543
 						},
 						"position": {
-							"x": -198.6638946533203,
-							"y": 120.99849700927734,
-							"z": -2.5999948978424072
+							"x": 4.20599365234375,
+							"y": 10.3687744140625,
+							"z": -0.423221617937088
 						}
 					}
 				},
 				"m_aApproachPath": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["59ef2413078b6878"]
+					"value": []
 				},
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
@@ -3733,22 +3541,18 @@
 						"rotation": {
 							"x": -0.0,
 							"y": 0.0,
-							"z": -121.36265100792842
+							"z": -8.291050455206975
 						},
 						"position": {
-							"x": -174.89100646972656,
-							"y": 126.1602020263672,
-							"z": 1.0000020265579224
+							"x": -38.33479309082031,
+							"y": 12.126052856445312,
+							"z": 0.5045203566551208
 						}
 					}
 				},
 				"m_aApproachPath": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"f03cc23dfb9ac64e",
-						"aef87914e51dbb3b",
-						"8783da731e65cac0"
-					],
+					"value": [],
 					"postInit": true
 				},
 				"m_pActor": {
@@ -3824,12 +3628,12 @@
 						"rotation": {
 							"x": -0.0,
 							"y": 0.0,
-							"z": -167.6000147322555
+							"z": -85.6481793703481
 						},
 						"position": {
-							"x": -58.788429260253906,
-							"y": -32.08543014526367,
-							"z": 0.21720600128173828
+							"x": 11.236831665039064,
+							"y": 3.2728118896484375,
+							"z": 3.145353317260742
 						}
 					}
 				},
@@ -3926,12 +3730,12 @@
 						"rotation": {
 							"x": -0.0,
 							"y": 0.0,
-							"z": -5.152619246555887
+							"z": -7.020906678854898
 						},
 						"position": {
-							"x": -79.19750213623047,
-							"y": 47.65716171264648,
-							"z": 0.00015900000289548188
+							"x": -4.17120361328125,
+							"y": -9.458419799804688,
+							"z": 6.712224960327148
 						}
 					}
 				},
@@ -3996,12 +3800,12 @@
 						"rotation": {
 							"x": -0.0,
 							"y": 0.0,
-							"z": 106.93430976608848
+							"z": -92.11685661783363
 						},
 						"position": {
-							"x": -32.777748107910156,
-							"y": 20.878679275512695,
-							"z": 5.399993896484375
+							"x": 2.9176025390625,
+							"y": -14.642702102661133,
+							"z": 3.1340227127075195
 						}
 					}
 				},
@@ -4060,7 +3864,7 @@
 		},
 		"68672a44f4e6fb60": {
 			"parent": "2e79be34b35faa2c",
-			"name": "Setpiece_Evergreen_MoneyMuleSetup_Unique_07",
+			"name": "Setpiece_Evergreen_MoneyMuleSetup_Unique_07 Floor 2 + 1 MUZLIM",
 			"factory": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/setpiece_evergreen_moneymulesetup_unique.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/setpiece_evergreen_moneymulesetup_unique.entitytemplate].pc_entityblueprint",
 			"properties": {
@@ -4070,7 +3874,7 @@
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
-					"value": "a166a37e-a3f8-42d2-99d6-e0dd2cf5c090"
+					"value": "69f76cf1-c446-422f-b2fc-b0989d2aa9c5"
 				},
 				"m_mTransform": {
 					"type": "SMatrix43",
@@ -4078,16 +3882,16 @@
 						"rotation": {
 							"x": -0.0,
 							"y": 0.0,
-							"z": -40.93930328930968
+							"z": 88.53846098058374
 						},
 						"position": {
-							"x": -137.5583953857422,
-							"y": 135.0216064453125,
-							"z": 0.000014999999621068127
+							"x": 7.058135032653809,
+							"y": -20.51630401611328,
+							"z": 3.129280805587769
 						}
 					}
 				},
-				"m_nOutfitVariation": { "type": "int32", "value": 15 },
+				"m_nOutfitVariation": { "type": "int32", "value": 2 },
 				"seed": {
 					"type": "SEntityTemplateReference",
 					"value": {
@@ -4097,8 +3901,7 @@
 				},
 				"m_nOutfitCharset": { "type": "int32", "value": 0 },
 				"m_bStartEnabled": { "type": "bool", "value": true },
-				"muleTalking": { "type": "bool", "value": true },
-				"forcedVoiceVar": { "type": "int32", "value": 1 },
+				"muleTalking": { "type": "bool", "value": false },
 				"acts": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
@@ -4107,6 +3910,10 @@
 						"3ad368642237feac"
 					],
 					"postInit": true
+				},
+				"m_eRequiredVoiceVariation": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_CIVMALEHI03"
 				}
 			},
 			"events": {
@@ -4158,29 +3965,6 @@
 			},
 			"outputCopying": {
 				"OnActTimeout": { "OnActTimeout": ["6835e4c19594cf25"] }
-			}
-		},
-		"acef899033fcbcc0": {
-			"parent": "93ed83135ee87eeb",
-			"name": "ApproachPathPoint 7",
-			"factory": "004EB3E28EF0E475",
-			"blueprint": "00F65D0CDFB76C46",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": {
-							"x": -47.09516906738281,
-							"y": -48.6822395324707,
-							"z": 0.005801999941468239
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe"
-				}
 			}
 		},
 		"ec7a9dea523f944b": {
@@ -4858,12 +4642,12 @@
 						"rotation": {
 							"x": -0.0,
 							"y": 0.0,
-							"z": 135.8981554047972
+							"z": -4.455093371968932
 						},
 						"position": {
-							"x": -169.83560180664065,
-							"y": 1.9238489866256712,
-							"z": 14.999979972839355
+							"x": 3.6070709228515625,
+							"y": -37.07441711425781,
+							"z": -0.4527377784252167
 						}
 					}
 				},
@@ -4888,7 +4672,7 @@
 			"subsets": { "Replicable": ["fffffffffffffffe"] }
 		},
 		"278ed8185ba3ab50": {
-			"parent": "2e79be34b35faa2c",
+			"parent": "671332fb527e2fac",
 			"name": "Acts 5",
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
@@ -4987,12 +4771,12 @@
 						"rotation": {
 							"x": -0.0,
 							"y": 0.0,
-							"z": 177.8686779057108
+							"z": -124.12048577463042
 						},
 						"position": {
-							"x": -108.96929931640624,
-							"y": 123.0082015991211,
-							"z": 11.01041030883789
+							"x": -5.2236175537109375,
+							"y": -0.9815826416015624,
+							"z": 6.712864875793457
 						}
 					}
 				},
@@ -5070,7 +4854,7 @@
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		},
 		"e472c9008c9bd85b": {
-			"parent": "2e79be34b35faa2c",
+			"parent": "54016e6d4dd86fe1",
 			"name": "Acts 8",
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
@@ -5123,12 +4907,12 @@
 						"rotation": {
 							"x": -0.0,
 							"y": 0.0,
-							"z": 130.9217144445727
+							"z": 88.53846106768881
 						},
 						"position": {
-							"x": -104.5373992919922,
-							"y": 132.39720153808594,
-							"z": -0.016249999403953552
+							"x": 6.91845703125,
+							"y": -20.4918212890625,
+							"z": 3.129258155822754
 						}
 					}
 				},
@@ -5255,12 +5039,12 @@
 						"rotation": {
 							"x": -0.0,
 							"y": 0.0,
-							"z": 88.62001242592216
+							"z": 49.84648611382659
 						},
 						"position": {
-							"x": -33.08103942871094,
-							"y": 14.04751968383789,
-							"z": 5.399993896484375
+							"x": -9.342727661132812,
+							"y": -2.838418245315552,
+							"z": 3.145353317260742
 						}
 					}
 				},
@@ -5284,7 +5068,7 @@
 			}
 		},
 		"386c8fd55d45737b": {
-			"parent": "2e79be34b35faa2c",
+			"parent": "b84c41bc0e312f12",
 			"name": "Acts 4",
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
@@ -5349,25 +5133,18 @@
 						"rotation": {
 							"x": -0.0,
 							"y": 0.0,
-							"z": 178.82294734596022
+							"z": -89.9999965849052
 						},
 						"position": {
-							"x": -50.693721771240234,
-							"y": -60.361690521240234,
-							"z": 0.00016399999731220305
+							"x": -37.1012077331543,
+							"y": -11.870834350585938,
+							"z": 0.4762545228004456
 						}
 					}
 				},
 				"m_aApproachPath": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"507802b036920816",
-						"4836733743e26112",
-						"c33e7cd2570512e3",
-						"acef899033fcbcc0",
-						"efb68e85a0c64f56",
-						"8b8f9983f39fe74e"
-					]
+					"value": []
 				},
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
@@ -5389,32 +5166,9 @@
 			},
 			"subsets": { "Replicable": ["fffffffffffffffe"] }
 		},
-		"d7dbe718abb4ef55": {
-			"parent": "93ed83135ee87eeb",
-			"name": "ApproachPathPoint",
-			"factory": "004EB3E28EF0E475",
-			"blueprint": "00F65D0CDFB76C46",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": {
-							"x": -54.09088897705078,
-							"y": -52.43043899536133,
-							"z": 0.023219000548124313
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe"
-				}
-			}
-		},
 		"10fdff37392d76bb": {
 			"parent": "2e79be34b35faa2c",
-			"name": "Setpiece_Evergreen_MoneyMuleSetup_Unique_02",
+			"name": "Setpiece_Evergreen_MoneyMuleSetup_Unique_02 Floor 1 Guest F",
 			"factory": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/setpiece_evergreen_moneymulesetup_unique.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/setpiece_evergreen_moneymulesetup_unique.entitytemplate].pc_entityblueprint",
 			"properties": {
@@ -5424,7 +5178,7 @@
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
-					"value": "75ae4423-beaf-4b2c-b24a-47ee864a38d3"
+					"value": "cd0f52c1-ab5a-45b9-9f6a-53245b23b0bc"
 				},
 				"m_mTransform": {
 					"type": "SMatrix43",
@@ -5432,12 +5186,12 @@
 						"rotation": {
 							"x": -0.0,
 							"y": 0.0,
-							"z": 88.98145660656763
+							"z": -74.25664323991784
 						},
 						"position": {
-							"x": -55.53070068359375,
-							"y": 60.5088005065918,
-							"z": 0.20000000298023224
+							"x": -1.6909027099609375,
+							"y": -1.5553436279296875,
+							"z": 3.1494200229644775
 						}
 					}
 				},
@@ -5470,29 +5224,6 @@
 			"subsets": {
 				"AudioEmitters": ["fffffffffffffffe"],
 				"Replicable": ["fffffffffffffffe"]
-			}
-		},
-		"fc95be66d0e3ec14": {
-			"parent": "e472c9008c9bd85b",
-			"name": "ApproachPathPoint 5",
-			"factory": "004EB3E28EF0E475",
-			"blueprint": "00F65D0CDFB76C46",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": {
-							"x": -169.54769897460938,
-							"y": 112.43399810791016,
-							"z": 0.1757040023803711
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe"
-				}
 			}
 		},
 		"48f390132b085fa3": {
@@ -5548,13 +5279,13 @@
 					"value": {
 						"rotation": {
 							"x": -0.0,
-							"y": 0.0,
-							"z": -157.95584870723732
+							"y": -0.0,
+							"z": 16.414446274656857
 						},
 						"position": {
-							"x": -137.58680725097656,
-							"y": 136.03199768066406,
-							"z": 0.000014999999621068127
+							"x": 2.8743896484375,
+							"y": -24.499053955078125,
+							"z": 6.714062690734863
 						}
 					}
 				},
@@ -5579,7 +5310,7 @@
 			"subsets": { "Replicable": ["fffffffffffffffe"] }
 		},
 		"d74a960b99c93534": {
-			"parent": "2e79be34b35faa2c",
+			"parent": "68672a44f4e6fb60",
 			"name": "Acts 7",
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
@@ -5715,12 +5446,12 @@
 						"rotation": {
 							"x": -0.0,
 							"y": 0.0,
-							"z": -134.88368451540202
+							"z": 69.16760735639987
 						},
 						"position": {
-							"x": -52.307979583740234,
-							"y": -18.917539596557617,
-							"z": 4.416106224060059
+							"x": -4.896591663360596,
+							"y": -15.459753036499023,
+							"z": 3.1316263675689697
 						}
 					}
 				},
@@ -5744,7 +5475,8 @@
 				}
 			},
 			"outputCopying": {
-				"OnActTimeout": { "OnActTimeout": ["7e8808cbe1650d7c"] }
+				"OnActTimeout": { "OnActTimeout": ["7e8808cbe1650d7c"] },
+				"OnNoItem": { "OnActTimeout": ["7e8808cbe1650d7c"] }
 			}
 		},
 		"9c2d20cc2f798145": {
@@ -5800,19 +5532,19 @@
 					"value": {
 						"rotation": {
 							"x": -0.0,
-							"y": 0.0,
-							"z": 89.18579958491789
+							"y": -0.0,
+							"z": 89.33918161687279
 						},
 						"position": {
-							"x": -104.6874008178711,
-							"y": 44.192230224609375,
-							"z": 0.9846180081367492
+							"x": -9.717605590820312,
+							"y": -18.863494873046875,
+							"z": 6.714061737060547
 						}
 					}
 				},
 				"m_aApproachPath": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["8d7c8f4980e8e5e7", "dfccc6a4694cb75a"],
+					"value": [],
 					"postInit": true
 				},
 				"m_pActor": {
@@ -5835,7 +5567,7 @@
 			}
 		},
 		"cd059479a7a9a92c": {
-			"parent": "2e79be34b35faa2c",
+			"parent": "212b5540215d1ac6",
 			"name": "Acts 6",
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
@@ -5875,48 +5607,25 @@
 				]
 			}
 		},
-		"aef87914e51dbb3b": {
-			"parent": "e472c9008c9bd85b",
-			"name": "ApproachPathPoint 3",
-			"factory": "004EB3E28EF0E475",
-			"blueprint": "00F65D0CDFB76C46",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": {
-							"x": -179.25010681152344,
-							"y": 119.2666015625,
-							"z": 1.4856890439987185
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe"
-				}
-			}
-		},
 		"4741083c32e37f8b": {
 			"parent": "993e524997b2a895",
-			"name": "S02_Act_FR_Stand_Clean_Surface_100cm",
-			"factory": "00A4F1409ED66DA7",
-			"blueprint": "0063809B2CB1EE30",
+			"name": "act_fr_stand_groove_04",
+			"factory": "[assembly:/_pro/design/actor/acts/levels/bangkok.template?/act_fr_stand_groove_04.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/levels/bangkok.template?/act_fr_stand_groove_04.entitytemplate].pc_entityblueprint",
 			"properties": {
-				"m_fActTimeout": { "type": "float32", "value": 15.0 },
+				"m_fActTimeout": { "type": "float32", "value": 25.0 },
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
 							"x": -0.0,
-							"y": 0.0,
-							"z": 90.41373637340855
+							"y": -0.0,
+							"z": 59.68030840572934
 						},
 						"position": {
-							"x": -55.788818359375,
-							"y": 53.35810089111328,
-							"z": 0.20000000298023224
+							"x": -2.991790771484375,
+							"y": -31.11631774902344,
+							"z": 3.1453542709350586
 						}
 					}
 				},
@@ -5938,10 +5647,10 @@
 			"outputCopying": {
 				"OnActTimeout": { "OnActTimeout": ["993e524997b2a895"] }
 			},
-			"subsets": { "Replicable": ["fffffffffffffffe"] }
+			"subsets": {}
 		},
 		"993e524997b2a895": {
-			"parent": "2e79be34b35faa2c",
+			"parent": "10fdff37392d76bb",
 			"name": "Acts 3",
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
@@ -5981,29 +5690,6 @@
 				]
 			}
 		},
-		"f03cc23dfb9ac64e": {
-			"parent": "e472c9008c9bd85b",
-			"name": "ApproachPathPoint",
-			"factory": "004EB3E28EF0E475",
-			"blueprint": "00F65D0CDFB76C46",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": {
-							"x": -182.5854949951172,
-							"y": 119.22260284423828,
-							"z": 1.0412559509277344
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe"
-				}
-			}
-		},
 		"16b858c4bab82bce": {
 			"parent": "93ed83135ee87eeb",
 			"name": "Act_MR_Stand_Piss",
@@ -6017,12 +5703,12 @@
 						"rotation": {
 							"x": -0.0,
 							"y": 0.0,
-							"z": -33.670203344544085
+							"z": 91.41641811478878
 						},
 						"position": {
-							"x": -66.43565368652344,
-							"y": -38.758399963378906,
-							"z": 0.0001610000035725534
+							"x": -43.10536575317383,
+							"y": -36.34185791015625,
+							"z": 0.4762545228004456
 						}
 					}
 				},
@@ -6032,11 +5718,7 @@
 				},
 				"m_aApproachPath": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"c33e7cd2570512e3",
-						"4836733743e26112",
-						"507802b036920816"
-					]
+					"value": []
 				},
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
@@ -6058,31 +5740,8 @@
 			},
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		},
-		"dfccc6a4694cb75a": {
-			"parent": "cd059479a7a9a92c",
-			"name": "ApproachPathPoint 4",
-			"factory": "004EB3E28EF0E475",
-			"blueprint": "00F65D0CDFB76C46",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": {
-							"x": -103.85530090332033,
-							"y": 53.99171829223633,
-							"z": 0.989998996257782
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe"
-				}
-			}
-		},
 		"93ed83135ee87eeb": {
-			"parent": "2e79be34b35faa2c",
+			"parent": "1bde732366daab40",
 			"name": "Acts",
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
@@ -6141,29 +5800,6 @@
 			},
 			"events": {
 				"EventReceived": { "SetValue": ["71dabd8ae99417f3"] }
-			}
-		},
-		"8783da731e65cac0": {
-			"parent": "e472c9008c9bd85b",
-			"name": "ApproachPathPoint 2",
-			"factory": "004EB3E28EF0E475",
-			"blueprint": "00F65D0CDFB76C46",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": {
-							"x": -176.1262969970703,
-							"y": 122.3938980102539,
-							"z": 1.5013129711151123
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe"
-				}
 			}
 		},
 		"aab2fb2fb776c2cc": {
@@ -6411,19 +6047,19 @@
 			"factory": "0027F6E5D5DE6D6D",
 			"blueprint": "0092D707F77431A4",
 			"properties": {
-				"m_fActTimeout": { "type": "float32", "value": 20.0 },
+				"m_fActTimeout": { "type": "float32", "value": 30.0 },
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
 							"x": -0.0,
 							"y": 0.0,
-							"z": 90.59445446175116
+							"z": 102.2591046361737
 						},
 						"position": {
-							"x": -70.58135223388672,
-							"y": -21.48409080505371,
-							"z": 4.204322814941406
+							"x": -7.90057373046875,
+							"y": 28.508346557617188,
+							"z": 3.141685962677002
 						}
 					}
 				},
@@ -6448,7 +6084,7 @@
 			"subsets": { "Replicable": ["fffffffffffffffe"] }
 		},
 		"7e8808cbe1650d7c": {
-			"parent": "2e79be34b35faa2c",
+			"parent": "fbb89eb982d6dae5",
 			"name": "Acts 2",
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
@@ -8149,6 +7785,66 @@
 			"blueprint": "[modules:/zgameeventlistenerentity.class].pc_entityblueprint",
 			"events": {
 				"EventOccurred": { "SetTrue": ["a4ef6dc4bc0d49d8"] }
+			}
+		},
+		"cafe39feb6b78023": {
+			"parent": "cafe001cc8b3326a",
+			"name": "SetPiece_Container_Body_MetalDumpster03",
+			"factory": "[assembly:/_pro/design/setpieces/setpieces_containers.template?/setpiece_container_body_metaldumpster.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_containers.template?/setpiece_container_body_metaldumpster.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -1.88263194778352
+						},
+						"position": {
+							"x": -34.42916488647461,
+							"y": -46.210227966308594,
+							"z": 0.4900382161140442
+						}
+					}
+				},
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "2febc4eb-2d99-47c2-b337-4034e1e552e4"
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafec7f85fb877fe": {
+			"parent": "cafe39feb6b78023",
+			"name": "PFObstacle Dumpster",
+			"factory": "[modules:/zpfobstacleentity.class].pc_entitytype",
+			"blueprint": "[modules:/zpfobstacleentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.830999970436096,
+						"y": 1.3040000200271606,
+						"z": 1.7999999523162842
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe39feb6b78023"
+				},
+				"m_bEnabled": { "type": "bool", "value": true }
 			}
 		}
 	},
