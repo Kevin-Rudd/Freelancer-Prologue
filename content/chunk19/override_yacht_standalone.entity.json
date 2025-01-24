@@ -7917,6 +7917,10 @@
 						{
 							"ref": "6ebd36ccad952167",
 							"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+						},
+						{
+							"ref": "07ac2b57aa2deb71",
+							"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
 						}
 					],
 					"postInit": true
@@ -7966,7 +7970,139 @@
 		},
 		"cafe9e63544f2097": {
 			"parent": "cafe001cc8b3326a",
-			"name": "Bonus hips",
+			"name": "Floor 1 Server Setpiece",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe5b7201fce41c": {
+			"parent": "cafeeb00730f5ba3",
+			"name": "Setpiece_Gecko_LIP_Moment_ServeDrink_02",
+			"factory": "[assembly:/_pro/design/setpieces/unique/setpiece_gecko_unique.template?/setpiece_gecko_lip_moment_servedrink.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/unique/setpiece_gecko_unique.template?/setpiece_gecko_lip_moment_servedrink.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -92.27701954433272
+						},
+						"position": {
+							"x": -8.016413688659668,
+							"y": -22.319843292236328,
+							"z": 6.689433574676514
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "84b929af-2f88-4064-9cfb-d232297a1029"
+				},
+				"ServeVolumeBoxes": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe4579784ac835"],
+					"postInit": true
+				},
+				"m_rRequirements": {
+					"type": "SEntityTemplateReference",
+					"value": "cafec05937ef457e",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				},
+				"Plate_Visible": { "type": "bool", "value": false },
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "c174e1bfd2f4a861",
+							"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+						},
+						{
+							"ref": "68c03d1a0eb92ea5",
+							"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+						},
+						{
+							"ref": "916402e08e706268",
+							"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+						},
+						{
+							"ref": "638065c484238a2b",
+							"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+						},
+						{
+							"ref": "56436dd2b081f8c7",
+							"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+						},
+						{
+							"ref": "6ebd36ccad952167",
+							"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+						},
+						{
+							"ref": "07ac2b57aa2deb71",
+							"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+						}
+					],
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
+			}
+		},
+		"cafe4579784ac835": {
+			"parent": "cafeeb00730f5ba3",
+			"name": "CloudBarServeVolume 2",
+			"factory": "[modules:/zboxvolumeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zboxvolumeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -92.27703319392556
+						},
+						"position": {
+							"x": -4.895147323608398,
+							"y": -22.014978408813477,
+							"z": 7.708917617797852
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 5.843999862670898,
+						"y": 4.779260158538818,
+						"z": 2.907010078430176
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			}
+		},
+		"cafec05937ef457e": {
+			"parent": "cafeeb00730f5ba3",
+			"name": "Prof_Greenland_YachtCrew",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_greenland_yachtcrew.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_greenland_yachtcrew.entitytemplate].pc_entityblueprint"
+		},
+		"cafeeb00730f5ba3": {
+			"parent": "cafe001cc8b3326a",
+			"name": "Floor 2 Server Setpiece",
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		}
@@ -8012,6 +8148,14 @@
 		{
 			"ref": "e644e209ff6422c1",
 			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
+		},
+		{
+			"ref": "92931b866777b4a3",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+		},
+		{
+			"ref": "60acaa57bdc4710d",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
 		}
 	],
 	"pinConnectionOverrides": [
