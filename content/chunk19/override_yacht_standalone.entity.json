@@ -765,11 +765,22 @@
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe",
 					"postInit": true
+				},
+				"m_mTransformexiticon": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 9.999999974752427e-7,
+							"y": -9.999999974752427e-7,
+							"z": 1.746000051498413
+						}
+					}
 				}
 			},
 			"events": {
 				"Exit": {
-					"Play": [
+					"Start": [
 						{
 							"ref": "fba7cfbaccc1a581",
 							"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
@@ -3310,11 +3321,11 @@
 						"rotation": {
 							"x": -0.0,
 							"y": 0.0,
-							"z": 164.99283311726293
+							"z": 164.9928458345346
 						},
 						"position": {
-							"x": -30.70096015930176,
-							"y": -40.318119049072266,
+							"x": -30.360260009765625,
+							"y": -40.70804214477539,
 							"z": 0.5040000081062317
 						}
 					}
@@ -3334,6 +3345,17 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe"
+				},
+				"m_mTransformexiticon": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 9.999999974752427e-7,
+							"y": -9.999999974752427e-7,
+							"z": 0.8460000157356262
+						}
+					}
 				}
 			},
 			"events": {
@@ -8122,6 +8144,23 @@
 				},
 				"m_bDefaultHeroSpawn": { "type": "bool", "value": true }
 			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "c54252720d23f83b",
+					"externalScene": "[assembly:/_pro/scenes/bricks/gameessentialsbase.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_ridTemplate": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/online/default/cloudstorage/resources/menusystem/pages/missionend/missionend_noplaynext_page.json].pc_json",
+						"flag": "9F"
+					}
+				}
+			}
 		}
 	],
 	"overrideDeletes": [
@@ -8139,6 +8178,22 @@
 		},
 		{
 			"ref": "9e9be0a92d227f67",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
+		},
+		{
+			"ref": "aa3d96b2888a0908",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
+		},
+		{
+			"ref": "758e18fd3761fe3d",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
+		},
+		{
+			"ref": "414ea622c72fce4b",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
+		},
+		{
+			"ref": "a3f0ac3e7282f0ed",
 			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
 		},
 		{
@@ -8161,28 +8216,28 @@
 	"pinConnectionOverrides": [
 		{
 			"fromEntity": {
-				"ref": "6fe719001ebe75bb",
+				"ref": "fafcf2e01ae85229",
 				"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
 			},
-			"fromPin": "OnStop",
+			"fromPin": "Stopped",
 			"toEntity": "fd4f39570d65b731",
 			"toPin": "Trigger"
 		},
 		{
 			"fromEntity": {
-				"ref": "4defc18b43279fdf",
+				"ref": "c3bb04ce9fb67c00",
 				"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
 			},
-			"fromPin": "OnStop",
+			"fromPin": "Stopped",
 			"toEntity": "84e121f8dcced7c3",
 			"toPin": "Trigger"
 		},
 		{
 			"fromEntity": {
-				"ref": "d32b1c4eb58cf510",
+				"ref": "fba7cfbaccc1a581",
 				"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
 			},
-			"fromPin": "OnStop",
+			"fromPin": "Stopped",
 			"toEntity": "79b85b35a4489b70",
 			"toPin": "Trigger"
 		}
@@ -8195,7 +8250,8 @@
 		"[assembly:/_pro/scenes/missions/thefacility/standalone_yacht.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/thefacility/mapcontent_facility_yacht.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype",
-		"[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+		"[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/bricks/gameessentialsbase.brick].pc_entitytype"
 	],
 	"subType": "brick",
 	"quickEntityVersion": 3.1,
