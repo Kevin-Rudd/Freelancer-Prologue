@@ -4947,11 +4947,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
 						"position": {
-							"x": 73.56524658203125,
-							"y": -51.42414093017578,
-							"z": 3.002001903951168e-6
+							"x": -143.8705291748047,
+							"y": 304.40045166015625,
+							"z": -1.0354605913162231
 						}
 					}
 				},
@@ -4962,7 +4962,25 @@
 						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
 					},
 					"postInit": true
-				}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"GlowPower": { "type": "float32", "value": 7239.0 },
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 1.0299999713897705, "y": 14.0 }
+				},
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.4000000059604645,
+						"y": 1.0800000429153442
+					}
+				},
+				"DiffusePower": { "type": "float32", "value": 131.0 },
+				"DiffuseColor": { "type": "SColorRGB", "value": "#e3f5f0" }
 			}
 		},
 		"e2fd59501e205fef": {

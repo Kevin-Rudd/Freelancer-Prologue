@@ -14434,7 +14434,7 @@
 							"z": -90.98300128917256
 						},
 						"position": {
-							"x": -36.764312744140625,
+							"x": -37.06093978881836,
 							"y": -12.743606567382812,
 							"z": 0.4762545228004456
 						}
@@ -15306,7 +15306,7 @@
 			"properties": {
 				"PrimaryObjective": {
 					"type": "ZGuid",
-					"value": "6e20235c-caee-42b1-b4a0-25c165d42238"
+					"value": "644f4222-5ca5-401c-a650-bc59f815c8e1"
 				},
 				"MissionCompleted": {
 					"type": "SEntityTemplateReference",
@@ -17552,8 +17552,7 @@
 		"[assembly:/_pro/scenes/missions/miami/override_yacht_standalone.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/thefacility/outfits_prologue.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype",
-		"[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype",
-		"[assembly:/_pro/scenes/missions/miami/tod_night_yacht.brick].pc_entitytype"
+		"[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
 	],
 	"subType": "brick",
 	"quickEntityVersion": 3.1,
