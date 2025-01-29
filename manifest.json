@@ -11,6 +11,16 @@
                 "ConsoleCmd OnlineResources_Disable 1"
             ],
 	"dependencies": [
+		"001083CD8A6BB32D",{"runtimeID": "008027305D878A5E",
+		"comment": "[materials/levels/wet/backdrop_building_miami_near_d.mi].pc_entitytyp",
+		"toChunk": 1
+	},{"runtimeID": "0016ECC27E61E9D0",
+		"comment": "[assembly:/_pro/environment/textures/backdrop/buildings/backdrop_building_miami_near_b/backdrop_building_miami_near_b.texture?/emissive_b.tex](ascolormap).pc_tex",
+		"toChunk": 1
+	},{"runtimeID": "00A01A2790FF4E7D",
+		"comment": "sky_night_b_00 (chunk15)",
+		"toChunk": 1
+	},
 		"00875085D6135309","005415E5BE265EFD",{"runtimeID":"003D96EAECB00C82","comment":"adonis_sky","toChunk":1},
 		{
 			"runtimeID": "0069DB569844D774",

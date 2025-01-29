@@ -240,12 +240,12 @@
 						"rotation": {
 							"x": -0.0,
 							"y": 0.0,
-							"z": -29.73533865356682
+							"z": 136.40977895830144
 						},
 						"position": {
-							"x": -24.18254280090332,
-							"y": 3.2486672401428223,
-							"z": 2.9311718940734863
+							"x": 0.762237548828125,
+							"y": 4.8004302978515625,
+							"z": -0.42431095242500305
 						}
 					}
 				},
@@ -289,12 +289,12 @@
 						"rotation": {
 							"x": -0.0,
 							"y": 0.0,
-							"z": -108.09727097162198
+							"z": 157.94293120372328
 						},
 						"position": {
-							"x": -22.134689331054688,
-							"y": -23.08778953552246,
-							"z": -1.4200212955474854
+							"x": 1.9578399658203125,
+							"y": 23.610305786132812,
+							"z": 3.1410155296325684
 						}
 					}
 				},
@@ -392,7 +392,7 @@
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
-					"value": "8f6ea4f1-32a8-4e57-a39d-90a2c2ff2bb0"
+					"value": "bbffa24b-fa46-4f9d-a73d-71de56ff3bfe"
 				},
 				"m_nOutfitVariation": { "type": "int32", "value": 0 },
 				"m_nWeaponIndex": { "type": "int32", "value": 0 },
@@ -761,12 +761,12 @@
 						"rotation": {
 							"x": -0.0,
 							"y": 0.0,
-							"z": -162.28823739528565
+							"z": -7.969348889518997
 						},
 						"position": {
-							"x": -20.202232360839844,
-							"y": -16.243915557861328,
-							"z": -1.4200212955474854
+							"x": -0.5233917236328125,
+							"y": 15.887710571289064,
+							"z": 6.726752758026123
 						}
 					}
 				},
@@ -1970,13 +1970,13 @@
 					"value": {
 						"rotation": {
 							"x": -0.0,
-							"y": 0.0,
-							"z": 158.74527593365275
+							"y": -0.0,
+							"z": 73.28593128801151
 						},
 						"position": {
-							"x": 10.35129737854004,
-							"y": -20.29332733154297,
-							"z": -1.4200212955474854
+							"x": 5.9039154052734375,
+							"y": 2.537628173828125,
+							"z": 6.708521842956543
 						}
 					}
 				},
@@ -1999,7 +1999,7 @@
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
-					"value": "5c419edc-203d-4736-8cd9-bed24e34171c"
+					"value": "bbffa24b-fa46-4f9d-a73d-71de56ff3bfe"
 				},
 				"m_nOutfitVariation": { "type": "int32", "value": 0 },
 				"m_nWeaponIndex": { "type": "int32", "value": 0 },
@@ -2063,7 +2063,7 @@
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
-					"value": "8f6ea4f1-32a8-4e57-a39d-90a2c2ff2bb0"
+					"value": "cf170965-5582-48d7-8dd7-774ae0a144dd"
 				},
 				"m_nOutfitVariation": { "type": "int32", "value": 1 },
 				"m_nWeaponIndex": { "type": "int32", "value": 0 },
@@ -2971,12 +2971,12 @@
 						"rotation": {
 							"x": -0.0,
 							"y": 0.0,
-							"z": -118.38514560728792
+							"z": -36.960853945341995
 						},
 						"position": {
-							"x": -11.95283317565918,
-							"y": -2.4252161979675293,
-							"z": 2.8429932594299316
+							"x": 8.926834106445312,
+							"y": 1.1802978515625,
+							"z": -0.3998005092144013
 						}
 					}
 				},
@@ -3608,13 +3608,13 @@
 					"value": {
 						"rotation": {
 							"x": -0.0,
-							"y": 0.0,
-							"z": -11.877746623908624
+							"y": -0.0,
+							"z": 9.449661778981014
 						},
 						"position": {
-							"x": 5.910374641418457,
-							"y": 55.3764762878418,
-							"z": -1.4200212955474854
+							"x": 10.45196533203125,
+							"y": -4.3039093017578125,
+							"z": 3.145353317260742
 						}
 					}
 				},
@@ -4177,12 +4177,12 @@
 						"rotation": {
 							"x": -0.0,
 							"y": 0.0,
-							"z": 40.40802408634967
+							"z": 102.72152597245152
 						},
 						"position": {
-							"x": 11.457198143005373,
-							"y": -5.594199180603027,
-							"z": 2.931284189224243
+							"x": 6.3571014404296875,
+							"y": -24.729476928710938,
+							"z": -0.4523381292819977
 						}
 					}
 				},
@@ -5195,12 +5195,12 @@
 						"rotation": {
 							"x": -0.0,
 							"y": 0.0,
-							"z": -144.84808401095842
+							"z": -169.40552175325425
 						},
 						"position": {
-							"x": -8.57328987121582,
-							"y": 4.636577129364014,
-							"z": -1.4200212955474854
+							"x": -0.33721923828125,
+							"y": -15.557769775390623,
+							"z": 3.1340227127075195
 						}
 					}
 				},
@@ -5307,12 +5307,12 @@
 						"rotation": {
 							"x": -0.0,
 							"y": 0.0,
-							"z": 168.16522096082477
+							"z": -7.0074271615200905
 						},
 						"position": {
-							"x": 10.885202407836914,
-							"y": -0.9859989881515504,
-							"z": 2.8429932594299316
+							"x": -8.112960815429688,
+							"y": 0.5372161865234375,
+							"z": -0.4346063435077667
 						}
 					}
 				},
@@ -5388,9 +5388,9 @@
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
-					"value": "8f6ea4f1-32a8-4e57-a39d-90a2c2ff2bb0"
+					"value": "6754ac86-ad84-486c-9954-ac76c04a5f53"
 				},
-				"m_nOutfitVariation": { "type": "int32", "value": 2 },
+				"m_nOutfitVariation": { "type": "int32", "value": 3 },
 				"m_nWeaponIndex": { "type": "int32", "value": 0 },
 				"m_bStartEnabled": { "type": "bool", "value": false },
 				"m_mTransform": {
@@ -5400,7 +5400,7 @@
 						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
 					}
 				},
-				"m_nOutfitCharset": { "type": "int32", "value": 3 },
+				"m_nOutfitCharset": { "type": "int32", "value": 0 },
 				"m_aEnforcedOutfits": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
@@ -6367,13 +6367,13 @@
 					"value": {
 						"rotation": {
 							"x": -0.0,
-							"y": 0.0,
-							"z": -20.033693822540897
+							"y": -0.0,
+							"z": 7.5949171697586975
 						},
 						"position": {
-							"x": 16.7484188079834,
-							"y": 24.916879653930664,
-							"z": -1.4200212955474854
+							"x": -0.19000244140625,
+							"y": 10.140411376953123,
+							"z": 3.1414132118225098
 						}
 					}
 				},
@@ -6897,12 +6897,12 @@
 						"rotation": {
 							"x": -0.0,
 							"y": 0.0,
-							"z": -130.3663053470738
+							"z": 117.80400890293916
 						},
 						"position": {
-							"x": -11.020784378051758,
-							"y": -13.872312545776367,
-							"z": 2.931284189224243
+							"x": 6.45135498046875,
+							"y": -5.62432861328125,
+							"z": 10.323250770568848
 						}
 					}
 				},
@@ -7787,12 +7787,12 @@
 						"rotation": {
 							"x": -0.0,
 							"y": 0.0,
-							"z": 142.1499825404001
+							"z": -67.00644725325415
 						},
 						"position": {
-							"x": -35.13678741455078,
-							"y": -26.234432220458984,
-							"z": -1.4200212955474854
+							"x": -2.667938232421875,
+							"y": 3.669387817382813,
+							"z": 3.119652032852173
 						}
 					}
 				},
@@ -7835,7 +7835,7 @@
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
-					"value": "5c419edc-203d-4736-8cd9-bed24e34171c"
+					"value": "8f928c7a-99dd-43db-a027-1310cf49f3ad"
 				},
 				"m_nOutfitVariation": { "type": "int32", "value": 1 },
 				"m_nWeaponIndex": { "type": "int32", "value": 0 },
@@ -8271,12 +8271,12 @@
 						"rotation": {
 							"x": -0.0,
 							"y": 0.0,
-							"z": 21.643634209732472
+							"z": 102.26960388949146
 						},
 						"position": {
-							"x": 21.95975685119629,
-							"y": -6.467169761657715,
-							"z": 2.931284189224243
+							"x": 7.250579833984375,
+							"y": -42.28443908691406,
+							"z": -0.5560411214828491
 						}
 					}
 				},
@@ -8571,12 +8571,12 @@
 						"rotation": {
 							"x": -0.0,
 							"y": 0.0,
-							"z": -28.318226040394087
+							"z": -88.85400566470396
 						},
 						"position": {
-							"x": -37.134132385253906,
-							"y": 25.902116775512695,
-							"z": -1.4200212955474854
+							"x": -4.6226654052734375,
+							"y": -30.525863647460938,
+							"z": 3.1453537940979004
 						}
 					}
 				},
@@ -8789,12 +8789,12 @@
 						"rotation": {
 							"x": -0.0,
 							"y": 0.0,
-							"z": 126.12504863810015
+							"z": -149.52406664299252
 						},
 						"position": {
-							"x": -16.42768669128418,
-							"y": 15.151074409484863,
-							"z": 2.9313488006591797
+							"x": 6.00079345703125,
+							"y": 4.238800048828125,
+							"z": -0.454996794462204
 						}
 					}
 				},
@@ -9427,7 +9427,7 @@
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
-					"value": "5c419edc-203d-4736-8cd9-bed24e34171c"
+					"value": "e222cc14-8d48-42de-9af6-1b745dbb3614"
 				},
 				"m_nOutfitVariation": { "type": "int32", "value": 4 },
 				"m_nWeaponIndex": { "type": "int32", "value": 0 },
@@ -9720,12 +9720,12 @@
 						"rotation": {
 							"x": -0.0,
 							"y": 0.0,
-							"z": 60.356513997925575
+							"z": -72.74165478327703
 						},
 						"position": {
-							"x": -1.660863161087036,
-							"y": -13.654484748840332,
-							"z": -1.4200212955474854
+							"x": -9.1239013671875,
+							"y": 19.113235473632812,
+							"z": 6.711616516113281
 						}
 					}
 				},
@@ -9823,13 +9823,13 @@
 					"value": {
 						"rotation": {
 							"x": -0.0,
-							"y": 0.0,
-							"z": -72.97839790203271
+							"y": -0.0,
+							"z": 39.22037891160658
 						},
 						"position": {
-							"x": -24.635271072387695,
-							"y": 19.26461601257324,
-							"z": 7.539999961853027
+							"x": -15.471115112304688,
+							"y": 18.9676513671875,
+							"z": 0.4762535691261291
 						}
 					}
 				},
@@ -10877,9 +10877,9 @@
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
-					"value": "8f6ea4f1-32a8-4e57-a39d-90a2c2ff2bb0"
+					"value": "6754ac86-ad84-486c-9954-ac76c04a5f53"
 				},
-				"m_nOutfitVariation": { "type": "int32", "value": 3 },
+				"m_nOutfitVariation": { "type": "int32", "value": 7 },
 				"m_nWeaponIndex": { "type": "int32", "value": 0 },
 				"m_bStartEnabled": { "type": "bool", "value": false },
 				"m_mTransform": {
@@ -10889,7 +10889,7 @@
 						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
 					}
 				},
-				"m_nOutfitCharset": { "type": "int32", "value": 3 },
+				"m_nOutfitCharset": { "type": "int32", "value": 4 },
 				"m_aEnforcedOutfits": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
@@ -11095,13 +11095,13 @@
 					"value": {
 						"rotation": {
 							"x": -0.0,
-							"y": 0.0,
-							"z": 90.73551544556965
+							"y": -0.0,
+							"z": 86.46752101468623
 						},
 						"position": {
-							"x": 30.171558380126953,
-							"y": -26.51624298095703,
-							"z": -1.4200212955474854
+							"x": 8.045425415039062,
+							"y": -18.699386596679688,
+							"z": 6.7140631675720215
 						}
 					}
 				},
@@ -12787,12 +12787,12 @@
 						"rotation": {
 							"x": -0.0,
 							"y": 0.0,
-							"z": -133.83102937982264
+							"z": -37.70916116536854
 						},
 						"position": {
-							"x": -3.626554250717163,
-							"y": -24.269184112548828,
-							"z": 2.93999981880188
+							"x": -38.334716796875,
+							"y": 16.664215087890625,
+							"z": 0.5510610938072205
 						}
 					}
 				},
@@ -13068,7 +13068,7 @@
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
-					"value": "5c419edc-203d-4736-8cd9-bed24e34171c"
+					"value": "bbffa24b-fa46-4f9d-a73d-71de56ff3bfe"
 				},
 				"m_nOutfitVariation": { "type": "int32", "value": 5 },
 				"m_nWeaponIndex": { "type": "int32", "value": 0 },
@@ -13221,12 +13221,12 @@
 						"rotation": {
 							"x": -0.0,
 							"y": 0.0,
-							"z": -48.0671817867486
+							"z": -33.79232762805664
 						},
 						"position": {
-							"x": -24.556413650512695,
-							"y": 10.45066738128662,
-							"z": 2.931277275085449
+							"x": -1.74737548828125,
+							"y": -1.0780029296875,
+							"z": -0.4290646612644195
 						}
 					}
 				},
@@ -14172,12 +14172,12 @@
 						"rotation": {
 							"x": -0.0,
 							"y": 0.0,
-							"z": 138.39631666387254
+							"z": -47.48276272718265
 						},
 						"position": {
-							"x": 21.591949462890625,
-							"y": -8.937052726745605,
-							"z": 7.539999961853027
+							"x": -35.628753662109375,
+							"y": -3.2216796875,
+							"z": 0.4762545228004456
 						}
 					}
 				},
@@ -14330,7 +14330,7 @@
 				"smokerRailActs": { "type": "bool", "value": true },
 				"suspectID": { "type": "int32", "value": 3 },
 				"suspectStateSelector": { "type": "int32", "value": 2 },
-				"drinkHeight": { "type": "int32", "value": 2 },
+				"drinkHeight": { "type": "int32", "value": 1 },
 				"timeOutSmokeAct": { "type": "float32", "value": 15.0 },
 				"timeOutDrinkingAct": { "type": "float32", "value": 5.0 },
 				"timeOutBookwormAct": { "type": "float32", "value": 12.0 },
@@ -14384,7 +14384,8 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": ["b24c0ef2dc8e521c"],
 					"postInit": true
-				}
+				},
+				"foodHeight": { "type": "int32", "value": 1 }
 			},
 			"subsets": {
 				"AudioEmitters": ["fffffffffffffffe"],
@@ -15305,7 +15306,7 @@
 			"properties": {
 				"PrimaryObjective": {
 					"type": "ZGuid",
-					"value": "0215d1cf-a9a4-49af-aded-d6575928324b"
+					"value": "6e20235c-caee-42b1-b4a0-25c165d42238"
 				},
 				"MissionCompleted": {
 					"type": "SEntityTemplateReference",
@@ -15382,7 +15383,7 @@
 							"z": 84.9547634935887
 						},
 						"position": {
-							"x": 8.322919845581055,
+							"x": 8.101225852966309,
 							"y": -6.796600341796875,
 							"z": 0.5119536519050598
 						}
@@ -16090,12 +16091,12 @@
 						"rotation": {
 							"x": -0.0,
 							"y": 0.0,
-							"z": -147.92457497711143
+							"z": -124.65109165972706
 						},
 						"position": {
-							"x": 16.69252586364746,
-							"y": 14.334013938903809,
-							"z": 2.9313864707946777
+							"x": -7.97503662109375,
+							"y": -16.502090454101562,
+							"z": -0.4483683407306671
 						}
 					}
 				},
@@ -16107,7 +16108,7 @@
 		},
 		"b2aba77c4638f63f": {
 			"parent": "43b7804c7b950b95",
-			"name": "Upstairs",
+			"name": "Ground Floors",
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {
@@ -16117,6 +16118,10 @@
 						{
 							"ref": "90aa1f54aac27fb2",
 							"externalScene": "[assembly:/_pro/scenes/missions/thefacility/outfits_prologue.brick].pc_entitytype"
+						},
+						{
+							"ref": "e8b79d8ef8b6263d",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
 						}
 					]
 				}
@@ -16706,12 +16711,12 @@
 						"rotation": {
 							"x": -0.0,
 							"y": 0.0,
-							"z": -130.77234773141222
+							"z": -48.849379619055185
 						},
 						"position": {
-							"x": -6.711101531982422,
-							"y": -24.44144630432129,
-							"z": -1.4200212955474854
+							"x": -3.1740875244140625,
+							"y": -8.223495483398438,
+							"z": 6.713176727294922
 						}
 					}
 				},
@@ -16791,12 +16796,12 @@
 						"rotation": {
 							"x": -0.0,
 							"y": 0.0,
-							"z": -10.897931219814769
+							"z": -62.759601971534856
 						},
 						"position": {
-							"x": -20.168546676635746,
-							"y": 24.32168960571289,
-							"z": -1.411566972732544
+							"x": -1.1817474365234375,
+							"y": -4.0883941650390625,
+							"z": 6.7166337966918945
 						}
 					}
 				},
@@ -16808,7 +16813,7 @@
 		},
 		"d43da2ef8b03f7e8": {
 			"parent": "43b7804c7b950b95",
-			"name": "Ground Floor",
+			"name": "Floors 1 - 2",
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {
@@ -16818,6 +16823,10 @@
 						{
 							"ref": "90aa1f54aac27fb2",
 							"externalScene": "[assembly:/_pro/scenes/missions/thefacility/outfits_prologue.brick].pc_entitytype"
+						},
+						{
+							"ref": "e8b79d8ef8b6263d",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
 						}
 					]
 				}
@@ -16921,6 +16930,10 @@
 						{
 							"ref": "90aa1f54aac27fb2",
 							"externalScene": "[assembly:/_pro/scenes/missions/thefacility/outfits_prologue.brick].pc_entitytype"
+						},
+						{
+							"ref": "e8b79d8ef8b6263d",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
 						}
 					]
 				},
@@ -16942,6 +16955,86 @@
 				"m_rSuspectHandler": {
 					"type": "SEntityTemplateReference",
 					"value": "bd3677ee5edd040b"
+				},
+				"Lookout2Act2_Gen1": {
+					"type": "SEntityTemplateReference",
+					"value": "8ed67702b42c6dba",
+					"postInit": true
+				},
+				"Lookout2Act1_Gen1": {
+					"type": "SEntityTemplateReference",
+					"value": "bd021f8eda41d60a",
+					"postInit": true
+				},
+				"Lookout2Gen1": {
+					"type": "SEntityTemplateReference",
+					"value": "fa7231075b098210",
+					"postInit": true
+				},
+				"Lookout1Act3_Gen1": {
+					"type": "SEntityTemplateReference",
+					"value": "339dedb31e1fdc05",
+					"postInit": true
+				},
+				"Lookout1Act2_Gen1": {
+					"type": "SEntityTemplateReference",
+					"value": "34acd9dbb282ee26",
+					"postInit": true
+				},
+				"Lookout1Act1_Gen1": {
+					"type": "SEntityTemplateReference",
+					"value": "963313daec823ed0",
+					"postInit": true
+				},
+				"Lookout1Gen1": {
+					"type": "SEntityTemplateReference",
+					"value": "acc1db6bc6909eaf",
+					"postInit": true
+				},
+				"Lookout2Act3_Gen1": {
+					"type": "SEntityTemplateReference",
+					"value": "b04da4f8675264c3",
+					"postInit": true
+				},
+				"Lookout3Gen1": {
+					"type": "SEntityTemplateReference",
+					"value": "106b34a7ac6989ec",
+					"postInit": true
+				},
+				"Lookout3Act1_Gen1": {
+					"type": "SEntityTemplateReference",
+					"value": "2f489786f1c0381b",
+					"postInit": true
+				},
+				"Lookout3Act2_Gen1": {
+					"type": "SEntityTemplateReference",
+					"value": "48b4c38508232623",
+					"postInit": true
+				},
+				"Lookout3Act3_Gen1": {
+					"type": "SEntityTemplateReference",
+					"value": "720aeea1cc807f8f",
+					"postInit": true
+				},
+				"Lookout4Gen1": {
+					"type": "SEntityTemplateReference",
+					"value": "bf5f9ba76a5d327b",
+					"postInit": true
+				},
+				"Lookout4Act1_Gen1": {
+					"type": "SEntityTemplateReference",
+					"value": "39ca51d9ecabfc73",
+					"postInit": true
+				},
+				"Lookout4Act2_Gen1": {
+					"type": "SEntityTemplateReference",
+					"value": "da2521ff0bfed0e6",
+					"postInit": true
+				},
+				"Lookout4Act3_Gen1": {
+					"type": "SEntityTemplateReference",
+					"value": "76fbc9933c76ecf7",
+					"postInit": true
 				},
 				"Lookout2Act2_Gen2": {
 					"type": "SEntityTemplateReference",
@@ -17021,6 +17114,86 @@
 				"Lookout4Act3_Gen2": {
 					"type": "SEntityTemplateReference",
 					"value": "76fbc9933c76ecf7",
+					"postInit": true
+				},
+				"Lookout1Gen3": {
+					"type": "SEntityTemplateReference",
+					"value": "f4a226aa1378e0c1",
+					"postInit": true
+				},
+				"Lookout1Act1_Gen3": {
+					"type": "SEntityTemplateReference",
+					"value": "3532c73b835104fc",
+					"postInit": true
+				},
+				"Lookout1Act2_Gen3": {
+					"type": "SEntityTemplateReference",
+					"value": "aed97fc761c6f802",
+					"postInit": true
+				},
+				"Lookout1Act3_Gen3": {
+					"type": "SEntityTemplateReference",
+					"value": "04b779f5ee04b734",
+					"postInit": true
+				},
+				"Lookout2Gen3": {
+					"type": "SEntityTemplateReference",
+					"value": "e2d02d4d6fbb3da7",
+					"postInit": true
+				},
+				"Lookout2Act1_Gen3": {
+					"type": "SEntityTemplateReference",
+					"value": "50d8952546eaf742",
+					"postInit": true
+				},
+				"Lookout2Act2_Gen3": {
+					"type": "SEntityTemplateReference",
+					"value": "2e4b46e5d73302b2",
+					"postInit": true
+				},
+				"Lookout2Act3_Gen3": {
+					"type": "SEntityTemplateReference",
+					"value": "73489607e5e2579d",
+					"postInit": true
+				},
+				"Lookout3Gen3": {
+					"type": "SEntityTemplateReference",
+					"value": "86fd5b4b5f828729",
+					"postInit": true
+				},
+				"Lookout3Act1_Gen3": {
+					"type": "SEntityTemplateReference",
+					"value": "c2f1e202cf25e168",
+					"postInit": true
+				},
+				"Lookout3Act2_Gen3": {
+					"type": "SEntityTemplateReference",
+					"value": "19d270f6553eca1d",
+					"postInit": true
+				},
+				"Lookout3Act3_Gen3": {
+					"type": "SEntityTemplateReference",
+					"value": "b4d676b3f8b0e5fa",
+					"postInit": true
+				},
+				"Lookout4Gen3": {
+					"type": "SEntityTemplateReference",
+					"value": "32eec48625ffb0cf",
+					"postInit": true
+				},
+				"Lookout4Act2_Gen3": {
+					"type": "SEntityTemplateReference",
+					"value": "f15de164e082ac95",
+					"postInit": true
+				},
+				"Lookout4Act1_Gen3": {
+					"type": "SEntityTemplateReference",
+					"value": "a00baf3c4aa104d3",
+					"postInit": true
+				},
+				"Lookout4Act3_Gen3": {
+					"type": "SEntityTemplateReference",
+					"value": "4cd8fc866cc3e823",
 					"postInit": true
 				},
 				"Lookout1Gen4": {
@@ -17379,7 +17552,8 @@
 		"[assembly:/_pro/scenes/missions/miami/override_yacht_standalone.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/thefacility/outfits_prologue.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype",
-		"[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		"[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/miami/tod_night_yacht.brick].pc_entitytype"
 	],
 	"subType": "brick",
 	"quickEntityVersion": 3.1,
