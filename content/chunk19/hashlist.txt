@@ -107,3 +107,6 @@
 002184289322B9FC.TBLU,[assembly:/_pro/environment/templates/architecture/walls/plywood_walls_a.template?/plywood_support_ceiling_a_00_modded.entitytemplate].pc_entityblueprint
 007F6796129F01ED.TEMP,[assembly:/_pro/environment/templates/architecture/walls/plywood_walls_a.template?/plywood_support_ceiling_a_00_modded_bis.entitytemplate].pc_entitytype
 00D153D3191A91B7.PRIM,[assembly:/_pro/environment/templates/architecture/walls/plywood_walls_a.template?/plywood_support_ceiling_a_00_modded.entitytemplate].pc_prim
+
+00173C103CF59622.TEMP,[assembly:/_pro/environment/templates/custom_miami_light_modded.entitytemplate].pc_entitytype
+008D13B4D5418A79.TBLU,[assembly:/_pro/environment/templates/custom_miami_light_modded.entitytemplate].pc_entityblueprint
