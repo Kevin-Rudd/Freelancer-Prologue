@@ -25,7 +25,7 @@
                 ],
         "GameChangers": [],
         "RandomBricks": {
-            "TimeOfDay": ["assembly:/_pro/scenes/missions/miami/mission_hot_yacht.brick"]
+            "TimeOfDay": ["assembly:/_pro/scenes/missions/miami/yacht_night_mild.brick"]
         },
         "GameDifficulties": [
             {

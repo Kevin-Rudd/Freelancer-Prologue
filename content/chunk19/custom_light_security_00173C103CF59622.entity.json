@@ -9,169 +9,42 @@
 			"factory": "[assembly:/_pro/effects/templates/logic/fx_logic_lampcore.template?/fx_logic_lampcore.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/effects/templates/logic/fx_logic_lampcore.template?/fx_logic_lampcore.entitytemplate].pc_entityblueprint",
 			"properties": {
-				"GlowPower": {
-					"type": "float32",
-					"value": 100
-				},
-				"Breakable": {
-					"type": "bool",
-					"value": false
-				},
+				"GlowPower": { "type": "float32", "value": 100 },
+				"Breakable": { "type": "bool", "value": false },
 				"FlickerCurve": {
 					"type": "ZCurve",
 					"value": {
 						"data": [
+							[0, 1, 0, 0, 0, 0, -0.8436363339424133, 1],
 							[
-								0,
-								1,
-								0,
-								0,
-								0,
-								0,
-								-0.8436363339424133,
-								1
-							],
-							[
-								0.05482456088066101,
-								0.15636363625526428,
-								0,
-								0,
-								0,
-								0,
-								0.8436363339424133,
+								0.05482456088066101, 0.15636363625526428,
+								0, 0, 0, 0, 0.8436363339424133,
 								0.15636363625526428
 							],
+							[0.125, 1, 0, 0, 0, 0, 0, 1],
+							[0.20614035427570343, 1, 0, 0, 0, 0, -1, 1],
+							[0.25, 0, 0, 0, 0, 0, 0, 0],
+							[0.4007264971733093, 0, 0, 0, 0, 0, 1, 0],
+							[0.4511650800704956, 1, 0, 0, 0, 0, 0, 1],
 							[
-								0.125,
-								1,
-								0,
-								0,
-								0,
-								0,
-								0,
-								1
+								0.5285087823867798, 1, 0, 0, 0, 0,
+								-0.42181816697120667, 1
 							],
 							[
-								0.20614035427570343,
-								1,
-								0,
-								0,
-								0,
-								0,
-								-1,
-								1
-							],
-							[
-								0.25,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0
-							],
-							[
-								0.4007264971733093,
-								0,
-								0,
-								0,
-								0,
-								0,
-								1,
-								0
-							],
-							[
-								0.4511650800704956,
-								1,
-								0,
-								0,
-								0,
-								0,
-								0,
-								1
-							],
-							[
-								0.5285087823867798,
-								1,
-								0,
-								0,
-								0,
-								0,
-								-0.42181816697120667,
-								1
-							],
-							[
-								0.5635964870452881,
-								0.578181803226471,
-								0,
-								0,
-								0,
-								0,
-								0.42181816697120667,
+								0.5635964870452881, 0.578181803226471, 0,
+								0, 0, 0, 0.42181816697120667,
 								0.578181803226471
 							],
-							[
-								0.6008771657943726,
-								1,
-								0,
-								0,
-								0,
-								0,
-								0,
-								1
-							],
-							[
-								0.7280701994895935,
-								1,
-								0,
-								0,
-								0,
-								0,
-								-1,
-								1
-							],
-							[
-								0.7763158082962036,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0
-							],
-							[
-								0.9320175647735596,
-								0,
-								0,
-								0,
-								0,
-								0,
-								1,
-								0
-							],
-							[
-								1,
-								1,
-								0,
-								0,
-								0,
-								0,
-								0,
-								1
-							]
+							[0.6008771657943726, 1, 0, 0, 0, 0, 0, 1],
+							[0.7280701994895935, 1, 0, 0, 0, 0, -1, 1],
+							[0.7763158082962036, 0, 0, 0, 0, 0, 0, 0],
+							[0.9320175647735596, 0, 0, 0, 0, 0, 1, 0],
+							[1, 1, 0, 0, 0, 0, 0, 1]
 						]
 					}
 				},
-				"FlickerIntervalMax(s)": {
-					"type": "float32",
-					"value": 4
-				},
-				"FlickerDuration(Hz)": {
-					"type": "float32",
-					"value": 0.5
-				},
+				"FlickerIntervalMax(s)": { "type": "float32", "value": 4 },
+				"FlickerDuration(Hz)": { "type": "float32", "value": 0.5 },
 				"FlickerDetailPower": {
 					"type": "float32",
 					"value": 0.10000000149011612
@@ -180,19 +53,11 @@
 					"type": "SColorRGB",
 					"value": "#ffe3cc"
 				},
-				"On": {
-					"type": "bool",
-					"value": true
-				},
-				"DiffusePower": {
-					"type": "float32",
-					"value": 50
-				},
+				"On": { "type": "bool", "value": true },
+				"DiffusePower": { "type": "float32", "value": 50 },
 				"LampGeometry": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"a6365e9a945b49c5"
-					],
+					"value": ["a6365e9a945b49c5"],
 					"postInit": true
 				},
 				"m_aRenderables": {
@@ -206,43 +71,23 @@
 				},
 				"PowerCondition": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					],
+					"value": [],
 					"postInit": true
 				}
 			},
 			"events": {
 				"GlowPower": {
-					"ConstantVector1D_07_Value": [
-						"549e1c2b525e28b4"
-					]
+					"ConstantVector1D_07_Value": ["549e1c2b525e28b4"]
 				},
 				"DiffuseColor": {
-					"ConstantColorRGB_01_Value": [
-						"549e1c2b525e28b4"
-					],
-					"DiffuseColor": [
-						"683129de01c3f298"
-					]
+					"ConstantColorRGB_01_Value": ["549e1c2b525e28b4"],
+					"DiffuseColor": ["683129de01c3f298"]
 				},
-				"On": {
-					"SetVisible": [
-						"683129de01c3f298"
-					]
-				},
-				"DiffusePower": {
-					"DiffusePower": [
-						"683129de01c3f298"
-					]
-				}
+				"On": { "SetVisible": ["683129de01c3f298"] },
+				"DiffusePower": { "DiffusePower": ["683129de01c3f298"] }
 			},
 			"outputCopying": {
-				"OnBroken": {
-					"OnBroken": [
-						"0e0d1a284a0ee84c"
-					]
-				}
+				"OnBroken": { "OnBroken": ["0e0d1a284a0ee84c"] }
 			}
 		},
 		"b6924e0f22b5632f": {
@@ -259,16 +104,7 @@
 							"y": 0,
 							"z": 134.9995122031752
 						},
-						"position": {
-							"x": 0.003727999981492758,
-							"y": 0.019029000774025917,
-							"z": 1.6236690282821655
-						},
-						"scale": {
-							"x": 1.000000640193619,
-							"y": 1.000000640193619,
-							"z": 1
-						}
+						"position": { "x": 0, "y": 0.3, "z": 0.3 }
 					}
 				},
 				"m_eLightType": {
@@ -286,10 +122,7 @@
 					"type": "float32",
 					"value": 0.03999999910593033
 				},
-				"m_bEnableLightFade": {
-					"type": "bool",
-					"value": true
-				},
+				"m_bEnableLightFade": { "type": "bool", "value": true },
 				"m_vBoxSize": {
 					"type": "SVector3",
 					"value": {
@@ -302,22 +135,19 @@
 					"type": "SVector3",
 					"value": {
 						"x": 0.025496799498796463,
-						"y": 0.10472399741411209,
+						"y": 0.10472399741411208,
 						"z": 0
 					}
 				},
 				"m_vBoxFadeNeg": {
 					"type": "SVector3",
 					"value": {
-						"x": 0.23957300186157227,
-						"y": 0.09292759746313095,
+						"x": 0.2395730018615723,
+						"y": 0.09292759746313096,
 						"z": 0.05844059959053993
 					}
 				},
-				"m_bCastShadows": {
-					"type": "bool",
-					"value": false
-				},
+				"m_bCastShadows": { "type": "bool", "value": false },
 				"m_vFarAttenuation": {
 					"type": "SVector2",
 					"value": {
@@ -325,10 +155,7 @@
 						"y": 1.1455299854278564
 					}
 				},
-				"m_fCapsuleHeight": {
-					"type": "float32",
-					"value": 2.8367249965667725
-				},
+				"m_fCapsuleHeight": { "type": "float32", "value": 0.05 },
 				"m_vNearAttenuation": {
 					"type": "SVector2",
 					"value": {
@@ -336,14 +163,8 @@
 						"y": 0.019999999552965164
 					}
 				},
-				"m_fLightFadeDistance": {
-					"type": "float32",
-					"value": 20
-				},
-				"m_bUseStaticShadowMap": {
-					"type": "bool",
-					"value": true
-				},
+				"m_fLightFadeDistance": { "type": "float32", "value": 20 },
+				"m_bUseStaticShadowMap": { "type": "bool", "value": true },
 				"m_bUseDynamicShadowMap": {
 					"type": "bool",
 					"value": true
@@ -372,10 +193,10 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -0.027960337643270574
+							"z": -0.027960337643270577
 						},
 						"position": {
-							"x": -0.00011600000289035961,
+							"x": -0.0001160000028903596,
 							"y": 0.361970990896225,
 							"z": 1.5809869766235352
 						},
@@ -403,25 +224,15 @@
 						"flag": "5F"
 					}
 				},
-				"SoundEnabled": {
-					"type": "bool",
-					"value": false
-				},
-				"AudioVolume": {
-					"type": "float32",
-					"value": 0
-				},
+				"SoundEnabled": { "type": "bool", "value": false },
+				"AudioVolume": { "type": "float32", "value": 0 },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "0e0d1a284a0ee84c",
 					"postInit": true
 				}
 			},
-			"subsets": {
-				"AudioEmitters": [
-					"0e0d1a284a0ee84c"
-				]
-			}
+			"subsets": { "AudioEmitters": ["0e0d1a284a0ee84c"] }
 		},
 		"a6365e9a945b49c5": {
 			"parent": "0e0d1a284a0ee84c",
@@ -432,16 +243,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
 				"m_bVisibleInBoxReflection": {
@@ -450,11 +253,7 @@
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": {
-						"x": 1,
-						"y": 1,
-						"z": 0.18
-					}
+					"value": { "x": 1, "y": 1, "z": 0.18 }
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -471,17 +270,11 @@
 			"properties": {
 				"m_Listener": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"a6365e9a945b49c5"
-					]
+					"value": ["a6365e9a945b49c5"]
 				}
 			},
 			"events": {
-				"OnActivate": {
-					"FlickerOn": [
-						"bff3c13aa0d0550e"
-					]
-				}
+				"OnActivate": { "FlickerOn": ["bff3c13aa0d0550e"] }
 			}
 		},
 		"683129de01c3f298": {
@@ -498,16 +291,7 @@
 							"y": -89.9996758852132,
 							"z": 0
 						},
-						"position": {
-							"x": -0.02477099932730198,
-							"y": -0.43278300762176514,
-							"z": 1.6428860425949097
-						},
-						"scale": {
-							"x": 1.000000000016,
-							"y": 1.000000000032,
-							"z": 1.000000000016
-						}
+						"position": { "x": 0.2, "y": -0.5, "z": 0.3 }
 					}
 				},
 				"m_eLightType": {
@@ -521,18 +305,12 @@
 						"y": 3.9949100017547607
 					}
 				},
-				"m_fDiffusePower": {
-					"type": "float32",
-					"value": 100
-				},
+				"m_fDiffusePower": { "type": "float32", "value": 100 },
 				"m_fAreaQuadViewFactorThreshold": {
 					"type": "float32",
 					"value": 0.03999999910593033
 				},
-				"m_bEnableLightFade": {
-					"type": "bool",
-					"value": true
-				},
+				"m_bEnableLightFade": { "type": "bool", "value": true },
 				"m_vBoxSize": {
 					"type": "SVector3",
 					"value": {
@@ -545,22 +323,19 @@
 					"type": "SVector3",
 					"value": {
 						"x": 0.025496799498796463,
-						"y": 0.10472399741411209,
+						"y": 0.10472399741411208,
 						"z": 0
 					}
 				},
 				"m_vBoxFadeNeg": {
 					"type": "SVector3",
 					"value": {
-						"x": 0.23957300186157227,
-						"y": 0.09292759746313095,
+						"x": 0.2395730018615723,
+						"y": 0.09292759746313096,
 						"z": 0.05844059959053993
 					}
 				},
-				"m_bCastShadows": {
-					"type": "bool",
-					"value": false
-				},
+				"m_bCastShadows": { "type": "bool", "value": true },
 				"m_vFarAttenuation": {
 					"type": "SVector2",
 					"value": {
@@ -585,35 +360,27 @@
 				},
 				"m_fAspectXByY": {
 					"type": "float32",
-					"value": 0.11999999731779099
+					"value": 0.119999997317791
 				},
 				"m_vAngularAttenuation": {
 					"type": "SVector2",
-					"value": {
-						"x": 0.0010000000474974513,
-						"y": 1
-					}
+					"value": { "x": 0.0010000000474974513, "y": 0.7 }
 				},
-				"m_fLightFadeDistance": {
-					"type": "float32",
-					"value": 20
-				},
-				"m_bUseStaticShadowMap": {
-					"type": "bool",
-					"value": true
-				},
+				"m_fLightFadeDistance": { "type": "float32", "value": 20 },
+				"m_bUseStaticShadowMap": { "type": "bool", "value": true },
 				"m_bUseDynamicShadowMap": {
 					"type": "bool",
 					"value": true
 				},
-				"m_fWrappedDiffuse": {
-					"type": "float32",
-					"value": 0.5
-				},
+				"m_fWrappedDiffuse": { "type": "float32", "value": 0.5 },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "0e0d1a284a0ee84c",
 					"postInit": true
+				},
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 30.0
 				}
 			}
 		},
@@ -626,11 +393,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -90
-						},
+						"rotation": { "x": 0, "y": 0, "z": -90 },
 						"position": {
 							"x": -0.002174000022932887,
 							"y": 9.36771297454834,
@@ -638,66 +401,18 @@
 						}
 					}
 				},
-				"DiffusePower": {
-					"type": "float32",
-					"value": 50
-				},
-				"GlowPower": {
-					"type": "float32",
-					"value": 100
-				},
+				"DiffusePower": { "type": "float32", "value": 50 },
+				"GlowPower": { "type": "float32", "value": 100 },
 				"DiffuseColor": {
 					"type": "SColorRGB",
-					"value": "#ffe3cc"
+					"value": "#e8fdff"
 				},
-				"m_vAngularAttenuation": {
-					"type": "SVector2",
-					"value": {
-						"x": 0.0010000000474974513,
-						"y": 1
-					}
-				},
-				"m_fWrappedDiffuse": {
-					"type": "float32",
-					"value": 0.5
-				},
-				"Spottransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": -90.00022918311747,
-							"y": -89.9996758852132,
-							"z": 0
-						},
-						"position": {
-							"x": -0.02477099932730198,
-							"y": -0.43278300762176514,
-							"z": 1.6428860425949097
-						},
-						"scale": {
-							"x": 1.000000000016,
-							"y": 1.000000000032,
-							"z": 1.000000000016
-						}
-					}
-				}
+				"m_fWrappedDiffuse": { "type": "float32", "value": 0.5 }
 			},
 			"inputCopying": {
-				"TurnOn": {
-					"TurnOn": [
-						"bff3c13aa0d0550e"
-					]
-				},
-				"TurnOff": {
-					"TurnOff": [
-						"bff3c13aa0d0550e"
-					]
-				},
-				"Break": {
-					"Break": [
-						"bff3c13aa0d0550e"
-					]
-				}
+				"TurnOn": { "TurnOn": ["bff3c13aa0d0550e"] },
+				"TurnOff": { "TurnOff": ["bff3c13aa0d0550e"] },
+				"Break": { "Break": ["bff3c13aa0d0550e"] }
 			},
 			"propertyAliases": {
 				"AudioVolume": [
@@ -846,9 +561,7 @@
 			"exposedEntities": {
 				"MasterLight": {
 					"isArray": false,
-					"refersTo": [
-						"683129de01c3f298"
-					]
+					"refersTo": ["683129de01c3f298"]
 				}
 			}
 		},
@@ -861,23 +574,13 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"a6365e9a945b49c5"
-					]
+					"value": ["a6365e9a945b49c5"]
 				},
 				"ConstantColorRGB_01_Value_op": {
 					"type": "IRenderMaterialEntity.EModifierOperation",
@@ -898,21 +601,11 @@
 			}
 		}
 	},
-	"propertyOverrides": [
-
-	],
-	"overrideDeletes": [
-
-	],
-	"pinConnectionOverrides": [
-
-	],
-	"pinConnectionOverrideDeletes": [
-
-	],
-	"externalScenes": [
-
-	],
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
 	"subType": "template",
 	"quickEntityVersion": 3.1,
 	"extraFactoryDependencies": [
@@ -932,23 +625,10 @@
 			"resource": "[assembly:/_pro/environment/textures/levels/hokkaido/hokkaido_hospital_corridor_lights_a.texture?/emissive_a.tex](ascolormap).pc_tex",
 			"flag": "5F"
 		},
-		{
-			"resource": "008B72B8AA004185",
-			"flag": "5F"
-		},
-		{
-			"resource": "00DC8430DE3410A2",
-			"flag": "5F"
-		},
-		{
-			"resource": "00CEFF5D7CCDBF85",
-			"flag": "5F"
-		}
+		{ "resource": "008B72B8AA004185", "flag": "5F" },
+		{ "resource": "00DC8430DE3410A2", "flag": "5F" },
+		{ "resource": "00CEFF5D7CCDBF85", "flag": "5F" }
 	],
-	"extraBlueprintDependencies": [
-
-	],
-	"comments": [
-
-	]
+	"extraBlueprintDependencies": [],
+	"comments": []
 }
