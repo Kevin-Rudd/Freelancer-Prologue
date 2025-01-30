@@ -1,5 +1,5 @@
 {
-    "version": "1.1.0",
-    "changelog": "SDK MOD UPDATE REQUIRED, GRAB FROM NEXUS \n- Adds dumpster to outside garage door (Story only) and brings back vanilla fencing and props. Now the gate is locked instead of garage door\n- Sitting lounge man no longer floats in air\n- Moves lounge tables so 47 can fit next to them \n- Mechanic blend in spot now works \n- Helicopter now flies away in escalation exit\n- Random unwalkable spots in boat should be walkable\n- Floors and walls should no longer disappear when you look at them from certain angles\n- Moves Ritter's chair out of way\n- NPCs should no longer walk through the wall to garage toilet\n- Guard Enforcers complication should now work in Levels 4 and 5 of the escalation",
-    "url": "https://github.com/Kevin-Rudd/Freelancer-Prologue/releases/download/1.1.0/Real.Yacht.1.1.0.zip"
+    "version": "1.1.1",
+    "changelog": "Prepares mod for Freelancer Variations and Random ToDs integration \n- Some lighting changes\n- You can no longer fall off the yacht\n- NPCs should no longer be able to walk through various objects and fences\n- Less things should disappear when you 'look at them the wrong way'\n- Adds some food to the yacht... is meant to be a party after all\n- Floor 1 toilet door only opens inwards, so that lady doesn't block it from closing any more\n- Fixes various floating stuff\n- Player can now walk between more couches and coffee tables",
+    "url": "https://github.com/Kevin-Rudd/Freelancer-Prologue/releases/download/1.1.1/Real.Yacht.1.1.1.zip"
 }
