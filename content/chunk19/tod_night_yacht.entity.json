@@ -11,7 +11,7 @@
 		},
 		"abcd6edc9a23e5a9": {
 			"parent": "fffffffffffffffe",
-			"name": "Ruddy Additions",
+			"name": "ToD Mod Additions",
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
@@ -9822,6 +9822,192 @@
 			"properties": {
 				"m_fTimeOfDay": { "type": "float32", "value": 22 }
 			}
+		},
+		"cafeea4b02505554": {
+			"parent": "fffffffffffffffe",
+			"name": "Yacht Additions",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe533dc4075055": {
+			"parent": "cafeea4b02505554",
+			"name": "Light_Wall_Flood_A_V2_02",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_paris_a.template?/light_wall_flood_a_v2.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_paris_a.template?/light_wall_flood_a_v2.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 3.9888489161779166
+						},
+						"position": {
+							"x": -37.07365417480469,
+							"y": -60.45402526855469,
+							"z": -46.50064468383789
+						}
+					}
+				},
+				"GlowPower": { "type": "float32", "value": 100 },
+				"m_mTransform2": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -44.90005952298741,
+							"y": 0.00007342453550518885,
+							"z": -36.99999547799282
+						},
+						"position": {
+							"x": 0.0,
+							"y": 8.737548341741785e-6,
+							"z": 0.4176754951477051
+						}
+					}
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 1.105610966682434,
+						"y": 32.900001525878906
+					}
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#b4dde8"
+				},
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.0130000002682209,
+						"y": 1.2050000429153442
+					}
+				},
+				"LightTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 102.99253132231354,
+							"y": 0.4498210876887045,
+							"z": 4.948782108497458
+						},
+						"position": {
+							"x": -0.05685805901885033,
+							"y": -0.2184170037508011,
+							"z": 0.026519980281591415
+						}
+					}
+				},
+				"DiffusePower": { "type": "float32", "value": 26 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
+					}
+				},
+				"IgnoreTimeOfDay": { "type": "bool", "value": true },
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 48.900001525878906
+				},
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 30.0
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafefc64224c5c7a": {
+			"parent": "cafeea4b02505554",
+			"name": "Light_Wall_Flood_A_V2_01",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_paris_a.template?/light_wall_flood_a_v2.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_paris_a.template?/light_wall_flood_a_v2.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 3.9888489161779166
+						},
+						"position": {
+							"x": -20.261531829833984,
+							"y": -60.45402526855469,
+							"z": -46.50064468383789
+						}
+					}
+				},
+				"GlowPower": { "type": "float32", "value": 100 },
+				"m_mTransform2": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -44.90002571532688,
+							"y": 0.0008964623500709407,
+							"z": 14.0010029417384
+						},
+						"position": {
+							"x": 0.0,
+							"y": 8.737548341741785e-6,
+							"z": 0.4176754951477051
+						}
+					}
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 1.105610966682434,
+						"y": 32.900001525878906
+					}
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#b4dde8"
+				},
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.0130000002682209,
+						"y": 1.2050000429153442
+					}
+				},
+				"LightTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 102.99253132231354,
+							"y": 0.4498210876887045,
+							"z": 4.948782108497458
+						},
+						"position": {
+							"x": -0.05685805901885033,
+							"y": -0.2184170037508011,
+							"z": 0.026519980281591415
+						}
+					}
+				},
+				"DiffusePower": { "type": "float32", "value": 26 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
+					}
+				},
+				"IgnoreTimeOfDay": { "type": "bool", "value": true },
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 48.900001525878906
+				},
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 30.0
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		}
 	},
 	"propertyOverrides": [
@@ -13358,13 +13544,19 @@
 		{
 			"ref": "abcd0765bb864b71",
 			"externalScene": "[assembly:/_pro/scenes/missions/miami/tod_sunset.brick].pc_entitytype"
+		},
+		{
+			"ref": "f8b879b790da5403",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/dressing_module_002_miami.brick].pc_entitytype"
 		}
 	],
 	"pinConnectionOverrides": [],
 	"pinConnectionOverrideDeletes": [],
 	"externalScenes": [
 		"[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype",
-		"[assembly:/_pro/scenes/missions/miami/tod_sunset.brick].pc_entitytype"
+		"[assembly:/_pro/scenes/missions/miami/tod_sunset.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/thefacility/dressing_module_002_miami.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
 	],
 	"subType": "brick",
 	"quickEntityVersion": 3.1,

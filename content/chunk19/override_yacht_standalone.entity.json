@@ -6870,346 +6870,18 @@
 				}
 			}
 		},
-		"cafe6a87b8f1f750": {
-			"parent": "cafe2e13eab75cf7",
-			"name": "CurveItem",
-			"factory": "[modules:/zfloatcurvesource.class].pc_entitytype",
-			"blueprint": "[modules:/zfloatcurvesource.class].pc_entityblueprint",
-			"properties": {
-				"m_startTime": {
-					"type": "ZGameTime",
-					"value": { "m_nTicks": 1583349 }
-				},
-				"m_duration": {
-					"type": "ZGameTime",
-					"value": { "m_nTicks": 2097152 }
-				},
-				"m_curve": {
-					"type": "ZCurve",
-					"value": {
-						"data": [
-							[0.0, 0.0, 0.0, 0.0, 0.0, -0.0, 0.0, 0.0],
-							[1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
-						]
-					}
-				}
-			}
-		},
-		"cafe8e78c3632324": {
-			"parent": "cafe3ea9803cb441",
-			"name": "Seq_FlyIn_Polarbear_040_EndShot",
-			"factory": "[modules:/zsequenceentity.class].pc_entitytype",
-			"blueprint": "[modules:/zsequenceentity.class].pc_entityblueprint",
-			"properties": {
-				"m_duration": {
-					"type": "ZGameTime",
-					"value": { "m_nTicks": 3680501 }
-				},
-				"m_bLetterbox": { "type": "bool", "value": true },
-				"m_eLetterBoxAspect": {
-					"type": "ZSequenceEntity.ELetterBoxAspect",
-					"value": "LETTERBOXASPECT_CINEMASCOPE"
-				},
-				"m_letterboxFadeOut": {
-					"type": "ZGameTime",
-					"value": { "m_nTicks": 1572864 }
-				},
-				"m_aTracksAndGroups": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"cafee35e461d98cc",
-						"cafefc6d0bfe5fbd",
-						"cafe2b78ed44c34d"
-					],
-					"postInit": true
-				}
-			}
-		},
-		"cafefc6d0bfe5fbd": {
-			"parent": "cafe8e78c3632324",
-			"name": "EntityTrack_ Cam_040_EndShot",
-			"factory": "[modules:/zentitygroup.class].pc_entitytype",
-			"blueprint": "[modules:/zentitygroup.class].pc_entityblueprint",
-			"properties": {
-				"m_targetEntity": {
-					"type": "SEntityTemplateReference",
-					"value": {
-						"ref": "3bbdb6207e817a24",
-						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype",
-						"exposedEntity": "CameraEntity01"
-					},
-					"postInit": true
-				},
-				"m_aTracksAndGroups": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafec537274b6a7b"],
-					"postInit": true
-				}
-			}
-		},
-		"cafec537274b6a7b": {
-			"parent": "cafefc6d0bfe5fbd",
-			"name": "TrajectoryTrack",
-			"factory": "[modules:/ztrajectorytrack.class].pc_entitytype",
-			"blueprint": "[modules:/ztrajectorytrack.class].pc_entityblueprint",
-			"properties": {
-				"m_entityGroup": {
-					"type": "SEntityTemplateReference",
-					"value": "cafefc6d0bfe5fbd"
-				},
-				"m_bRestoreValueAfterEnd": {
-					"type": "bool",
-					"value": false
-				},
-				"m_aItems": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafe71885824ace3"],
-					"postInit": true
-				}
-			}
-		},
-		"cafe91e5369dabc6": {
-			"parent": "cafe2b78ed44c34d",
-			"name": "ActiveCameraItem",
-			"factory": "[modules:/zsingleactivecamerasource.class].pc_entitytype",
-			"blueprint": "[modules:/zsingleactivecamerasource.class].pc_entityblueprint",
-			"properties": {
-				"m_startTime": {
-					"type": "ZGameTime",
-					"value": { "m_nTicks": 0 }
-				},
-				"m_duration": {
-					"type": "ZGameTime",
-					"value": { "m_nTicks": 3680501 }
-				},
-				"m_pCamera": {
-					"type": "SEntityTemplateReference",
-					"value": {
-						"ref": "3bbdb6207e817a24",
-						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype",
-						"exposedEntity": "CameraEntity01"
-					}
-				}
-			}
-		},
-		"cafed6dd138e6d18": {
-			"parent": "cafe3ea9803cb441",
-			"name": "HeroSpawnSequenceDirector",
-			"factory": "00A6F689FB19B096",
-			"blueprint": "005AEBE4BDFCD1C9",
-			"properties": {
-				"m_aSequences": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafe8e78c3632324"]
-				},
-				"FadeInHUD": { "type": "bool", "value": false },
-				"m_rSpawner": {
-					"type": "SEntityTemplateReference",
-					"value": "cafe54227dbfd1f8"
-				}
-			},
-			"outputCopying": {
-				"OnPlay": { "OnStart": ["cafe3ea9803cb441"] },
-				"OnStop": { "Stopped": ["cafe3ea9803cb441"] }
-			},
-			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
-		},
 		"cafe3ea9803cb441": {
 			"parent": "cafece6be250e28d",
 			"name": "EstablishingShot Duplicate 2",
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
-			"events": {
-				"Stopped": {
-					"FadeIn": ["cafe51f54d29ae1f"],
-					"SetTrue": ["cafe58b738d8f675"]
-				}
-			},
-			"inputCopying": { "Stop": { "Stop": ["cafed6dd138e6d18"] } }
-		},
-		"cafe2e13eab75cf7": {
-			"parent": "cafee35e461d98cc",
-			"name": "BlackWeight Track",
-			"factory": "[modules:/zentitypropertytrack.class].pc_entitytype",
-			"blueprint": "[modules:/zentitypropertytrack.class].pc_entityblueprint",
-			"properties": {
-				"m_sPropertyName": {
-					"type": "ZString",
-					"value": "BlackWeight"
-				},
-				"m_aItems": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafe6a87b8f1f750"]
-				},
-				"m_entityGroup": {
-					"type": "SEntityTemplateReference",
-					"value": "cafee35e461d98cc",
-					"postInit": true
-				}
-			}
-		},
-		"cafe51f54d29ae1f": {
-			"parent": "cafe3ea9803cb441",
-			"name": "HUDControl",
-			"factory": "[assembly:/_pro/design/gamecore/hud/hud.template?/hudcontrol.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/gamecore/hud/hud.template?/hudcontrol.entitytemplate].pc_entityblueprint"
-		},
-		"cafe71885824ace3": {
-			"parent": "cafec537274b6a7b",
-			"name": "CurveTrajectoryItem",
-			"factory": "[modules:/zeulerangletrajectorysource.class].pc_entitytype",
-			"blueprint": "[modules:/zeulerangletrajectorysource.class].pc_entityblueprint",
-			"properties": {
-				"m_startTime": {
-					"type": "ZGameTime",
-					"value": { "m_nTicks": 0 }
-				},
-				"m_duration": {
-					"type": "ZGameTime",
-					"value": { "m_nTicks": 3680501 }
-				},
-				"m_CurveX": {
-					"type": "ZCurve",
-					"value": {
-						"data": [
-							[
-								0.0, -41.29999923706055, 0.0, 0.0, 0.0,
-								-0.0, 0.0, -41.29999923706055
-							],
-							[
-								1.0, -41.29999923706055, 0.0, 0.0, 0.0,
-								0.0, 0.0, -41.29999923706055
-							]
-						]
-					}
-				},
-				"m_CurveRotX": {
-					"type": "ZCurve",
-					"value": {
-						"data": [
-							[
-								0.0, -90.9000015258789, -2.700000047683716,
-								6.75, -7.199999809265137,
-								4.050000190734863, 0.0, -90.9000015258789
-							],
-							[1.0, -90.0, 0.0, 0.0, 0.0, 0.0, 0.0, -90.0]
-						]
-					}
-				},
-				"m_CurveY": {
-					"type": "ZCurve",
-					"value": {
-						"data": [
-							[
-								0.0, -31.709999084472656, 0.0, 0.0, 0.0,
-								-0.0, 0.0, -31.709999084472656
-							],
-							[
-								1.0, -31.709999084472656, 0.0, 0.0, 0.0,
-								0.0, 0.0, -31.709999084472656
-							]
-						]
-					}
-				},
-				"m_CurveRotY": {
-					"type": "ZCurve",
-					"value": {
-						"data": [
-							[0.0, 0.0, 0.0, 0.0, 0.0, -0.0, 0.0, 0.0],
-							[1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
-						]
-					}
-				},
-				"m_CurveZ": {
-					"type": "ZCurve",
-					"value": {
-						"data": [
-							[
-								0.0, 2.740000009536743, 2.069999933242798,
-								-5.175000190734863, 5.519999980926514,
-								-3.1050000190734863, 0.0, 2.740000009536743
-							],
-							[
-								1.0, 2.049999952316284, 0.0, 0.0, 0.0, 0.0,
-								0.0, 2.049999952316284
-							]
-						]
-					}
-				},
-				"m_CurveRotZ": {
-					"type": "ZCurve",
-					"value": {
-						"data": [
-							[
-								0.0, 49.470001220703125, 49.20000076293945,
-								-123.0, 131.1999969482422,
-								-73.80000305175781, 0.0, 49.470001220703125
-							],
-							[
-								1.0, 33.06999969482422, 0.0, 0.0, 0.0, 0.0,
-								0.0, 33.06999969482422
-							]
-						]
-					}
-				}
-			}
-		},
-		"cafee35e461d98cc": {
-			"parent": "cafe8e78c3632324",
-			"name": "EntityTrack_ FX_PF_PostfilterController",
-			"factory": "[modules:/zentitygroup.class].pc_entitytype",
-			"blueprint": "[modules:/zentitygroup.class].pc_entityblueprint",
-			"properties": {
-				"m_aTracksAndGroups": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafe2e13eab75cf7"]
-				}
-			}
+			"events": { "Stopped": { "SetTrue": ["cafe58b738d8f675"] } }
 		},
 		"cafe58b738d8f675": {
 			"parent": "cafe3ea9803cb441",
 			"name": "ValueBool_Basic",
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint"
-		},
-		"cafe2b78ed44c34d": {
-			"parent": "cafe8e78c3632324",
-			"name": "Active Camera Track",
-			"factory": "[modules:/zrenderdestinationtrack.class].pc_entitytype",
-			"blueprint": "[modules:/zrenderdestinationtrack.class].pc_entityblueprint",
-			"properties": {
-				"m_aItems": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafe91e5369dabc6"]
-				}
-			}
-		},
-		"cafe3842ea3dc99d": {
-			"parent": "cafe8e78c3632324",
-			"name": "Cam_040_EndShot",
-			"factory": "[modules:/zcameraentity.class].pc_entitytype",
-			"blueprint": "[modules:/zcameraentity.class].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": -88.58877732485062,
-							"y": -0.00022918295947815947,
-							"z": 37.19729017547012
-						},
-						"position": {
-							"x": -41.63331985473633,
-							"y": -33.27159881591797,
-							"z": 2.051553964614868
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe"
-				}
-			}
 		},
 		"cafe54227dbfd1f8": {
 			"parent": "cafe3ea9803cb441",
@@ -7223,12 +6895,12 @@
 						"rotation": {
 							"x": -0.0,
 							"y": 0.0,
-							"z": -136.03402172317678
+							"z": 108.6090399031358
 						},
 						"position": {
-							"x": -40.80788040161133,
-							"y": -30.530609130859375,
-							"z": 0.4850240051746368
+							"x": 10.633468627929688,
+							"y": -42.407501220703125,
+							"z": -0.5560517311096191
 						}
 					}
 				},
@@ -7236,7 +6908,7 @@
 					"type": "ZGuid",
 					"value": "3e84bc0c-c1a9-4bec-90bf-cfbdb9818ec7"
 				},
-				"m_bDefaultHeroSpawn": { "type": "bool", "value": false },
+				"m_bDefaultHeroSpawn": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe",
@@ -7320,7 +6992,7 @@
 			}
 		},
 		"cafe6e08185f3b69": {
-			"parent": "cafe001cc8b3326a",
+			"parent": "cafe73d59b44c873",
 			"name": "Gamechangers_Cameras",
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
@@ -7638,7 +7310,7 @@
 				"m_nOutfitVariation": { "type": "int32", "value": 3 },
 				"m_aEnforcedOutfits": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": []
+					"value": ["cafe9514b831b647"]
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -7808,7 +7480,7 @@
 			"events": { "EventOccurred": { "SetTrue": [] } }
 		},
 		"cafe39feb6b78023": {
-			"parent": "cafe001cc8b3326a",
+			"parent": "cafe73d59b44c873",
 			"name": "SetPiece_Container_Body_MetalDumpster03",
 			"factory": "[assembly:/_pro/design/setpieces/setpieces_containers.template?/setpiece_container_body_metaldumpster.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_containers.template?/setpiece_container_body_metaldumpster.entitytemplate].pc_entityblueprint",
@@ -7991,7 +7663,7 @@
 			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_greenland_yachtcrew.entitytemplate].pc_entityblueprint"
 		},
 		"cafe9e63544f2097": {
-			"parent": "cafe001cc8b3326a",
+			"parent": "cafe73d59b44c873",
 			"name": "Floor 1 Server Setpiece",
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
@@ -8123,13 +7795,885 @@
 			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_greenland_yachtcrew.entitytemplate].pc_entityblueprint"
 		},
 		"cafeeb00730f5ba3": {
-			"parent": "cafe001cc8b3326a",
+			"parent": "cafe73d59b44c873",
 			"name": "Floor 2 Server Setpiece",
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafefea74d86898a": {
+			"parent": "fffffffffffffffe",
+			"name": "Blackmarket Mod Compatibility",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafed79dd164d0aa": {
+			"parent": "cafefea74d86898a",
+			"name": "Prof_Greenland",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_greenland.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_greenland.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "f19f397f365f0fd9",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/outfits_miami.brick].pc_entitytype"
+						},
+						{
+							"ref": "d8891d793d196127",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/outfits_miami.brick].pc_entitytype"
+						},
+						{
+							"ref": "f07fb62315da8349",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/outfits_miami.brick].pc_entitytype"
+						},
+						{
+							"ref": "9b18aebd7aa4efe0",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/outfits_miami.brick].pc_entitytype"
+						}
+					]
+				}
+			}
+		},
+		"cafe34440255e541": {
+			"parent": "cafefea74d86898a",
+			"name": "Prof_Greenland_GenericSecurity",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_greenland_genericsecurity.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_greenland_genericsecurity.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "57f2a30f10941f8b",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/outfits_miami.brick].pc_entitytype"
+						}
+					],
+					"postInit": true
+				}
+			}
+		},
+		"cafe58ff38e3be4a": {
+			"parent": "cafefea74d86898a",
+			"name": "Prof_Greenland_YachtCrew",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_greenland_yachtcrew.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_greenland_yachtcrew.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "f07fb62315da8349",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/outfits_miami.brick].pc_entitytype"
+						}
+					],
+					"postInit": true
+				}
+			}
+		},
+		"cafee1d3f2d6e419": {
+			"parent": "cafefea74d86898a",
+			"name": "Prof_Greenland_BodyGuard",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_greenland_bodyguard.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_greenland_bodyguard.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "9b18aebd7aa4efe0",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/outfits_miami.brick].pc_entitytype"
+						}
+					]
+				}
+			}
+		},
+		"cafec34ec3ca7f03": {
+			"parent": "cafefea74d86898a",
+			"name": "Prof_Greenland_Engineer",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_greenland_engineer.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_greenland_engineer.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "f19f397f365f0fd9",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/outfits_miami.brick].pc_entitytype"
+						}
+					],
+					"postInit": true
+				}
+			}
+		},
+		"cafe6db0ab13706b": {
+			"parent": "cafefea74d86898a",
+			"name": "Prof_Greenland_Worker",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_greenland_worker.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_greenland_worker.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "f19f397f365f0fd9",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/outfits_miami.brick].pc_entitytype"
+						},
+						{
+							"ref": "d8891d793d196127",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/outfits_miami.brick].pc_entitytype"
+						}
+					]
+				}
+			}
+		},
+		"cafe9514b831b647": {
+			"parent": "cafefea74d86898a",
+			"name": "Prof_Greenland_Guard",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_greenland_guard.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_greenland_guard.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "f07fb62315da8349",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/outfits_miami.brick].pc_entitytype"
+						},
+						{
+							"ref": "9b18aebd7aa4efe0",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/outfits_miami.brick].pc_entitytype"
+						}
+					],
+					"postInit": true
+				}
+			}
+		},
+		"cafecc18f98b0879": {
+			"parent": "cafe54227dbfd1f8",
+			"name": "Bellflower intro cut 3",
+			"factory": "[modules:/zsequenceentity.class].pc_entitytype",
+			"blueprint": "[modules:/zsequenceentity.class].pc_entityblueprint",
+			"properties": {
+				"m_duration": {
+					"type": "ZGameTime",
+					"value": { "m_nTicks": 5242880 }
+				},
+				"m_bLetterbox": { "type": "bool", "value": true },
+				"m_bFadeOutBeforeEnd": { "type": "bool", "value": true },
+				"m_letterboxFadeOut": {
+					"type": "ZGameTime",
+					"value": { "m_nTicks": 1048576 }
+				},
+				"m_eLetterBoxAspect": {
+					"type": "ZSequenceEntity.ELetterBoxAspect",
+					"value": "LETTERBOXASPECT_CINEMASCOPE"
+				},
+				"m_aTracksAndGroups": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"cafea9ba54748ff2",
+						"cafe7029c9dd6db8",
+						"cafedb8f8be49aac"
+					],
+					"postInit": true
+				},
+				"m_sequenceOrigin": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe54227dbfd1f8",
+					"postInit": true
+				}
+			}
+		},
+		"cafed7bff6c9c284": {
+			"parent": "cafecc18f98b0879",
+			"name": "HeroSpawnDirector",
+			"factory": "009412FCC5B8448E",
+			"blueprint": "009BE2D6AAF1F251",
+			"properties": {
+				"m_aSequences": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafecc18f98b0879"]
+				},
+				"m_rSpawner": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe54227dbfd1f8"
+				},
+				"EnableWorldSFX": { "type": "bool", "value": true }
+			},
+			"events": { "OnPlay": { "Activate": [] } },
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafe7029c9dd6db8": {
+			"parent": "cafecc18f98b0879",
+			"name": "EntityTrack_ FX_PF_PostfilterController",
+			"factory": "[modules:/zentitygroup.class].pc_entitytype",
+			"blueprint": "[modules:/zentitygroup.class].pc_entityblueprint",
+			"properties": {
+				"m_aTracksAndGroups": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafeadc9439c2c26"],
+					"postInit": true
+				}
+			}
+		},
+		"cafea9ba54748ff2": {
+			"parent": "cafecc18f98b0879",
+			"name": "EntityTrack_ Camera",
+			"factory": "[modules:/zentitygroup.class].pc_entitytype",
+			"blueprint": "[modules:/zentitygroup.class].pc_entityblueprint",
+			"properties": {
+				"m_targetEntity": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "3bbdb6207e817a24",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype",
+						"exposedEntity": "CameraEntity01"
+					}
+				},
+				"m_aTracksAndGroups": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe540423f77bb2"]
+				}
+			}
+		},
+		"cafedb8f8be49aac": {
+			"parent": "cafecc18f98b0879",
+			"name": "Active Camera Track",
+			"factory": "[modules:/zrenderdestinationtrack.class].pc_entitytype",
+			"blueprint": "[modules:/zrenderdestinationtrack.class].pc_entityblueprint",
+			"properties": {
+				"m_aItems": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe4a3ee1ed96c7"]
+				}
+			}
+		},
+		"cafeadc9439c2c26": {
+			"parent": "cafe7029c9dd6db8",
+			"name": " Track",
+			"factory": "[modules:/zentitypropertytrack.class].pc_entitytype",
+			"blueprint": "[modules:/zentitypropertytrack.class].pc_entityblueprint",
+			"properties": {
+				"m_sPropertyName": {
+					"type": "ZString",
+					"value": "BlackWeight"
+				},
+				"m_entityGroup": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe7029c9dd6db8"
+				},
+				"m_aItems": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe3dac7bd2fb22"]
+				}
+			}
+		},
+		"cafe3dac7bd2fb22": {
+			"parent": "cafeadc9439c2c26",
+			"name": "CurveItem",
+			"factory": "[modules:/zfloatcurvesource.class].pc_entitytype",
+			"blueprint": "[modules:/zfloatcurvesource.class].pc_entityblueprint",
+			"properties": {
+				"m_startTime": {
+					"type": "ZGameTime",
+					"value": { "m_nTicks": 0 }
+				},
+				"m_duration": {
+					"type": "ZGameTime",
+					"value": { "m_nTicks": 1048576 }
+				},
+				"m_curve": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[
+								0, 1, 0, 0, 0.21460182964801788,
+								-0.7146018147468567,
+								-4.8090179775077144e-17, 1
+							],
+							[
+								0.5, 0.5, 0, 0, 0.21460182964801788,
+								0.07079632580280304, -0.7853981852531433,
+								0.5
+							],
+							[1, 0, 0, 0, 0, 0, 0, 0]
+						]
+					}
+				}
+			}
+		},
+		"cafe540423f77bb2": {
+			"parent": "cafea9ba54748ff2",
+			"name": "TrajectoryTrack",
+			"factory": "[modules:/ztrajectorytrack.class].pc_entitytype",
+			"blueprint": "[modules:/ztrajectorytrack.class].pc_entityblueprint",
+			"properties": {
+				"m_bRestoreValueAfterEnd": {
+					"type": "bool",
+					"value": false
+				},
+				"m_entityGroup": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea9ba54748ff2",
+					"postInit": true
+				},
+				"m_aItems": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafefd70ab6531ef"],
+					"postInit": true
+				}
+			}
+		},
+		"cafefd70ab6531ef": {
+			"parent": "cafe540423f77bb2",
+			"name": "CurveTrajectoryItem",
+			"factory": "[modules:/zeulerangletrajectorysource.class].pc_entitytype",
+			"blueprint": "[modules:/zeulerangletrajectorysource.class].pc_entityblueprint",
+			"properties": {
+				"m_startTime": {
+					"type": "ZGameTime",
+					"value": { "m_nTicks": 0 }
+				},
+				"m_duration": {
+					"type": "ZGameTime",
+					"value": { "m_nTicks": 5242880 }
+				},
+				"m_CurveX": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[
+								0, -1.5376640558242798, 0, 0,
+								-0.2443430870771408, 0.8136370778083801,
+								5.4754903010592447e-17, -1.5376640558242798
+							],
+							[
+								0.5, -0.9683700203895568, 0, 0,
+								-0.2443430870771408, -0.08060785382986069,
+								0.8942449688911438, -0.9683700203895568
+							],
+							[
+								1, -0.3990760147571564, 0, 0, 0, 0, 0,
+								-0.3990760147571564
+							]
+						]
+					}
+				},
+				"m_CurveRotX": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[
+								0, -89.39899444580078, 0, 0,
+								0.12897689640522003, -0.4294796586036682,
+								-2.8902464843656137e-17, -89.39899444580078
+							],
+							[
+								0.5, -89.69949340820312, 0, 0,
+								0.12897689640522003, 0.04254898428916931,
+								-0.4720286726951599, -89.69949340820312
+							],
+							[1, -90, 0, 0, 0, 0, 0, -90]
+						]
+					}
+				},
+				"m_CurveY": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[
+								0, 0.47113037109375, 0, 0,
+								-0.2466532737016678, 0.8213297724723816,
+								5.527259234259754e-17, 0.47113037109375
+							],
+							[
+								0.5, 1.045806884765625, 0, 0,
+								-0.2466532737016678, -0.08136997371912003,
+								0.9026997685432434, 1.045806884765625
+							],
+							[
+								1, 1.6204833984375, 0, 0, 0, 0, 0,
+								1.6204833984375
+							]
+						]
+					}
+				},
+				"m_CurveRotY": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[
+								0, 0.010868970304727554, 0, 0,
+								0.02173794060945511, -0.03260691091418266,
+								-1.0453814489650486e-18,
+								0.010868970304727554
+							],
+							[1, 0, 0, 0, 0, 0, 0, 0]
+						]
+					}
+				},
+				"m_CurveZ": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[
+								0, 1.1701390743255615, 0, 0,
+								-0.09224917739629744, 0.3071801960468292,
+								2.0672141825845394e-17, 1.1701390743255615
+							],
+							[
+								0.5, 1.3850700855255127, 0, 0,
+								-0.09224917739629744,
+								-0.030432652682065964, 0.3376128375530243,
+								1.3850700855255127
+							],
+							[
+								1, 1.600001096725464, 0, 0, 0, 0, 0,
+								1.600001096725464
+							]
+						]
+					}
+				},
+				"m_CurveRotZ": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[
+								0, -180.60870361328125, 0, 0,
+								-0.13062891364097595, 0.43498072028160095,
+								2.927266456372057e-17, -180.60870361328125
+							],
+							[
+								0.5, -180.30435180664065, 0, 0,
+								-0.13062891364097595,
+								-0.043093979358673096, 0.4780746996402741,
+								-180.30435180664065
+							],
+							[1, -180, 0, 0, 0, 0, 0, -180]
+						]
+					}
+				},
+				"m_eCoordinateSpace": {
+					"type": "ECoordinateSpace",
+					"value": "CSPACE_SEQUENCE_ORIGIN"
+				}
+			}
+		},
+		"cafe4a3ee1ed96c7": {
+			"parent": "cafedb8f8be49aac",
+			"name": "ActiveCameraItem",
+			"factory": "[modules:/zsingleactivecamerasource.class].pc_entitytype",
+			"blueprint": "[modules:/zsingleactivecamerasource.class].pc_entityblueprint",
+			"properties": {
+				"m_startTime": {
+					"type": "ZGameTime",
+					"value": { "m_nTicks": 0 }
+				},
+				"m_duration": {
+					"type": "ZGameTime",
+					"value": { "m_nTicks": 5242880 }
+				},
+				"m_pCamera": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "3bbdb6207e817a24",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype",
+						"exposedEntity": "CameraEntity01"
+					}
+				}
+			}
+		},
+		"cafe3e4eed9856bf": {
+			"parent": "cafe001cc8b3326a",
+			"name": "Items",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe73d59b44c873": {
+			"parent": "cafe001cc8b3326a",
+			"name": "Setpieces",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafed4813a9cbc5c": {
+			"parent": "cafecb443aa49dd7",
+			"name": "ItemSpawner",
+			"factory": "[modules:/zitemspawner.class].pc_entitytype",
+			"blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -111.20254438810724
+						},
+						"position": {
+							"x": 1.075556993484497,
+							"y": -10.339600563049316,
+							"z": 4.149714946746826
+						}
+					}
+				},
+				"m_rMainItemKey": {
+					"type": "SEntityTemplateReference",
+					"value": "cafecb443aa49dd7",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafecb443aa49dd7": {
+			"parent": "cafe3e4eed9856bf",
+			"name": "ItemKey_Melee_KitchenKnife",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "e17172cc-bf70-4df6-9828-d9856b1a24fd"
+				}
+			}
+		},
+		"cafe13fcc03a1e44": {
+			"parent": "cafe3e4eed9856bf",
+			"name": "ItemKey_Melee_Propane flask",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "a8a0c154-c36f-413e-8f29-b83a1b7a22f0"
+				}
+			}
+		},
+		"cafedc40ccec3cd2": {
+			"parent": "cafe13fcc03a1e44",
+			"name": "ItemSpawner",
+			"factory": "[modules:/zitemspawner.class].pc_entitytype",
+			"blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 154.29058549297235
+						},
+						"position": {
+							"x": 2.4328086376190186,
+							"y": -6.0408935546875,
+							"z": -0.42906126379966736
+						}
+					}
+				},
+				"m_rMainItemKey": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe13fcc03a1e44"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafe876c4225f95f": {
+			"parent": "cafe8b9e8af1b3d8",
+			"name": "ItemSpawner",
+			"factory": "[modules:/zitemspawner.class].pc_entitytype",
+			"blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 1.6132543212851982
+						},
+						"position": {
+							"x": -4.5032806396484375,
+							"y": 4.684593677520752,
+							"z": 0.9687013030052184
+						}
+					}
+				},
+				"m_rMainItemKey": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe8b9e8af1b3d8",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafe8b9e8af1b3d8": {
+			"parent": "cafe3e4eed9856bf",
+			"name": "ItemKey_Gadget Electricity Car Battery",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "dac32c27-4c49-4933-bccb-56c8f526515f"
+				}
+			}
+		},
+		"cafe2de5a06a1f78": {
+			"parent": "cafe3e4eed9856bf",
+			"name": "ItemKey_Tool_Screwdriver",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "12cb6b51-a6dd-4bf5-9653-0ab727820cac"
+				}
+			}
+		},
+		"cafe5cab55ed4c8e": {
+			"parent": "cafe2de5a06a1f78",
+			"name": "ItemSpawner",
+			"factory": "[modules:/zitemspawner.class].pc_entitytype",
+			"blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -40.0789506719773
+						},
+						"position": {
+							"x": -0.89508056640625,
+							"y": -8.792678833007812,
+							"z": -0.42906394600868225
+						}
+					}
+				},
+				"m_rMainItemKey": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe2de5a06a1f78"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			}
+		},
+		"cafe341055407030": {
+			"parent": "cafe73d59b44c873",
+			"name": "Setpiece_Raccoon_Wetfloor_Sign",
+			"factory": "[assembly:/_pro/design/setpieces/unique/setpiece_raccoon_unique.template?/setpiece_raccoon_wetfloor_sign.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/unique/setpiece_raccoon_unique.template?/setpiece_raccoon_wetfloor_sign.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0, "z": -0.0 },
+						"position": {
+							"x": 5.4203033,
+							"y": -10.2739105,
+							"z": -0.4483489
+						}
+					}
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			}
 		}
 	},
 	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "3e1e52be4ab8ed62",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -1.6407982389974085
+						},
+						"position": {
+							"x": 12.812004089355469,
+							"y": -20.119230270385746,
+							"z": -0.41143798828125
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "b9f37d6d66454ef2",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_EnableConditions": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "f19f397f365f0fd9",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/outfits_miami.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_aCharSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "7b5132755f623610",
+							"externalScene": "[assembly:/_pro/scenes/missions/thefacility/outfits_prologue.brick].pc_entitytype"
+						}
+					]
+				},
+				"m_rNameTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_greenland.sweetmenutext?/outfits_greenland_worker_engineer_m_hpa1958_name_e222cc14-8d48-42de-9af6-1b745dbb3614.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rDescriptionTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_greenland.sweetmenutext?/outfits_greenland_worker_engineer_m_hpa1958_description_e222cc14-8d48-42de-9af6-1b745dbb3614.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "f07fb62315da8349",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/outfits_miami.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_aCharSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "3dcde627ba6db481",
+							"externalScene": "[assembly:/_pro/scenes/missions/thefacility/outfits_prologue.brick].pc_entitytype"
+						}
+					]
+				},
+				"m_rNameTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_greenland.sweetmenutext?/outfits_greenland_guard_genericsecurity_m_hpa752_name_8f928c7a-99dd-43db-a027-1310cf49f3ad.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rDescriptionTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_greenland.sweetmenutext?/outfits_greenland_guard_genericsecurity_m_hpa752_description_8f928c7a-99dd-43db-a027-1310cf49f3ad.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "9b18aebd7aa4efe0",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/outfits_miami.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_aCharSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "187dc48d2b3ccc63",
+							"externalScene": "[assembly:/_pro/scenes/missions/thefacility/outfits_prologue.brick].pc_entitytype"
+						}
+					]
+				},
+				"m_rNameTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_greenland.sweetmenutext?/outfits_greenland_guard_bodyguard_m_hpa2055_name_cf170965-5582-48d7-8dd7-774ae0a144dd.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rDescriptionTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_greenland.sweetmenutext?/outfits_greenland_guard_bodyguard_m_hpa2055_description_cf170965-5582-48d7-8dd7-774ae0a144dd.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "d8891d793d196127",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/outfits_miami.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_aCharSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "d7e9a86ce56a988a",
+							"externalScene": "[assembly:/_pro/scenes/missions/thefacility/outfits_prologue.brick].pc_entitytype"
+						}
+					]
+				},
+				"m_rNameTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_greenland.sweetmenutext?/outfits_greenland_worker_yachtcrew_m_hpa1299_name_bbffa24b-fa46-4f9d-a73d-71de56ff3bfe.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rDescriptionTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_greenland.sweetmenutext?/outfits_greenland_worker_yachtcrew_m_hpa1299_description_bbffa24b-fa46-4f9d-a73d-71de56ff3bfe.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				}
+			}
+		},
 		{
 			"entities": [
 				{
@@ -8142,7 +8686,7 @@
 					"type": "ZGuid",
 					"value": "f1de2373-eebe-4448-808a-8c2764b2c931"
 				},
-				"m_bDefaultHeroSpawn": { "type": "bool", "value": true }
+				"m_bDefaultHeroSpawn": { "type": "bool", "value": false }
 			}
 		},
 		{
@@ -8211,6 +8755,10 @@
 		{
 			"ref": "60acaa57bdc4710d",
 			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+		},
+		{
+			"ref": "12e46c215f58d795",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
 		}
 	],
 	"pinConnectionOverrides": [
@@ -8251,7 +8799,9 @@
 		"[assembly:/_pro/scenes/missions/thefacility/mapcontent_facility_yacht.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype",
-		"[assembly:/_pro/scenes/bricks/gameessentialsbase.brick].pc_entitytype"
+		"[assembly:/_pro/scenes/bricks/gameessentialsbase.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/miami/outfits_miami.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/thefacility/outfits_prologue.brick].pc_entitytype"
 	],
 	"subType": "brick",
 	"quickEntityVersion": 3.1,
