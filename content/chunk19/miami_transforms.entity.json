@@ -18,7 +18,7 @@
 				"m_NavpowerResourceID": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "[assembly:/_pro/scenes/missions/miami/scene_miami_yacht.navp].pc_navp",
+						"resource": "[assembly:/_pro/scenes/missions/miami/scene_miami_yacht_supermap.navp].pc_navp",
 						"flag": "5F"
 					}
 				}
@@ -33,7 +33,7 @@
 				"m_pGrid": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "[assembly:/_pro/scenes/missions/miami/scene_miami_yacht.airg].pc_airg",
+						"resource": "[assembly:/_pro/scenes/missions/miami/scene_miami_yacht_supermap.airg].pc_airg",
 						"flag": "5F"
 					}
 				}

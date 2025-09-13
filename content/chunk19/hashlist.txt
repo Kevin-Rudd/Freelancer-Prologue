@@ -110,3 +110,8 @@
 
 00173C103CF59622.TEMP,[assembly:/_pro/environment/templates/custom_miami_light_modded.entitytemplate].pc_entitytype
 008D13B4D5418A79.TBLU,[assembly:/_pro/environment/templates/custom_miami_light_modded.entitytemplate].pc_entityblueprint
+
+002B37BB1B881397.NAVP,[assembly:/_pro/scenes/missions/miami/scene_miami_yacht_standalone.navp].pc_navp
+00AC1E06BD691ED5.AIRG,[assembly:/_pro/scenes/missions/miami/scene_miami_yacht_standalone.airg].pc_airg
+004BC8A432D2E9D7.NAVP,[assembly:/_pro/scenes/missions/miami/scene_miami_yacht_supermap.navp].pc_navp
+00616BB50E481495.AIRG,[assembly:/_pro/scenes/missions/miami/scene_miami_yacht_supermap.airg].pc_airg

@@ -1430,7 +1430,7 @@
 				"m_pGrid": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "[assembly:/_pro/scenes/missions/thefacility/_scene_mission_polarbear_module_002_b_scene.airg].pc_airg",
+						"resource": "[assembly:/_pro/scenes/missions/miami/scene_miami_yacht_standalone.airg].pc_airg",
 						"flag": "5F"
 					}
 				}
@@ -4109,7 +4109,7 @@
 				"m_NavpowerResourceID": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "[assembly:/_pro/scenes/missions/thefacility/_scene_mission_polarbear_module_002_b.navp].pc_navp",
+						"resource": "[assembly:/_pro/scenes/missions/miami/scene_miami_yacht_standalone.navp].pc_navp",
 						"flag": "5F"
 					}
 				}
