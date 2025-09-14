@@ -2,7 +2,7 @@
     "Data": {
         "EnableSaving": true,
         "Objectives": [],
-        "Bricks": [
+        "Bricks": ["assembly:/_pro/scenes/missions/miami/mission_sambuca.brick"
         ],
         "DevOnlyBricks": [
         ],
@@ -74,9 +74,6 @@
         "RequiredUnlockable": "ACCESS_HIT_FLAMINGO",
         "Drops": [
             "ACCESS_HIT_HIPPO"
-        ],
-        "Entitlements": [
-            "H2_LEGACY_STANDARD"
         ]
     },
     "UserData": null
