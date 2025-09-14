@@ -101,12 +101,7 @@
 		{
 			"SubEntityOperation": [
 				"e3ba7644d6778986",
-				{
-					"SetParent": {
-						"ref": "fffffffffffffffe",
-						"externalScene": null
-					}
-				}
+				{ "SetParent": "fffffffffffffffe" }
 			]
 		},
 		{
@@ -160,12 +155,7 @@
 		{
 			"SubEntityOperation": [
 				"428fbbbb4a2412be",
-				{
-					"SetParent": {
-						"ref": "e3ba7644d6778986",
-						"externalScene": null
-					}
-				}
+				{ "SetParent": "e3ba7644d6778986" }
 			]
 		},
 		{
