@@ -1,1 +1,3 @@
-/.idea/
+.releaserc
+node_modules
+.idea
