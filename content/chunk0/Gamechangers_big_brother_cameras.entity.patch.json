@@ -4,10 +4,7 @@
 	"patch": [
 		{ "RemoveEntityByID": "313ba1352dcccac4" },
 		{
-			"SubEntityOperation": [
-				"5babcecaef8b0f62",
-				{ "RemovePropertyByName": "m_eidParent" }
-			]
+			"SubEntityOperation": ["5babcecaef8b0f62", { "RemovePropertyByName": "m_eidParent" }]
 		},
 		{
 			"SubEntityOperation": [
@@ -46,10 +43,7 @@
 			]
 		},
 		{
-			"SubEntityOperation": [
-				"b96ba00e22eea140",
-				{ "RemovePropertyByName": "m_eidParent" }
-			]
+			"SubEntityOperation": ["b96ba00e22eea140", { "RemovePropertyByName": "m_eidParent" }]
 		},
 		{
 			"SubEntityOperation": [
@@ -91,24 +85,15 @@
 			"SubEntityOperation": [
 				"b96ba00e22eea140",
 				{
-					"AddProperty": [
-						"DetectionDistance",
-						{ "type": "float32", "value": 15.0 }
-					]
+					"AddProperty": ["DetectionDistance", { "type": "float32", "value": 15.0 }]
 				}
 			]
 		},
 		{
-			"SubEntityOperation": [
-				"e3ba7644d6778986",
-				{ "SetParent": "fffffffffffffffe" }
-			]
+			"SubEntityOperation": ["e3ba7644d6778986", { "SetParent": "fffffffffffffffe" }]
 		},
 		{
-			"SubEntityOperation": [
-				"d046874a3f1c5c7f",
-				{ "RemovePropertyByName": "m_eidParent" }
-			]
+			"SubEntityOperation": ["d046874a3f1c5c7f", { "RemovePropertyByName": "m_eidParent" }]
 		},
 		{
 			"SubEntityOperation": [
@@ -147,22 +132,13 @@
 			]
 		},
 		{
-			"SubEntityOperation": [
-				"fffffffffffffffe",
-				{ "SetName": "Gamechangers_big_brother_cameras" }
-			]
+			"SubEntityOperation": ["fffffffffffffffe", { "SetName": "Gamechangers_big_brother_cameras" }]
 		},
 		{
-			"SubEntityOperation": [
-				"428fbbbb4a2412be",
-				{ "SetParent": "e3ba7644d6778986" }
-			]
+			"SubEntityOperation": ["428fbbbb4a2412be", { "SetParent": "e3ba7644d6778986" }]
 		},
 		{
-			"SubEntityOperation": [
-				"428fbbbb4a2412be",
-				{ "RemovePropertyByName": "m_eidParent" }
-			]
+			"SubEntityOperation": ["428fbbbb4a2412be", { "RemovePropertyByName": "m_eidParent" }]
 		},
 		{
 			"SubEntityOperation": [
@@ -187,10 +163,7 @@
 			]
 		},
 		{
-			"SubEntityOperation": [
-				"6c73818b4229a465",
-				{ "RemovePropertyByName": "m_eidParent" }
-			]
+			"SubEntityOperation": ["6c73818b4229a465", { "RemovePropertyByName": "m_eidParent" }]
 		},
 		{
 			"SubEntityOperation": [
@@ -254,10 +227,7 @@
 			]
 		},
 		{
-			"SubEntityOperation": [
-				"b14a89482327ff7a",
-				{ "RemovePropertyByName": "m_eidParent" }
-			]
+			"SubEntityOperation": ["b14a89482327ff7a", { "RemovePropertyByName": "m_eidParent" }]
 		},
 		{
 			"SubEntityOperation": [

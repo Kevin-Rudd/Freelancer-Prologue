@@ -7,42 +7,49 @@
 	"description": "Converts Freeform Training to a real yacht docked at Miami. Requires companion SDK mod to work online.",
 	"updateCheck": "https://raw.githubusercontent.com/Kevin-Rudd/Freelancer-Prologue/master/updates.json",
 	"authors": ["Team Ruddcy"],
-	"thumbs": [
-                "ConsoleCmd OnlineResources_Disable 1"
-            ],
+	"thumbs": ["ConsoleCmd OnlineResources_Disable 1"],
 	"dependencies": [
-		"001083CD8A6BB32D",{"runtimeID": "008027305D878A5E",
-		"comment": "[materials/levels/wet/backdrop_building_miami_near_d.mi].pc_entitytyp",
-		"toChunk": 1
-	},{"runtimeID": "0016ECC27E61E9D0",
-		"comment": "[assembly:/_pro/environment/textures/backdrop/buildings/backdrop_building_miami_near_b/backdrop_building_miami_near_b.texture?/emissive_b.tex](ascolormap).pc_tex",
-		"toChunk": 1
-	},{"runtimeID": "00A01A2790FF4E7D",
-		"comment": "sky_night_b_00 (chunk15)",
-		"toChunk": 1
-	},
-		"00875085D6135309","005415E5BE265EFD",{"runtimeID":"003D96EAECB00C82","comment":"adonis_sky","toChunk":1},
+		"001083CD8A6BB32D",
+		{
+			"runtimeID": "008027305D878A5E",
+			"comment": "[materials/levels/wet/backdrop_building_miami_near_d.mi].pc_entitytyp",
+			"toChunk": 1
+		},
+		{
+			"runtimeID": "0016ECC27E61E9D0",
+			"comment": "[assembly:/_pro/environment/textures/backdrop/buildings/backdrop_building_miami_near_b/backdrop_building_miami_near_b.texture?/emissive_b.tex](ascolormap).pc_tex",
+			"toChunk": 1
+		},
+		{ "runtimeID": "00A01A2790FF4E7D", "comment": "sky_night_b_00 (chunk15)", "toChunk": 1 },
+		"00875085D6135309",
+		"005415E5BE265EFD",
+		{ "runtimeID": "003D96EAECB00C82", "comment": "adonis_sky", "toChunk": 1 },
 		{
 			"runtimeID": "0069DB569844D774",
 			"toChunk": 9,
 			"comment": "Mumbai Pier"
-		},{
+		},
+		{
 			"runtimeID": "00A4A5DCDA87B315",
 			"toChunk": 9,
 			"comment": "Hantu DryDock Wall"
-		},{
+		},
+		{
 			"runtimeID": "00B0574C76BBCED5",
 			"toChunk": 1,
 			"comment": "Berlin Interior Column"
-		},{
+		},
+		{
 			"runtimeID": "00A0B579589BB5B9",
 			"toChunk": 1,
 			"comment": "llama_silo_support_beam_a"
-		},{
+		},
+		{
 			"runtimeID": "004DA0BCD65E10E7",
 			"toChunk": 9,
 			"comment": "Hantu car park boom"
-		},{
+		},
+		{
 			"runtimeID": "00C0A4B77E103881",
 			"toChunk": 8,
 			"comment": "Marrakesh Security Hut"
@@ -158,9 +165,6 @@
 			"comment": "Hantu helipad"
 		},
 
-
-
-
 		{
 			"runtimeID": "00E469188552EC1F",
 			"toChunk": 19,
@@ -176,7 +180,7 @@
 			"toChunk": 19,
 			"comment": "Haven scuba diving stuff"
 		},
-	
+
 		{
 			"runtimeID": "00D792CB012B3D99",
 			"toChunk": 19,
@@ -267,45 +271,48 @@
 			"toChunk": 19,
 			"comment": "Paris tree foot for palm tree"
 		}
-	
-
 	],
 	"packagedefinition": [
 		{
-		"type": "entity",
-		"partition": "miami",
-		"path": "[assembly:/_pro/scenes/missions/thefacility/_scene_mission_yacht.entity].entitytemplate"
-	},{
-		"type": "entity",
-		"partition": "miami",
-		"path": "[assembly:/_pro/scenes/missions/thefacility/_scene_mission_yacht_escalation.entity].entitytemplate"
-	},{
-		"type": "entity",
-		"partition": "miami",
-		"path": "[assembly:/_pro/scenes/missions/thefacility/createcontract_module_002_b_miami.brick].entitytype"
-	},{
-		"type": "entity",
-		"partition": "miami",
-		"path": "[assembly:/_pro/scenes/missions/thefacility/vr_overrides_polarbear002_miami.brick].entitytype"
-	},{
-		"type": "entity",
-		"partition": "miami",
-		"path": "[assembly:/_pro/scenes/missions/thefacility/gamechangers_guard_enforcers_miami.brick].entitytype"
-	}],
+			"type": "entity",
+			"partition": "miami",
+			"path": "[assembly:/_pro/scenes/missions/thefacility/_scene_mission_yacht.entity].entitytemplate"
+		},
+		{
+			"type": "entity",
+			"partition": "miami",
+			"path": "[assembly:/_pro/scenes/missions/thefacility/_scene_mission_yacht_escalation.entity].entitytemplate"
+		},
+		{
+			"type": "entity",
+			"partition": "miami",
+			"path": "[assembly:/_pro/scenes/missions/thefacility/createcontract_module_002_b_miami.brick].entitytype"
+		},
+		{
+			"type": "entity",
+			"partition": "miami",
+			"path": "[assembly:/_pro/scenes/missions/thefacility/vr_overrides_polarbear002_miami.brick].entitytype"
+		},
+		{
+			"type": "entity",
+			"partition": "miami",
+			"path": "[assembly:/_pro/scenes/missions/thefacility/gamechangers_guard_enforcers_miami.brick].entitytype"
+		}
+	],
 	"localisationOverrides": {
-				"007FD5AB96A8AFD6": {
-					"english": {
-						"627586687": "The Sparrow"
-					},
-					"french": {"627586687": "Le Moineau"},
-					"italian": {"627586687": "Il Passero"},
-					"german": {"627586687": "Der Spatz"},
-					"spanish": {"627586687": "El Gorrión"},
-					"russian": {"627586687": "Воробей"},
-					"chineseSimplified": {"627586687": "麻雀"},
-					"chineseTraditional": {"627586687": "麻雀"},
-					"japanese": {"627586687": "スズメ"}
-				}
+		"007FD5AB96A8AFD6": {
+			"english": {
+				"627586687": "The Sparrow"
 			},
+			"french": { "627586687": "Le Moineau" },
+			"italian": { "627586687": "Il Passero" },
+			"german": { "627586687": "Der Spatz" },
+			"spanish": { "627586687": "El Gorrión" },
+			"russian": { "627586687": "Воробей" },
+			"chineseSimplified": { "627586687": "麻雀" },
+			"chineseTraditional": { "627586687": "麻雀" },
+			"japanese": { "627586687": "スズメ" }
+		}
+	},
 	"frameworkVersion": "2.2.0"
 }

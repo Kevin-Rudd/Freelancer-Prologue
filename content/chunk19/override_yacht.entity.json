@@ -158,11 +158,7 @@
 				"forcedVoiceVar": { "type": "int32", "value": 1 },
 				"acts": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"cafe982524462f74",
-						"cafe85a7675b53dd",
-						"cafe0d94552d1d0b"
-					],
+					"value": ["cafe982524462f74", "cafe85a7675b53dd", "cafe0d94552d1d0b"],
 					"postInit": true
 				}
 			},
@@ -379,11 +375,7 @@
 				"forcedVoiceVar": { "type": "int32", "value": 2 },
 				"acts": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"cafe30bc4237eaca",
-						"cafe21ed17504e27",
-						"cafe5221382c6b7a"
-					],
+					"value": ["cafe30bc4237eaca", "cafe21ed17504e27", "cafe5221382c6b7a"],
 					"postInit": true
 				}
 			},
