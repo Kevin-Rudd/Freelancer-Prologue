@@ -22551,17 +22551,20 @@
 		{
 			"entities": [
 				{
-					"ref": "e9c5477a2d098cde",
-					"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+					"ref": "50e7f9e41f2b8efb",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/mission_sambuca.brick].pc_entitytype"
 				}
 			],
 			"properties": {
-				"m_vGlobalSize": {
-					"type": "SVector3",
+				"m_mTransform": {
+					"type": "SMatrix43",
 					"value": {
-						"x": 324.9119873046875,
-						"y": 397.0549926757813,
-						"z": 46.592098236083984
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -101.33560180664064,
+							"y": 38.486289978027344,
+							"z": -0.000014999999621068127
+						}
 					}
 				}
 			}
