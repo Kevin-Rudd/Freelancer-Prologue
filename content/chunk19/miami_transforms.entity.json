@@ -5312,6 +5312,10 @@
 				{
 					"ref": "fffffffffffffffe",
 					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+				},
+				{
+					"ref": "fffffffffffffffe",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
 				}
 			],
 			"properties": {
@@ -5369,6 +5373,38 @@
 		{
 			"ref": "0a16f956120443f3",
 			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
+		},
+		{
+			"ref": "47fc5c8146ff84d4",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
+		},
+		{
+			"ref": "7c1ed10afae833e1",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
+		},
+		{
+			"ref": "fdbc277df0e432e4",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
+		},
+		{
+			"ref": "88fd33892ec192fa",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
+		},
+		{
+			"ref": "b2e26eeed2d818a0",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
+		},
+		{
+			"ref": "9e9be0a92d227f67",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
+		},
+		{
+			"ref": "ba6129a8f944787f",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
+		},
+		{
+			"ref": "0bae1373b67520ee",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
 		}
 	],
 	"pinConnectionOverrides": [],
@@ -5378,7 +5414,8 @@
 		"[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/thefacility/dressing_module_002_miami.brick].pc_entitytype",
-		"[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
+		"[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
 	],
 	"subType": "brick",
 	"quickEntityVersion": 3.1,

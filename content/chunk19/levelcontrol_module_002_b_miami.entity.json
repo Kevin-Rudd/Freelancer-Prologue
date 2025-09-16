@@ -3444,7 +3444,7 @@
 		},
 		"fffffffffffffffe": {
 			"parent": null,
-			"name": "Scene",
+			"name": "levelcontrol_module_002_b_miami",
 			"factory": "[modules:/zspatialentity.class].pc_entitytype",
 			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
 		},
