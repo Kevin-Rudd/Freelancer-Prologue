@@ -22349,6 +22349,34 @@
 			"name": "Prof_Greenland_Engineer",
 			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_greenland_engineer.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_greenland_engineer.entitytemplate].pc_entityblueprint"
+		},
+		"cafe024761631aca": {
+			"parent": "cafefdef92a3ca03",
+			"name": "Prof_Miami_Guard_EventSecurity",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_miami_guard_eventsecurity.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_miami_guard_eventsecurity.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "cafe4e6d3b3df570",
+							"externalScene": null,
+							"exposedEntity": "LegalProfession"
+						},
+						{
+							"ref": "cafed03d02b15e66",
+							"externalScene": null,
+							"exposedEntity": "LegalProfession"
+						},
+						{
+							"ref": "cafede55491b0621",
+							"externalScene": null,
+							"exposedEntity": "LegalProfession"
+						}
+					]
+				}
+			}
 		}
 	},
 	"propertyOverrides": [

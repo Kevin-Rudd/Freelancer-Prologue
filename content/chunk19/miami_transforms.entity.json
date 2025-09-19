@@ -481,15 +481,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -89.9999965849052
-						},
+						"rotation": { "x": -0.0, "y": 0, "z": -178.78436 },
 						"position": {
-							"x": -7.8461456298828125,
-							"y": 0.03867587447166443,
-							"z": -0.013061687350273132
+							"x": -177.60675,
+							"y": 169.46916,
+							"z": 0.010811955
 						}
 					}
 				},
@@ -2016,7 +2012,12 @@
 					"value": "fffffffffffffffe",
 					"postInit": true
 				},
-				"m_nOutfitCharset": { "type": "int32", "value": 1 }
+				"m_nOutfitCharset": { "type": "int32", "value": 1 },
+				"m_InventoryItemKeys": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafef6810d867175"],
+					"postInit": true
+				}
 			},
 			"subsets": {
 				"AudioEmitters": ["fffffffffffffffe"],
