@@ -896,45 +896,6 @@
 				}
 			}
 		},
-		"cafe4752034f5cf6": {
-			"parent": "cafefdef92a3ca03",
-			"name": "SetPiece_Activator_CardReader_Panel_A_Mid",
-			"factory": "[assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_cardreader_panel_a_mid.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_cardreader_panel_a_mid.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": -2.706463098526001,
-							"y": 3.728080987930298,
-							"z": 0.019999999552965164
-						}
-					}
-				},
-				"m_bTargetLocked": {
-					"type": "SEntityTemplateReference",
-					"value": {
-						"ref": "cafe416a1c5feb34",
-						"externalScene": null,
-						"exposedEntity": "IsDoorLocked"
-					},
-					"postInit": true
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "cafeba819bd2eb04",
-					"postInit": true
-				}
-			},
-			"events": {
-				"OnInteractionAnimEvent_A": {
-					"UnlockDoor": ["cafe416a1c5feb34"]
-				}
-			},
-			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
-		},
 		"cafe00cb9c89d171": {
 			"parent": "cafe594e86dd1027",
 			"name": "Office_Trashbin_Paper_A_00_02",
@@ -1079,14 +1040,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 9.999874560743072
+							"x": -0.0,
+							"y": 0.0,
+							"z": 9.999909874478709
 						},
 						"position": {
-							"x": -3.53593111038208,
-							"y": -1.113579034805298,
-							"z": 0.019999999552965164
+							"x": -3.5359344482421875,
+							"y": -1.1135913133621216,
+							"z": 0.020000003278255463
 						}
 					}
 				},
@@ -1133,14 +1094,7 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"cafe4752034f5cf6",
-						"cafed03d02b15e66",
-						"cafede55491b0621",
-						"cafe021b06ec67b3",
-						"cafec2314ce575b7",
-						"cafe4e6d3b3df570"
-					]
+					"value": ["cafed03d02b15e66", "cafede55491b0621", "cafe4e6d3b3df570"]
 				}
 			}
 		},
@@ -1590,7 +1544,8 @@
 					"type": "SEntityTemplateReference",
 					"value": "cafeba819bd2eb04",
 					"postInit": true
-				}
+				},
+				"m_bValueOpenFromInside": { "type": "bool", "value": true }
 			},
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		},
@@ -4010,7 +3965,8 @@
 					"postInit": true
 				},
 				"m_bIsLocked": { "type": "bool", "value": true },
-				"RequireActivation": { "type": "bool", "value": true }
+				"RequireActivation": { "type": "bool", "value": true },
+				"m_bValueOpenFromInside": { "type": "bool", "value": true }
 			},
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		},
@@ -4044,7 +4000,8 @@
 					"postInit": true
 				},
 				"m_bIsLocked": { "type": "bool", "value": true },
-				"RequireActivation": { "type": "bool", "value": true }
+				"RequireActivation": { "type": "bool", "value": true },
+				"m_bValueOpenFromInside": { "type": "bool", "value": true }
 			},
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		},
@@ -15676,88 +15633,6 @@
 					"value": "1cdbddb4-9cc3-4ca2-a7fa-84dabb60f2f3"
 				}
 			}
-		},
-		"cafe021b06ec67b3": {
-			"parent": "cafe8f49827a557c",
-			"name": "SetPiece_Activator_CardReader_Panel_A_Interior",
-			"factory": "[assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_cardreader_panel_a_mid.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_cardreader_panel_a_mid.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": -90 },
-						"position": {
-							"x": -8.361404418945312,
-							"y": 3.1157021522521973,
-							"z": 0.019999999552965164
-						}
-					}
-				},
-				"m_bTargetLocked": {
-					"type": "SEntityTemplateReference",
-					"value": {
-						"ref": "cafe8f49827a557c",
-						"externalScene": null,
-						"exposedEntity": "IsDoorLocked"
-					},
-					"postInit": true
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "cafeba819bd2eb04",
-					"postInit": true
-				}
-			},
-			"events": {
-				"OnInteractionAnimEvent_A": {
-					"UnlockDoor": ["cafe8f49827a557c"]
-				}
-			},
-			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
-		},
-		"cafec2314ce575b7": {
-			"parent": "cafe60e153a4ca92",
-			"name": "SetPiece_Activator_CardReader_Panel_A_Interior",
-			"factory": "[assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_cardreader_panel_a_mid.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_cardreader_panel_a_mid.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 89.9999965849052
-						},
-						"position": {
-							"x": 0.835784912109375,
-							"y": -1.6232346296310425,
-							"z": 0.024370085448026657
-						}
-					}
-				},
-				"m_bTargetLocked": {
-					"type": "SEntityTemplateReference",
-					"value": {
-						"ref": "cafe60e153a4ca92",
-						"externalScene": null,
-						"exposedEntity": "IsDoorLocked"
-					},
-					"postInit": true
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "cafeba819bd2eb04",
-					"postInit": true
-				}
-			},
-			"events": {
-				"OnInteractionAnimEvent_A": {
-					"UnlockDoor": ["cafe60e153a4ca92"]
-				}
-			},
-			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		},
 		"cafe4e6d3b3df570": {
 			"parent": "cafefdef92a3ca03",

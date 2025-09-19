@@ -7284,7 +7284,7 @@
 		},
 		"c20f865e680e523f": {
 			"parent": "e97fd0b1d930a2d6",
-			"name": "DZV_PierAndGarage",
+			"name": "DZV_GarageFence",
 			"factory": "[assembly:/templates/gameplay/disguise.template?/disguisezonevolume.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/templates/gameplay/disguise.template?/disguisezonevolume.entitytemplate].pc_entityblueprint",
 			"properties": {
@@ -7292,12 +7292,12 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": -28.870697021484375, "y": 13.4349365234375, "z": 0.4840619862079621 }
+						"position": { "x": -40.9761962890625, "y": 0.6202239990234375, "z": 0.4840619862079621 }
 					}
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
-					"value": { "x": 30.942699432373047, "y": 21.0, "z": 5.704689979553223 }
+					"value": { "x": 5.743000030517578, "y": 6.800000190734863, "z": 5.704689979553223 }
 				},
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			}
@@ -7589,7 +7589,7 @@
 			"properties": {
 				"m_Boxes": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["d0eb366e81dcc641", "c20f865e680e523f"],
+					"value": ["d0eb366e81dcc641", "c20f865e680e523f", "cafe81fdb71f98c5"],
 					"postInit": true
 				},
 				"m_aExitPoints": {
@@ -13027,12 +13027,6 @@
 			"properties": {
 				"m_rValueEntity": { "type": "SEntityTemplateReference", "value": "ab96e01fe4b7e2da", "postInit": true }
 			}
-		},
-		"f58d9dc53017e33b": {
-			"parent": "e97fd0b1d930a2d6",
-			"name": "TODO_UseTheCorrectProfessions",
-			"factory": "[modules:/zentity.class].pc_entitytype",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"9ac361a37225ab06": {
 			"parent": "5f9b5caf506299c3",
@@ -34301,6 +34295,26 @@
 						"cafeca1bb444a2f7"
 					]
 				}
+			}
+		},
+		"cafe81fdb71f98c5": {
+			"parent": "e97fd0b1d930a2d6",
+			"name": "DZV_PierAndGarage",
+			"factory": "[assembly:/templates/gameplay/disguise.template?/disguisezonevolume.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/disguise.template?/disguisezonevolume.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": -28.870697021484375, "y": 13.4349365234375, "z": 0.4840619862079621 }
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": { "x": 30.942699432373047, "y": 21.0, "z": 5.704689979553223 }
+				},
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			}
 		}
 	},

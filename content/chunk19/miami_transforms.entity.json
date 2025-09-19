@@ -578,7 +578,7 @@
 		},
 		"cafef8738367c703": {
 			"parent": "cafebdd9f4187929",
-			"name": "TrespassingRule_Deck_0_1",
+			"name": "TrespassingRule_Security Hut",
 			"factory": "[modules:/ztrespassingruleentity.class].pc_entitytype",
 			"blueprint": "[modules:/ztrespassingruleentity.class].pc_entityblueprint",
 			"properties": {
@@ -609,14 +609,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 87.02244597304647
+							"x": -0.0,
+							"y": 0.0,
+							"z": -95.06048662484532
 						},
 						"position": {
-							"x": -47.680084228515625,
-							"y": -17.236526489257812,
-							"z": 0.4792509973049164
+							"x": -175.0771026611328,
+							"y": 181.4523162841797,
+							"z": -0.0029931552708148956
 						}
 					}
 				},
@@ -2009,7 +2009,7 @@
 					"type": "ZGuid",
 					"value": "dc5b1ccd-0997-4834-93a0-db7543e729cc"
 				},
-				"m_nOutfitVariation": { "type": "int32", "value": 2 },
+				"m_nOutfitVariation": { "type": "int32", "value": 0 },
 				"m_sActorName": { "type": "ZString", "value": "John Doe" },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -2061,7 +2061,7 @@
 				},
 				"m_InventoryItemKeys": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [],
+					"value": ["cafef6810d867175"],
 					"postInit": true
 				},
 				"m_eRequiredVoiceVariation": {
@@ -2229,7 +2229,7 @@
 				},
 				"m_InventoryItemKeys": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [],
+					"value": ["cafef6810d867175"],
 					"postInit": true
 				},
 				"m_eRequiredVoiceVariation": {
@@ -4910,9 +4910,42 @@
 					"value": "fffffffffffffffe"
 				}
 			}
+		},
+		"cafef6810d867175": {
+			"parent": "cafe8958231be7d2",
+			"name": "ItemKey_Keycard_LLAMA_SECURITY",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "1cdbddb4-9cc3-4ca2-a7fa-84dabb60f2f3"
+				}
+			}
 		}
 	},
 	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "ed0f5e58c0bab7b0",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0, "z": 90.24829 },
+						"position": {
+							"x": -172.57965,
+							"y": 185.11142,
+							"z": 4.004687e-6
+						}
+					}
+				}
+			}
+		},
 		{
 			"entities": [
 				{
