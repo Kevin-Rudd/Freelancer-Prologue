@@ -25405,8 +25405,8 @@
 					"value": {
 						"rotation": {
 							"x": 2.2020257849417018,
-							"y": -0.0017440461161642715,
-							"z": 80.39999147218158
+							"y": -0.001653759553187258,
+							"z": 73.19999237071103
 						},
 						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
 					}
@@ -25434,7 +25434,7 @@
 		},
 		"cafe617b6466c30a": {
 			"parent": "cafe80e245123359",
-			"name": "SetPiece_Surveillance_Camera_A03 Warehouse",
+			"name": "SetPiece_Surveillance_Camera_A04 Car Park",
 			"factory": "[assembly:/_pro/design/setpieces/setpiece_surveilliance.template?/setpiece_surveillance_camera_a.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/setpieces/setpiece_surveilliance.template?/setpiece_surveillance_camera_a.entitytemplate].pc_entityblueprint",
 			"properties": {
@@ -25442,14 +25442,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.014096818979137242,
-							"y": 0.013878786947921594,
-							"z": 90.89306632047662
+							"x": -0.0,
+							"y": 0.0,
+							"z": 178.47209704373896
 						},
 						"position": {
-							"x": -185.66250610351565,
-							"y": 153.30172729492188,
-							"z": 4.509683609008789
+							"x": -156.8241729736328,
+							"y": 180.3927459716797,
+							"z": 5.03521728515625
 						}
 					}
 				},
@@ -25463,23 +25463,27 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.30001278789454594,
-							"y": 0.0009782445057759488,
-							"z": 39.700026706111586
+							"x": 6.100014930888985,
+							"y": 0.0,
+							"z": -0.0
 						},
-						"position": { "x": 0, "y": 0, "z": 0 }
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
 					}
 				},
 				"m_bCastShadows": { "type": "bool", "value": true },
-				"DetectionDistance": { "type": "float32", "value": 15 },
+				"DetectionDistance": { "type": "float32", "value": 26.0 },
 				"LightCastShadows": { "type": "bool", "value": true },
 				"m_eRoomLightFlow": {
 					"type": "ILightEntity.ERoomLightFlow",
-					"value": "AUTOMATIC"
+					"value": "LOCAL"
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe"
+				},
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 9.800000190734863
 				}
 			},
 			"subsets": {
@@ -25560,7 +25564,7 @@
 				},
 				"m_aSecurityDevices": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafe9ec74945a04d", "cafe617b6466c30a", "cafe63ae7578c68d"],
+					"value": ["cafe9ec74945a04d", "cafe617b6466c30a", "cafe63ae7578c68d", "cafe9134a195b69c"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -25578,7 +25582,7 @@
 			"properties": {
 				"m_aCameras": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafe9ec74945a04d", "cafe617b6466c30a", "cafe63ae7578c68d"],
+					"value": ["cafe9ec74945a04d", "cafe617b6466c30a", "cafe63ae7578c68d", "cafe9134a195b69c"],
 					"postInit": true
 				},
 				"m_aVolumes": {
@@ -25602,11 +25606,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 179.70392470939686
+						},
 						"position": {
-							"x": -179.19932556152344,
-							"y": 173.49623107910156,
-							"z": 0.4471542239189148
+							"x": -39.74617767333984,
+							"y": -9.192632675170898,
+							"z": 0.7190645933151245
 						}
 					}
 				},
@@ -25828,11 +25836,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
 						"position": {
-							"x": -178.00697326660156,
+							"x": -178.29896545410156,
 							"y": 173.54595947265625,
-							"z": 0.42067092657089233
+							"z": 0.42067089676856995
 						}
 					}
 				},
@@ -26474,6 +26482,61 @@
 				}
 			},
 			"events": { "OnActTimeout": { "Start": ["cafeff5e7e7abce3"] } }
+		},
+		"cafe9134a195b69c": {
+			"parent": "cafe80e245123359",
+			"name": "SetPiece_Surveillance_Camera_A03 Warehouse",
+			"factory": "[assembly:/_pro/design/setpieces/setpiece_surveilliance.template?/setpiece_surveillance_camera_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/setpiece_surveilliance.template?/setpiece_surveillance_camera_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.014096818979137242,
+							"y": 0.013878786947921594,
+							"z": 90.89306632047662
+						},
+						"position": {
+							"x": -185.66250610351565,
+							"y": 153.30172729492188,
+							"z": 4.509683609008789
+						}
+					}
+				},
+				"Rotating": { "type": "bool", "value": true },
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"DiffusePower": { "type": "float32", "value": 2000 },
+				"RotationOffset": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.30001278789454594,
+							"y": 0.0009782445057759488,
+							"z": 39.700026706111586
+						},
+						"position": { "x": 0, "y": 0, "z": 0 }
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"DetectionDistance": { "type": "float32", "value": 15 },
+				"LightCastShadows": { "type": "bool", "value": true },
+				"m_eRoomLightFlow": {
+					"type": "ILightEntity.ERoomLightFlow",
+					"value": "AUTOMATIC"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			},
+			"subsets": {
+				"Activatable_NormalGameplay, IEntity": ["fffffffffffffffe"],
+				"AudioEmitters": ["fffffffffffffffe"]
+			}
 		}
 	},
 	"propertyOverrides": [
