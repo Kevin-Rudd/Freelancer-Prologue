@@ -3130,33 +3130,6 @@
 				}
 			}
 		},
-		"8118795b88df1ab7": {
-			"parent": "abcd8de625d8767e",
-			"name": "lamp_street_b",
-			"factory": "003F5D775F9BEED1",
-			"blueprint": "004CCC229BB9687C",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": -180 },
-						"position": {
-							"x": 18.192289352416992,
-							"y": 128.35830688476565,
-							"z": -3.583220958709717
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": {
-						"ref": "6480b140d0cb4728",
-						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
-					},
-					"postInit": true
-				}
-			}
-		},
 		"83ef3b1b26b78df1": {
 			"parent": "abcd8de625d8767e",
 			"name": "lamp_street_a_05",

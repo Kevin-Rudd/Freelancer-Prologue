@@ -22377,6 +22377,349 @@
 					]
 				}
 			}
+		},
+		"cafe4dd30e3d10af": {
+			"parent": "cafe50cecd313b89",
+			"name": "lamp_street_mumbai_a_04",
+			"factory": "003F5D775F9BEED1",
+			"blueprint": "004CCC229BB9687C",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -90.00005729577937
+						},
+						"position": {
+							"x": 0.9297028183937072,
+							"y": 150.24159240722656,
+							"z": -4.389803886413574
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6480b140d0cb4728",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+					},
+					"postInit": true
+				}
+			}
+		},
+		"cafe008a3ee36855": {
+			"parent": "cafe50cecd313b89",
+			"name": "lamp_street_mumbai_a_06",
+			"factory": "003F5D775F9BEED1",
+			"blueprint": "004CCC229BB9687C",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 90.00005729577937
+						},
+						"position": {
+							"x": 34.73640060424805,
+							"y": 134.1833953857422,
+							"z": -4.407186031341553
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6480b140d0cb4728",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+					},
+					"postInit": true
+				}
+			}
+		},
+		"cafef9fd87305a26": {
+			"parent": "cafe50cecd313b89",
+			"name": "lamp_street_mumbai_a_05",
+			"factory": "003F5D775F9BEED1",
+			"blueprint": "004CCC229BB9687C",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 90.00005729577937
+						},
+						"position": {
+							"x": 34.73640060424805,
+							"y": 122.16210174560548,
+							"z": -4.407186031341553
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6480b140d0cb4728",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+					},
+					"postInit": true
+				}
+			}
+		},
+		"cafe8c71854e3433": {
+			"parent": "cafe50cecd313b89",
+			"name": "lamp_street_mumbai_a_08",
+			"factory": "003F5D775F9BEED1",
+			"blueprint": "004CCC229BB9687C",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 90.00005729577937
+						},
+						"position": {
+							"x": 34.73640060424805,
+							"y": 158.1439971923828,
+							"z": -4.407186031341553
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6480b140d0cb4728",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+					},
+					"postInit": true
+				}
+			}
+		},
+		"cafe016b1e813ca7": {
+			"parent": "cafe50cecd313b89",
+			"name": "lamp_street_b",
+			"factory": "003F5D775F9BEED1",
+			"blueprint": "004CCC229BB9687C",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
+						"position": {
+							"x": 18.192289352416992,
+							"y": 128.35830688476565,
+							"z": -3.583220958709717
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6480b140d0cb4728",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+					},
+					"postInit": true
+				}
+			}
+		},
+		"cafee17d19b5c76e": {
+			"parent": "cafe50cecd313b89",
+			"name": "lamp_street_mumbai_a",
+			"factory": "003F5D775F9BEED1",
+			"blueprint": "004CCC229BB9687C",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -90.00005729577937
+						},
+						"position": {
+							"x": 0.9297028183937072,
+							"y": 102.24539947509766,
+							"z": -4.389803886413574
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6480b140d0cb4728",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+					},
+					"postInit": true
+				}
+			}
+		},
+		"cafe042048b5735f": {
+			"parent": "cafe50cecd313b89",
+			"name": "lamp_street_mumbai_a_02",
+			"factory": "003F5D775F9BEED1",
+			"blueprint": "004CCC229BB9687C",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -90.00005729577937
+						},
+						"position": {
+							"x": 0.9297028183937072,
+							"y": 126.247802734375,
+							"z": -4.389803886413574
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6480b140d0cb4728",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+					},
+					"postInit": true
+				}
+			}
+		},
+		"cafe50cecd313b89": {
+			"parent": "cafe6357c8fcf44a",
+			"name": "Street_Lamps",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafedb18da7f6ade": {
+			"parent": "cafe50cecd313b89",
+			"name": "lamp_street_mumbai_a_09",
+			"factory": "003F5D775F9BEED1",
+			"blueprint": "004CCC229BB9687C",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 90.00005729577937
+						},
+						"position": {
+							"x": 36.52579879760742,
+							"y": 104.33499908447266,
+							"z": -4.407186031341553
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6480b140d0cb4728",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+					},
+					"postInit": true
+				}
+			}
+		},
+		"cafea5b67fa457f1": {
+			"parent": "cafe50cecd313b89",
+			"name": "lamp_street_mumbai_a_07",
+			"factory": "003F5D775F9BEED1",
+			"blueprint": "004CCC229BB9687C",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 90.00005729577937
+						},
+						"position": {
+							"x": 34.73640060424805,
+							"y": 146.17669677734375,
+							"z": -4.407186031341553
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6480b140d0cb4728",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+					},
+					"postInit": true
+				}
+			}
+		},
+		"cafec2e91f28fbe9": {
+			"parent": "cafe50cecd313b89",
+			"name": "lamp_street_mumbai_a_01",
+			"factory": "003F5D775F9BEED1",
+			"blueprint": "004CCC229BB9687C",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -90.00005729577937
+						},
+						"position": {
+							"x": 0.9297028183937072,
+							"y": 114.27770233154295,
+							"z": -4.389803886413574
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6480b140d0cb4728",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+					},
+					"postInit": true
+				}
+			}
+		},
+		"cafecc48c4502da0": {
+			"parent": "cafe50cecd313b89",
+			"name": "lamp_street_mumbai_a_03",
+			"factory": "003F5D775F9BEED1",
+			"blueprint": "004CCC229BB9687C",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -90.00005729577937
+						},
+						"position": {
+							"x": 0.9297028183937072,
+							"y": 138.28619384765625,
+							"z": -4.389803886413574
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6480b140d0cb4728",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+					},
+					"postInit": true
+				}
+			}
 		}
 	},
 	"propertyOverrides": [
@@ -22471,6 +22814,10 @@
 		}
 	],
 	"overrideDeletes": [
+		{
+			"ref": "f121fc9a50ff1f42",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
 		{
 			"ref": "67975946e5650353",
 			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
