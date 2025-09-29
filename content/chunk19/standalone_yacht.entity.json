@@ -110,10 +110,6 @@
 	],
 	"overrideDeletes": [
 		{
-			"ref": "71f1b6c2443befa4",
-			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
-		},
-		{
 			"ref": "368e359b84e12686",
 			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
 		},

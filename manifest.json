@@ -9,6 +9,7 @@
 	"authors": ["Team Ruddcy"],
 	"thumbs": ["ConsoleCmd OnlineResources_Disable 1"],
 	"dependencies": [
+		"008BE5C899A3C36F",
 		"001083CD8A6BB32D",
 		{
 			"runtimeID": "008027305D878A5E",
