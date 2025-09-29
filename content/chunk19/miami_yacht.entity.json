@@ -15488,14 +15488,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 84.48637941088695
+							"x": -0.0,
+							"y": 0.0,
+							"z": -90.6199064045266
 						},
 						"position": {
-							"x": -141.07138061523438,
-							"y": 154.31346130371094,
-							"z": -0.05687800049781799
+							"x": 32.882659912109375,
+							"y": 106.07971954345705,
+							"z": -4.1270036697387695
 						}
 					}
 				},
@@ -15525,6 +15525,13 @@
 				"ConstantVector1D_01_Value": {
 					"type": "float32",
 					"value": 0.20000000298023224
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6480b140d0cb4728",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+					}
 				}
 			},
 			"subsets": {
@@ -22863,7 +22870,8 @@
 		"[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/golden/mission_gecko/outfits_gecko.brick].pc_entitytype",
-		"[assembly:/_pro/scenes/missions/thefacility/outfits_prologue.brick].pc_entitytype"
+		"[assembly:/_pro/scenes/missions/thefacility/outfits_prologue.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/golden/mission_gecko/outfits_gecko.brick].pc_entitytype"
 	],
 	"subType": "brick",
 	"quickEntityVersion": 3.1,
