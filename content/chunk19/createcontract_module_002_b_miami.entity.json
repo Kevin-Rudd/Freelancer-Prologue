@@ -759,6 +759,14 @@
 		{
 			"ref": "cafe267cb681eea3",
 			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
+		},
+		{
+			"ref": "cafebd997ea7851a",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/miami_yacht.brick].pc_entitytype"
+		},
+		{
+			"ref": "cafe75654c103375",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/miami_yacht.brick].pc_entitytype"
 		}
 	],
 	"pinConnectionOverrides": [

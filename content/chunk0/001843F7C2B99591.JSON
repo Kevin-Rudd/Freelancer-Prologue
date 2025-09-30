@@ -23,6 +23,13 @@
 					"assembly:/_pro/Scenes/Bricks/vr_setup.brick",
 					"assembly:/_pro/scenes/missions/thefacility/vr_overrides_polarbear002_miami.brick"
 				]
+			},
+			{
+				"Quality": "better",
+				"Bricks": [
+					"assembly:/_pro/Scenes/Bricks/vr_setup.brick",
+					"assembly:/_pro/scenes/missions/thefacility/vr_overrides_polarbear002_miami.brick"
+				]
 			}
 		],
 		"GameChangers": [],
@@ -45,7 +52,8 @@
 				"Difficulty": "hard",
 				"Bricks": []
 			}
-		]
+		],
+		"Entrances": ["59739ad0-bc5e-4106-9b30-253f07b15b9a"]
 	},
 	"Metadata": {
 		"Id": "b573932d-7a34-44f1-bcf4-ea8f79f75710",
