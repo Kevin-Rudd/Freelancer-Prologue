@@ -13,6 +13,10 @@
 					"type": "ZGuid",
 					"value": "cfc20192-0c87-4490-936f-7ae7ef038c55"
 				},
+				"RepositoryId": {
+					"type": "ZGuid",
+					"value": "cdf73606-17c3-44aa-a9f3-fcb3941b2feb"
+				},
 				"m_sActorName": {
 					"type": "ZString",
 					"value": "Jaii Mule"
@@ -1081,6 +1085,10 @@
 					"type": "ZGuid",
 					"value": "e222cc14-8d48-42de-9af6-1b745dbb3614"
 				},
+				"RepositoryId": {
+					"type": "ZGuid",
+					"value": "2fa9698f-eb9b-4991-8aaf-3bddcf23e247"
+				},
 				"m_sActorName": {
 					"type": "ZString",
 					"value": "Jaii Mule"
@@ -1400,6 +1408,10 @@
 					"type": "ZGuid",
 					"value": "f97447b3-502c-416e-ad36-0a8ea085ada2"
 				},
+				"RepositoryId": {
+					"type": "ZGuid",
+					"value": "914878c1-69e1-40e1-b8fc-5e6f8306ba29"
+				},
 				"m_sActorName": {
 					"type": "ZString",
 					"value": "Josh Rashan"
@@ -1593,6 +1605,10 @@
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
 					"value": "bbffa24b-fa46-4f9d-a73d-71de56ff3bfe"
+				},
+				"RepositoryId": {
+					"type": "ZGuid",
+					"value": "d2e845c3-6817-485d-801b-449a0eb3d8c9"
 				},
 				"m_sActorName": {
 					"type": "ZString",
@@ -1829,6 +1845,10 @@
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
 					"value": "f97447b3-502c-416e-ad36-0a8ea085ada2"
+				},
+				"RepositoryId": {
+					"type": "ZGuid",
+					"value": "70d692cf-ef05-44a6-8531-8ba2952d4b58"
 				},
 				"m_mTransform": {
 					"type": "SMatrix43",
@@ -2705,6 +2725,10 @@
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
 					"value": "8f928c7a-99dd-43db-a027-1310cf49f3ad"
+				},
+				"RepositoryId": {
+					"type": "ZGuid",
+					"value": "28af8d26-a0c4-4144-a13a-7182af8214a9"
 				},
 				"m_mTransform": {
 					"type": "SMatrix43",
@@ -3870,6 +3894,10 @@
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
 					"value": "69f76cf1-c446-422f-b2fc-b0989d2aa9c5"
+				},
+				"RepositoryId": {
+					"type": "ZGuid",
+					"value": "a04ab524-d849-4b64-bb76-830de6e89665"
 				},
 				"m_mTransform": {
 					"type": "SMatrix43",
@@ -5170,6 +5198,10 @@
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
 					"value": "cd0f52c1-ab5a-45b9-9f6a-53245b23b0bc"
+				},
+				"RepositoryId": {
+					"type": "ZGuid",
+					"value": "45019cf2-515d-43a5-9f67-3289b055c1d9"
 				},
 				"m_mTransform": {
 					"type": "SMatrix43",
@@ -8037,8 +8069,8 @@
 					"value": {
 						"data": [
 							[
-								0, -1.5376640558242798, 0, 0, -0.2443430870771408, 0.8136370778083801,
-								5.4754903010592447e-17, -1.5376640558242798
+								0, -1.5376640558242798, 0, 0, -0.2443430870771408, 0.8136370778083801, 5.475490301059245e-17,
+								-1.5376640558242798
 							],
 							[
 								0.5, -0.9683700203895568, 0, 0, -0.2443430870771408, -0.08060785382986069,
