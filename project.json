@@ -52,6 +52,8 @@
 		"[assembly:/_pro/scenes/missions/miami/variant_sunset.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/miami/variant_sunset.brick].pc_entityblueprint",
 		"[assembly:/_pro/scenes/missions/miami/mild_supermap_sunset.brick].pc_entitytype",
-		"[assembly:/_pro/scenes/missions/miami/mild_supermap_sunset.brick].pc_entityblueprint"
+		"[assembly:/_pro/scenes/missions/miami/mild_supermap_sunset.brick].pc_entityblueprint",
+		"[assembly:/_pro/scenes/missions/miami/superyacht_sambuca.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/miami/superyacht_sambuca.brick].pc_entityblueprint"
 	]
 }

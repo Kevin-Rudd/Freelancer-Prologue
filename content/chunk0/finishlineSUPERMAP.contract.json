@@ -47,7 +47,7 @@
 		"Description": "UI_CONTRACT_FLAMINGO_DESC",
 		"CodeName_Hint": "Flamingo",
 		"Location": "LOCATION_MIAMI",
-		"ScenePath": "assembly:/_pro/scenes/missions/miami/scene_flamingo.entity",
+		"ScenePath": "assembly:/_pro/scenes/missions/miami/scene_flamingo_mild_pinochle.entity",
 		"Type": "evergreen",
 		"Order": 50,
 		"Release": "2.0.x",

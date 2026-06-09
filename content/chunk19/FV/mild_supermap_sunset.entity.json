@@ -747,9 +747,9 @@
 		"[assembly:/_pro/scenes/missions/miami/mission_sambuca.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/miami/override_pinochle.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/miami/mission_mild_pinochle.brick].pc_entitytype",
-		"[assembly:/_pro/scenes/missions/miami/variant_sunset.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype",
-		"[assembly:/_pro/scenes/missions/miami/miami_yacht.brick].pc_entitytype"
+		"[assembly:/_pro/scenes/missions/miami/miami_yacht.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/miami/superyacht_sambuca.brick].pc_entitytype"
 	],
 	"subType": "brick",
 	"quickEntityVersion": 3.1,
