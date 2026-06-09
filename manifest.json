@@ -162,8 +162,8 @@
 		},
 		{
 			"runtimeID": "007DFE9269EB5C3D",
-			"toChunk": 19,
-			"comment": "Hantu helipad"
+			"portFromChunk1": true,
+			"comment": "Setpiece_SC_Seagull_Liferafts"
 		},
 
 		{
