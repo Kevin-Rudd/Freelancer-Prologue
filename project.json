@@ -50,6 +50,8 @@
 		"[assembly:/_pro/scenes/missions/miami/yacht_night_hot.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/miami/yacht_night_hot.brick].pc_entityblueprint",
 		"[assembly:/_pro/scenes/missions/miami/variant_sunset.brick].pc_entitytype",
-		"[assembly:/_pro/scenes/missions/miami/variant_sunset.brick].pc_entityblueprint"
+		"[assembly:/_pro/scenes/missions/miami/variant_sunset.brick].pc_entityblueprint",
+		"[assembly:/_pro/scenes/missions/miami/mild_supermap_sunset.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/miami/mild_supermap_sunset.brick].pc_entityblueprint"
 	]
 }

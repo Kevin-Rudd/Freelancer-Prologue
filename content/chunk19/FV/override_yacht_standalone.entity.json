@@ -1158,9 +1158,9 @@
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
-					"value": "dc5b1ccd-0997-4834-93a0-db7543e729cc"
+					"value": "8f928c7a-99dd-43db-a027-1310cf49f3ad"
 				},
-				"m_nOutfitVariation": { "type": "int32", "value": 3 },
+				"m_nOutfitVariation": { "type": "int32", "value": 2 },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe",
@@ -2352,7 +2352,7 @@
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
-					"value": "dc5b1ccd-0997-4834-93a0-db7543e729cc"
+					"value": "cf170965-5582-48d7-8dd7-774ae0a144dd"
 				},
 				"m_nOutfitVariation": { "type": "int32", "value": 1 },
 				"m_eidParent": {
@@ -5268,7 +5268,7 @@
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
-					"value": "dc5b1ccd-0997-4834-93a0-db7543e729cc"
+					"value": "8f928c7a-99dd-43db-a027-1310cf49f3ad"
 				},
 				"m_nOutfitVariation": { "type": "int32", "value": 4 },
 				"m_eidParent": {
@@ -8400,6 +8400,46 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe"
+				}
+			}
+		},
+		"cafe51815285b673": {
+			"parent": "cafefea74d86898a",
+			"name": "GameplayStart",
+			"factory": "[modules:/zgameeventlistenerentity.class].pc_entitytype",
+			"blueprint": "[modules:/zgameeventlistenerentity.class].pc_entityblueprint",
+			"properties": {
+				"m_eEvent": {
+					"type": "EGameEventType",
+					"value": "GET_GameplayStart"
+				}
+			},
+			"events": {
+				"EventOccurred": { "TransmitEvent": ["cafebfbc9505fd35"] }
+			}
+		},
+		"cafebfbc9505fd35": {
+			"parent": "cafe51815285b673",
+			"name": "Event Transmitter",
+			"factory": "0037A7E362011A78",
+			"blueprint": "003D29EFE5AC1BCC",
+			"properties": {
+				"m_bEnabled": { "type": "bool", "value": true },
+				"m_rChannelToken": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe288b601352d5"
+				}
+			}
+		},
+		"cafe288b601352d5": {
+			"parent": "cafebfbc9505fd35",
+			"name": "Token Identity",
+			"factory": "[modules:/ztokenidentity.class].pc_entitytype",
+			"blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
+			"properties": {
+				"m_sName": {
+					"type": "ZString",
+					"value": "Freelancer_Variations_Yacht"
 				}
 			}
 		}
