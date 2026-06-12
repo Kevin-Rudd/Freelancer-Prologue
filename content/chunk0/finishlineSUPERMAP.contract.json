@@ -22,7 +22,7 @@
 			}
 		],
 		"RandomBricks": {
-			"TimeOfDay": ["assembly:/_pro/scenes/missions/miami/mild_supermap_sunset.brick"]
+			"TimeOfDay": ["assembly:/_pro/scenes/missions/miami/hot_supermap_sunset.brick"]
 		},
 		"SimulationQualities": [
 			{
