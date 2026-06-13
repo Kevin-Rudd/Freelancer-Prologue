@@ -1897,6 +1897,15 @@
 		{
 			"entities": [
 				{
+					"ref": "be9a6a0b57dc6283",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+				}
+			],
+			"properties": { "m_bValue": { "type": "bool", "value": true } }
+		},
+		{
+			"entities": [
+				{
 					"ref": "ed0f5e58c0bab7b0",
 					"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
 				}

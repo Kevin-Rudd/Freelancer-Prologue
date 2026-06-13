@@ -15,6 +15,81 @@
 		{
 			"entities": [
 				{
+					"ref": "f13c64ee9dd4cc9c",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/mission_mild_pinochle.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_aValues": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "84e121f8dcced7c3",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/override_pinochle.brick].pc_entitytype",
+							"exposedEntity": "exitActivated"
+						},
+						{
+							"ref": "fd628676f8da3ac3",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/override_pinochle.brick].pc_entitytype",
+							"exposedEntity": "exitActivated"
+						},
+						{
+							"ref": "f10260e83e94de73",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/override_pinochle.brick].pc_entitytype",
+							"exposedEntity": "exitActivated"
+						},
+						{
+							"ref": "79b85b35a4489b70",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/override_pinochle.brick].pc_entitytype",
+							"exposedEntity": "exitActivated"
+						},
+						{
+							"ref": "f8ad84cc5fe10ab6",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/override_pinochle.brick].pc_entitytype",
+							"exposedEntity": "exitActivated"
+						},
+						{
+							"ref": "9a7501400d61543d",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/override_pinochle.brick].pc_entitytype",
+							"exposedEntity": "exitActivated"
+						},
+						{
+							"ref": "af1fc680db0653e1",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/override_pinochle.brick].pc_entitytype",
+							"exposedEntity": "exitActivated"
+						},
+						{
+							"ref": "7d103ed20ec285fa",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/override_pinochle.brick].pc_entitytype",
+							"exposedEntity": "exitActivated"
+						},
+						{
+							"ref": "c02e87032303aeca",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/override_pinochle.brick].pc_entitytype",
+							"exposedEntity": "exitActivated"
+						},
+						{
+							"ref": "fd4f39570d65b731",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/override_pinochle.brick].pc_entitytype",
+							"exposedEntity": "exitActivated"
+						},
+						{
+							"ref": "3b98fd686f33955e",
+							"externalScene": "[assembly:/_pro/scenes/missions/thefacility/override_yacht.brick].pc_entitytype",
+							"exposedEntity": "exitActivated"
+						},
+						{
+							"ref": "cafefff4c4ae392e",
+							"externalScene": "[assembly:/_pro/scenes/missions/thefacility/override_yacht.brick].pc_entitytype",
+							"exposedEntity": "exitActivated"
+						}
+					]
+				}
+			}
+		},
+		{
+			"entities": [
+				{
 					"ref": "6c2968716337aea1",
 					"externalScene": "[assembly:/_pro/scenes/missions/miami/mission_mild_pinochle.brick].pc_entitytype"
 				}
@@ -749,7 +824,8 @@
 		"[assembly:/_pro/scenes/missions/miami/mission_mild_pinochle.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/miami/miami_yacht.brick].pc_entitytype",
-		"[assembly:/_pro/scenes/missions/miami/superyacht_sambuca.brick].pc_entitytype"
+		"[assembly:/_pro/scenes/missions/miami/superyacht_sambuca.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/thefacility/override_yacht.brick].pc_entitytype"
 	],
 	"subType": "brick",
 	"quickEntityVersion": 3.1,
